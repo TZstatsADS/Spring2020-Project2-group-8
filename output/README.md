@@ -4,3 +4,6 @@
 
 The output directory contains analysis output, processed datasets, logs, or other processed things.
 
+
+#### menu_nutrition_location.RData
+It contains the information about menu and location of some restaurant.
