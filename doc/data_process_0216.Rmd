@@ -1,0 +1,67 @@
+---
+title: "data_process"
+author: "Hanbo JIAO"
+date: "2020/2/15"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+menu_raw<-read_csv("C:/Users/jiaoh/OneDrive/桌面/MenuStat.csv")
+
+menu<-menu_raw[,-c(19,24:45)]# no nutrition_text and nutrition_100g col, potassium col (since only 5k entry have value)
+
+menu_name<-menu%>%group_by(restaurant)%>%summarise(n=n())%>%arrange(desc(n))
+
+
+
+location_raw <- read_csv("C:/Users/jiaoh/OneDrive/桌面/NY Restaurant Location.csv")
+
+
+location_raw%>%group_by(CAMIS)%>%arrange(desc(`INSPECTION DATE`))%>%select(CAMIS,`INSPECTION DATE`)%>%unique%>%top_n(1,`INSPECTION DATE`)->x
+
+location<- left_join(x,location_raw) #是否需要除了位置之外的信息   violation abcdefg...
+
+location_name<-location%>%group_by(DBA)%>%nest()#%>%mutate(n = nrow(data.frame(data)))%>%filter(n>10)  # only look at restaurant has more than 50 branch/chain.
+
+
+name_menu<-menu_name$restaurant%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")
+name_loc<-location_name$DBA%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")
+
+xx<-name_menu%>%map(~grep(.x,name_loc, ignore.case = T)) #index
+yy<-name_menu%>%map(~grep(.x,name_loc, ignore.case = T,value = T)) #matched name
+
+index<-xx%>%map(~(length(.x)>0))%>%unlist #successful matched index in menu
+coord<-xx[index]                          #successful matched cor in location
+
+# yy[index] ## jiancha
+
+# name_menu[index]  #matched store
+# name_menu[!index] #unmatched store
+
+
+joinname<-NULL
+for (i in seq_along(coord)){
+  joinname<-rbind(joinname,tibble(locationid=coord[[i]],menuid=i))
+}
+
+menu_join<-menu_name[index,]%>%mutate(id=row_number())
+
+location_join<-location_name%>%ungroup%>%mutate(id=row_number())%>%right_join(joinname,by=c("id"="locationid"))%>%unnest%>%group_by(menuid)%>%nest
+
+join<-inner_join(menu_join,location_join,by=c("id"="menuid"))
+
+join[1,]%>%unnest%>%unnest()%>%select(c(1,4,5,6,22,23))->xxx
+```
+
+
+
+```{r}
+
+```
+
+
+
+
+

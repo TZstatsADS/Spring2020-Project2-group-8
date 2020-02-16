@@ -13,7 +13,7 @@ Here is the link for raw data. https://data.cityofnewyork.us/Health/DOHMH-New-Yo
 #### Restaurant MenuStat (by Haoyu)
 MenuStat
 
-https://catalog.data.gov/dataset/dohmh-menustat?fbclid=IwAR3uN_WpWfG_hVAG9YCQYspbwW-6GDAjoZG-wz4xc3NCWUVPjXEKSpAfsdY
+https://data.cityofnewyork.us/Health/DOHMH-MenuStat/qgc5-ecnb
 
 #### fast food location
 Fast_Food_location
