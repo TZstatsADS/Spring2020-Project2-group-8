@@ -8,12 +8,14 @@ date: "2020/2/15"
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 
-menu_raw <-read_csv("C:/Users/jiaoh/OneDrive/桌面/MenuStat.csv")
+menu_raw <-read_csv("../data/MenuStat.csv")
+
+# This file is more than 100 MB, please download (in readme) and load it by yourself.
 location_raw <- read_csv("C:/Users/jiaoh/OneDrive/桌面/NY Restaurant Location.csv")
 
 
 menu<-menu_raw[,-c(19,24:45)]# no nutrition_text and nutrition_100g col, potassium col (since only 5k entry have value)
-menu_info<-menu%>%group_by(restaurant)%>%nest()%>%rename("menu"=data)
+menu_info<-menu%>%group_by(restaurant)%>%nest()%>%rename(menu=data)
 menu_name<-menu%>%group_by(restaurant)%>%summarise(n=n())%>%arrange(desc(n))
 
 
@@ -26,8 +28,8 @@ res_location<- left_join(x,location)
 location_name<-res_location%>%group_by(DBA)%>%nest()
 
 
-name_menu<-menu_name$restaurant%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")
-name_loc<-location_name$DBA%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")
+name_menu<-menu_name$restaurant%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")%>%str_replace_all(" ", "")
+name_loc<-location_name$DBA%>%str_replace_all("'s", "")%>%str_replace_all("Shop", "")%>%str_replace_all("`S", "")%>%str_replace_all(" ", "")
 
 xx<-name_menu%>%map(~grep(.x,name_loc, ignore.case = T)) #index
 yy<-name_menu%>%map(~grep(.x,name_loc, ignore.case = T,value = T)) #matched name
@@ -46,11 +48,11 @@ for (i in seq_along(coord)){
   joinname<-rbind(joinname,tibble(locationid=coord[[i]],menuid=i))
 }
 
-menu_join<-menu_name[index,]%>%mutate(id=row_number())
+menu_join<-menu_name[index,]%>%ungroup%>%mutate(menuid=row_number())
 
-location_join<-location_name%>%ungroup%>%mutate(id=row_number())%>%right_join(joinname,by=c("id"="locationid"))%>%unnest%>%group_by(menuid)%>%nest
+location_join<-location_name%>%ungroup%>%mutate(locationid=row_number())%>%right_join(joinname,by=c("locationid"="locationid"))%>%unnest%>%group_by(menuid)%>%nest
 
-loc_info<-inner_join(menu_join,location_join,by=c("id"="menuid"))%>%unnest%>%select(restaurant,BORO,BUILDING,STREET,ZIPCODE,Latitude,Longitude)%>%group_by(restaurant)%>%nest()%>%rename("location"=data)
+loc_info<-inner_join(menu_join,location_join,by=c("menuid"="menuid"))%>%unnest%>%select(restaurant,BORO,BUILDING,STREET,ZIPCODE,Latitude,Longitude)%>%group_by(restaurant)%>%nest()%>%rename("location"=data)
 
 
 menu_nutrition_location<-left_join(loc_info,menu_info,by="restaurant")
