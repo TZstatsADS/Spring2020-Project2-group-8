@@ -1,0 +1,1784 @@
+﻿OBJECTID,Type,Name,Address,City,State,County,Zip,X,Y,OBJECTID_1
+1,Fast Food,Burger King,1006 Beards Hill Rd,Aberdeen,MD,Harford,21001,-8480831.13446,4796712.55734,1
+2,Fast Food,Dunkin' Donuts,645 S. Philadelphia Blvd,Aberdeen,MD,Harford,21001,-8479721.30014,4793210.08258,2
+3,Fast Food,KFC,1009 Beards Hill Road,Aberdeen,MD,Harford,21001,-8480886.44959,4796606.41288,3
+4,Fast Food,McDonald's,330 S Philadelphia Blvd,Aberdeen,MD,Harford,21001,-8478832.4507,4794256.72531,4
+5,Fast Food,McDonald's,999 Beards Hill Rd,Aberdeen,MD,Harford,21001,-8480799.70538,4796862.88641,5
+6,Fast Food,Roy Rogers,Maryland House JFK Memorial Hwy,Aberdeen,MD,Harford,21001,-8486101.28401,4793177.36624,6
+7,Fast Food,Subway,1020 Beards Hill Rd,Aberdeen,MD,Harford,21001,-8480872.55703,4796598.35254,7
+8,Fast Food,Taco Bell,1002 Beards Hill Rd,Aberdeen,MD,Harford,21001,-8480816.7822,4796752.18949,8
+9,Fast Food,Wendy's,987 Beards Hill Road,Aberdeen,MD,Harford,21001,-8480747.84673,4797002.55224,9
+10,Fast Food,Chik-Fil-A,408 Constant Friendship Blvd,Abingdon,MD,Harford,21009,-8495591.38038,4788086.36846,10
+11,Fast Food,Jimmy Johns,3454 Emmorton Rd,Abingdon,MD,Harford,21009,-8494939.99267,4788753.14957,11
+12,Fast Food,KFC,406 Constant Friendship Blvd,Abingdon,MD,Harford,21009,-8495576.45808,4788120.72987,12
+13,Fast Food,McDonald's,404 Constant Friendship Blvd,Abingdon,MD,Harford,21009,-8495563.17631,4788154.73285,13
+14,Fast Food,Subway,401 Constant Friendship Blvd,Abingdon,MD,Harford,21009,-8495499.71707,4788391.33037,14
+15,Fast Food,Taco Bell,406 Constant Friendship Blvd,Abingdon,MD,Harford,21009,-8495576.45808,4788120.72987,15
+16,Fast Food,Wendy's,2910 Emmorton Road,Abingdon,MD,Harford,21009,-8494893.35667,4790669.75297,16
+17,Fast Food,Burger King,15785 Livingston Rd,Accokeek,MD,Prince George's,20607,-8572533.5015,4674467.33339,17
+18,Fast Food,Dunkin' Donuts,15793 Livingston Rd,Accokeek,MD,Prince George's,20607,-8572682.76169,4674505.52092,18
+19,Fast Food,Subway,15789 Livingston Rd,Accokeek,MD,Prince George's,20601,-8572607.50715,4674486.48221,19
+20,Fast Food,Wendy's,7099 Berry Road,Accokeek,MD,Prince George's,20607,-8572984.40627,4672947.7983,20
+21,Fast Food,KFC,2001 University Blvd E,Adelphi,MD,Prince George's,20783,-8569216.45417,4719313.40118,21
+22,Fast Food,Popeye's,9147 Riggs Rd,Adelphi,MD,Prince George's,20783,-8568237.90802,4722352.93803,22
+23,Fast Food,Charley's,Main Exchange Food Court Bldg,Andrews AFB,MD,Prince George's,20762,-8558505.98545,4695506.96661,23
+24,Fast Food,Pizza Hut,1336 Cape Saint Claire Rd,Annapolis,MD,Anne Arundel,21409,-8509098.12074,4727351.23759,24
+25,Fast Food,Arby's,2002 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8520883.52943,4720551.85064,25
+26,Fast Food,Burger King,1952 West St,Annapolis,MD,Anne Arundel,21401,-8518974.2072,4718926.51455,26
+27,Fast Food,Chik-Fil-A,1035 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8520989.76896,4719791.78654,27
+28,Fast Food,Dairy Queen,1275 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8521300.08134,4720086.9078,28
+29,Fast Food,Dunkin' Donuts,38 West St,Annapolis,MD,Anne Arundel,21401,-8515325.5109,4718580.08933,29
+30,Fast Food,Dunkin' Donuts,1900 Fairfax Rd,Annapolis,MD,Anne Arundel,21401,-8518690.43503,4717937.53273,30
+31,Fast Food,Dunkin' Donuts,2004 West St,Annapolis,MD,Anne Arundel,21401,-8519471.98234,4719129.01714,31
+32,Fast Food,Dunkin' Donuts,2641 Riva Rd,Annapolis,MD,Anne Arundel,21401,-8522403.31157,4718155.53584,32
+33,Fast Food,Dunkin' Donuts,1342 Cape Saint Claire Rd,Annapolis,MD,Anne Arundel,21409,-8509120.07171,4727265.20085,33
+34,Fast Food,Five Guys,1046 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8521027.5042,4719768.79064,34
+35,Fast Food,Five Guys,509 S. Cherry Grove Ave,Annapolis,MD,Anne Arundel,21401,-8518151.56658,4717239.56659,35
+36,Fast Food,Jimmy Johns,139 Main St.,Annapolis,MD,Anne Arundel,21401,-8514737.57263,4718460.33322,36
+37,Fast Food,Jimmy Johns,1901 Towne Centre Blvd,Annapolis,MD,Anne Arundel,21401,-8520609.85145,4718982.58782,37
+38,Fast Food,KFC,1978 West Street,Annapolis,MD,Anne Arundel,21401,-8519141.72343,4719006.9096,38
+39,Fast Food,Moe's Southwest Grill,122 Dock Street,Annapolis,MD,Anne Arundel,21401,-8514376.08065,4718468.99247,39
+40,Fast Food,Panda Express,182 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8516277.73098,4720348.75611,40
+41,Fast Food,Popeye's,903 Bay Ridge Road,Annapolis,MD,Anne Arundel,21403,-8514872.5292,4714373.93669,41
+42,Fast Food,Popeye's,22 Defense St,Annapolis,MD,Anne Arundel,21401,-8520157.81671,4719373.53917,42
+43,Fast Food,Quiznos,509 S Cherry Grove Ave,Annapolis,MD,Anne Arundel,21401,-8518151.56658,4717239.56659,43
+44,Fast Food,Subway,1076 Annapolis Mall,Annapolis,MD,Anne Arundel,21401,-8521140.88232,4719711.98417,44
+45,Fast Food,Subway,2311-C Forest Drive,Annapolis,MD,Anne Arundel,21401,-8520737.19731,4718860.13381,45
+46,Fast Food,Subway,2641 Riva Rd,Annapolis,MD,Anne Arundel,21401,-8522403.31157,4718155.53584,46
+47,Fast Food,Subway,420 Chinquapin Round Road,Annapolis,MD,Anne Arundel,21401,-8518719.21114,4718241.82789,47
+48,Fast Food,Subway,1 Park Place,Annapolis,MD,Anne Arundel,21401,-8516340.83493,4718278.91716,48
+49,Fast Food,Subway,228 Main St,Annapolis,MD,Anne Arundel,21401,-8514947.43396,4718531.07081,49
+50,Fast Food,Subway,321 Kincaid Rd,Annapolis,MD,Anne Arundel,21402,-8512630.22211,4720838.4059,50
+51,Fast Food,Subway,1334 Cape Saint Claire Rd,Annapolis,MD,Anne Arundel,21409,-8509089.05599,4727379.09669,51
+52,Fast Food,Subway,895 Bay Ridge Rd,Annapolis,MD,Anne Arundel,21403,-8514890.06654,4714385.14564,52
+53,Fast Food,Wendy's,1949 West St,Annapolis,MD,Anne Arundel,21401,-8519042.74703,4718942.30815,53
+54,Fast Food,Wendy's,153 Defense Hwy,Annapolis,MD,Anne Arundel,21401,-8522070.98054,4719531.03835,54
+55,Fast Food,Wendy's,1454 Whitehall Rd.,Annapolis,MD,Anne Arundel,21403,-8509681.10417,4725434.53481,55
+56,Fast Food,Subway,300 Sentinel Drive,Annapolis Junction,MD,Howard,20701,-8546468.11044,4738909.74949,56
+57,Fast Food,Chik-Fil-A,3599 Washington Blvd,Arbutus,MD,Baltimore,21227,-8534933.46147,4757356.7238,57
+58,Fast Food,Quiznos,3611 Washington Blvd,Arbutus,MD,Baltimore,21227,-8534945.78336,4757331.69953,58
+59,Fast Food,Subway,3601 Washington Blvd.,Arbutus,MD,Baltimore,21227,-8534935.51507,4757352.5531,59
+60,Fast Food,Wendy's,3620 Washington Blvd,Arbutus,MD,Baltimore,21227,-8534968.13809,4757321.97919,60
+61,Fast Food,Subway,1450 Ritchie Hwy,Arnold,MD,Anne Arundel,21012,-8516532.68069,4726049.15106,61
+62,Fast Food,Five Guys,13509 Connecticut Ave,Aspen Hill,MD,Montgomery,20906,-8580566.35392,4732656.35937,62
+63,Fast Food,Dunkin' Donuts,BWI Airport Rd,Baltimore,MD,Anne Arundel,21240,-8535514.11469,4748707.89485,63
+64,Fast Food,Subway,7050 Friendship Road,Baltimore,MD,Anne Arundel,21240,-8535514.11469,4748707.89485,64
+65,Fast Food,Subway,7050 Friendship Road,Baltimore,MD,Anne Arundel,21240,-8535514.11469,4748707.89485,65
+66,Fast Food,Panda Express,6514 Reisterstown Rd,Baltimore,MD,Baltimore,21215,-8538548.63204,4772880.26758,66
+67,Fast Food,Pizza Hut,1404 Merritt Blvd,Baltimore,MD,Baltimore,21222,-8516469.55913,4761635.02468,67
+68,Fast Food,Pizza Hut,2303 Rolling Road,Baltimore,MD,Baltimore,21244,-8544696.00702,4767721.38363,68
+69,Fast Food,Pizza Hut,6663 Belair Rd,Baltimore,MD,Baltimore City,21206,-8519335.78878,4772626.04958,69
+70,Fast Food,Pizza Hut,8641 Belair Rd,Baltimore,MD,Baltimore,21236,-8514799.01491,4777791.08879,70
+71,Fast Food,Pizza Hut,1610 E Joppa Rd,Baltimore,MD,Baltimore,21286,-8523348.96941,4778657.8893,71
+72,Fast Food,A&W,6602 Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8538660.78218,4772985.97817,72
+73,Fast Food,Arby's,6424 Baltimore National Pike,Baltimore,MD,Baltimore,21228,-8544760.87634,4762571.69633,73
+74,Fast Food,Arby's,7905 Eastern Avenue,Baltimore,MD,Baltimore,21224,-8516938.45324,4764103.93381,74
+75,Fast Food,Blimpie,100 South Charles Street,Baltimore,MD,Baltimore City,21202,-8528749.88946,4762965.31488,75
+76,Fast Food,Blimpie,600 N Wolfe St,Baltimore,MD,Baltimore City,21287,-8526058.84582,4764365.95718,76
+77,Fast Food,Burger King,6605 Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8538652.21309,4772999.65828,77
+78,Fast Food,Burger King,4400 Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8534639.51961,4770333.37433,78
+79,Fast Food,Burger King,2301 Liberty Heights Ave,Baltimore,MD,Baltimore City,21215,-8533037.86371,4767400.7923,79
+80,Fast Food,Burger King,1437 W Patapsco Ave,Baltimore,MD,Baltimore City,21230,-8531404.39349,4757300.72286,80
+81,Fast Food,Burger King,1201 W North Ave,Baltimore,MD,Baltimore City,21217,-8531192.3374,4766209.79762,81
+82,Fast Food,Burger King,2001 East Monument St,Baltimore,MD,Baltimore City,21205,-8525910.20062,4764519.39554,82
+83,Fast Food,Burger King,555 W 29Th St,Baltimore,MD,Baltimore City,21211,-8529957.50915,4767728.03706,83
+84,Fast Food,Burger King,100 S Charles St,Baltimore,MD,Baltimore City,21201,-8528749.88946,4762965.31488,84
+85,Fast Food,Burger King,8 E Fayette St,Baltimore,MD,Baltimore City,21202,-8528753.16683,4763360.72611,85
+86,Fast Food,Burger King,"1241 Orleans St, Baltimore Md",Baltimore,MD,Baltimore City,21202,-8527137.00319,4763993.18278,86
+87,Fast Food,Burger King,"2033 Eastern Ave, Baltimore Md",Baltimore,MD,Baltimore City,21231,-8525714.07316,4762687.0197,87
+88,Fast Food,Burger King,4100 Pulaski Hwy,Baltimore,MD,Baltimore City,21224,-8522960.18247,4764318.79301,88
+89,Fast Food,Burger King,6807 Rolling Mill Rd,Baltimore,MD,Baltimore,21224,-8519176.76536,4764336.05162,89
+90,Fast Food,Burger King,1735 Washington Blvd,Baltimore,MD,Baltimore City,21230,-8531659.3428,4761286.00725,90
+91,Fast Food,Checkers,2351 Frederick Ave,Baltimore,MD,Baltimore City,21223,-8533030.93836,4762504.29842,91
+92,Fast Food,Checkers,6660 Reistertown Road,Baltimore,MD,Baltimore City,21215,-8538729.18276,4773056.28497,92
+93,Fast Food,Checkers,7925 Eastern Avenue,Baltimore,MD,Baltimore,21224,-8516781.42866,4764161.66025,93
+94,Fast Food,Chik-Fil-A,900 Caton Ave,Baltimore,MD,Baltimore City,21229,-8535023.18962,4760943.92167,94
+95,Fast Food,Dairy Queen,8200 Perry Hall Rd,Baltimore,MD,Baltimore,21236,-8512866.77443,4775589.04781,95
+96,Fast Food,Dunkin' Donuts,840 Guilford Ave,Baltimore,MD,Baltimore City,21202,-8528371.58076,4764618.62946,96
+97,Fast Food,Dunkin' Donuts,200 E Lexington St,Baltimore,MD,Baltimore City,21202,-8528454.7881,4763477.62577,97
+98,Fast Food,Dunkin' Donuts,25 Light St,Baltimore,MD,Baltimore City,21202,-8528589.20508,4763081.13751,98
+99,Fast Food,Dunkin' Donuts,10 S. Howard St,Baltimore,MD,Baltimore City,21201,-8529238.30913,4763115.88763,99
+100,Fast Food,Dunkin' Donuts,1515 N. Charles St,Baltimore,MD,Baltimore City,21201,-8528882.61935,4765810.65756,100
+101,Fast Food,Dunkin' Donuts,2016-B N. Maryland Ave,Baltimore,MD,Baltimore City,21218,-8529082.27345,4766510.45368,101
+102,Fast Food,Dunkin' Donuts,1100 Light St,Baltimore,MD,Baltimore City,21230,-8528449.63113,4761397.66486,102
+103,Fast Food,Dunkin' Donuts,1615 Whetstone Way,Baltimore,MD,Baltimore City,21230,-8527039.32544,4760574.77126,103
+104,Fast Food,Dunkin' Donuts,4022 Pulaski Hwy,Baltimore,MD,Baltimore City,21224,-8523026.63887,4764298.10353,104
+105,Fast Food,Dunkin' Donuts,3600 Boston St,Baltimore,MD,Baltimore City,21224,-8523343.22718,4761454.55248,105
+106,Fast Food,Dunkin' Donuts,2401 Liberty Heights Ave,Baltimore,MD,Baltimore City,21215,-8533214.36109,4767473.32158,106
+107,Fast Food,Dunkin' Donuts,1020 W 41St St,Baltimore,MD,Baltimore City,21211,-8530918.53299,4770136.67902,107
+108,Fast Food,Dunkin' Donuts,2718 Washington Blvd,Baltimore,MD,Baltimore City,21230,-8533240.63561,4759573.52521,108
+109,Fast Food,Dunkin' Donuts,2001 W Patapsco Ave,Baltimore,MD,Baltimore City,21230,-8531843.88199,4757589.64625,109
+110,Fast Food,Dunkin' Donuts,4535 Falls Rd,Baltimore,MD,Baltimore City,21209,-8531582.88411,4771126.25473,110
+111,Fast Food,Dunkin' Donuts,5422 York Rd,Baltimore,MD,Baltimore City,21212,-8528182.78601,4772832.90773,111
+112,Fast Food,Dunkin' Donuts,3701 Wilkens Ave,Baltimore,MD,Baltimore City,21229,-8536235.96308,4760454.43975,112
+113,Fast Food,Dunkin' Donuts,5401 Harford Rd,Baltimore,MD,Baltimore City,21214,-8522890.07529,4772080.59559,113
+114,Fast Food,Dunkin' Donuts,7846 Eastern Ave,Baltimore,MD,Baltimore,21224,-8517253.207,4764022.49691,114
+115,Fast Food,Dunkin' Donuts,5800 Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8537601.49705,4772023.81981,115
+116,Fast Food,Dunkin' Donuts,7821 Wise Ave,Baltimore,MD,Baltimore,21222,-8515790.18189,4760133.09017,116
+117,Fast Food,Five Guys,201 E. Pratt Street,Baltimore,MD,Baltimore City,21202,-8528338.99528,4762800.57171,117
+118,Fast Food,Five Guys,3600 Boston St.,Baltimore,MD,Baltimore City,21224,-8523343.22718,4761454.55248,118
+119,Fast Food,Hip Hop Fish & Chicken,5223 Baltimore National Pike,Baltimore,MD,Baltimore,21229,-8539483.66918,4763509.40701,119
+120,Fast Food,Hip Hop Fish & Chicken,3300 Reisterstown Road,Baltimore,MD,Baltimore City,21215,-8533420.05476,4768244.47799,120
+121,Fast Food,Hip Hop Fish & Chicken,227 East Baltimore Street,Baltimore,MD,Baltimore City,21202,-8528396.69507,4763234.87528,121
+122,Fast Food,Hip Hop Fish & Chicken,8119 Liberty Road,Baltimore,MD,Baltimore,21244,-8544972.6352,4772590.02614,122
+123,Fast Food,Hip Hop Fish & Chicken,901 North Caroline Street,Baltimore,MD,Baltimore City,21205,-8526812.08575,4764791.39078,123
+124,Fast Food,Hip Hop Fish & Chicken,7938 Eastern Avenue,Baltimore,MD,Baltimore,21224,-8516816.41722,4764179.54212,124
+125,Fast Food,Jimmy Johns,401 W. Pratt St.,Baltimore,MD,Baltimore City,21201,-8529384.35352,4762752.66026,125
+126,Fast Food,Jimmy Johns,1723 Whetstone Way,Baltimore,MD,Baltimore City,21230,-8527039.32544,4760574.77126,126
+127,Fast Food,KFC,7710 Wise Ave,Baltimore,MD,Baltimore,21222,-8516136.59579,4760341.0307,127
+128,Fast Food,KFC,6219 Belair Rd,Baltimore,MD,Baltimore City,21206,-8519953.28805,4771924.80376,128
+129,Fast Food,KFC,3710 Pulaski Highway,Baltimore,MD,Baltimore City,21224,-8523330.98818,4764239.47504,129
+130,Fast Food,KFC,6600 Reisterstown Road,Baltimore,MD,Baltimore City,21215,-8538658.36037,4772983.62895,130
+131,Fast Food,KFC,2853 Greenmount Ave,Baltimore,MD,Baltimore City,21218,-8528114.37172,4768111.24736,131
+132,Fast Food,KFC,7112 Liberty Rd,Baltimore,MD,Baltimore,21207,-8542256.47214,4771353.99117,132
+133,Fast Food,KFC,5000 Sinclair Lane,Baltimore,MD,Baltimore City,21206,-8521334.22296,4767915.55713,133
+134,Fast Food,KFC,2329 Frederick Ave,Baltimore,MD,Baltimore City,21223,-8532989.29474,4762522.35532,134
+135,Fast Food,KFC,1211 Eastern Boulevard,Baltimore,MD,Baltimore,21221,-8511634.34867,4766891.15221,135
+136,Fast Food,KFC,5625 Odonnell Street,Baltimore,MD,Baltimore City,21224,-8521213.94552,4762035.322,136
+137,Fast Food,KFC,3815 Wilkens Ave,Baltimore,MD,Baltimore City,21229,-8536376.01666,4760394.72759,137
+138,Fast Food,KFC,2205 E Joppa Rd,Baltimore,MD,Baltimore,21234,-8520393.6285,4778841.00615,138
+139,Fast Food,KFC,7306 Mcclean Boulevard,Baltimore,MD,Baltimore,21234,-8523453.07064,4775165.33519,139
+140,Fast Food,KFC,100-02 Howard St,Baltimore,MD,Baltimore City,21201,-8529251.411,4763363.93406,140
+141,Fast Food,KFC,901 North Caroline Street,Baltimore,MD,Baltimore City,21205,-8526812.08575,4764791.39078,141
+142,Fast Food,KFC,5647 Baltimore National Pike,Baltimore,MD,Baltimore,21228,-8541282.86242,4763134.18933,142
+143,Fast Food,KFC,1821 Saint Paul St,Baltimore,MD,Baltimore City,21202,-8528722.83547,4766238.05708,143
+144,Fast Food,Long John Silvers,2300 W Patapsco Ave,Baltimore,MD,Baltimore City,21230,-8532296.63453,4757789.22681,144
+145,Fast Food,Long John Silvers,5000 Sinclair Lane,Baltimore,MD,Baltimore City,21206,-8521334.22296,4767915.55713,145
+146,Fast Food,McDonald's,25 N Howard St,Baltimore,MD,Baltimore City,21201,-8529230.26473,4763285.95839,146
+147,Fast Food,McDonald's,425 W Baltimore St,Baltimore,MD,Baltimore City,21201,-8529440.10423,4763185.44125,147
+148,Fast Food,McDonald's,2001 N Broadway,Baltimore,MD,Baltimore City,21213,-8526585.08743,4766613.197,148
+149,Fast Food,McDonald's,2701 Port Covington,Baltimore,MD,Baltimore City,21230,-8528057.52768,4759093.07033,149
+150,Fast Food,McDonald's,3249 Frederick Ave,Baltimore,MD,Baltimore City,21229,-8534954.81547,4761953.13306,150
+151,Fast Food,McDonald's,3223 Washington Blvd,Baltimore,MD,Baltimore City,21230,-8534148.30371,4758635.94285,151
+152,Fast Food,McDonald's,3619 Wilkins Ave,Baltimore,MD,Baltimore City,21229,-8535958.13326,4760560.60782,152
+153,Fast Food,McDonald's,6540 Eastern Avenue,Baltimore,MD,Baltimore City,21224,-8519992.11041,4763001.65208,153
+154,Fast Food,McDonald's,5100 York Rd,Baltimore,MD,Baltimore City,21212,-8528162.52903,4772061.18791,154
+155,Fast Food,McDonald's,5045 Ritchie Hwy,Baltimore,MD,Anne Arundel,21225,-8528569.49321,4753884.31079,155
+156,Fast Food,McDonald's,5713 Belair Rd,Baltimore,MD,Baltimore City,21206,-8520909.30248,4770914.79037,156
+157,Fast Food,McDonald's,15 W North Ave,Baltimore,MD,Baltimore City,21201,-8528939.25265,4766312.01526,157
+158,Fast Food,McDonald's,2840 Greenmount Ave,Baltimore,MD,Baltimore City,21218,-8528130.89251,4768048.21511,158
+159,Fast Food,McDonald's,3401 Pulaski Highway,Baltimore,MD,Baltimore City,21224,-8523685.23584,4764152.73458,159
+160,Fast Food,McDonald's,2501-13 W Franklin Str,Baltimore,MD,Baltimore City,21223,-8533337.9949,4763768.234,160
+161,Fast Food,McDonald's,3920 Falls Rd,Baltimore,MD,Baltimore City,21211,-8531136.79863,4769902.73348,161
+162,Fast Food,McDonald's,101 W Patapsco Ave,Baltimore,MD,Baltimore City,21225,-8528404.55016,4755990.23446,162
+163,Fast Food,McDonald's,5600 Odonnell Street Cut Off,Baltimore,MD,Baltimore City,21224,-8521235.75773,4762049.89673,163
+164,Fast Food,McDonald's,1600 Argonne Dr,Baltimore,MD,Baltimore City,21218,-8526099.5534,4770525.77021,164
+165,Fast Food,McDonald's,6001 Moravia Rd,Baltimore,MD,Baltimore City,21206,-8520926.79256,4767012.45363,165
+166,Fast Food,McDonald's,4635- 37 Harford Road,Baltimore,MD,Baltimore City,21214,-8523625.81192,4770892.82313,166
+167,Fast Food,McDonald's,4401 Reistertown Rd,Baltimore,MD,Baltimore City,21215,-8534625.85001,4770341.26139,167
+168,Fast Food,McDonald's,101 E Baltimore,Baltimore,MD,Baltimore City,21202,-8528607.76466,4763222.02256,168
+169,Fast Food,McDonald's,200 E. Pratt,Baltimore,MD,Baltimore City,21202,-8528339.93193,4762816.31373,169
+170,Fast Food,McDonald's,825 East Fort Avenue,Baltimore,MD,Baltimore City,21230,-8527323.86347,4760696.82802,170
+171,Fast Food,McDonald's,4526 Erdman Ave,Baltimore,MD,Baltimore City,21213,-8522969.83968,4766142.92771,171
+172,Fast Food,Moe's Southwest Grill,301 Light Street,Baltimore,MD,Baltimore City,21202,-8528443.81512,4762715.7366,172
+173,Fast Food,Nathan's Famous Frankfurters,222 North Point Blvd,Baltimore,MD,Baltimore,21224,-8518657.69457,4764060.30567,173
+174,Fast Food,New York Fried Chicken,3403 Belair Rd,Baltimore,MD,Baltimore City,21213,-8524018.93771,4767949.66135,174
+175,Fast Food,New York Fried Chicken,5814 Hillen Rd,Baltimore,MD,Baltimore City,21239,-8525059.80653,4773224.98907,175
+176,Fast Food,New York Fried Chicken,412 E Baltimore St,Baltimore,MD,Baltimore City,21202,-8528158.09306,4763266.71176,176
+177,Fast Food,New York Fried Chicken,2201 W Pratt St,Baltimore,MD,Baltimore City,21223,-8532783.13865,4762562.90854,177
+178,Fast Food,New York Fried Chicken,1268 E North Ave,Baltimore,MD,Baltimore City,21202,-8527163.1902,4766451.72341,178
+179,Fast Food,New York Fried Chicken,1215 W North Ave,Baltimore,MD,Baltimore City,21207,-8531212.3405,4766208.59119,179
+180,Fast Food,New York Fried Chicken,409 W Saratoga St,Baltimore,MD,Baltimore City,21201,-8529484.70416,4763691.88924,180
+181,Fast Food,New York Fried Chicken,1101 Washington Blvd,Baltimore,MD,Baltimore City,21230,-8530691.35717,4762260.94952,181
+182,Fast Food,New York Fried Chicken,3344 E Baltimore St,Baltimore,MD,Baltimore City,21224,-8523757.05554,4763658.74789,182
+183,Fast Food,New York Fried Chicken,1 W North Ave,Baltimore,MD,Baltimore City,21201,-8528919.24955,4766313.13552,183
+184,Fast Food,New York Fried Chicken,6401 Windsor Mill Rd,Baltimore,MD,Baltimore,21207,-8541158.36605,4767865.65391,184
+185,Fast Food,New York Fried Chicken,4700 Liberty Heights Ave,Baltimore,MD,Baltimore City,21207,-8537720.03465,4769258.61578,185
+186,Fast Food,New York Fried Chicken,6035 Liberty Rd,Baltimore,MD,Baltimore,21207,-8539656.83013,4770065.94101,186
+187,Fast Food,New York Fried Chicken,2012 N Forest Park Ave,Baltimore,MD,Baltimore City,21207,-8539083.78733,4766145.64435,187
+188,Fast Food,New York Fried Chicken,5145 Park Heights Ave,Baltimore,MD,Baltimore City,21215,-8535439.88449,4771744.7657,188
+189,Fast Food,New York Fried Chicken,3143 W North Ave,Baltimore,MD,Baltimore City,21216,-8534873.39323,4766018.55231,189
+190,Fast Food,New York Fried Chicken,1301 W Baltimore St,Baltimore,MD,Baltimore City,21223,-8531320.26501,4763082.54444,190
+191,Fast Food,New York Fried Chicken,1700 Pennsylvania Ave,Baltimore,MD,Baltimore City,21217,-8530936.61173,4765240.46643,191
+192,Fast Food,Noble Roman's Pizza,600 N Wolfe St,Baltimore,MD,Baltimore City,21287,-8526058.84582,4764365.95718,192
+193,Fast Food,Popeye's,300 N Broadway,Baltimore,MD,Baltimore City,21231,-8526428.85974,4763954.87895,193
+194,Fast Food,Popeye's,3400 Pulaski Highway,Baltimore,MD,Baltimore City,21224,-8523691.35209,4764167.27241,194
+195,Fast Food,Popeye's,2301 Liberty Heights Ave,Baltimore,MD,Baltimore City,21215,-8533037.86371,4767400.7923,195
+196,Fast Food,Popeye's,5002 Sinclair Ln,Baltimore,MD,Baltimore City,21206,-8521329.6991,4767916.32299,196
+197,Fast Food,Popeye's,5002 York Rd,Baltimore,MD,Baltimore City,21212,-8528156.72834,4771821.20211,197
+198,Fast Food,Popeye's,6642 Belair Rd,Baltimore,MD,Baltimore City,21206,-8519385.45818,4772594.02759,198
+199,Fast Food,Popeye's,6512 A Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8538546.19831,4772878.04708,199
+200,Fast Food,Popeye's,4408 Edmondson Ave,Baltimore,MD,Baltimore City,21229,-8537047.27882,4763820.5257,200
+201,Fast Food,Popeye's,887 E. Fort Ave.,Baltimore,MD,Baltimore City,21230,-8527250.66853,4760663.94248,201
+202,Fast Food,Popeye's,1311 Merritt Blvd,Baltimore,MD,Baltimore,21222,-8516470.83826,4761779.61441,202
+203,Fast Food,Popeye's,1202 Martin Blvd,Baltimore,MD,Baltimore,21220,-8510457.58352,4769607.77894,203
+204,Fast Food,Quiznos,10 N Calvert St,Baltimore,MD,Baltimore City,21202,-8528446.30951,4763249.66181,204
+205,Fast Food,Quiznos,1465 Key Hwy,Baltimore,MD,Baltimore City,21230,-8526997.73568,4760711.05695,205
+206,Fast Food,Quiznos,1100 Light St,Baltimore,MD,Baltimore City,21230,-8528449.63113,4761397.66486,206
+207,Fast Food,Sonic Drive-In,2205 West Patapsco Avenue,Baltimore,MD,Baltimore City,21230,-8532202.01691,4757729.55332,207
+208,Fast Food,Subway,605 E Patapsco Ave,Baltimore,MD,Baltimore City,21225,-8527321.17917,4755565.73439,208
+209,Fast Food,Subway,5650 The Alameda,Baltimore,MD,Baltimore City,21212,-8526484.19839,4773211.99501,209
+210,Fast Food,Subway,2401 West Belvedere Avenue,Baltimore,MD,Baltimore City,21215,-8533988.19718,4772631.751,210
+211,Fast Food,Subway,1700 E Cold Spring Lane,Baltimore,MD,Baltimore City,21251,-8525507.02888,4771337.31031,211
+212,Fast Food,Subway,200 E Lexington,Baltimore,MD,Baltimore City,21202,-8528454.7881,4763477.62577,212
+213,Fast Food,Subway,31 South Calvert Street,Baltimore,MD,Baltimore City,21202,-8528421.61927,4763045.24588,213
+214,Fast Food,Subway,423 E Baltimore St,Baltimore,MD,Baltimore City,21202,-8528144.86085,4763251.70983,214
+215,Fast Food,Subway,Corner Lombard & Charles St,Baltimore,MD,Baltimore City,21202,-8528742.42881,4762971.25634,215
+216,Fast Food,Subway,300 North Charles St,Baltimore,MD,Baltimore City,21201,-8528787.2598,4763634.26989,216
+217,Fast Food,Subway,55 Market Place,Baltimore,MD,Baltimore City,21202,-8527813.22249,4763026.77943,217
+218,Fast Food,Subway,301 Light Street,Baltimore,MD,Baltimore City,21202,-8528443.81512,4762715.7366,218
+219,Fast Food,Subway,220 W Baltimore Street,Baltimore,MD,Baltimore City,21201,-8529119.87535,4763216.50807,219
+220,Fast Food,Subway,300 West Pratt Street,Baltimore,MD,Baltimore City,21201,-8529239.18671,4762775.69353,220
+221,Fast Food,Subway,827 N Charles Street,Baltimore,MD,Baltimore City,21203,-8528815.58731,4764573.14848,221
+222,Fast Food,Subway,501 West Lexington,Baltimore,MD,Baltimore City,21201,-8529639.49505,4763492.94987,222
+223,Fast Food,Subway,22 S. Greene Street,Baltimore,MD,Baltimore City,21201,-8529710.39952,4763044.2922,223
+224,Fast Food,Subway,1040 Light St,Baltimore,MD,Baltimore City,21230,-8528463.58335,4761501.52542,224
+225,Fast Food,Subway,1209 North Charles St.,Baltimore,MD,Baltimore City,21201,-8528853.79318,4765247.73754,225
+226,Fast Food,Subway,632 S Broadway,Baltimore,MD,Baltimore City,21231,-8526361.94934,4762462.59417,226
+227,Fast Food,Subway,600 N Wolfe St,Baltimore,MD,Baltimore City,21287,-8526058.84582,4764365.95718,227
+228,Fast Food,Subway,853 East Fort Ave,Baltimore,MD,Baltimore City,21230,-8527290.68903,4760682.54375,228
+229,Fast Food,Subway,600 W. Mount Royal Avenue,Baltimore,MD,Baltimore City,21217,-8529731.78836,4766171.04401,229
+230,Fast Food,Subway,1200 E North Ave,Baltimore,MD,Baltimore City,21218,-8527363.86966,4766438.45758,230
+231,Fast Food,Subway,1950 N Broadway,Baltimore,MD,Baltimore City,21213,-8526573.36491,4766557.73733,231
+232,Fast Food,Subway,1251 W Pratt St,Baltimore,MD,Baltimore City,21223,-8531246.00308,4762655.94701,232
+233,Fast Food,Subway,1800 Russell St,Baltimore,MD,Baltimore City,21230,-8530427.2397,4760769.7191,233
+234,Fast Food,Subway,37 E 25Th St,Baltimore,MD,Baltimore City,21218,-8528896.86069,4767298.5913,234
+235,Fast Food,Subway,750 E 25Th St,Baltimore,MD,Baltimore City,21218,-8527443.52763,4767386.80469,235
+236,Fast Food,Subway,2725 Sisson St,Baltimore,MD,Baltimore City,21211,-8529819.22995,4767446.33717,236
+237,Fast Food,Subway,2400 Boston St,Baltimore,MD,Baltimore City,21224,-8525130.58877,4762150.13339,237
+238,Fast Food,Subway,800 Washington Blvd,Baltimore,MD,Baltimore City,21230,-8530284.36656,4762295.72617,238
+239,Fast Food,Subway,1520 West North Ave.,Baltimore,MD,Baltimore City,21217,-8531684.68307,4766197.00127,239
+240,Fast Food,Subway,3233 St Paul St,Baltimore,MD,Baltimore City,21218,-8528835.36985,4768665.93445,240
+241,Fast Food,Subway,200 N Highland Ave,Baltimore,MD,Baltimore City,21224,-8523697.74014,4764004.19929,241
+242,Fast Food,Subway,2407 Frederick Ave,Baltimore,MD,Baltimore City,21223,-8533153.45721,4762448.55936,242
+243,Fast Food,Subway,3515 Eastern Avenue,Baltimore,MD,Baltimore City,21224,-8523504.52605,4762799.23919,243
+244,Fast Food,Subway,3705 Falls Rd,Baltimore,MD,Baltimore City,21211,-8531012.63373,4769446.35968,244
+245,Fast Food,Subway,2401 Liberty Heights Ave,Baltimore,MD,Baltimore City,21215,-8533214.36109,4767473.32158,245
+246,Fast Food,Subway,2500 W North Ave,Baltimore,MD,Baltimore City,21216,-8533441.75685,4766103.07146,246
+247,Fast Food,Subway,2149 W Patapsco Ave,Baltimore,MD,Baltimore City,21205,-8532047.06815,4757694.35482,247
+248,Fast Food,Subway,503 W Cold Spring Lane,Baltimore,MD,Baltimore City,21210,-8530527.77154,4771141.49274,248
+249,Fast Food,Subway,900 Caton Ave,Baltimore,MD,Baltimore City,21229,-8535023.18962,4760943.92167,249
+250,Fast Food,Subway,3333 Frederick Rd,Baltimore,MD,Baltimore City,21229,-8535201.87085,4762072.41622,250
+251,Fast Food,Subway,5501 O Donnell St Cutoff,Baltimore,MD,Baltimore City,21224,-8521343.18459,4762028.18434,251
+252,Fast Food,Subway,5420 B York Rd,Baltimore,MD,Baltimore City,21212,-8528182.78601,4772820.68417,252
+253,Fast Food,Subway,3411 Clifton Avenue,Baltimore,MD,Baltimore City,21216,-8535346.05586,4766307.26274,253
+254,Fast Food,Subway,5112 Sinclair Lane,Baltimore,MD,Baltimore City,21206,-8521073.02306,4767958.2301,254
+255,Fast Food,Subway,528 East Belvedere St.,Baltimore,MD,Baltimore City,21212,-8528131.00774,4773975.6277,255
+256,Fast Food,Taco Bell,5223 Baltimore National Pike,Baltimore,MD,Baltimore,21229,-8539483.66918,4763509.40701,256
+257,Fast Food,Taco Bell,5920 Reisterstown Rd,Baltimore,MD,Baltimore City,21215,-8537748.09546,4772156.4829,257
+258,Fast Food,Taco Bell,2300 W Patapsco Ave,Baltimore,MD,Baltimore City,21230,-8532296.63453,4757789.22681,258
+259,Fast Food,Taco Bell,7 W Baltimore St,Baltimore,MD,Baltimore City,21201,-8528770.30802,4763213.29357,259
+260,Fast Food,Taco Bell,3319 Pulaski Hwy,Baltimore,MD,Baltimore City,21224,-8523791.21228,4764134.17412,260
+261,Fast Food,Wendy's,901 Mcculloh Street,Baltimore,MD,Baltimore City,21217,-8529685.8201,4764614.97854,261
+262,Fast Food,Wendy's,2045 Harford Road,Baltimore,MD,Baltimore City,21218,-8526871.87368,4766730.50825,262
+263,Fast Food,Wendy's,2339 Frederick Ave.,Baltimore,MD,Baltimore City,21223,-8533008.22363,4762514.14754,263
+264,Fast Food,Wendy's,6411 Eastern Avenue,Baltimore,MD,Baltimore City,21224,-8520220.47065,4762957.16998,264
+265,Fast Food,Wendy's,5615 York Road,Baltimore,MD,Baltimore City,21213,-8528167.34162,4773080.83678,265
+266,Fast Food,Wendy's,4410 West Northern Pky,Baltimore,MD,Baltimore City,21215,-8538047.1118,4771264.75551,266
+267,Fast Food,Wendy's,4200 Patterson Avenue,Baltimore,MD,Baltimore City,21215,-8538707.79892,4772567.72872,267
+268,Fast Food,Wingstop,5451 Reisterstown Road,Baltimore,MD,Baltimore City,21215,-8537002.03767,4771502.28348,268
+269,Fast Food,Pizza Hut,1400 Handlir Drive,Bel Air,MD,Harford,21015,-8488574.35295,4790754.51381,269
+270,Fast Food,Pizza Hut,1216 Churchville Rd,Bel Air,MD,Harford,21014,-8496452.71232,4799927.69882,270
+271,Fast Food,Arby's,10 Bel Air South Pkwy,Bel Air,MD,Harford,21015,-8496732.42144,4793194.26758,271
+272,Fast Food,Burger King,310 Baltimore Pike,Bel Air,MD,Harford,21014,-8499220.85096,4798051.3375,272
+273,Fast Food,Burger King,"2110 Emmorton Rd, Bel Air Md",Bel Air,MD,Harford,21015,-8496470.00197,4793250.79029,273
+274,Fast Food,Burger King,"200 S Fountain Green Rd, Bel Air Md",Bel Air,MD,Harford,21015,-8495143.39668,4800312.70225,274
+275,Fast Food,Dairy Queen,1510 Conowingo Rd,Bel Air,MD,Harford,21014,-8499688.7895,4803330.94308,275
+276,Fast Food,Five Guys,696 Bel Air Road,Bel Air,MD,Harford,21014,-8500018.30959,4796988.02536,276
+277,Fast Food,KFC,130 Baltimore Pike,Bel Air,MD,Harford,21014,-8499029.7258,4798314.17932,277
+278,Fast Food,McDonald's,2111 Churchville Rd,Bel Air,MD,Harford,21015,-8492233.48743,4801478.8071,278
+279,Fast Food,McDonald's,1906 Emmorton Rd,Bel Air,MD,Harford,21014,-8496751.8555,4794158.98297,279
+280,Fast Food,McDonald's,599-B Baltimore National Pike,Bel Air,MD,Harford,21014,-8499685.26345,4797400.03763,280
+281,Fast Food,McDonald's,Conowingo Road & Hickory Bypass,Bel Air,MD,Harford,21014,-8499209.7223,4800479.11941,281
+282,Fast Food,McDonald's,1 Red Pump Rd,Bel Air,MD,Harford,21014,-8501501.72362,4801925.30949,282
+283,Fast Food,Quiznos,573 Baltimore Pike,Bel Air,MD,Harford,21014,-8499644.52374,4797458.09965,283
+284,Fast Food,Quiznos,4270 Philadelphia Rd,Bel Air,MD,Harford,21015,-8488424.19034,4790803.69643,284
+285,Fast Food,Sonic Drive-In,1921 Emmorton Road,Bel Air,MD,Harford,21015,-8496725.3255,4794129.1399,285
+286,Fast Food,Subway,2438 Churchville Rd,Bel Air,MD,Harford,21014,-8490612.03306,4801555.72451,286
+287,Fast Food,Subway,225 Brierhill Drive,Bel Air,MD,Harford,21015,-8496546.33422,4799472.32629,287
+288,Fast Food,Subway,144 North Bond St,Bel Air,MD,Harford,21014,-8499564.76015,4799037.03249,288
+289,Fast Food,Subway,5 Bel Air Pky S,Bel Air,MD,Harford,21015,-8496243.9391,4792579.87823,289
+290,Fast Food,Taco Bell,504 Baltimore Pike,Bel Air,MD,Harford,21014,-8499547.96755,4797619.04826,290
+291,Fast Food,Wendy's,2308 East Churchville Road,Bel Air,MD,Harford,21014,-8490924.81541,4801536.93093,291
+292,Fast Food,Wendy's,1604 Conowingo Road,Bel Air,MD,Harford,21014,-8499725.76779,4803522.26654,292
+293,Fast Food,McDonald's,1325 Riverside Pkwy,Belcamp,MD,Harford,21017,-8487955.98831,4790552.25104,293
+294,Fast Food,Arby's,10425 Baltimore Blvd,Beltsville,MD,Prince George's,20705,-8562572.90293,4725518.00993,294
+295,Fast Food,Blimpie,4040 Powdermill Road,Beltsville,MD,Prince George's,20705,-8564456.05766,4728578.95588,295
+296,Fast Food,Burger King,"10625 Baltimore Ave, Beltsville Md",Beltsville,MD,Prince George's,20705,-8562104.45972,4725936.20581,296
+297,Fast Food,KFC,11751 Beltsville Drive,Beltsville,MD,Prince George's,20705,-8564601.97661,4728898.97579,297
+298,Fast Food,KFC,10906 Baltimore Ave,Beltsville,MD,Prince George's,20705,-8561616.13656,4726389.85077,298
+299,Fast Food,Popeye's,11428 Cherry Hill Road,Beltsville,MD,Prince George's,20705,-8566207.9974,4728054.40889,299
+300,Fast Food,Quiznos,10478 Baltimore Ave,Beltsville,MD,Prince George's,20705,-8562513.21121,4725591.89239,300
+301,Fast Food,Subway,11033 Baltimore Ave,Beltsville,MD,Prince George's,20705,-8561386.5085,4726571.15045,301
+302,Fast Food,Subway,11462 Cherry Hill Rd,Beltsville,MD,Prince George's,20705,-8566227.17797,4728105.53813,302
+303,Fast Food,Taco Bell,11751 Beltsville Dr,Beltsville,MD,Prince George's,20705,-8564601.97661,4728898.97579,303
+304,Fast Food,Taco Bell,10810 Baltimore Ave,Beltsville,MD,Prince George's,21705,-8561796.344,4726229.34467,304
+305,Fast Food,Wendy's,10634 Baltimore Boulevard,Beltsville,MD,Prince George's,20705,-8562114.53781,4725948.27284,305
+306,Fast Food,Pizza Hut,11002 Nicholas Ln,Berlin,MD,Worcester,21811,-8367096.00366,4632445.58016,306
+307,Fast Food,Arby's,10633 Ocean Gateway,Berlin,MD,Worcester,21811,-8370371.09062,4627953.32178,307
+308,Fast Food,Dunkin' Donuts,11001 Manklin Creek Rd,Berlin,MD,Worcester,21811,-8367279.23939,4632659.875,308
+309,Fast Food,McDonald's,10712 Ocean Gtwy,Berlin,MD,Worcester,21811,-8370049.47508,4628034.97063,309
+310,Fast Food,Subway,10134 Old Ocean City Blvd,Berlin,MD,Worcester,21811,-8372619.66983,4626755.71135,310
+311,Fast Food,Subway,11416 Ocean Gateway,Berlin,MD,Worcester,21811,-8366692.44499,4627913.33021,311
+312,Fast Food,Subway,11001 Manklin Creek Rd,Berlin,MD,Worcester,21811,-8367279.23939,4632659.875,312
+313,Fast Food,Checkers,6051 Greenbelt Road,Berwyn Heights,MD,Prince George's,20740,-8561679.45004,4721330.71544,313
+314,Fast Food,KFC,6101 Greenbelt Rd,Berwyn Heights,MD,Prince George's,20740,-8561544.76897,4721302.00668,314
+315,Fast Food,McDonald's,6219 Greenbelt Road,Berwyn Heights,MD,Prince George's,20740,-8561209.98969,4721226.08957,315
+316,Fast Food,Charley's,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,316
+317,Fast Food,Chik-Fil-A,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,317
+318,Fast Food,Dairy Queen,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,318
+319,Fast Food,Five Guys,4829 Bethesda Ave,Bethesda,MD,Montgomery,20814,-8582390.02256,4718943.08653,319
+320,Fast Food,Five Guys,10414 Auto Park Dr.,Bethesda,MD,Montgomery,20817,-8587787.8976,4725529.33701,320
+321,Fast Food,Jimmy Johns,4710 Bethesda Ave,Bethesda,MD,Montgomery,20855,-8581964.82576,4718947.10348,321
+322,Fast Food,McDonald's,8901 Wisconsin Ave,Bethesda,MD,Montgomery,20814,-8582404.7985,4722038.60829,322
+323,Fast Food,Panda Express,8901 Wisconsin Avenue,Bethesda,MD,Montgomery,20899,-8582404.7985,4722038.60829,323
+324,Fast Food,Panda Express,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,324
+325,Fast Food,Popeye's,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,325
+326,Fast Food,Quiznos,4801 Montgomery Ln,Bethesda,MD,Montgomery,20814,-8582181.2143,4719310.70869,326
+327,Fast Food,Quiznos,4817 Saint Elmo Ave,Bethesda,MD,Montgomery,20814,-8582358.59978,4720205.80265,327
+328,Fast Food,Subway,10400 Old Georgetown Rd,Bethesda,MD,Montgomery,20814,-8585573.71079,4725239.84082,328
+329,Fast Food,Subway,9500 Macarthur Blvd,Bethesda,MD,Montgomery,20817,-8593258.83444,4718453.41802,329
+330,Fast Food,Subway,8901 Wisconsin Ave,Bethesda,MD,Montgomery,20899,-8582404.7985,4722038.60829,330
+331,Fast Food,Subway,7201 Wisconsin Ave,Bethesda,MD,Montgomery,20814,-8581922.90343,4719036.4048,331
+332,Fast Food,Subway,4921 Elm St,Bethesda,MD,Montgomery,20814,-8582379.6981,4719116.54765,332
+333,Fast Food,Taco Bell,7101 Democracy Blvd,Bethesda,MD,Montgomery,20817,-8587941.88038,4724841.89767,333
+334,Fast Food,Checkers,4850 Annapolis Road,Bladensburg,MD,Prince George's,20710,-8564386.58309,4713000.89058,334
+335,Fast Food,Subway,11 N Main St,Boonsboro,MD,Washington,21713,-8644197.99428,4794497.54498,335
+336,Fast Food,Pizza Hut,1290 Crain Hwy,Bowie,MD,Prince George's,20716,-8540273.84666,4708327.61938,336
+337,Fast Food,Pizza Hut,3319 Superior Ln,Bowie,MD,Prince George's,20715,-8541832.44876,4718552.84706,337
+338,Fast Food,Chik-Fil-A,10631 Martin Luther King Jr Hwy,Bowie,MD,Prince George's,20720,-8551965.96811,4715336.91374,338
+339,Fast Food,Chik-Fil-A,16503 Ballpark Rd,Bowie,MD,Prince George's,20716,-8540023.98985,4713827.6099,339
+340,Fast Food,Dairy Queen,3878 Town Center Blvd,Bowie,MD,Prince George's,20716,-8541992.4666,4713630.89499,340
+341,Fast Food,Dunkin' Donuts,6796 Laurel Bowie Rd,Bowie,MD,Prince George's,20715,-8544569.80615,4719390.73458,341
+342,Fast Food,Dunkin' Donuts,6101 Highbridge Rd,Bowie,MD,Prince George's,20720,-8546343.67343,4717866.34742,342
+343,Fast Food,Five Guys,3851 Town Center Blvd,Bowie,MD,Prince George's,20716,-8542006.52474,4713603.48336,343
+344,Fast Food,KFC,6946 Laurel-Bowie Road,Bowie,MD,Prince George's,20715,-8544602.87627,4719580.16642,344
+345,Fast Food,Popeye's,15480 Annapolis Rd,Bowie,MD,Prince George's,20715,-8542142.79839,4718710.98861,345
+346,Fast Food,Quiznos,15477 Excelsior Dr,Bowie,MD,Prince George's,20716,-8542396.63275,4713838.87051,346
+347,Fast Food,Quiznos,10201 Martin Luther King Jr Hwy,Bowie,MD,Prince George's,20720,-8552381.65796,4715357.47581,347
+348,Fast Food,Subway,3300 Nw Crain Hwy,Bowie,MD,Prince George's,20716,-8540210.92752,4712482.27417,348
+349,Fast Food,Subway,16501 Ballpark Rd,Bowie,MD,Prince George's,20716,-8540043.70292,4713849.77741,349
+350,Fast Food,Subway,6021 High Bridge Road,Bowie,MD,Prince George's,20720,-8546372.25953,4717744.85811,350
+351,Fast Food,Subway,4855 Glenn Dale Rd,Bowie,MD,Prince George's,20720,-8550782.30243,4715405.51988,351
+352,Fast Food,Subway,15480 Annapolis Rd,Bowie,MD,Prince George's,20716,-8542142.79839,4718710.98861,352
+353,Fast Food,Subway,6928 Laurel Bowie Rd,Bowie,MD,Prince George's,20715,-8544596.53247,4719541.56563,353
+354,Fast Food,Subway,3868 Town Center Blvd,Bowie,MD,Prince George's,20716,-8541991.89296,4713621.44477,354
+355,Fast Food,Taco Bell,15701 Annapolis Rd,Bowie,MD,Prince George's,20715,-8541906.43559,4718784.82185,355
+356,Fast Food,Wendy's,16400 Harbour Way,Bowie,MD,Prince George's,20716,-8540265.76261,4714302.71073,356
+357,Fast Food,Checkers,7511 Clymer Dr,Brandywine,MD,Prince George's,20613,-8557796.97533,4674710.23852,357
+358,Fast Food,Chik-Fil-A,16003 Crain Hwy,Brandywine,MD,Prince George's,20613,-8557838.3028,4674478.29627,358
+359,Fast Food,Panda Express,15902 Crain Hwy,Brandywine,MD,Prince George's,20613,-8557790.94659,4674530.28796,359
+360,Fast Food,Subway,15906H Crain Hwy Se,Brandywine,MD,Prince George's,20613,-8557791.02768,4674522.11789,360
+361,Fast Food,Pizza Hut,5000 Ritchie Hwy,Brooklyn,MD,Anne Arundel,21225,-8528598.09403,4753933.48831,361
+362,Fast Food,Long John Silvers,5501 Ritchie Hwy,Brooklyn,MD,Anne Arundel,21225,-8528619.53013,4753203.58579,362
+363,Fast Food,New York Fried Chicken,542 E Patapsco Ave,Brooklyn,MD,Anne Arundel,21225,-8527422.72624,4755624.6728,363
+364,Fast Food,KFC,5734 Ritchie Hwy,Brooklyn,MD,Anne Arundel,21225,-8528678.14234,4752854.68363,364
+365,Fast Food,Dunkin' Donuts,5601 Ritchie Hwy,Brooklyn Park,MD,Anne Arundel,21225,-8528627.15927,4753094.46131,365
+366,Fast Food,Popeye's,5317 Governor Ritchie Hwy,Brooklyn Park,MD,Anne Arundel,21225,-8528600.41663,4753470.90112,366
+367,Fast Food,Subway,5638 Ritchie Hwy,Brooklyn Park,MD,Anne Arundel,21225,-8528657.42885,4753104.55904,367
+368,Fast Food,Roy Rogers,28 Souder Road,Brunswick,MD,Frederick,21716,-8641092.08171,4768503.75792,368
+369,Fast Food,Subway,90 Souder Rd,Brunswick,MD,Frederick,21716,-8640874.2882,4768361.84191,369
+370,Fast Food,Pizza Hut,3091 Marshall Hall Rd,Bryans Road,MD,Charles,20616,-8579709.04599,4668550.69835,370
+371,Fast Food,Burger King,3165 Marshall Hall Road,Bryans Road,MD,Charles,20616,-8579726.14093,4668461.60554,371
+372,Fast Food,KFC,302 Canberra Way,Bryans Road,MD,Charles,20616,-8579732.25187,4668385.53249,372
+373,Fast Food,McDonald's,3050 Marshall Hall Rd,Bryans Road,MD,Charles,20616,-8579684.46137,4668595.91265,373
+374,Fast Food,Subway,3055 Marshall Hall Rd,Bryans Road,MD,Charles,20616,-8579700.72948,4668594.04102,374
+375,Fast Food,KFC,15701 Columbia Pike,Burtansville,MD,Montgomery,20866,-8564096.23015,4737848.74853,375
+376,Fast Food,Burger King,15703 Columbia Pike,Burtonsville,MD,Montgomery,20866,-8564097.80241,4737854.43549,376
+377,Fast Food,Roy Rogers,15662 Old Columbia Pike,Burtonsville,MD,Montgomery,20866,-8564157.50064,4737956.81719,377
+378,Fast Food,Subway,15500-B Old Columbia Pike,Burtonsville,MD,Montgomery,20866,-8564402.89094,4737351.98315,378
+379,Fast Food,Dunkin' Donuts,Bwi Airport Rd,Baltimore,MD,Anne Arundel,21240,-8535514.11469,4748707.89485,379
+380,Fast Food,Arby's,Southwest Airlines Concourse,Baltimore,MD,Anne Arundel,21240,-8535514.11469,4748707.89485,380
+381,Fast Food,Burger King,45095 Worth Avenue,California,MD,St. Mary's,20619,-8517143.84777,4621526.61399,381
+382,Fast Food,Checkers,45500 Miramar Way,California,MD,St. Mary's,20619,-8516024.34382,4620978.82158,382
+383,Fast Food,Chik-Fil-A,45150 First Colony Way,California,MD,St. Mary's,20619,-8517382.1996,4621512.64329,383
+384,Fast Food,Dunkin' Donuts,22861 Three Notch Rd,California,MD,St. Mary's,20619,-8516213.94768,4621202.87605,384
+385,Fast Food,Five Guys,45250-B Worth Avenue,California,MD,St. Mary's,20619,-8516982.33226,4621434.51461,385
+386,Fast Food,McDonald's,Three Notch Road & Old Rolling Road,California,MD,St. Mary's,20619,-8516819.21556,4621541.2696,386
+387,Fast Food,Subway,23171 Three Notch Rd,California,MD,St. Mary's,20619,-8518093.427,4622369.54443,387
+388,Fast Food,Subway,22630 Three Notch Rd,California,MD,St. Mary's,20619,-8514316.29762,4620397.63223,388
+389,Fast Food,Subway,45485 Mirimar Way,California,MD,St. Mary's,20619,-8516018.90083,4620955.45712,389
+390,Fast Food,Taco Bell,144 Macarthur Blvd,California,MD,St. Mary's,20619,-8514165.25413,4620374.03568,390
+391,Fast Food,Wendy's,45460 Miramar Way,California,MD,St. Mary's,20619,-8516080.23359,4620960.36305,391
+392,Fast Food,A&W,20815 Callaway Village Way,Callaway,MD,St. Mary's,20620,-8518501.89777,4613150.47651,392
+393,Fast Food,Wendy's,11741 Beltsville Dr,Calverton,MD,Prince George's,20705,-8564615.60187,4728876.36579,393
+394,Fast Food,Pizza Hut,620 Sunburst Hwy,Cambridge,MD,Dorchester,21216,-8467518.03348,4659053.47062,394
+395,Fast Food,Arby's,2731 Dorchester Square,Cambridge,MD,Dorchester,21613,-8466267.62839,4658115.97137,395
+396,Fast Food,Burger King,2713 Ocean Gateway,Cambridge,MD,Dorchester,21613,-8466763.95831,4658432.11927,396
+397,Fast Food,Dairy Queen,320 Sunburst,Cambridge,MD,Dorchester,21613,-8467539.97484,4659580.7455,397
+398,Fast Food,Dunkin' Donuts,215 Sunburst Hwy,Cambridge,MD,Dorchester,21613,-8467503.313,4659874.51743,398
+399,Fast Food,KFC,Cambridge Plaza Mall Route 50,Cambridge,MD,Dorchester,21613,-8467295.82873,4658879.1169,399
+400,Fast Food,McDonald's,Rte 50/Cedar St,Cambridge,MD,Dorchester,21613,-8467572.72961,4659597.05385,400
+401,Fast Food,Popeye's,209 Sunburst Highway,Cambridge,MD,Dorchester,21613,-8467500.5449,4659885.64648,401
+402,Fast Food,Subway,602 Sunburst Hwy,Cambridge,MD,Dorchester,21613,-8467494.59904,4659031.43417,402
+403,Fast Food,Subway,2775 Dorchester Square,Cambridge,MD,Dorchester,21613,-8466303.40294,4658066.05994,403
+404,Fast Food,Wendy's,211 Sunburst Highway,Cambridge,MD,Dorchester,21613,-8467501.86037,4659880.30551,404
+405,Fast Food,Checkers,4827 Allentown Road,Camp Springs,MD,Prince George's,20746,-8559314.78047,4695804.82149,405
+406,Fast Food,Dunkin' Donuts,6100 Allentown Rd,Camp Springs,MD,Prince George's,20746,-8560931.45648,4693946.26409,406
+407,Fast Food,Popeye's,4913 Allentown Rd,Camp Springs,MD,Prince George's,20746,-8559520.97059,4695619.92241,407
+408,Fast Food,Wendy's,6335 Allentown Road,Camp Springs,MD,Prince George's,20748,-8561383.43626,4693442.8535,408
+409,Fast Food,Subway,6262 Central Ave,Capitol Heights,MD,Prince George's,20743,-8560530.13702,4705483.3465,409
+410,Fast Food,A&W,8909 Central Ave,Capitol Heights,MD,Prince George's,20743,-8555234.36087,4706008.03341,410
+411,Fast Food,Checkers,9005 Central Avenue,Capitol Heights,MD,Prince George's,20743,-8555179.31104,4706016.80964,411
+412,Fast Food,Chik-Fil-A,9121 Alaking Ct,Capitol Heights,MD,Prince George's,20743,-8554896.94945,4703074.1514,412
+413,Fast Food,Dunkin' Donuts,6412 Central Ave,Capitol Heights,MD,Prince George's,20743,-8560156.00549,4705508.20919,413
+414,Fast Food,Dunkin' Donuts,9183A Central Ave,Capitol Heights,MD,Prince George's,20743,-8555077.19683,4706041.94194,414
+415,Fast Food,KFC,8251 Central Ave,Capitol Heights,MD,Prince George's,20743,-8556511.78481,4705851.2538,415
+416,Fast Food,Long John Silvers,8909 Central Ave,Capitol Heights,MD,Prince George's,20743,-8555234.36087,4706008.03341,416
+417,Fast Food,McDonald's,4777 Marlboro Pike,Capitol Heights,MD,Prince George's,20743,-8563974.54312,4703571.37924,417
+418,Fast Food,McDonald's,1701 Ritchie Station Ct,Capitol Heights,MD,Prince George's,20743,-8554945.89094,4702981.54976,418
+419,Fast Food,McDonald's,1420 Addison Rd S,Capitol Heights,MD,Prince George's,20743,-8559704.67004,4702875.96129,419
+420,Fast Food,McDonald's,20 Ritchie Rd,Capitol Heights,MD,Prince George's,20743,-8556311.82916,4705846.07893,420
+421,Fast Food,Panda Express,8800 N. Hampton Mall Drive,Capitol Heights,MD,Prince George's,20743,-8555258.08523,4705837.68394,421
+422,Fast Food,Subway,9141 Alaking Ct,Capitol Heights,MD,Prince George's,20743,-8554882.63913,4703072.91429,422
+423,Fast Food,Subway,1448 Addison Rd S,Capitol Heights,MD,Prince George's,20743,-8559679.93405,4702821.32843,423
+424,Fast Food,Taco Bell,6250 Central Ave,Capitol Heights,MD,Prince George's,20743,-8560552.85335,4705484.6976,424
+425,Fast Food,Wendy's,8715 Central Ave,Capitol Heights,MD,Prince George's,20743,-8555621.97739,4705958.44713,425
+426,Fast Food,Subway,1606 Dooley Rd,Cardiff,MD,Harford,21160,-8498546.77535,4825200.17331,426
+427,Fast Food,Burger King,1935 East Joppa Road,Carney,MD,Baltimore,21234,-8521098.59599,4779073.49068,427
+428,Fast Food,Pizza Hut,6415 Fredrick Road,Catonsville,MD,Baltimore,21228,-8540178.02259,4761190.13124,428
+429,Fast Food,Checkers,5705 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8541812.01038,4762963.28063,429
+430,Fast Food,Chik-Fil-A,1000 Hilltop Cir,Catonsville,MD,Baltimore,21228,-8539807.39138,4757919.86073,430
+431,Fast Food,Chik-Fil-A,5668 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8541496.13928,4763110.98592,431
+432,Fast Food,Dunkin' Donuts,580 Frederick Rd,Catonsville,MD,Baltimore,21228,-8541364.32181,4760818.73327,432
+433,Fast Food,Panda Express,5860 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8541931.48273,4762971.07551,433
+434,Fast Food,Popeye's,6400 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8544642.94082,4762532.79892,434
+435,Fast Food,Quiznos,5860 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8541931.48273,4762971.07551,435
+436,Fast Food,Subway,6600 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8545319.23541,4762772.78365,436
+437,Fast Food,Subway,800 S. Rolling Rd,Catonsville,MD,Baltimore,21228,-8541553.39087,4758476.97214,437
+438,Fast Food,Subway,1101 N Rolling Rd,Catonsville,MD,Baltimore,21228,-8544071.56398,4762590.66109,438
+439,Fast Food,Subway,602 Frederick Rd,Catonsville,MD,Baltimore,21228,-8541428.37472,4760800.56872,439
+440,Fast Food,Subway,5520 Research Park Drive,Catonsville,MD,Baltimore,21228,-8539849.99897,4757354.11579,440
+441,Fast Food,Subway,5638 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8541371.91471,4763153.19951,441
+442,Fast Food,Taco Bell,6200 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8543775.23225,4762402.63096,442
+443,Fast Food,Wendy's,6600 Baltimore National Pike,Catonsville,MD,Baltimore,21228,-8545319.23541,4762772.78365,443
+444,Fast Food,Subway,102 East Main Street,Cecilton,MD,Cecil,21913,-8445540.21812,4779738.49777,444
+445,Fast Food,McDonald's,2490 Centreville Rd,Centreville,MD,Queen Anne's,21617,-8468847.67807,4726231.62595,445
+446,Fast Food,Subway,504 Church Hill Rd,Centreville,MD,Queen Anne's,21617,-8467189.57778,4728582.44594,446
+447,Fast Food,Arby's,30063 Market Dr.,Charlotte Hall,MD,Charles,20622,-8546189.86165,4649438.88832,447
+448,Fast Food,Burger King,30026 Three Notch Road,Charlotte Hall,MD,Charles,20622,-8546545.65074,4649269.50758,448
+449,Fast Food,Dunkin' Donuts,30170 Three Notch Rd,Charlotte Hall,MD,Charles,20622,-8546531.04068,4649869.57518,449
+450,Fast Food,McDonald's,30050 Three Notch Rd,Charlotte Hall,MD,Charles,20622,-8546540.23147,4649386.09873,450
+451,Fast Food,Popeye's,30263 Triangle Drive,Charlotte Hall,MD,Charles,20622,-8546380.99962,4649958.86339,451
+452,Fast Food,Subway,30295 Three Notch Rd,Charlotte Hall,MD,Charles,20622,-8546574.07977,4650349.21415,452
+453,Fast Food,Wendy's,30273 Triangle Drive,Charlotte Hall,MD,Charles,20622,-8546379.83822,4649997.07374,453
+454,Fast Food,McDonald's,7925 Bayside Rd,Chesapeake Beach,MD,Calvert,20732,-8519929.2998,4677373.42065,454
+455,Fast Food,Subway,7917 Bayside Road,Chesapeake Beach,MD,Calvert,20732,-8519933.83267,4677360.46599,455
+456,Fast Food,Chik-Fil-A,1845 Main St,Chester,MD,Queen Anne's,21619,-8491028.16401,4717884.72729,456
+457,Fast Food,Dairy Queen,65 Kent Town Market,Chester,MD,Queen Anne's,21619,-8491189.60073,4718020.60062,457
+458,Fast Food,Five Guys,200 Abruzzi Dr,Chester,MD,Queen Anne's,21619,-8489710.88516,4717685.70534,458
+459,Fast Food,Subway,14 Kent Towne Market,Chester,MD,Queen Anne's,21619,-8491443.46502,4718041.46882,459
+460,Fast Food,Taco Bell,70 Kent Town Market,Chester,MD,Queen Anne's,21619,-8491156.31437,4718016.77887,460
+461,Fast Food,Wendy's,120 Chester Station Road,Chester,MD,Queen Anne's,21619,-8491577.7929,4718307.32671,461
+462,Fast Food,Pizza Hut,213 N Crestview Sq,Chestertown,MD,Kent,21620,-8468165.24081,4755070.24381,462
+463,Fast Food,Arby's,707 Washington Ave,Chestertown,MD,Kent,21620,-8468069.3017,4753791.95752,463
+464,Fast Food,KFC,711 Washington Avenue,Chestertown,MD,Kent,21620,-8468074.62316,4753804.02503,464
+465,Fast Food,McDonald's,875 Washington Ave (Rt 213),Chestertown,MD,Kent,21620,-8468282.35912,4754805.67476,465
+466,Fast Food,Subway,834 High St,Chestertown,MD,Kent,21620,-8468900.13129,4752817.27132,466
+467,Fast Food,Taco Bell,709 Washington Ave,Chestertown,MD,Kent,21620,-8468071.96248,4753797.99127,467
+468,Fast Food,KFC,6501 Landover Rd,Cheverly,MD,Prince George's,20785,-8560699.77262,4711954.05889,468
+469,Fast Food,Subway,23237 Stringtown Road,Clarksburg,MD,Montgomery,20871,-8602418.71743,4755825.39484,469
+470,Fast Food,Pizza Hut,12268 Clarksville Pike,Clarksville,MD,Howard,21029,-8564840.80207,4751818.1067,470
+471,Fast Food,Dunkin' Donuts,12210 Clarksville Pike,Clarksville,MD,Howard,21029,-8564624.07235,4752086.98131,471
+472,Fast Food,Subway,6030 Daybreak Cir,Clarksville,MD,Howard,21029,-8564416.50428,4751842.22694,472
+473,Fast Food,Wendy's,5801 Clarksville Square Drive,Clarksville,MD,Howard,21019,-8564647.00322,4752058.31818,473
+474,Fast Food,McDonald's,12820 Clear Spring Rd,Clear Spring,MD,Washington,21722,-8674900.68095,4815995.59095,474
+475,Fast Food,Pizza Hut,8909 Branch Ave.,Clinton,MD,Prince George's,20735,-8559125.9701,4688629.78573,475
+476,Fast Food,Pizza Hut,6409 Old Alexandria Ferry Rd,Clinton,MD,Prince George's,20735,-8559979.58249,4691056.51383,476
+477,Fast Food,Arby's,8921 Woodyard Rd.,Clinton,MD,Prince George's,20735,-8559228.99033,4688329.87614,477
+478,Fast Food,Checkers,8815 Woodyard Road,Clinton,MD,Prince George's,20735,-8558485.58871,4688725.22462,478
+479,Fast Food,Five Guys,7730 Old Branch Ave.,Clinton,MD,Prince George's,20735,-8560253.87756,4690796.75955,479
+480,Fast Food,KFC,6510 Coventry Way,Clinton,MD,Prince George's,20735,-8559825.98495,4690681.91903,480
+481,Fast Food,McDonald's,6515 Old Alexandria Ferry Road,Clinton,MD,Prince George's,20735,-8559816.13702,4690936.17198,481
+482,Fast Food,McDonald's,8755 Branch Ave,Clinton,MD,Prince George's,20735,-8559081.32983,4689054.79505,482
+483,Fast Food,McDonald's,8905 Stuart Lane,Clinton,MD,Prince George's,20735,-8558939.79088,4688408.16938,483
+484,Fast Food,Panda Express,8871 Branch Ave.,Clinton,MD,Prince George's,20735,-8559102.98937,4688728.75609,484
+485,Fast Food,Popeye's,8817 Woodyard Rd,Clinton,MD,Prince George's,20735,-8558488.68438,4688723.25761,485
+486,Fast Food,Subway,8985 Woodyard Rd,Clinton,MD,Prince George's,20735,-8559751.41977,4688266.18136,486
+487,Fast Food,Subway,7718 Old Branch Avenue,Clinton,MD,Prince George's,20735,-8560249.21263,4690816.20902,487
+488,Fast Food,Taco Bell,6420 Coventry Way,Clinton,MD,Prince George's,20735,-8560042.31162,4690527.16882,488
+489,Fast Food,Wendy's,8907 Woodyard Rd,Clinton,MD,Prince George's,20735,-8559041.09419,4688390.48653,489
+490,Fast Food,Pizza Hut,9946 York Rd,Cockeysville,MD,Baltimore,21030,-8531070.47879,4788194.17117,490
+491,Fast Food,Arby's,11025 York Rd,Cockeysville,MD,Baltimore,21030,-8532242.76803,4791699.31745,491
+492,Fast Food,Burger King,150 Cranbrook Road,Cockeysville,MD,Baltimore,21030,-8530830.03512,4788448.83789,492
+493,Fast Food,Chik-Fil-A,10142 York Rd,Cockeysville,MD,Baltimore,21030,-8531240.43344,4788692.98305,493
+494,Fast Food,Five Guys,10015 York Road,Cockeysville,MD,Baltimore,21030,-8531092.553,4788310.35134,494
+495,Fast Food,Jimmy Johns,10128 York Road,Cockeysville,MD,Baltimore,21030,-8531227.81021,4788655.47135,495
+496,Fast Food,McDonald's,528 Cranbrook Rd,Cockeysville,MD,Baltimore,21030,-8529757.83402,4789445.12526,496
+497,Fast Food,McDonald's,11310 York Rd,Cockeysville,MD,Baltimore,21030,-8532629.15497,4792769.60775,497
+498,Fast Food,Popeye's,1 Cranbrook Road,Cockeysville,MD,Baltimore,21030,-8531072.77436,4788249.24463,498
+499,Fast Food,Subway,11235 York Rd,Cockeysville,MD,Baltimore,21030,-8532520.07406,4792507.34534,499
+500,Fast Food,Subway,10041 York Rd,Cockeysville,MD,Baltimore,21030,-8531120.53833,4788391.35086,500
+501,Fast Food,Taco Bell,9928 York Rd,Cockeysville,MD,Baltimore,21030,-8531039.64607,4788100.94535,501
+502,Fast Food,Wendy's,9817 York Rd,Cockeysville,MD,Baltimore,21030,-8530895.10686,4787718.64961,502
+503,Fast Food,Pizza Hut,9015 Baltimore Ave,College Park,MD,Prince George's,20740,-8563949.03787,4721627.3319,503
+504,Fast Food,Burger King,8510 Baltimore Boulevard,College Park,MD,Prince George's,20740,-8564058.57679,4720932.07885,504
+505,Fast Food,Chik-Fil-A,1150 S Campus Dining Hall,College Park,MD,Prince George's,20742,-8565487.71737,4719323.33464,505
+506,Fast Food,Jimmy Johns,7410 A Baltimore Ave.,College Park,MD,Prince George's,20740,-8564701.96074,4719002.47163,506
+507,Fast Food,McDonald's,University Of Maryland,College Park,MD,Prince George's,20740,-8565599.47298,4719831.25328,507
+508,Fast Food,McDonald's,8301 Baltimore Blvd,College Park,MD,Prince George's,20740,-8564160.12668,4720593.40107,508
+509,Fast Food,Panda Express,8082 Baltimore Ave,College Park,MD,Prince George's,20740,-8565509.10421,4720063.14062,509
+510,Fast Food,Subway,7411 Baltimore Ave,College Park,MD,Prince George's,21740,-8564672.23146,4719002.47163,510
+511,Fast Food,Subway,3711 Campus Drive,College Park,MD,Prince George's,20740,-8565991.62308,4719478.77687,511
+512,Fast Food,Subway,1220 Stamp Student Union,College Park,MD,Prince George's,20742,-8565520.02784,4719870.2203,512
+513,Fast Food,Taco Bell,8428 Baltimore Ave,College Park,MD,Prince George's,20740,-8564105.80106,4720795.76178,513
+514,Fast Food,Burger King,3933 Bladensburg Road,Colmar Manor,MD,Prince George's,20722,-8565935.22504,4712461.38278,514
+515,Fast Food,KFC,4021 Bladensburg Rd,Colmar Manor,MD,Prince George's,20722,-8565822.8106,4712526.30734,515
+516,Fast Food,McDonald's,4101 Bladensburg Rd,Colmar Manor,MD,Prince George's,20722,-8565742.22288,4712569.49317,516
+517,Fast Food,Subway,3691 Bladensburg Rd,Colmar Manor,MD,Prince George's,20722,-8566247.15934,4712282.94684,517
+518,Fast Food,Pizza Hut,7106 Minstrel Way,Columbia,MD,Howard,21045,-8554290.40094,4747046.74295,518
+519,Fast Food,Pizza Hut,9160 Route 108,Columbia,MD,Howard,21045,-8552723.81079,4755279.71557,519
+520,Fast Food,Arby's,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,520
+521,Fast Food,Charley's,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,521
+522,Fast Food,Chik-Fil-A,4905 Executive Park Dr,Columbia,MD,Howard,21045,-8550981.18428,4755445.2587,522
+523,Fast Food,Chik-Fil-A,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,523
+524,Fast Food,Chik-Fil-A,6375 Dobbin Rd,Columbia,MD,Howard,21045,-8551593.70587,4749970.68012,524
+525,Fast Food,Dunkin' Donuts,5485 Harpers Farm Rd,Columbia,MD,Howard,21044,-8559380.0223,4753473.2038,525
+526,Fast Food,Five Guys,6435 Dobbins Center Way,Columbia,MD,Howard,21045,-8551678.43002,4749973.54084,526
+527,Fast Food,Five Guys,10300 Little Patuxent Parkway,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,527
+528,Fast Food,Jimmy Johns,6191 Old Dobbin Lane,Columbia,MD,Howard,21045,-8550781.92972,4750822.52598,528
+529,Fast Food,Jimmy Johns,8827 Centre Park Dr,Columbia,MD,Howard,21045,-8551027.46769,4754279.79485,529
+530,Fast Food,KFC,7125 Minstrel Way,Columbia,MD,Howard,21045,-8554290.04144,4747089.48135,530
+531,Fast Food,Panda Express,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,531
+532,Fast Food,Popeye's,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,532
+533,Fast Food,Subway,10300 Little Patuxent Pkwy,Columbia,MD,Howard,21044,-8555789.00307,4752774.77149,533
+534,Fast Food,Subway,7248 Cradlerock Way,Columbia,MD,Howard,21045,-8554287.74346,4748306.10343,534
+535,Fast Food,Subway,6420 Freetown Rd,Columbia,MD,Howard,21045,-8558612.67448,4749767.10111,535
+536,Fast Food,Subway,7106 Minstrel Way,Columbia,MD,Howard,21044,-8554290.40094,4747046.74295,536
+537,Fast Food,Subway,8640 Guilford Rd,Columbia,MD,Howard,21046,-8556455.80974,4746191.27723,537
+538,Fast Food,Subway,5485 Harpers Farm Rd,Columbia,MD,Howard,21044,-8559380.0223,4753473.2038,538
+539,Fast Food,Subway,8775 Cloudleap Court,Columbia,MD,Howard,21045,-8551301.02433,4751454.02207,539
+540,Fast Food,Subway,6251 Columbia Crossing,Columbia,MD,Howard,21045,-8550978.60339,4750060.98007,540
+541,Fast Food,Subway,8765 Centre Park Dr,Columbia,MD,Howard,21045,-8551203.73862,4754149.0826,541
+542,Fast Food,Taco Bell,7102 Minstrel Way,Columbia,MD,Howard,21045,-8554293.99406,4747038.16316,542
+543,Fast Food,Wendy's,9150 Rt 108,Columbia,MD,Howard,21045,-8552714.86498,4755254.10592,543
+544,Fast Food,Wendy's,6355 Dobbin Road,Columbia,MD,Howard,21045,-8551574.88931,4749989.5566,544
+545,Fast Food,McDonald's,15713 Mcmullen Hwy SW,Cresaptown,MD,Allegany,21502,-8777242.30308,4805028.66394,545
+546,Fast Food,Subway,16018 Mcmullen Hwy,Cresaptown,MD,Allegany,21502,-8777409.25889,4804470.95398,546
+547,Fast Food,McDonald's,10 Maryland Ave,Crisfield,MD,Somerset,21817,-8442894.81288,4578189.82462,547
+548,Fast Food,Burger King,2217 F. Defense Highway,Crofton,MD,Anne Arundel,21114,-8538344.51073,4720488.26282,548
+549,Fast Food,Checkers,1645 Crofton Centre,Crofton,MD,Anne Arundel,21114,-8537779.07064,4724092.99804,549
+550,Fast Food,Dunkin' Donuts,1200 Route 3,Crofton,MD,Anne Arundel,21114,-8537802.66445,4724245.51478,550
+551,Fast Food,Subway,2211 Defense Hwy,Crofton,MD,Anne Arundel,21114,-8538337.68469,4720491.89976,551
+552,Fast Food,Taco Bell,1088 Maryland Route 3 N,Crofton,MD,Anne Arundel,21114,-8538337.68469,4720491.89976,552
+553,Fast Food,Subway,1321 Generals Highway,Crownsville,MD,Anne Arundel,21032,-8527451.89119,4726343.93821,553
+554,Fast Food,Pizza Hut,1310 Industrial Blvd,Cumberland,MD,Allegany,21502,-8765847.34189,4812260.38277,554
+555,Fast Food,Pizza Hut,1266 National Hwy,Cumberland,MD,Allegany,21502,-8776564.24031,4813252.03759,555
+556,Fast Food,Burger King,1290 Industrial Boulevard,Cumberland,MD,Allegany,21502,-8765937.4831,4812288.33977,556
+557,Fast Food,Chik-Fil-A,221 Williams St,Cumberland,MD,Allegany,21502,-8767146.51107,4814934.66594,557
+558,Fast Food,Chik-Fil-A,1262 Vocke Rd,Cumberland,MD,Allegany,21502,-8775874.13857,4812527.466,558
+559,Fast Food,Dairy Queen,1330 W Industrial Blvd,Cumberland,MD,Allegany,21502,-8765766.9557,4812229.58569,559
+560,Fast Food,KFC,506 Springdale St,Cumberland,MD,Allegany,21502,-8768090.65081,4812909.51612,560
+561,Fast Food,KFC,1233 National Hwy,Cumberland,MD,Allegany,21502,-8776102.81607,4813321.61719,561
+562,Fast Food,McDonald's,22 Queen City Dr,Cumberland,MD,Allegany,21502,-8767398.07209,4815149.24953,562
+563,Fast Food,McDonald's,620 Industrial Blvd,Cumberland,MD,Allegany,21502,-8767107.93659,4812498.01152,563
+564,Fast Food,Roy Rogers,624 Queen City Drive,Cumberland,MD,Allegany,21502,-8767516.03404,4814968.45193,564
+565,Fast Food,Subway,66 Queens City Dr,Cumberland,MD,Allegany,21502,-8768054.14043,4815966.95755,565
+566,Fast Food,Subway,400 Maryland Ave,Cumberland,MD,Allegany,21502,-8766996.57012,4815176.01697,566
+567,Fast Food,Subway,1050 Industrial Blvd,Cumberland,MD,Allegany,21502,-8767015.98896,4812446.1814,567
+568,Fast Food,Taco Bell,334 Queen City Drive,Cumberland,MD,Allegany,21502,-8767455.77588,4815000.76022,568
+569,Fast Food,Wendy's,325 S. Centre Street,Cumberland,MD,Allegany,21502,-8766900.71691,4815340.89224,569
+570,Fast Food,Subway,8111 Fort Smallwood Road,Curtis Bay,MD,Anne Arundel,21226,-8519263.60637,4745648.05078,570
+571,Fast Food,Pizza Hut,9899 Main St,Damascus,MD,Montgomery,20872,-8594322.1585,4763074.46982,571
+572,Fast Food,Burger King,9936 Main Street,Damascus,MD,Montgomery,20872,-8594432.59833,4763066.10404,572
+573,Fast Food,Dunkin' Donuts,9803 Main St,Damascus,MD,Montgomery,29872,-8594064.38142,4762976.40037,573
+574,Fast Food,McDonald's,26429 Ridge Rd,Damascus,MD,Montgomery,20872,-8594408.66253,4763322.5922,574
+575,Fast Food,Subway,9870 B Main St,Damascus,MD,Montgomery,20872,-8594273.25175,4763040.31317,575
+576,Fast Food,Subway,5809-F Churchton Road,Deale,MD,Anne Arundel,20751,-8521101.96976,4692002.37437,576
+577,Fast Food,Dunkin' Donuts,8600 Ocean Hwy,Delmar,MD,Wicomico,21875,-8411827.95103,4639616.49414,577
+578,Fast Food,Arby's,700 N 6Th St,Denton,MD,Caroline,21629,-8440090.60716,4706755.419,578
+579,Fast Food,Burger King,604 North Sixth Street,Denton,MD,Caroline,21629,-8440292.32508,4706403.89053,579
+580,Fast Food,Dunkin' Donuts,601 Legion Rd,Denton,MD,Caroline,21629,-8440635.34237,4703909.1343,580
+581,Fast Food,McDonald's,15801 Frederick Rd,Derwood,MD,Montgomery,20855,-8589907.36187,4738122.41951,581
+582,Fast Food,McDonald's,7200 Muncaster Mill Road,Derwood,MD,Montgomery,20855,-8587719.31342,4742599.28339,582
+583,Fast Food,Subway,7216 Muncaster Mill Rd.,Derwood,MD,Montgomery,20855,-8587766.86546,4742620.99401,583
+584,Fast Food,Wendy's,15807 Frederick Road,Derwood,MD,Montgomery,20855,-8589917.81958,4738130.50658,584
+585,Fast Food,Checkers,6401 Marlboro Pike,District Heights,MD,Prince George's,20747,-8560115.50415,4700668.77787,585
+586,Fast Food,Chik-Fil-A,5502 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8562105.54224,4700539.49331,586
+587,Fast Food,Dunkin' Donuts,5412 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8562124.01251,4700537.05377,587
+588,Fast Food,KFC,6615 Marlboro Pike,District Heights,MD,Prince George's,20747,-8559594.04039,4700479.31585,588
+589,Fast Food,KFC,5409 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8562181.22536,4700504.73695,589
+590,Fast Food,New York Fried Chicken,7621 Marlboro Pike,District Heights,MD,Prince George's,20747,-8557675.76965,4699523.21702,590
+591,Fast Food,Panda Express,5410 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8562124.42287,4700536.99965,591
+592,Fast Food,Popeye's,5320 Marlboro Pike,District Heights,MD,Prince George's,20747,-8562202.97621,4702337.81534,592
+593,Fast Food,Subway,5748 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8561332.76904,4700838.08722,593
+594,Fast Food,Taco Bell,3330 Donnell Dr,District Heights,MD,Prince George's,20747,-8558765.68167,4699650.74692,594
+595,Fast Food,Wendy's,5425 Silver Hill Rd,District Heights,MD,Prince George's,20747,-8562163.61795,4700505.68772,595
+596,Fast Food,Chik-Fil-A,7907 Eastern Ave,Dundalk,MD,Baltimore,21224,-8516922.75086,4764109.70648,596
+597,Fast Food,Dunkin' Donuts,600 Dundalk Ave,Dundalk,MD,Baltimore,21224,-8520480.46331,4762660.00052,597
+598,Fast Food,Quiznos,7730 Wise Avenue,Dundalk,MD,Baltimore,21222,-8516078.17479,4760309.0616,598
+599,Fast Food,Subway,19 Shipping Place,Dundalk,MD,Baltimore,21222,-8518501.72027,4758716.11879,599
+600,Fast Food,Subway,6616 Holabird Ave,Dundalk,MD,Baltimore,21224,-8519618.76006,4760789.03636,600
+601,Fast Food,Taco Bell,7835 Eastpoint Mall,Dundalk,MD,Baltimore,21224,-8516965.1274,4763558.46349,601
+602,Fast Food,Taco Bell,7815 Wise Ave,Dundalk,MD,Baltimore,21222,-8515817.24028,4760147.87693,602
+603,Fast Food,Wendy's,1320 Merritt Blvd,Dundalk,MD,Baltimore,21222,-8516507.63185,4761781.45714,603
+604,Fast Food,McDonald's,10850 Town Center Blvd,Dunkirk,MD,Calvert,20754,-8533526.46298,4682438.08977,604
+605,Fast Food,Burger King,100 West Pulaski Highway,Elkton,MD,Cecil,21921,-8441139.80771,4807989.32605,605
+606,Fast Food,Pizza Hut,3135 Joseph Biggs Highway,North East,MD,Cecil,21901,-8455896.43738,4813936.03162,606
+607,Fast Food,Dunkin' Donuts,JFK Memorial Turnpike,North East,MD,Cecil,21901,-8454680.28243,4809573.20469,607
+608,Fast Food,Burger King,2208 University Boulevard,East Adelphi,MD,Prince George's,20783,-8568910.38043,4719353.71143,608
+609,Fast Food,Pizza Hut,8305 Oceangate Way,Easton,MD,Talbot,21601,-8466969.30399,4689759.59445,609
+610,Fast Food,Arby's,8359 Ocean Gateway,Easton,MD,Talbot,21601,-8466967.67777,4689974.34654,610
+611,Fast Food,Burger King,8192 Ocean Gateway,Easton,MD,Talbot,21601,-8467001.98558,4689393.35069,611
+612,Fast Food,Chik-Fil-A,28632 Marlboro Ave,Easton,MD,Talbot,21601,-8469658.65243,4690497.68961,612
+613,Fast Food,Dairy Queen,8438 Ocean Gateway,Easton,MD,Talbot,21601,-8466998.11214,4690280.23294,613
+614,Fast Food,Dunkin' Donuts,8461 Ocean Gtwy,Easton,MD,Talbot,21609,-8466965.57252,4690379.00038,614
+615,Fast Food,KFC,8091 Ocean Gateway,Easton,MD,Talbot,20601,-8466972.80451,4689032.37337,615
+616,Fast Food,Popeye's,8199 Ocean Gateway,Easton,MD,Talbot,21601,-8466971.00299,4689405.29875,616
+617,Fast Food,Quiznos,8168 Elliott Rd,Easton,MD,Talbot,21601,-8466663.87317,4689287.8939,617
+618,Fast Food,Sonic Drive-In,8475 Ocean Gateway,Easton,MD,Talbot,21601,-8466965.57252,4690441.65285,618
+619,Fast Food,Subway,210 Marlboro Rd,Easton,MD,Talbot,21601,-8469172.12778,4690251.99012,619
+620,Fast Food,Subway,8448 Ocean Gateway,Easton,MD,Talbot,21601,-8466998.11214,4690324.83065,620
+621,Fast Food,Taco Bell,8091 Ocean Gateway,Easton,MD,Talbot,21601,-8466972.80451,4689032.37337,621
+622,Fast Food,Pizza Hut,3220 Solomon's Island Rd,Edgewater,MD,Anne Arundel,21037,-8523468.25885,4712032.06232,622
+623,Fast Food,Pizza Hut,1009 Edgewood Rd,Edgewood,MD,Harford,21040,-8494386.02573,4784133.61626,623
+624,Fast Food,Arby's,5 Mayo Rd,Edgewater,MD,Anne Arundel,21037,-8522977.88789,4713111.23162,624
+625,Fast Food,Burger King,3111 Solomons Island Road,Edgewater,MD,Anne Arundel,21037,-8523187.77175,4712927.3266,625
+626,Fast Food,Checkers,1926 Pulaski Highway,Edgewood,MD,Harford,21040,-8495307.21687,4784241.88568,626
+627,Fast Food,Chik-Fil-A,3220 Solomons Island Rd,Edgewater,MD,Anne Arundel,21037,-8523468.25885,4712032.06232,627
+628,Fast Food,Dunkin' Donuts,3033 Solomons Island Rd,Edgewater,MD,Anne Arundel,21037,-8522759.44135,4713533.79557,628
+629,Fast Food,Five Guys,3059 Solomon's Island Rd,Edgewater,MD,Anne Arundel,21037,-8522873.66211,4713344.53596,629
+630,Fast Food,Popeye's,98 E Central Ave,Edgewater,MD,Anne Arundel,21037,-8523196.71166,4711158.21234,630
+631,Fast Food,Popeye's,1011 Woodbridge Ctr Way,Edgewood,MD,Harford,21040,-8496739.77607,4783769.03214,631
+632,Fast Food,Sonic Drive-In,3106 B Solomons Island Road,Edgewater,MD,Anne Arundel,21037,-8523207.19039,4712957.99533,632
+633,Fast Food,Subway,#11 Lee Airpark Drive,Edgewater,MD,Anne Arundel,21037,-8523154.32971,4713458.33676,633
+634,Fast Food,Subway,196 Mayo Rd,Edgewater,MD,Anne Arundel,21037,-8522214.02717,4711749.16111,634
+635,Fast Food,Subway,1401 Pulaski Hwy,Edgewood,MD,Harford,21040,-8496747.41603,4783918.69297,635
+636,Fast Food,Taco Bell,3091 Solomons Island Rd,Edgewater,MD,Anne Arundel,21037,-8523078.46849,4713071.14825,636
+637,Fast Food,Taco Bell,2155 Pulaski Hwy,Edgewood,MD,Harford,21040,-8494570.33455,4784345.64137,637
+638,Fast Food,Wendy's,100 E Central Ave,Edgewater,MD,Anne Arundel,21037,-8523183.21024,4711156.58072,638
+639,Fast Food,KFC,2000A Pulaski Highway,Edgewood,MD,Harford,21040,-8494966.14986,4784307.64051,639
+640,Fast Food,McDonald's,2201 Pulaski Hwy,Edgewood,MD,Harford,21040,-8494423.63903,4784374.07499,640
+641,Fast Food,Subway,2244 A Hanson Rd,Edgewood,MD,Harford,21040,-8493500.17945,4783045.38155,641
+642,Fast Food,Wendy's,1950 Pulaski Highway,Edgewood,MD,Harford,21040,-8495189.91035,4784264.53813,642
+643,Fast Food,Pizza Hut,6323 Sykesville Rd,Eldersburg,MD,Carroll,21784,-8566310.80459,4779138.1023,643
+644,Fast Food,Arby's,1438 Liberty Rd,Eldersburg,MD,Carroll,21784,-8565363.70384,4779437.70437,644
+645,Fast Food,Dairy Queen,2030 Liberty Rd,Eldersburg,MD,Carroll,21784,-8563096.52681,4778684.15475,645
+646,Fast Food,Dunkin' Donuts,1945 Liberty Rd,Eldersburg,MD,Carroll,21784,-8563409.49817,4778750.67733,646
+647,Fast Food,Five Guys,1311 Londontown Blvd.,Eldersburg,MD,Carroll,21784,-8565918.49902,4780313.26418,647
+648,Fast Food,KFC,1314 Londontown Blvd,Eldersburg,MD,Carroll,21784,-8565859.34169,4780313.87303,648
+649,Fast Food,McDonald's,1722 Liberty Rd,Eldersburg,MD,Carroll,21784,-8564339.80292,4779082.55176,649
+650,Fast Food,Subway,5959 Exchange Drive,Eldersburg,MD,Carroll,21784,-8569567.75344,4781274.16878,650
+651,Fast Food,Subway,1320 Liberty Rd.,Eldersburg,MD,Carroll,21784,-8565883.69005,4779649.92435,651
+652,Fast Food,Subway,1912 Liberty Rd,Eldersburg,MD,Carroll,21784,-8563492.29296,4778792.73052,652
+653,Fast Food,Wendy's,6400 Ridge Rd,Eldersburg,MD,Carroll,21784,-8564053.94701,4778830.69925,653
+654,Fast Food,Pizza Hut,7260 Montgomery Rd,Elkridge,MD,Howard,21075,-8541326.68418,4751559.66582,654
+655,Fast Food,Dunkin' Donuts,6305 Washington Blvd,Elkridge,MD,Howard,21075,-8541247.89848,4751341.03681,655
+656,Fast Food,Fatburger,6630 Marie Curie Dr,Elkridge,MD,Howard,21075,-8548738.68037,4748606.64772,656
+657,Fast Food,KFC,6281 Washington Blvd,Elkridge,MD,Howard,21075,-8541131.62571,4751462.44567,657
+658,Fast Food,Quiznos,6500 Washington Blvd,Elkridge,MD,Howard,21075,-8542052.4985,4750604.02521,658
+659,Fast Food,Subway,6790 Meadowridge Business Pkwy,Elkridge,MD,Howard,21075,-8545689.91487,4747921.90559,659
+660,Fast Food,Subway,6240 Washington Blvd,Elkridge,MD,Howard,21705,-8540982.10563,4751641.67278,660
+661,Fast Food,Taco Bell,6281 Washington Blvd,Elkridge,MD,Howard,21075,-8541131.62571,4751462.44567,661
+662,Fast Food,Wendy's,7311 Washington Blvd,Elkridge,MD,Howard,21075,-8545333.13016,4748017.61345,662
+663,Fast Food,Pizza Hut,350 E Pulaski Hwy,Elkton,MD,Cecil,21921,-8439769.89453,4807701.2035,663
+664,Fast Food,Chik-Fil-A,1100 E Pulaski Hwy,Elkton,MD,Cecil,21921,-8437068.99026,4808680.21145,664
+665,Fast Food,Dunkin' Donuts,102 Big Elk Mall,Elkton,MD,Cecil,21921,-8440710.62135,4807871.43489,665
+666,Fast Food,KFC,260 Belle Hill Road,Elkton,MD,Cecil,21921,-8438761.13906,4813155.9006,666
+667,Fast Food,KFC,224 E. Pulaski Highway,Elkton,MD,Cecil,21921,-8440334.90244,4807726.70126,667
+668,Fast Food,McDonald's,101 E Pulaski Hwy,Elkton,MD,Cecil,21921,-8441095.27145,4808020.94072,668
+669,Fast Food,McDonald's,226 Belle Hill Rd,Elkton,MD,Cecil,21921,-8438938.32231,4813212.06578,669
+670,Fast Food,McDonald's,1000 E Pulaski Hwy,Elkton,MD,Cecil,21921,-8437261.28643,4808602.35218,670
+671,Fast Food,Popeye's,106 Big Elk Mall Rt 40,Elkton,MD,Cecil,21921,-8440710.52113,4807872.51628,671
+672,Fast Food,Sonic Drive-In,103 East Pulaski Highway,Elkton,MD,Cecil,21921,-8441090.17534,4808018.97514,672
+673,Fast Food,Subway,108 Big Elk Mall,Elkton,MD,Cecil,21921,-8440710.47098,4807873.05691,673
+674,Fast Food,Taco Bell,110 E Pulaski Hwy,Elkton,MD,Cecil,21921,-8441068.66537,4807961.43355,674
+675,Fast Food,Taco Bell,260 Belle Hill Rd,Elkton,MD,Cecil,21921,-8438761.13906,4813155.9006,675
+676,Fast Food,Pizza Hut,10120 Baltimore National Pike,Ellicott City,MD,Howard,21042,-8556142.71084,4761807.26277,676
+677,Fast Food,Arby's,3290 Centennial Ln,Ellicott City,MD,Howard,21042,-8556099.53911,4761673.81024,677
+678,Fast Food,Burger King,9195 Baltimore National Pike,Ellicott City,MD,Howard,21042,-8552617.14889,4761435.61987,678
+679,Fast Food,Checkers,9447 Baltimore National Pike,Ellicott City,MD,Howard,21042,-8553495.25209,4761517.51773,679
+680,Fast Food,Dunkin' Donuts,9469 Baltimore National Pike,Ellicott City,MD,Howard,21042,-8553573.67829,4761525.41936,680
+681,Fast Food,Dunkin' Donuts,8455 Baltimore National Pike,Ellicott City,MD,Howard,21043,-8549876.86002,4762666.25002,681
+682,Fast Food,Jimmy Johns,9339 Baltimore National Pike,Ellicott City,MD,Howard,21042,-8553071.9267,4761477.40922,682
+683,Fast Food,KFC,4394 Montgomery Road,Ellicott City,MD,Howard,21043,-8551050.45002,4757820.10118,683
+684,Fast Food,Subway,4725 E Dorsey Hall Dr,Ellicott City,MD,Howard,21042,-8554018.44129,4756672.80208,684
+685,Fast Food,Subway,6010 University Blvd,Ellicott City,MD,Howard,21043,-8549068.05269,4751719.36734,685
+686,Fast Food,Subway,4398 Montgomery Road,Ellicott City,MD,Howard,21043,-8551214.56974,4757945.71581,686
+687,Fast Food,Subway,9275 Baltimore National Pike,Ellicott City,MD,Howard,20742,-8552843.55874,4761456.90703,687
+688,Fast Food,Subway,8300 Baltimore National Pike,Ellicott City,MD,Howard,21043,-8549267.52479,4763186.72351,688
+689,Fast Food,Subway,8145 Main Street,Ellicott City,MD,Howard,21043,-8549011.45273,4760037.52007,689
+690,Fast Food,Pizza Hut,210 S. Seton Ave,Emmitsburg,MD,Frederick,21727,-8608088.57746,4822814.07058,690
+691,Fast Food,McDonald's,517 E Main Street,Emmitsburg,MD,Frederick,21727,-8606898.83087,4822882.81791,691
+692,Fast Food,Subway,101 Silo Hill Rd,Emmitsburg,MD,Frederick,21727,-8606910.36188,4822874.419,692
+693,Fast Food,Dunkin' Donuts,1602 Eastern Blvd,Essex,MD,Baltimore,21221,-8510847.11859,4767685.68588,693
+694,Fast Food,McDonald's,2119 Eastern Blvd,Essex,MD,Baltimore,21220,-8509384.50184,4768826.36171,694
+695,Fast Food,McDonald's,205 Back River Neck Rd,Essex,MD,Baltimore,21221,-8509665.87382,4765790.42525,695
+696,Fast Food,McDonald's,1000 Eastern Ave,Essex,MD,Baltimore,21221,-8511864.42783,4766600.24577,696
+697,Fast Food,McDonald's,3423 Eastern Blvd,Essex,MD,Baltimore,21220,-8505220.2628,4770163.11599,697
+698,Fast Food,New York Fried Chicken,151 Back River Neck Road,Essex,MD,Baltimore,21221,-8509792.15509,4765974.38526,698
+699,Fast Food,Taco Bell,700 Eastern Blvd,Essex,MD,Baltimore,21221,-8512708.23224,4766230.52363,699
+700,Fast Food,Wendy's,1344 Eastern Boulevard,Essex,MD,Baltimore,21221,-8511567.81739,4767039.50455,700
+701,Fast Food,Burger King,305 Mountain Road,Fallston,MD,Harford,21047,-8504102.02037,4792319.46588,701
+702,Fast Food,McDonald's,2404 Bel Air Road,Fallston,MD,Harford,21047,-8504167.23998,4792384.09379,702
+703,Fast Food,Subway,303 Fallston Blvd,Fallston,MD,Harford,21047,-8503255.08715,4793543.65563,703
+704,Fast Food,McDonald's,327 Bloomingdale Ave,Federalsburg,MD,Caroline,21632,-8436233.07888,4678444.21097,704
+705,Fast Food,Arby's,3004 Gamber Rd,Finksburg,MD,Carroll,21048,-8559634.83256,4792745.06692,705
+706,Fast Food,Subway,2284 Baltimore Blvd,Finksburg,MD,Carroll,21048,-8562193.66729,4796679.27626,706
+707,Fast Food,Subway,3949 Sykesville Road,Finksburg,MD,Carroll,21048,-8564407.75869,4788569.29466,707
+708,Fast Food,McDonald's,5501 Livingston Rd,Forest Heights,MD,Prince George's,20745,-8571389.41153,4695254.87326,708
+709,Fast Food,Pizza Hut,5 Newport Dr,Forest Hill,MD,Harford,21050,-8503105.21197,4804845.10498,709
+710,Fast Food,Chik-Fil-A,1980 Rock Spring Rd,Forest Hill,MD,Harford,21050,-8502604.57062,4803708.36768,710
+711,Fast Food,Subway,2 Myers Dr,Forest Hill,MD,Harford,21050,-8503135.19153,4804120.50723,711
+712,Fast Food,Pizza Hut,5690 Silver Hill Rd,Forestville,MD,Prince George's,20747,-8562066.95994,4700544.58912,712
+713,Fast Food,Arby's,3317 Donnell Dr,Forestville,MD,Prince George's,20747,-8558804.72628,4699686.65634,713
+714,Fast Food,Burger King,5730 Silver Hill Road,Forestville,MD,Prince George's,20747,-8561363.07086,4700817.06961,714
+715,Fast Food,Five Guys,3238 Donnell Drive,Forestville,MD,Prince George's,20747,-8558782.9482,4699767.80272,715
+716,Fast Food,Long John Silvers,3444 Donnell Drive,Forestville,MD,Prince George's,20747,-8558752.02718,4699539.08638,716
+717,Fast Food,McDonald's,6704 Chavez Ln,Forestville,MD,Prince George's,20747,-8559559.06974,4699412.41715,717
+718,Fast Food,Subway,3388 Donnell Drive,Forestville,MD,Prince George's,20747,-8558758.18107,4699594.16768,718
+719,Fast Food,Wendy's,3440 Donnell Drive,Forestville,MD,Prince George's,20747,-8558752.37948,4699543.00671,719
+720,Fast Food,Burger King,1405 Porter St.,Fort Detrick,MD,Frederick,21702,-8618683.65621,4784494.56609,720
+721,Fast Food,Subway,1405 Porter Street,Fort Detrick,MD,Frederick,21702,-8618683.65621,4784494.56609,721
+722,Fast Food,Burger King,2794 Rose Street,Fort Meade,MD,Anne Arundel,20755,-8542119.6703,4737262.53266,722
+723,Fast Food,Charley's,2790 Mcauthor Rd,Fort Meade,MD,Anne Arundel,20755,-8542559.57576,4737167.73737,723
+724,Fast Food,Dunkin' Donuts,McArthur Blvd,Fort Meade,MD,Anne Arundel,20755,-8542559.57576,4737167.73737,724
+725,Fast Food,Subway,2790 Mcarthur Road,Fort Meade,MD,Anne Arundel,20755,-8542559.57576,4737167.73737,725
+726,Fast Food,Pizza Hut,972 Swan Creek Rd E,Fort Washington,MD,Prince George's,20744,-8570737.31533,4682376.53734,726
+727,Fast Food,KFC,9598 Livingston Rd,Fort Washington,MD,Prince George's,20744,-8571218.61082,4687038.22591,727
+728,Fast Food,McDonald's,996 E Swan Creek,Fort Washington,MD,Prince George's,20744,-8573886.91951,4682256.72336,728
+729,Fast Food,McDonald's,9596 Livingston Rd,Fort Washington,MD,Prince George's,20744,-8571215.57372,4687042.31783,729
+730,Fast Food,McDonald's,7100 Allentown Road,Fort Washington,MD,Prince George's,20744,-8563655.32116,4692099.76001,730
+731,Fast Food,Subway,932 E Swan Creek Rd,Fort Washington,MD,Prince George's,20744,-8573794.85594,4682291.78076,731
+732,Fast Food,Wendy's,11815 Livingston Road,Fort Washington,MD,Prince George's,20744,-8570558.98379,4682621.30629,732
+733,Fast Food,Pizza Hut,5420 A Urbana Pike,Frederick,MD,Frederick,21704,-8616086.99873,4776341.71327,733
+734,Fast Food,Pizza Hut,425 South Jefferson St,Frederick,MD,Frederick,21704,-8619363.56284,4780250.54165,734
+735,Fast Food,Pizza Hut,1220 W Patrick,Frederick,MD,Frederick,21703,-8621853.22303,4781760.18832,735
+736,Fast Food,Pizza Hut,1830 Rosemont Ave,Frederick,MD,Frederick,21702,-8619877.10744,4783557.50849,736
+737,Fast Food,Pizza Hut,3540 Sugarloaf Pkwy,Frederick,MD,Frederick,21704,-8610708.31086,4769002.17036,737
+738,Fast Food,Arby's,7389 Guilford Dr,Frederick,MD,Frederick,21704,-8617650.86703,4778308.35555,738
+739,Fast Food,Arby's,1203 W Patrick St,Frederick,MD,Frederick,21702,-8621796.97647,4781810.86889,739
+740,Fast Food,Blimpie,7402 Shockley Drive,Frederick,MD,Frederick,21704,-8617206.83485,4775640.68504,740
+741,Fast Food,Blimpie,2050 Yellow Springs Rd.,Frederick,MD,Frederick,21702,-8620266.61498,4784957.03031,741
+742,Fast Food,Burger King,101 Routzhan's Way,Frederick,MD,Frederick,21701,-8615589.74677,4785501.00136,742
+743,Fast Food,Burger King,5722 Buckeystown Pike,Frederick,MD,Frederick,21704,-8617181.85979,4777939.91909,743
+744,Fast Food,Burger King,1302 East Pratick Street,Frederick,MD,Frederick,21701,-8616476.85747,4783420.86884,744
+745,Fast Food,Burger King,1003 West Patrick Street,Frederick,MD,Frederick,21702,-8620726.62875,4781562.20048,745
+746,Fast Food,Burger King,1448 West Patrick Street,Frederick,MD,Frederick,21702,-8623312.14595,4782141.09944,746
+747,Fast Food,Checkers,5731 Buckeystown Pike,Frederick,MD,Frederick,21701,-8617166.82196,4777970.19908,747
+748,Fast Food,Chik-Fil-A,5501 Urbana Pike,Frederick,MD,Frederick,21704,-8616194.76097,4776590.012,748
+749,Fast Food,Dairy Queen,1293 Riverbend Way,Frederick,MD,Frederick,21701,-8614839.27795,4785834.90989,749
+750,Fast Food,Dairy Queen,5500 Buckeystown Pike,Frederick,MD,Frederick,21703,-8617184.86706,4776935.98137,750
+751,Fast Food,Dunkin' Donuts,2198 Old Farm Dr,Frederick,MD,Frederick,21702,-8620133.88239,4785200.05776,751
+752,Fast Food,Dunkin' Donuts,1296 W Patrick St,Frederick,MD,Frederick,21703,-8622063.16065,4781796.73448,752
+753,Fast Food,Dunkin' Donuts,8925 Fingerboard Rd,Frederick,MD,Frederick,21704,-8610736.55488,4768194.8321,753
+754,Fast Food,Five Guys,1700 Kingfisher Drive,Frederick,MD,Frederick,21701,-8614320.19595,4786253.57155,754
+755,Fast Food,Five Guys,5100 Buckeystown Pike,Frederick,MD,Frederick,20704,-8617359.06467,4775081.72217,755
+756,Fast Food,Jimmy Johns,5221 Presidents Court,Frederick,MD,Frederick,21703,-8617968.72937,4775841.79213,756
+757,Fast Food,KFC,1 Willowdale Dr,Frederick,MD,Frederick,21702,-8621787.69828,4781815.3877,757
+758,Fast Food,McDonald's,1399 W 7th St,Frederick,MD,Frederick,21702,-8618442.88897,4783474.09429,758
+759,Fast Food,McDonald's,1501 Garret Dr,Frederick,MD,Frederick,21702,-8623595.92423,4782184.28394,759
+760,Fast Food,McDonald's,2020 Yellow Spring Rd,Frederick,MD,Frederick,21702,-8620308.24989,4784584.28173,760
+761,Fast Food,McDonald's,1275 W Patrick St,Frederick,MD,Frederick,21702,-8621999.97972,4781836.61411,761
+762,Fast Food,McDonald's,950 E Patrick St,Frederick,MD,Frederick,21701,-8615149.87205,4780417.72835,762
+763,Fast Food,McDonald's,423 Jefferson St,Frederick,MD,Frederick,21701,-8619362.4544,4780251.22125,763
+764,Fast Food,McDonald's,59 Francis Scott Key Mall,Frederick,MD,Frederick,21704,-8617145.37625,4777732.707,764
+765,Fast Food,McDonald's,SR 26 & Wormans Mill Rd,Frederick,MD,Frederick,21701,-8615641.91367,4785667.99883,765
+766,Fast Food,McDonald's,5203 Buckeystown Pike,Frederick,MD,Frederick,21703,-8617295.30179,4775341.4541,766
+767,Fast Food,Panda Express,5281 Buckeystown Pike,Frederick,MD,Frederick,21703,-8617244.32292,4775596.18692,767
+768,Fast Food,Popeye's,5721 Buckeystown Pike,Frederick,MD,Frederick,21701,-8617165.75596,4777924.30677,768
+769,Fast Food,Popeye's,1403 W Patrick Street,Frederick,MD,Frederick,21702,-8623091.58544,4782051.9862,769
+770,Fast Food,Roy Rogers,1240 West Patrick Street,Frederick,MD,Frederick,21703,-8621908.46978,4781769.80569,770
+771,Fast Food,Roy Rogers,5622 Buckeystown Pike,Frederick,MD,Frederick,21704,-8617187.10146,4777408.51197,771
+772,Fast Food,Roy Rogers,191 Thomas Johnson Drive,Frederick,MD,Frederick,21702,-8617106.94102,4784878.42412,772
+773,Fast Food,Roy Rogers,1204 E. Patrick Street,Frederick,MD,Frederick,21701,-8614918.54929,4780268.60906,773
+774,Fast Food,Roy Rogers,1990 Riverside Way,Frederick,MD,Frederick,21701,-8614772.99114,4786013.3464,774
+775,Fast Food,Roy Rogers,301 Ballenger Center Drive,Frederick,MD,Frederick,21703,-8620317.42656,4778532.56855,775
+776,Fast Food,Subway,1811 Monocaoy Blvd,Frederick,MD,Frederick,21701,-8613918.7076,4784735.66891,776
+777,Fast Food,Subway,177 C Thomas Johnson Dr,Frederick,MD,Frederick,21702,-8616921.1165,4784901.94393,777
+778,Fast Food,Subway,2060 Yellow Springs Road,Frederick,MD,Frederick,21702,-8620240.74982,4785004.74976,778
+779,Fast Food,Subway,8415 Progress Drive,Frederick,MD,Frederick,21701,-8613511.30743,4784639.19461,779
+780,Fast Food,Subway,913 W 7th Street,Frederick,MD,Frederick,21701,-8618025.91649,4782893.80289,780
+781,Fast Food,Subway,69 South Market Street,Frederick,MD,Frederick,21701,-8617378.43735,4780941.00131,781
+782,Fast Food,Subway,1046 West Patrick St,Frederick,MD,Frederick,21701,-8615083.26699,4780374.62595,782
+783,Fast Food,Subway,425 South Jefferson St,Frederick,MD,Frederick,21701,-8619363.56284,4780250.54165,783
+784,Fast Food,Subway,7400 Guilford Drive,Frederick,MD,Frederick,21704,-8617589.73359,4778343.9515,784
+785,Fast Food,Subway,5732 Buckeystown Pike,Frederick,MD,Frederick,21704,-8617182.89735,4777981.205,785
+786,Fast Food,Subway,5854 Ballenger Creek Pike,Frederick,MD,Frederick,21703,-8620413.21709,4778166.34995,786
+787,Fast Food,Subway,6079 Spring Ridge Parkway,Frederick,MD,Frederick,21701,-8610263.6637,4778985.79878,787
+788,Fast Food,Subway,5500 Buckeystown Pk,Frederick,MD,Frederick,21703,-8617184.86706,4776935.98137,788
+789,Fast Food,Subway,1713 Rosemont Ave,Frederick,MD,Frederick,21702,-8619624.09189,4783109.45052,789
+790,Fast Food,Taco Bell,1086 W Patrick St,Frederick,MD,Frederick,21703,-8621125.63582,4781616.20346,790
+791,Fast Food,Taco Bell,305 Ballenger Center Dr,Frederick,MD,Frederick,21703,-8620241.98,4778520.72929,791
+792,Fast Food,Taco Bell,931 W 7th Street,Frederick,MD,Frederick,21701,-8618039.37575,4782910.78327,792
+793,Fast Food,Taco Bell,1314 E Patrick St,Frederick,MD,Frederick,21701,-8614488.1757,4779989.67415,793
+794,Fast Food,Wendy's,98 Monocacy Boulevard,Frederick,MD,Frederick,21701,-8614812.83034,4780200.3323,794
+795,Fast Food,Wendy's,5719 Buckeystown Pike,Frederick,MD,Frederick,21701,-8617165.56355,4777905.88527,795
+796,Fast Food,Wendy's,1201 W Patrick St,Frederick,MD,Frederick,21702,-8621791.33755,4781810.15381,796
+797,Fast Food,Pizza Hut,10711 New George Creek Rd,Frostburg,MD,Allegany,21532,-8784262.30315,4815170.578,797
+798,Fast Food,Burger King,6 Hampton Inn Drive,Frostburg,MD,Allegany,21532,-8784279.09264,4813932.62389,798
+799,Fast Food,McDonald's,17700 National Highway SW,Frostburg,MD,Allegany,21532,-8784193.78484,4815465.44236,799
+800,Fast Food,Subway,10701 New Georges Creek Rd SW,Frostburg,MD,Allegany,21532,-8784284.31569,4815194.25356,800
+801,Fast Food,Pizza Hut,104 W. Cedar Lane,Fruitland,MD,Wicomico,21826,-8417352.5179,4626013.91373,801
+802,Fast Food,Dunkin' Donuts,409 N. Fruitland Blvd,Fruitland,MD,Wicomico,21826,-8417444.5244,4625762.90577,802
+803,Fast Food,Sonic Drive-In,415 North Fruitland Boulevard,Fruitland,MD,Wicomico,21826,-8417439.32218,4625770.30977,803
+804,Fast Food,Pizza Hut,12167 Darnestown Rd,Gaithersburg,MD,Montgomery,21878,-8599604.98845,4738539.36047,804
+805,Fast Food,Pizza Hut,299 Muddy Branch Rd,Gaithersburg,MD,Montgomery,21878,-8594918.81443,4739940.85917,805
+806,Fast Food,Pizza Hut,18509 Woodfield,Gaithersburg,MD,Montgomery,21879,-8589342.60925,4744642.63285,806
+807,Fast Food,Pizza Hut,9130 Rothbury Dr,Gaithersburg,MD,Montgomery,20886,-8592597.61232,4748255.85677,807
+808,Fast Food,Burger King,16004 Shady Grove Road,Gaithersburg,MD,Montgomery,20877,-8591904.41651,4738786.12411,808
+809,Fast Food,Charley's,701 Russell Ave,Gaithersburg,MD,Montgomery,20877,-8594525.36298,4743330.63611,809
+810,Fast Food,Checkers,16171 Shady Grove Road,Gaithersburg,MD,Montgomery,20877,-8591533.08322,4739032.22753,810
+811,Fast Food,Chik-Fil-A,104 Main St,Gaithersburg,MD,Montgomery,20878,-8598026.26773,4739527.3625,811
+812,Fast Food,Dairy Queen,701 Russell Ave,Gaithersburg,MD,Montgomery,20877,-8594525.36298,4743330.63611,812
+813,Fast Food,Dunkin' Donuts,20 Montgomery Village Ave,Gaithersburg,MD,Montgomery,20879,-8595154.81543,4743569.39127,813
+814,Fast Food,Dunkin' Donuts,18558 Woodfield Rd,Gaithersburg,MD,Montgomery,20879,-8589317.55611,4744729.40347,814
+815,Fast Food,Dunkin' Donuts,12168 Darnestown Rd,Gaithersburg,MD,Montgomery,20878,-8599650.20427,4738519.92472,815
+816,Fast Food,Dunkin' Donuts,16220 Frederick Rd,Gaithersburg,MD,Montgomery,20877,-8591232.97846,4739092.76783,816
+817,Fast Food,Five Guys,15784 Shady Grove Road,Gaithersburg,MD,Montgomery,20877,-8592252.17141,4738177.60605,817
+818,Fast Food,Five Guys,653 Center Point Way,Gaithersburg,MD,Montgomery,20878,-8597715.71728,4739142.02821,818
+819,Fast Food,McDonald's,18273 Flower Hill Way,Gaithersburg,MD,Montgomery,20879,-8589738.41634,4744166.68083,819
+820,Fast Food,McDonald's,9100 Rothbury Dr,Gaithersburg,MD,Montgomery,20886,-8592480.90417,4748234.10781,820
+821,Fast Food,McDonald's,465 N Fredrick,Gaithersburg,MD,Montgomery,20877,-8594648.28228,4742985.55197,821
+822,Fast Food,McDonald's,83 Bureau Dr,Gaithersburg,MD,Montgomery,20878,-8595670.40451,4742400.33939,822
+823,Fast Food,McDonald's,666 Quince Orchard Rd,Gaithersburg,MD,Montgomery,20878,-8596286.02408,4741808.49259,823
+824,Fast Food,McDonald's,701 Russell Ave,Gaithersburg,MD,Montgomery,20877,-8594525.36298,4743330.63611,824
+825,Fast Food,McDonald's,12130 Darnstown Rd,Gaithersburg,MD,Montgomery,20878,-8599559.2022,4738480.5599,825
+826,Fast Food,McDonald's,19230 Woodfield Rd,Gaithersburg,MD,Montgomery,20879,-8588648.5725,4746249.76163,826
+827,Fast Food,Panda Express,701 Russel Ave,Gaithersburg,MD,Montgomery,20877,-8594525.36298,4743330.63611,827
+828,Fast Food,Popeye's,417 N Frederick Ave,Gaithersburg,MD,Montgomery,20877,-8594374.41039,4742675.45448,828
+829,Fast Food,Quiznos,560 N Frederick Ave,Gaithersburg,MD,Montgomery,20877,-8594809.43278,4743108.10562,829
+830,Fast Food,Quiznos,18568 Woodfield Rd,Gaithersburg,MD,Montgomery,20879,-8589312.45379,4744741.99198,830
+831,Fast Food,Roy Rogers,9607 Lost Knife Road,Gaithersburg,MD,Montgomery,20877,-8593692.309,4743581.25317,831
+832,Fast Food,Subway,701 Russell Avenue,Gaithersburg,MD,Montgomery,20877,-8594525.36298,4743330.63611,832
+833,Fast Food,Subway,501 N Frederick Ave,Gaithersburg,MD,Montgomery,20877,-8594863.3094,4743218.71897,833
+834,Fast Food,Subway,108 Old Town Ave,Gaithersburg,MD,Montgomery,20877,-8593208.74356,4741846.4744,834
+835,Fast Food,Subway,853 Russell Avenue,Gaithersburg,MD,Montgomery,20877,-8595133.03094,4744080.96365,835
+836,Fast Food,Subway,16 Bureau Dr,Gaithersburg,MD,Montgomery,20878,-8595645.10399,4742495.33647,836
+837,Fast Food,Subway,15906-B Shady Grove Road,Gaithersburg,MD,Montgomery,20877,-8592143.44269,4738359.52958,837
+838,Fast Food,Subway,876 Muddy Branch Rd,Gaithersburg,MD,Montgomery,20878,-8595649.52084,4738012.68526,838
+839,Fast Food,Subway,Kentlands Place Shopping Ctr,Gaithersburg,MD,Montgomery,20878,-8597736.18138,4739371.21892,839
+840,Fast Food,Subway,9136 Rothbury Dr,Gaithersburg,MD,Montgomery,20886,-8592620.95395,4748260.20659,840
+841,Fast Food,Subway,12193 Darnstown Rd,Gaithersburg,MD,Montgomery,20878,-8599693.45399,4738573.66655,841
+842,Fast Food,Taco Bell,18415 Woodfield Rd,Gaithersburg,MD,Montgomery,20879,-8589410.19001,4744531.58055,842
+843,Fast Food,Wendy's,18350 Contour Rd,Gaithersburg,MD,Montgomery,20877,-8593900.41226,4743937.45131,843
+844,Fast Food,Wendy's,18425 Woodfield Road,Gaithersburg,MD,Montgomery,20879,-8589402.58459,4744543.08027,844
+845,Fast Food,Wendy's,12114 Darnestown Rd,Gaithersburg,MD,Montgomery,20878,-8599517.06903,4738463.51488,845
+846,Fast Food,Wingstop,20201 Goshen Rd,Gaithersburg,MD,Montgomery,20879,-8592413.90577,4748478.83707,846
+847,Fast Food,Pizza Hut,1060 State Route 3 N,Gambrills,MD,Anne Arundel,21054,-8536944.81822,4725476.19548,847
+848,Fast Food,Arby's,2623 Brandermill Blvd,Gambrills,MD,Anne Arundel,21054,-8535850.20033,4727131.54569,848
+849,Fast Food,Burger King,2619 Brandermill Blvd,Gambrills,MD,Anne Arundel,21054,-8535861.06439,4727116.30154,849
+850,Fast Food,Chik-Fil-A,2615 Brandermill Blvd,Gambrills,MD,Anne Arundel,21054,-8535871.92835,4727101.05742,850
+851,Fast Food,Dunkin' Donuts,1336 Defense Highway,Gambrills,MD,Anne Arundel,21114,-8534909.71308,4720620.63259,851
+852,Fast Food,Dunkin' Donuts,1051 State Route 3 N,Gambrills,MD,Anne Arundel,21054,-8536885.2194,4725520.74453,852
+853,Fast Food,Five Guys,1131-A Rt. 3 North,Gambrills,MD,Anne Arundel,21054,-8537405.05053,4724991.18183,853
+854,Fast Food,KFC,1053 N. Route 3,Gambrills,MD,Anne Arundel,21054,-8536897.80088,4725505.81428,854
+855,Fast Food,Popeye's,1086 Rte 3 North Lane,Gambrills,MD,Anne Arundel,21054,-8537097.7347,4725314.10166,855
+856,Fast Food,Subway,738 Rt 3 N,Gambrills,MD,Anne Arundel,21054,-8533899.46785,4728854.74433,856
+857,Fast Food,Subway,1404 South Main Chapel Way,Gambrills,MD,Anne Arundel,21054,-8535929.2272,4727037.57155,857
+858,Fast Food,Subway,1153 Maryland Rt 3 North,Gambrills,MD,Anne Arundel,21054,-8537591.68847,4724775.89322,858
+859,Fast Food,Wendy's,1064 Md Route 3 N,Gambrills,MD,Anne Arundel,21054,-8536955.39766,4725464.57992,859
+860,Fast Food,McDonald's,9750 Reisterstown Rd,Garrison,MD,Baltimore,21117,-8545193.24246,4780175.41235,860
+861,Fast Food,Pizza Hut,19733 N. Frederick Rd,Germantown,MD,Montgomery,20876,-8598134.23569,4747314.56294,861
+862,Fast Food,Pizza Hut,19790 Crystal Rock Dr,Germantown,MD,Montgomery,20874,-8600780.4129,4747588.69929,862
+863,Fast Food,Burger King,20430 Germantown Road,Germantown,MD,Montgomery,20874,-8598878.46904,4749175.49514,863
+864,Fast Food,Burger King,19700 Germantown Road,Germantown,MD,Montgomery,20874,-8601357.60735,4747350.45725,864
+865,Fast Food,Chik-Fil-A,19945 Century Blvd4,Germantown,MD,Montgomery,20874,-8600839.58935,4747970.81693,865
+866,Fast Food,Dairy Queen,12603 Wisteria Dr,Germantown,MD,Montgomery,20874,-8600677.10635,4745988.01757,866
+867,Fast Food,Dunkin' Donuts,12915 Wisteria Dr,Germantown,MD,Montgomery,20874,-8601695.38859,4747074.50682,867
+868,Fast Food,Dunkin' Donuts,19781 Frederick Rd,Germantown,MD,Montgomery,20876,-8598131.61756,4747417.61759,868
+869,Fast Food,Five Guys,12840 Pinnacle Drive,Germantown,MD,Montgomery,20874,-8601056.2573,4747703.89884,869
+870,Fast Food,McDonald's,12982 Middlebrook Rd,Germantown,MD,Montgomery,20874,-8601595.01763,4747636.18009,870
+871,Fast Food,McDonald's,18000 Mateny Rd,Germantown,MD,Montgomery,20874,-8602178.25514,4742640.27797,871
+872,Fast Food,McDonald's,21121 Frederick Road,Germantown,MD,Montgomery,20876,-8598942.06263,4750886.60169,872
+873,Fast Food,McDonald's,20910 Frederick Rd,Germantown,MD,Montgomery,20876,-8598885.34684,4750149.24645,873
+874,Fast Food,McDonald's,19660 Gunners Branch Dr,Germantown,MD,Montgomery,20876,-8598462.77268,4747174.31851,874
+875,Fast Food,Panda Express,19847 Century Blvd,Germantown,MD,Montgomery,20874,-8601130.90216,4747773.24873,875
+876,Fast Food,Popeye's,18074 Mateny Rd,Germantown,MD,Montgomery,20874,-8601838.70242,4742820.91454,876
+877,Fast Food,Popeye's,19911-A Frederick Rd,Germantown,MD,Montgomery,20876,-8598140.82747,4747868.9136,877
+878,Fast Food,Quiznos,13044 Middlebrook Rd,Germantown,MD,Montgomery,20874,-8601681.11941,4747768.81388,878
+879,Fast Food,Roy Rogers,12907 Wisteria Drive,Germantown,MD,Montgomery,20874,-8601687.17119,4747068.33012,879
+880,Fast Food,Roy Rogers,19775 Frederick Road,Germantown,MD,Montgomery,20876,-8598131.42435,4747404.78024,880
+881,Fast Food,Subway,19911 B Frederick Rd,Germantown,MD,Montgomery,20876,-8598140.82747,4747868.9136,881
+882,Fast Food,Subway,12601 Wisteria Drive,Germantown,MD,Montgomery,20874,-8600673.82008,4745983.66821,882
+883,Fast Food,Subway,19901 Germantown Rd,Germantown,MD,Montgomery,20874,-8600674.80448,4747697.95552,883
+884,Fast Food,Subway,18028 Mateney Rd,Germantown,MD,Montgomery,20874,-8602049.93129,4742708.93811,884
+885,Fast Food,Subway,20940 Frederick Rd,Germantown,MD,Montgomery,20876,-8598896.80877,4750233.76286,885
+886,Fast Food,Subway,12935 Wisteria Dr,Germantown,MD,Montgomery,20874,-8601715.93209,4747089.94833,886
+887,Fast Food,Subway,13411 Kingsview Village Ave,Germantown,MD,Montgomery,20874,-8602807.36141,4744539.83724,887
+888,Fast Food,Taco Bell,19923 Century Blvd,Germantown,MD,Montgomery,20874,-8600884.19168,4747942.6364,888
+889,Fast Food,Wendy's,12988 Middlebrook Road,Germantown,MD,Montgomery,20874,-8601602.29868,4747647.42478,889
+890,Fast Food,Pizza Hut,7800 Parke West Dr,Glen Burnie,MD,Anne Arundel,21061,-8532418.19161,4741932.30378,890
+891,Fast Food,Pizza Hut,6712 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528595.62336,4749314.00016,891
+892,Fast Food,Burger King,7314 Ritchie Highway,Glen Burnie,MD,Anne Arundel,21061,-8529300.93454,4746219.30941,892
+893,Fast Food,Burger King,7988 Crain Highway,Glen Burnie,MD,Anne Arundel,21061,-8531390.1968,4740501.59632,893
+894,Fast Food,Burger King,14 Mountain Road,Glen Burnie,MD,Anne Arundel,21060,-8526728.29856,4741172.47062,894
+895,Fast Food,Checkers,1417 N. Crain Hwy.,Glen Burnie,MD,Anne Arundel,21061,-8530574.30594,4742900.63083,895
+896,Fast Food,Chik-Fil-A,6709 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528558.3162,4749264.66767,896
+897,Fast Food,Chik-Fil-A,7900 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8527413.3096,4741829.75724,897
+898,Fast Food,Dunkin' Donuts,7061 Baltimore Annapolis Blvd,Glen Burnie,MD,Anne Arundel,21061,-8531713.15584,4750373.07096,898
+899,Fast Food,Dunkin' Donuts,7152 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528878.30752,4747149.68484,899
+900,Fast Food,Dunkin' Donuts,7984 Crain Hwy S,Glen Burnie,MD,Anne Arundel,21601,-8531377.20446,4740519.08978,900
+901,Fast Food,Five Guys,6711 Ritchie Highway,Glen Burnie,MD,Anne Arundel,21061,-8528560.57213,4749217.39338,901
+902,Fast Food,Hardees,1699 Crain Hwy S,Glen Burnie,MD,Anne Arundel,21061,-8530630.98138,4742031.29315,902
+903,Fast Food,Hip Hop Fish & Chicken,6604 Ritchie Highway,Glen Burnie,MD,Anne Arundel,21061,-8528573.21898,4750088.15166,903
+904,Fast Food,KFC,6734 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528604.7685,4749118.91519,904
+905,Fast Food,KFC,7395 Baltimore Annapolis Blvd,Glen Burnie,MD,Anne Arundel,21061,-8530551.09836,4746163.7991,905
+906,Fast Food,Popeye's,1810 S. Crain Hwy,Glen Burnie,MD,Anne Arundel,21061,-8530701.19699,4741864.04893,906
+907,Fast Food,Quiznos,6711 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528560.57213,4749217.39338,907
+908,Fast Food,Subway,6 Mountain Rd,Glen Burnie,MD,Anne Arundel,21061,-8526781.41191,4741192.48441,908
+909,Fast Food,Subway,337 Hospital Drive,Glen Burnie,MD,Anne Arundel,21061,-8530363.33416,4741955.08071,909
+910,Fast Food,Subway,801 Landmark Dr,Glen Burnie,MD,Anne Arundel,21061,-8531531.64845,4742782.52979,910
+911,Fast Food,Subway,7428 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8529594.30255,4745200.60405,911
+912,Fast Food,Subway,6720 B Governor Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528600.44636,4749219.45121,912
+913,Fast Food,Subway,6938 Aviation Blvd,Glen Burnie,MD,Anne Arundel,21061,-8532475.18791,4746868.64513,913
+914,Fast Food,Taco Bell,7400 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8529536.63319,4745687.39007,914
+915,Fast Food,Taco Bell,1414 Crain Hwy N,Glen Burnie,MD,Anne Arundel,21061,-8528625.30589,4748346.02772,915
+916,Fast Food,Taco Bell,6656 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8528579.37968,4749712.87689,916
+917,Fast Food,Taco Bell,7900 Ritchie Hwy,Glen Burnie,MD,Anne Arundel,21061,-8527413.3096,4741829.75724,917
+918,Fast Food,Wendy's,7905 Ritchie Highway,Glen Burnie,MD,Anne Arundel,21060,-8527318.04045,4741776.93983,918
+919,Fast Food,Wendy's,1250 Crain Hwy S,Glen Burnie,MD,Anne Arundel,21061,-8530644.14412,4743256.76108,919
+920,Fast Food,Wendy's,7399 Baltimore Annapolis Blvd,Glen Burnie,MD,Anne Arundel,21061,-8530532.72299,4746147.99769,920
+921,Fast Food,Wendy's,6910 Ritchie Highway,Glen Burnie,MD,Anne Arundel,21061,-8528515.27692,4748387.39179,921
+922,Fast Food,Wingstop,6710 Governor Ritchie Highway,Glen Burnie,MD,Anne Arundel,21061,-8528594.41762,4749337.63751,922
+923,Fast Food,Subway,12300 Annapolis Rd,Glen Dale,MD,Prince George's,20769,-8548561.76181,4716699.42737,923
+924,Fast Food,Subway,3881 Ten Oaks Road,Glenelg,MD,Howard,21737,-8570080.67414,4759662.73205,924
+925,Fast Food,KFC,12415 Georgia Ave,Glenmont,MD,Montgomery,20906,-8577351.22969,4730371.76819,925
+926,Fast Food,Subway,4821 Butler Road,Glyndon,MD,Baltimore,21071,-8551412.86593,4790038.8478,926
+927,Fast Food,Arby's,3000 Chestnut Ridge Rd,Grantsville,MD,Garrett,21536,-8805316.79027,4821738.30012,927
+928,Fast Food,Burger King,2811 Chestnut Ridge Road,Grantsville,MD,Garrett,21536,-8805813.81056,4821098.38913,928
+929,Fast Food,McDonald's,4098 National Pike,Grantsville,MD,Garrett,21536,-8821762.39138,4821657.77219,929
+930,Fast Food,Subway,26 South Yoder Street,Grantsville,MD,Garrett,21536,-8811837.0634,4821746.53075,930
+931,Fast Food,Subway,3221 Chestnut Ridge Rd.,Grantsville,MD,Garrett,21536,-8805233.08025,4822088.48431,931
+932,Fast Food,McDonald's,21600 Great Mills Rd,Great Mills,MD,St. Mary's,20653,-8512110.68261,4616287.26156,932
+933,Fast Food,Five Guys,8863 Greenbelt Rd.,Greenbelt,MD,Prince George's,20770,-8555336.56619,4720377.85141,933
+934,Fast Food,McDonald's,6000 Greenbelt Rd,Greenbelt,MD,Prince George's,20770,-8561798.44105,4721398.69926,934
+935,Fast Food,Popeye's,6224 Greenbelt Rd,Greenbelt,MD,Prince George's,20770,-8561187.38869,4721262.00879,935
+936,Fast Food,Subway,8800 Greenbelt Road,Greenbelt,MD,Prince George's,20771,-8555501.28949,4720425.51624,936
+937,Fast Food,Subway,7555 Greenbelt Rd,Greenbelt,MD,Prince George's,20770,-8557785.41619,4720817.73263,937
+938,Fast Food,Subway,6094 Greenbelt Rd,Greenbelt,MD,Prince George's,20770,-8561442.84657,4721318.98818,938
+939,Fast Food,Wendy's,6242 Greenbelt Road,Greenbelt,MD,Prince George's,20770,-8561144.93797,4721252.30014,939
+940,Fast Food,Wendy's,7513 Greenbelt Rd.,Greenbelt,MD,Prince George's,20770,-8557826.70702,4720810.18467,940
+941,Fast Food,Dunkin' Donuts,6929 Liberty Heights Rd,Gwynn Oak,MD,Baltimore,21207,-8541608.4489,4771032.26026,941
+942,Fast Food,Pizza Hut,1396 Dual 40 Hwy,Hagerstown,MD,Washington,21740,-8649305.87369,4811735.61468,942
+943,Fast Food,Pizza Hut,1085 Maryland Ave,Hagerstown,MD,Washington,21740,-8653169.6897,4811330.17052,943
+944,Fast Food,Pizza Hut,100 Railway Lane,Hagerstown,MD,Washington,21740,-8656752.40804,4812198.99941,944
+945,Fast Food,Pizza Hut,13527 Pennsylvania Ave,Hagerstown,MD,Washington,21742,-8651823.12137,4820275.87054,945
+946,Fast Food,Arby's,17794 Garland Groh Blvd,Hagerstown,MD,Washington,21740,-8655059.1581,4815959.67351,946
+947,Fast Food,Burger King,503 Dual Highway,Hagerstown,MD,Washington,21740,-8650562.80368,4813359.16249,947
+948,Fast Food,Burger King,13014 Pennsylvania Avenue,Hagerstown,MD,Washington,21742,-8651694.25941,4818193.93476,948
+949,Fast Food,Burger King,10516 Sharpsburg Pike,Hagerstown,MD,Washington,21740,-8652816.40531,4808203.44454,949
+950,Fast Food,Burger King,17532 Valley Mall Road,Hagerstown,MD,Washington,21740,-8656938.37443,4811421.70904,950
+951,Fast Food,Burger King,18234 Maugans Avenue,Hagerstown,MD,Washington,21740,-8653525.35796,4821049.77361,951
+952,Fast Food,Checkers,1720 Dual Hwy,Hagerstown,MD,Washington,21740,-8648576.76447,4810176.96418,952
+953,Fast Food,Chik-Fil-A,1680 Wesel Blvd,Hagerstown,MD,Washington,21740,-8656298.17965,4812571.7446,953
+954,Fast Food,Dairy Queen,824 Dual Hwy,Hagerstown,MD,Washington,21740,-8650014.75526,4813018.46507,954
+955,Fast Food,Dairy Queen,17301 Valley Mall Rd,Hagerstown,MD,Washington,21740,-8657448.07992,4811032.61427,955
+956,Fast Food,Dairy Queen,493 Prime Outlets Blvd,Hagerstown,MD,Washington,21740,-8653220.18293,4809178.81367,956
+957,Fast Food,Dunkin' Donuts,1427 Dual Highway,Hagerstown,MD,Washington,21740,-8649299.90601,4811607.14856,957
+958,Fast Food,Dunkin' Donuts,13108 Pennsylvania Ave,Hagerstown,MD,Washington,21742,-8651719.02673,4818568.33367,958
+959,Fast Food,Dunkin' Donuts,18206 Oak Ridge Dr,Hagerstown,MD,Washington,21740,-8654379.04264,4809779.91315,959
+960,Fast Food,Five Guys,43 Eastern Blvd. North,Hagerstown,MD,Washington,21740,-8649533.4934,4812711.69931,960
+961,Fast Food,Five Guys,18007 Garland Groh Blvd.,Hagerstown,MD,Washington,21740,-8654582.40199,4816857.67127,961
+962,Fast Food,Jimmy Johns,1723 Dual Hwy,Hagerstown,MD,Washington,21740,-8648638.66407,4810202.09931,962
+963,Fast Food,KFC,17700 Garland Groh Blvd,Hagerstown,MD,Washington,21740,-8655471.08024,4815755.47817,963
+964,Fast Food,KFC,330 Dual Highway,Hagerstown,MD,Washington,21740,-8650964.50367,4813749.61612,964
+965,Fast Food,Long John Silvers,17301 Valley Mall Road,Hagerstown,MD,Washington,21740,-8657448.07992,4811032.61427,965
+966,Fast Food,McDonald's,316 E Washington St,Hagerstown,MD,Washington,21740,-8651091.09278,4813675.05898,966
+967,Fast Food,McDonald's,17301 Valley Mall Rd,Hagerstown,MD,Washington,21740,-8657448.07992,4811032.61427,967
+968,Fast Food,McDonald's,170 Northern Avenue,Hagerstown,MD,Washington,21742,-8650084.62247,4817034.65627,968
+969,Fast Food,McDonald's,17850 Garland Groh B,Hagerstown,MD,Washington,21740,-8654839.34583,4816103.87214,969
+970,Fast Food,McDonald's,17601 Garland Groh Blvd,Hagerstown,MD,Washington,21740,-8655991.41003,4815839.64868,970
+971,Fast Food,McDonald's,1737 Dual Hwy,Hagerstown,MD,Washington,21740,-8648571.75617,4810058.26478,971
+972,Fast Food,McDonald's,1729 Massey Blvd,Hagerstown,MD,Washington,21740,-8656906.8169,4811932.3193,972
+973,Fast Food,McDonald's,10525 Sharpsburg Pike,Hagerstown,MD,Washington,21740,-8652798.3445,4808219.53519,973
+974,Fast Food,McDonald's,18411 Maugans Ave,Hagerstown,MD,Washington,21742,-8652949.10367,4820792.48612,974
+975,Fast Food,McDonald's,16921 Halfway Blvd,Hagerstown,MD,Washington,21740,-8658805.90216,4812484.73329,975
+976,Fast Food,Moe's Southwest Grill,12818-I Shank Farm Way,Hagerstown,MD,Washington,21742,-8649479.61939,4817329.23022,976
+977,Fast Food,Popeye's,17524 Valley Mall Rd,Hagerstown,MD,Washington,21740,-8656916.46139,4811457.10225,977
+978,Fast Food,Popeye's,1382 Dual Highway,Hagerstown,MD,Washington,21740,-8649328.52515,4811784.62956,978
+979,Fast Food,Quiznos,55 Eastern Blvd N,Hagerstown,MD,Washington,21740,-8649488.81308,4812750.66469,979
+980,Fast Food,Quiznos,17251 Cole Rd,Hagerstown,MD,Washington,21740,-8657561.8615,4811048.99878,980
+981,Fast Food,Quiznos,18728 North Village,Hagerstown,MD,Washington,21742,-8651463.90203,4820328.10372,981
+982,Fast Food,Roy Rogers,1719 Massey Blvd,Hagerstown,MD,Washington,21740,-8656904.66269,4811937.33733,982
+983,Fast Food,Roy Rogers,100 North Burhans Blvd,Hagerstown,MD,Washington,21740,-8651599.58743,4814966.55715,983
+984,Fast Food,Sonic Drive-In,1710 Dual Highway,Hagerstown,MD,Washington,21740,-8648618.07091,4810266.63543,984
+985,Fast Food,Subway,1201 Dual Hwy,Hagerstown,MD,Washington,21740,-8649648.16077,4812357.35905,985
+986,Fast Food,Subway,12813 F Shank Farm Way,Hagerstown,MD,Washington,21742,-8649469.77127,4817310.22647,986
+987,Fast Food,Subway,1449 S. Potomac St.,Hagerstown,MD,Washington,21740,-8652870.6132,4809512.66027,987
+988,Fast Food,Subway,17612 Garland Groh Blvd,Hagerstown,MD,Washington,21740,-8655935.23955,4815823.21939,988
+989,Fast Food,Subway,17301 Valley Mall Rd,Hagerstown,MD,Washington,21740,-8657448.07992,4811032.61427,989
+990,Fast Food,Subway,11347 Robinwood Drive,Hagerstown,MD,Washington,21740,-8645936.85208,4811826.49752,990
+991,Fast Food,Subway,16921 Halfway Blvd,Hagerstown,MD,Washington,21740,-8658805.90216,4812484.73329,991
+992,Fast Food,Subway,11633 Greencastle Pk,Hagerstown,MD,Washington,21740,-8661546.50488,4812939.39117,992
+993,Fast Food,Taco Bell,1600 Wesel Blvd,Hagerstown,MD,Washington,21740,-8656154.63916,4812691.57186,993
+994,Fast Food,Taco Bell,13609 Crayton Blvd,Hagerstown,MD,Washington,21740,-8652938.63435,4820852.7081,994
+995,Fast Food,Taco Bell,450 Dual Hwy,Hagerstown,MD,Washington,21740,-8650740.60903,4813543.5393,995
+996,Fast Food,Wendy's,10502 Sharpsburg Pike,Hagerstown,MD,Washington,21782,-8652820.51952,4808171.72041,996
+997,Fast Food,Wendy's,17786 Garland Groth Boulevard,Hagerstown,MD,Washington,21740,-8655099.13215,4815952.28089,997
+998,Fast Food,Wendy's,1570 Wesel Blvd,Hagerstown,MD,Washington,21740,-8656101.24639,4812736.96677,998
+999,Fast Food,Pizza Hut,761 Hanover Pike,Hampstead,MD,Carroll,21074,-8554477.9605,4807254.83696,999
+1000,Fast Food,Burger King,2211 Brodbeck Road,Hampstead,MD,Carroll,21074,-8556952.91143,4813086.52144,1000
+1001,Fast Food,Dunkin' Donuts,2320 N Hanover Pike,Hampstead,MD,Carroll,21074,-8556803.91173,4813449.7139,1001
+1002,Fast Food,Dunkin' Donuts,822 South Main St,Hampstead,MD,Carroll,21074,-8554567.3757,4807497.05394,1002
+1003,Fast Food,Five Guys,2319 Hanover Pike,Hampstead,MD,Carroll,21074,-8556856.7635,4813583.84057,1003
+1004,Fast Food,KFC,2309 Hanover Pike,Hampstead,MD,Carroll,21074,-8556801.08637,4813478.19956,1004
+1005,Fast Food,McDonald's,4225 North Woods Trl,Hampstead,MD,Carroll,21074,-8554422.54807,4807411.27099,1005
+1006,Fast Food,Subway,2275 Hanover Pike,Hampstead,MD,Carroll,21074,-8556655.7784,4813214.90426,1006
+1007,Fast Food,Subway,1155 S Main St,Hampstead,MD,Carroll,21074,-8554925.27346,4808820.97894,1007
+1008,Fast Food,Wendy's,4224 North Woods Trl,Hampstead,MD,Carroll,21074,-8554432.64728,4807423.76855,1008
+1009,Fast Food,Pizza Hut,224 W. Main,Hancock,MD,Washington,21750,-8703641.33348,4822438.23032,1009
+1010,Fast Food,Hardees,42 East Main Street,Hancock,MD,Washington,21750,-8702454.08189,4822216.51209,1010
+1011,Fast Food,Subway,179 W Main Street,Hancock,MD,Washington,21750,-8703432.28786,4822386.98201,1011
+1012,Fast Food,Burger King,7426 New Ridge Rd,Hanover,MD,Anne Arundel,21076,-8538395.43023,4747011.9956,1012
+1013,Fast Food,Burger King,7500 Connolly Drive,Hanover,MD,Anne Arundel,21076,-8536034.75703,4744580.81556,1013
+1014,Fast Food,Dairy Queen,7000 Arundel Mills Cir,Hanover,MD,Anne Arundel,21076,-8541056.3101,4744950.48962,1014
+1015,Fast Food,Dunkin' Donuts,1348 Ashton Rd.,Hanover,MD,Anne Arundel,21076,-8539228.03791,4744639.37624,1015
+1016,Fast Food,Five Guys,7690 Dorchester Blvd.,Hanover,MD,Anne Arundel,20794,-8542870.43175,4743841.02092,1016
+1017,Fast Food,Hardees,2635 Annapolis Rd,Hanover,MD,Anne Arundel,21076,-8542705.44696,4740552.76231,1017
+1018,Fast Food,Moe's Southwest Grill,7000 Arundel Mills Mall Circle,Hanover,MD,Anne Arundel,21076,-8541056.3101,4744950.48962,1018
+1019,Fast Food,Popeye's,7000 Arundel Mills Circle,Hanover,MD,Anne Arundel,21076,-8541056.3101,4744950.48962,1019
+1020,Fast Food,Quiznos,2657 Annapolis Rd,Hanover,MD,Anne Arundel,21076,-8542825.05505,4740644.38848,1020
+1021,Fast Food,Subway,7696 Dorchester Blvd,Hanover,MD,Anne Arundel,21076,-8542924.33129,4743802.76695,1021
+1022,Fast Food,Subway,7000 Arundel Mills Cir,Hanover,MD,Anne Arundel,21076,-8541056.3101,4744950.48962,1022
+1023,Fast Food,Subway,7550 Teague Road,Hanover,MD,Anne Arundel,21076,-8540038.13999,4743891.59265,1023
+1024,Fast Food,Subway,7502 Connelley Dr,Hanover,MD,Anne Arundel,21076,-8536060.31104,4744507.67971,1024
+1025,Fast Food,Wendy's,7426 New Ridge Rd,Hanover,MD,Anne Arundel,21240,-8538395.43023,4747011.9956,1025
+1026,Fast Food,Wendy's,7057 Arundel Mills Blvd.,Hanover,MD,Anne Arundel,21076,-8541214.44493,4743582.90164,1026
+1027,Fast Food,Subway,4450 Solomons Islands Road,Harwood,MD,Anne Arundel,20776,-8529288.08575,4702433.01131,1027
+1028,Fast Food,Pizza Hut,600 Ohio St,Havre de Grace,MD,Harford,21078,-8471645.88898,4801170.59995,1028
+1029,Fast Food,Burger King,990 Pulaski Highway,Havre de Grace,MD,Harford,21078,-8472097.50435,4800302.29201,1029
+1030,Fast Food,Dunkin' Donuts,1057 Pulaski Hwy,Havre de Grace,MD,Harford,21078,-8472313.83242,4800002.03327,1030
+1031,Fast Food,McDonald's,802 Pulaski,Havre de Grace,MD,Harford,21078,-8471501.09809,4801343.22214,1031
+1032,Fast Food,Subway,1043 Pulaski Hwy,Havre de Grace,MD,Harford,21078,-8472281.76282,4800059.06825,1032
+1033,Fast Food,Burger King,2122 Fountain Green Road,Hickory,MD,Harford,21015,-8498674.86745,4804719.06812,1033
+1034,Fast Food,Subway,13380 Clarksville Pike,Highland,MD,Howard,20759,-8566834.75424,4747447.09732,1034
+1035,Fast Food,Bojangles',3727 Branch Avenue,Hillcrest Heights,MD,Prince George's,20748,-8565740.55752,4698821.23165,1035
+1036,Fast Food,McDonald's,3501 Branch Ave,Hillcrest Heights,MD,Prince George's,20748,-8566125.79618,4699459.61578,1036
+1037,Fast Food,Popeye's,2369 Iverson St,Hillcrest Heights,MD,Prince George's,20748,-8566787.85143,4698009.29426,1037
+1038,Fast Food,Blimpie,8144 Leonardtown Rd,Hughesville,MD,Charles,20637,-8547953.1591,4655903.45614,1038
+1039,Fast Food,Burger King,11300 York Road,Hunt Valley,MD,Baltimore,21030,-8532577.59005,4792624.35009,1039
+1040,Fast Food,Chik-Fil-A,6 Hyland Ave,Hunt Valley,MD,Baltimore,21030,-8532741.68425,4792959.30998,1040
+1041,Fast Food,Subway,112 Shawan Road,Hunt Valley,MD,Baltimore,21030,-8533035.43669,4792952.66746,1041
+1042,Fast Food,Subway,1 Frankel Way,Hunt Valley,MD,Baltimore,21030,-8531486.759,4789454.5993,1042
+1043,Fast Food,Wendy's,11320 York Road,Hunt Valley,MD,Baltimore,21030,-8532650.01362,4792829.10803,1043
+1044,Fast Food,Subway,105 Delaware Ave.,Hurlock,MD,Dorchester,21643,-8444715.72413,4668682.18898,1044
+1045,Fast Food,Dunkin' Donuts,1896 Urbana Pike,Hyattstown,MD,Frederick,20871,-8606484.90129,4762990.167,1045
+1046,Fast Food,Pizza Hut,6747 Annapolis Rd,Hyattsville,MD,Prince George's,20784,-8560687.25841,4713524.7527,1046
+1047,Fast Food,Pizza Hut,5350 Queens Chapel Rd,Hyattsville,MD,Prince George's,20782,-8567565.29806,4715252.17851,1047
+1048,Fast Food,Pizza Hut,6422 Sargent Rd,Hyattsville,MD,Prince George's,20782,-8569808.02942,4717127.38169,1048
+1049,Fast Food,Pizza Hut,7009 Martin Luther King Jr. Hwy,Hyattsville,MD,Prince George's,20785,-8558892.96356,4709396.623,1049
+1050,Fast Food,Arby's,2001 University Blvd,Hyattsville,MD,Prince George's,20783,-8569216.45417,4719313.40118,1050
+1051,Fast Food,Checkers,3032 Queen's Chapel Road,Hyattsville,MD,Prince George's,20782,-8568019.8382,4714406.28751,1051
+1052,Fast Food,Five Guys,6451 America Blvd,Hyattsville,MD,Prince George's,20872,-8566275.39355,4717000.24567,1052
+1053,Fast Food,KFC,5401 Ager Road,Hyattsville,MD,Prince George's,20782,-8567815.64952,4715328.86069,1053
+1054,Fast Food,McDonald's,3500 East West Hwy,Hyattsville,MD,Prince George's,20782,-8567087.5173,4716947.8435,1054
+1055,Fast Food,McDonald's,2306 University Blvd,Hyattsville,MD,Prince George's,20783,-8568407.47455,4719417.32858,1055
+1056,Fast Food,Panda Express,6600 Annapolis Rd,Hyattsville,MD,Prince George's,20784,-8560867.44833,4713351.6464,1056
+1057,Fast Food,Popeye's,2451 Chillum Rd,Hyattsville,MD,Prince George's,20783,-8568090.01396,4714761.93071,1057
+1058,Fast Food,Popeye's,3500 E West Hwy,Hyattsville,MD,Prince George's,28782,-8567087.5173,4716947.8435,1058
+1059,Fast Food,Subway,2461 Chillum Rd,Hyattsville,MD,Prince George's,20872,-8568073.91043,4714754.49307,1059
+1060,Fast Food,Subway,3500 East West Highway,Hyattsville,MD,Prince George's,20872,-8567087.5173,4716947.8435,1060
+1061,Fast Food,Taco Bell,7900 New Hampshire Ave,Hyattsville,MD,Prince George's,20783,-8570236.67988,4720181.6332,1061
+1062,Fast Food,Taco Bell,3500 E West Hwy,Hyattsville,MD,Prince George's,20782,-8567087.5173,4716947.8435,1062
+1063,Fast Food,Taco Bell,7501 Annapolis Rd,Hyattsville,MD,Prince George's,20784,-8558953.23723,4714505.71846,1063
+1064,Fast Food,Wendy's,6410 Sargent Road,Hyattsville,MD,Prince George's,20782,-8569781.22481,4717012.17537,1064
+1065,Fast Food,Jimmy Johns,3321 Worthington,Ijamsville,MD,Frederick,21754,-8609868.5688,4768557.79577,1065
+1066,Fast Food,Subway,4609 Indian Head Hwy,Indian Head,MD,Charles,20640,-8588184.53212,4664681.0233,1066
+1067,Fast Food,Subway,1120 Baldwin Mill Rd,Jarrettsvile,MD,Harford,21084,-8513499.91531,4808562.34411,1067
+1068,Fast Food,Arby's,7410 Assateague Dr,Jessup,MD,Howard,20794,-8547869.24236,4745895.08753,1068
+1069,Fast Food,Burger King,8775 Baltimore Washington Boulevard,Jessup,MD,Howard,20794,-8550359.73809,4742401.38871,1069
+1070,Fast Food,Dunkin' Donuts,7916 Dorsey Run Road,Jessup,MD,Howard,20794,-8547014.41471,4743725.65628,1070
+1071,Fast Food,Dunkin' Donuts,8600 Washington Blvd,Jessup,MD,Howard,20794,-8550007.05537,4742895.11143,1071
+1072,Fast Food,Panda Express,7351 Assateague Drive,Jessup,MD,Howard,20794,-8547740.65451,4745828.81849,1072
+1073,Fast Food,Subway,8610 Washington Blvd,Jessup,MD,Howard,20794,-8550025.307,4742875.72191,1073
+1074,Fast Food,Subway,7401 Assateague Dr,Jessup,MD,Howard,20794,-8547558.39007,4745690.51571,1074
+1075,Fast Food,Taco Bell,8620 Washington Blvd,Jessup,MD,Howard,20794,-8550044.8696,4742856.86672,1075
+1076,Fast Food,Wendy's,1060 Joppa Farm Rd,Joppatown,MD,Harford,21085,-8501504.80537,4782351.31827,1076
+1077,Fast Food,McDonald's,2741 University Blvd,Kensington,MD,Montgomery,20895,-8577910.86268,4727322.07791,1077
+1078,Fast Food,Subway,5210 Nicholson Lane,Kensington,MD,Montgomery,20895,-8583355.36663,4728121.53875,1078
+1079,Fast Food,McDonald's,854 Jefferson Pike,Knoxville,MD,Frederick,21758,-8643041.17997,4769950.26049,1079
+1080,Fast Food,Pizza Hut,6223 Crain Hwy,La Plata,MD,Charles,20646,-8569901.23016,4656290.7676,1080
+1081,Fast Food,Burger King,6720 Crain Highway,La Plata,MD,Charles,20646,-8569634.04745,4654226.48137,1081
+1082,Fast Food,Chik-Fil-A,107 Drury Dr,La Plata,MD,Charles,20646,-8569830.97351,4657185.86132,1082
+1083,Fast Food,Dairy Queen,22 Shining Willow Way,La Plata,MD,Charles,20646,-8569802.17337,4656518.65672,1083
+1084,Fast Food,McDonald's,109 Drury Drive,La Plata,MD,Charles,20646,-8569830.74996,4657183.94416,1084
+1085,Fast Food,McDonald's,6385 Crain Highway,La Plata,MD,Charles,20646,-8569818.65091,4655512.93087,1085
+1086,Fast Food,Roy Rogers,6370 Crain Hwy,La Plata,MD,Charles,20646,-8569777.26418,4655568.2798,1086
+1087,Fast Food,Subway,40 Drury Dr,La Plata,MD,Charles,20646,-8569840.01683,4657385.67095,1087
+1088,Fast Food,Subway,6486 Crain Hwy,La Plata,MD,Charles,20646,-8569722.75025,4655079.28131,1088
+1089,Fast Food,Wendy's,6293 Crain Hwy,La Plata,MD,Charles,20646,-8569873.07684,4656031.69719,1089
+1090,Fast Food,Arby's,1206 National Hwy,La Vale,MD,Allegany,21502,-8775496.96423,4813536.41771,1090
+1091,Fast Food,Dairy Queen,1262 Vocke Rd,La Vale,MD,Allegany,21502,-8775874.13857,4812527.466,1091
+1092,Fast Food,Dairy Queen,1205 National Hwy,La Vale,MD,Allegany,21502,-8775481.56059,4813563.21489,1092
+1093,Fast Food,McDonald's,1242 National Hwy,La Vale,MD,Allegany,21502,-8776175.22262,4813292.128,1093
+1094,Fast Food,McDonald's,12500 Country Club Mall Rd,La Vale,MD,Allegany,21502,-8776136.1643,4811533.92742,1094
+1095,Fast Food,Subway,1262 Vocke Road,La Vale,MD,Allegany,21502,-8775874.13857,4812527.466,1095
+1096,Fast Food,Subway,1313 National Hwy,La Vale,MD,Allegany,21502,-8777169.97041,4813353.03213,1096
+1097,Fast Food,Wendy's,1224 National Highway,La Vale,MD,Allegany,21502,-8775826.00879,4813367.56939,1097
+1098,Fast Food,Burger King,6505 Annapolis Road,Landover,MD,Prince George's,20784,-8561260.80248,4712956.12068,1098
+1099,Fast Food,Checkers,7415 Landover Road,Landover,MD,Prince George's,20785,-8559175.14395,4711152.54266,1099
+1100,Fast Food,KFC,6701 Martin Luther King Jr Hwy,Landover,MD,Prince George's,20785,-8559566.34308,4708712.01607,1100
+1101,Fast Food,McDonald's,7708 Landover Rd,Landover,MD,Prince George's,20785,-8558337.42405,4711288.78464,1101
+1102,Fast Food,McDonald's,8710 Central Ave,Landover,MD,Prince George's,20785,-8555526.27976,4706008.57452,1102
+1103,Fast Food,Popeye's,7101 Martin Luther King,Landover,MD,Prince George's,20785,-8558609.69947,4709638.47457,1103
+1104,Fast Food,Popeye's,7706 Landover Rd,Landover,MD,Prince George's,20785,-8558341.58381,4711288.50487,1104
+1105,Fast Food,Subway,8401 Corporate Dr,Landover,MD,Prince George's,20785,-8556281.40871,4714072.59242,1105
+1106,Fast Food,Subway,7077 Martin Luther King Hwy,Landover,MD,Prince George's,20785,-8558775.13265,4709496.15903,1106
+1107,Fast Food,Subway,7810 Central Ave,Landover,MD,Prince George's,20785,-8557375.23261,4705796.22359,1107
+1108,Fast Food,Wendy's,8211 Landover Rd,Landover,MD,Prince George's,20785,-8557126.83093,4710791.5918,1108
+1109,Fast Food,McDonald's,6200 Annapolis Rd,Landover Hills,MD,Prince George's,20784,-8561669.39278,4712924.68909,1109
+1110,Fast Food,Subway,6731 Annapolis Rd,Landover Hills,MD,Prince George's,20784,-8560703.00634,4713504.57573,1110
+1111,Fast Food,McDonald's,7911 New Hampshire Ave,Langley Park,MD,Prince George's,20783,-8570205.04927,4720176.62244,1111
+1112,Fast Food,Pizza Hut,9119 Annapolis Rd,Lanham,MD,Prince George's,29796,-8555681.85402,4716466.6657,1112
+1113,Fast Food,Pizza Hut,10595 Greenbelt,Lanham,MD,Prince George's,20706,-8551684.07824,4720147.68099,1113
+1114,Fast Food,Dunkin' Donuts,7903 Annapolis Rd,Lanham,MD,Prince George's,20706,-8557726.78286,4715115.96313,1114
+1115,Fast Food,KFC,7731 Annapolis Rd,Lanham,MD,Prince George's,20706,-8558069.34134,4714896.34356,1115
+1116,Fast Food,KFC,10501 Greenbelt Rd,Lanham,MD,Prince George's,20706,-8552002.406,4720229.10184,1116
+1117,Fast Food,McDonald's,7570 Annapolis Rd,Lanham,MD,Prince George's,20784,-8558901.92089,4714676.32813,1117
+1118,Fast Food,McDonald's,9007 Annapolis Rd,Lanham,MD,Prince George's,20706,-8556303.19129,4716110.06457,1118
+1119,Fast Food,Popeye's,7711 Annapolis Rd,Lanham,MD,Prince George's,20784,-8558227.28565,4714838.38904,1119
+1120,Fast Food,Subway,5000 Ellin Road,Lanham,MD,Prince George's,20706,-8557524.90896,4714311.40969,1120
+1121,Fast Food,Taco Bell,9409 Annapolis Rd,Lanham,MD,Prince George's,20706,-8554375.82877,4716693.41726,1121
+1122,Fast Food,Wendy's,9401 Annapolis Road,Lanham,MD,Prince George's,20706,-8554442.09986,4716697.4422,1122
+1123,Fast Food,Quiznos,10631 Greenbelt Rd,Lanham-Seabrook,MD,Prince George's,20706,-8551596.7638,4720114.85513,1123
+1124,Fast Food,Burger King,8903 Annapolis Road,Lanham-Seabrook,MD,Prince George's,20706,-8556453.50586,4715980.5672,1124
+1125,Fast Food,Subway,9201 Woodmore Centre Drive,Lanham-Seabrook,MD,Prince George's,20706,-8554661.45324,4710597.91933,1125
+1126,Fast Food,Subway,9900 Greenbelt Rd,Lanham-Seabrook,MD,Prince George's,20706,-8553224.77731,4720382.56717,1126
+1127,Fast Food,Dunkin' Donuts,3597 Washington Blvd,Lansdowne,MD,Baltimore,21227,-8534931.40777,4757360.89449,1127
+1128,Fast Food,Chik-Fil-A,1040 Shoppers Way,Largo,MD,Prince George's,20774,-8554647.47737,4707877.0747,1128
+1129,Fast Food,Five Guys,881C Capital Centre Blvd,Largo,MD,Prince George's,20774,-8554348.33019,4707720.43708,1129
+1130,Fast Food,Panda Express,881-I Capital Center Dr,Largo,MD,Prince George's,20774,-8554349.78942,4707719.65583,1130
+1131,Fast Food,Subway,10428 Campus Way,Largo,MD,Prince George's,20774,-8552028.42203,4706202.59633,1131
+1132,Fast Food,Pizza Hut,13929 Baltimore Ave,Laurel,MD,Prince George's,20707,-8556407.99822,4733467.67926,1132
+1133,Fast Food,Pizza Hut,9700 Fort Meade Rd,Laurel,MD,Prince George's,20707,-8553672.43755,4735370.10292,1133
+1134,Fast Food,Pizza Hut,9155 Maier Rd,Laurel,MD,Howard,20723,-8552234.61365,4739024.24439,1134
+1135,Fast Food,Arby's,706 Washington Blvd,Laurel,MD,Prince George's,20707,-8554802.78644,4735828.0541,1135
+1136,Fast Food,Burger King,14801 Baltimore Avenue,Laurel,MD,Prince George's,20707,-8555469.02567,4735060.4879,1136
+1137,Fast Food,Burger King,3359 Corridor Market Place,Laurel,MD,Anne Arundel,20724,-8550061.32462,4735536.58675,1137
+1138,Fast Food,Chik-Fil-A,3366 Corridor Market Place,Laurel,MD,Anne Arundel,20724,-8550066.41292,4735519.35281,1138
+1139,Fast Food,Chik-Fil-A,13600 Baltimore Ave,Laurel,MD,Prince George's,20707,-8556887.08414,4732656.07953,1139
+1140,Fast Food,Chik-Fil-A,10975 Johns Hopkins Rd,Laurel,MD,Howard,20723,-8559818.67646,4744554.38194,1140
+1141,Fast Food,Dunkin' Donuts,3503 Laurel Fort Meade Rd,Laurel,MD,Anne Arundel,20724,-8551728.86268,4736111.84507,1141
+1142,Fast Food,Dunkin' Donuts,14903 Baltimore Ave,Laurel,MD,Prince George's,20707,-8555308.32547,4735229.61177,1142
+1143,Fast Food,Five Guys,15102 Baltimore Ave.,Laurel,MD,Prince George's,20707,-8554938.02163,4735504.2979,1143
+1144,Fast Food,KFC,319 Washington Blvd S,Laurel,MD,Prince George's,20707,-8554457.77771,4736273.86022,1144
+1145,Fast Food,Panda Express,15102 Baltimore Ave,Laurel,MD,Prince George's,20707,-8554938.02163,4735504.2979,1145
+1146,Fast Food,Popeye's,15006 Baltimore Ave,Laurel,MD,Prince George's,20707,-8554974.07839,4735477.6891,1146
+1147,Fast Food,Popeye's,3388 Fort Meade Rd,Laurel,MD,Anne Arundel,20724,-8550282.43355,4735811.75427,1147
+1148,Fast Food,Quiznos,13919 Baltimore Avenue,Laurel,MD,Prince George's,20707,-8556442.84863,4733400.8753,1148
+1149,Fast Food,Subway,7500 Montpelier Rd,Laurel,MD,Howard,20723,-8559716.8758,4744564.50961,1149
+1150,Fast Food,Subway,8305 Ice Crystal Dr,Laurel,MD,Howard,20723,-8560284.03302,4742348.67558,1150
+1151,Fast Food,Subway,9105-K All Saints Rd,Laurel,MD,Howard,20707,-8554282.26553,4739358.79274,1151
+1152,Fast Food,Subway,3481 Fort Meade Rd,Laurel,MD,Anne Arundel,20724,-8551037.81047,4735986.77643,1152
+1153,Fast Food,Subway,947 Fairlawn Ave,Laurel,MD,Prince George's,20707,-8555470.86863,4735593.26574,1153
+1154,Fast Food,Subway,7407 Van Dusen Road,Laurel,MD,Prince George's,20707,-8558021.64825,4734230.45835,1154
+1155,Fast Food,Subway,14190 E Baltimore Ave,Laurel,MD,Prince George's,20707,-8556246.6583,4733818.63074,1155
+1156,Fast Food,Subway,12741 Laurel Bowie Rd,Laurel,MD,Prince George's,20708,-8553722.00193,4730973.83318,1156
+1157,Fast Food,Taco Bell,13360 Laurel Bowie Rd,Laurel,MD,Prince George's,20708,-8554717.43178,4732340.76763,1157
+1158,Fast Food,Wendy's,14050 Baltimore Blvd,Laurel,MD,Prince George's,20707,-8556382.47224,4733550.0265,1158
+1159,Fast Food,Wendy's,3563 Russett Grn,Laurel,MD,Anne Arundel,20724,-8549930.17851,4735912.04701,1159
+1160,Fast Food,Wendy's,8850 Gorman Road,Laurel,MD,Howard,20723,-8551583.92372,4740487.06881,1160
+1161,Fast Food,Burger King,1299 National Highway,La Vale,MD,Allegany,21502,-8776985.03798,4813326.54491,1161
+1162,Fast Food,Pizza Hut,40955 Merchants Ln,Leonardtown,MD,St. Mary's,20650,-8533721.31761,4622567.41661,1162
+1163,Fast Food,Arby's,40824 Merchants Lane,Leonardtown,MD,St. Mary's,20650,-8534185.26399,4622966.5353,1163
+1164,Fast Food,KFC,26501 Point Lookout Rd,Leonardtown,MD,St. Mary's,20650,-8534735.8066,4624112.15255,1164
+1165,Fast Food,McDonald's,40950 Merchants Ln,Leonardtown,MD,St. Mary's,20650,-8533774.86246,4622631.9852,1165
+1166,Fast Food,Subway,40955 Merchants Lane,Leonardtown,MD,St. Mary's,20650,-8533721.31761,4622567.41661,1166
+1167,Fast Food,Taco Bell,26501 Point Lookout Rd,Leonardtown,MD,St. Mary's,20650,-8534735.8066,4624112.15255,1167
+1168,Fast Food,Wendy's,40804 Merchant Lane,Leonardtown,MD,St. Mary's,20650,-8534242.03144,4623015.39726,1168
+1169,Fast Food,Pizza Hut,21600 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8512110.68261,4616287.26156,1169
+1170,Fast Food,A&W,21591 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8512259.59461,4616229.00562,1170
+1171,Fast Food,Blimpie,21141 3 Notch Road,Lexington Park,MD,St. Mary's,20635,-8507551.89239,4614523.78288,1171
+1172,Fast Food,Burger King,21650 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8511650.95386,4616524.66111,1172
+1173,Fast Food,Checkers,21656 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8511594.7214,4616556.21246,1173
+1174,Fast Food,KFC,21583 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8512379.19079,4616167.43995,1174
+1175,Fast Food,Long John Silvers,21591 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8512259.59461,4616229.00562,1175
+1176,Fast Food,Popeye's,201C Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8511018.29622,4616866.40197,1176
+1177,Fast Food,Subway,21729 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8511018.29622,4616866.40197,1177
+1178,Fast Food,Wendy's,21589 Great Mills Rd,Lexington Park,MD,St. Mary's,20653,-8512289.49368,4616213.61427,1178
+1179,Fast Food,Checkers,6899 Baltimore-Annapolis Blvd,Linthicum,MD,Anne Arundel,21090,-8531956.48704,4752542.64855,1179
+1180,Fast Food,Dunkin' Donuts,835 Nursery Rd,Linthicum,MD,Anne Arundel,21090,-8534089.6009,4753868.18687,1180
+1181,Fast Food,Dunkin' Donuts,458 N Camp Meade Rd,Linthicum,MD,Anne Arundel,21090,-8532002.88098,4752390.74577,1181
+1182,Fast Food,Hardees,718 Nursery Rd,Linthicum,MD,Anne Arundel,21090,-8533663.22879,4753867.26481,1182
+1183,Fast Food,Subway,529 S Camp Meade Rd,Linthicum,MD,Anne Arundel,21090,-8533230.81321,4750434.62647,1183
+1184,Fast Food,Subway,500 Progress Drive,Linthicum,MD,Anne Arundel,21090,-8535585.79454,4752710.25802,1184
+1185,Fast Food,Wendy's,1589 West Nursery Rd,Linthicum,MD,Anne Arundel,21090,-8536070.17528,4750987.98746,1185
+1186,Fast Food,KFC,708 Nursery Rd,Linthicum Heights,MD,Anne Arundel,21090,-8533488.91635,4753860.74472,1186
+1187,Fast Food,Quiznos,823A Elkridge Landing Rd,Linthicum Heights,MD,Anne Arundel,21090,-8536603.1172,4749709.71668,1187
+1188,Fast Food,Taco Bell,5184 Raynor Ave,Linthicum Heights,MD,Anne Arundel,21090,-8533679.73366,4753730.23419,1188
+1189,Fast Food,Wendy's,714 Nursery Rd,Linthicum Heights,MD,Anne Arundel,21090,-8533611.18933,4753865.38644,1189
+1190,Fast Food,Dunkin' Donuts,5408 Southern Maryland Blvd,Lothian,MD,Anne Arundel,20711,-8538122.24801,4694493.11522,1190
+1191,Fast Food,Subway,5408 Southern Maryland Blvd,Lothian,MD,Anne Arundel,20711,-8538122.24801,4694493.11522,1191
+1192,Fast Food,Pizza Hut,178 Village Center Drive,Lusby,MD,Calvert,20657,-8509035.49784,4632262.8379,1192
+1193,Fast Food,Dunkin' Donuts,174 Village Center Dr,Lusby,MD,Calvert,20657,-8509038.25602,4632266.96645,1193
+1194,Fast Food,Moe's Southwest Grill,182 Village Center Dr,Lusby,MD,Calvert,20657,-8509032.73965,4632258.70947,1194
+1195,Fast Food,Pizza Hut,1508 York Rd,Lutherville,MD,Baltimore,21093,-8528980.89997,4782207.37354,1195
+1196,Fast Food,Subway,1407 York Rd,Lutherville,MD,Baltimore,21093,-8528839.88381,4781913.3975,1196
+1197,Fast Food,Checkers,4335 St. Barnabas Road,Marlow Heights,MD,Prince George's,20748,-8565107.208,4697406.79149,1197
+1198,Fast Food,Subway,4327 Saint Barnabas Rd,Marlow Heights,MD,Prince George's,20748,-8565094.83645,4697431.4959,1198
+1199,Fast Food,Subway,11085 Resort Road,Marriotsville,MD,Howard,21104,-8560064.54671,4764709.24377,1199
+1200,Fast Food,Burger King,24179 Garrett Highway,McHenry,MD,Garrett,21541,-8833357.0198,4801740.32844,1200
+1201,Fast Food,Pizza Hut,30195 Triangle Drive,Mechanicsville,MD,St. Mary's,20659,-8546473.90986,4649896.1269,1201
+1202,Fast Food,Subway,28270 Three Notch Rd,Mechanicsville,MD,St. Mary's,20659,-8542712.69387,4642486.63327,1202
+1203,Fast Food,Pizza Hut,2004 Eastern Blvd,Middle River,MD,Baltimore,21220,-8509618.53913,4768652.16678,1203
+1204,Fast Food,Chik-Fil-A,1202 Martin Blvd,Middle River,MD,Baltimore,21220,-8510457.58352,4769607.77894,1204
+1205,Fast Food,KFC,190 Carroll Island,Middle River,MD,Baltimore,21220,-8504577.40865,4770128.03334,1205
+1206,Fast Food,McDonald's,1472 Martin Blvd,Middle River,MD,Baltimore,21220,-8509825.68052,4769524.91802,1206
+1207,Fast Food,Sonic Drive-In,8733 Pulaski Highway,Middle River,MD,Baltimore,21237,-8514047.09466,4769906.45103,1207
+1208,Fast Food,Taco Bell,1431 Fuselage Ave,Middle River,MD,Baltimore,21220,-8509948.21099,4769338.26245,1208
+1209,Fast Food,Wendy's,119 Beacon Road,Middle River,MD,Baltimore,21220,-8511073.08235,4769951.72158,1209
+1210,Fast Food,Subway,5 E Main St,Middletown,MD,Frederick,21769,-8632264.79175,4785452.73753,1210
+1211,Fast Food,Burger King,8022 Liberty Road,Milford Mill,MD,Baltimore,21244,-8544419.05098,4772356.38243,1211
+1212,Fast Food,Dunkin' Donuts,8021 Liberty Rd,Milford Mill,MD,Baltimore,21244,-8544418.00171,4772338.6652,1212
+1213,Fast Food,McDonald's,8227 Liberty Rd,Milford Mill,MD,Baltimore,21244,-8545409.96998,4772791.29623,1213
+1214,Fast Food,Taco Bell,8110 Liberty Rd,Milford Mill,MD,Baltimore,21244,-8544817.30601,4772536.87345,1214
+1215,Fast Food,Dunkin' Donuts,8564 Veterans Hwy,Millersville,MD,Anne Arundel,21108,-8529904.23061,4735456.87369,1215
+1216,Fast Food,KFC,8073 Veterans Highway,Millersville,MD,Anne Arundel,21108,-8531180.94505,4738973.22653,1216
+1217,Fast Food,Quiznos,8556 Veterans Hwy,Millersville,MD,Anne Arundel,21108,-8529912.42048,4735484.28028,1217
+1218,Fast Food,Subway,672 Old Mill Rd,Millersville,MD,Anne Arundel,21108,-8530675.97856,4738545.76835,1218
+1219,Fast Food,Taco Bell,8081 Veterans Hwy,Millersville,MD,Anne Arundel,21108,-8531161.74205,4738942.28666,1219
+1220,Fast Food,Wendy's,8203 Veterans Hwy,Millersville,MD,Anne Arundel,21108,-8530852.19482,4738441.11562,1220
+1221,Fast Food,Pizza Hut,12200 Central Ave,Mitchellville,MD,Prince George's,20721,-8548810.76636,4707309.98072,1221
+1222,Fast Food,Popeye's,12120 Central Ave,Mitchellville,MD,Prince George's,20721,-8548988.52596,4707263.35227,1222
+1223,Fast Food,Subway,1344 Crain Highway,Mitchellville,MD,Prince George's,20716,-8540257.1796,4708404.69336,1223
+1224,Fast Food,Subway,12126 Central Ave,Mitchellville,MD,Prince George's,20721,-8548974.87888,4707265.87369,1224
+1225,Fast Food,McDonald's,19388 Montgomery Village Ave,Montgomery Village,MD,Montgomery,20886,-8594280.31125,4746666.62707,1225
+1226,Fast Food,Subway,19210 Montgomery Village Ave,Montgomery Village,MD,Montgomery,20886,-8594317.71542,4746216.79364,1226
+1227,Fast Food,Pizza Hut,1705 Ridgeside Dr,Mount Airy,MD,Carroll,21771,-8589849.70763,4773825.42769,1227
+1228,Fast Food,Arby's,210 E Ridgeville Blvd,Mount Airy,MD,Carroll,21771,-8589724.20203,4774045.35224,1228
+1229,Fast Food,Blimpie,502 E. Ridgeville Blvd.,Mount Airy,MD,Carroll,21771,-8589392.5862,4773882.99717,1229
+1230,Fast Food,Burger King,501 East Ridgeville Boulevard,Mount Airy,MD,Carroll,21771,-8589378.45238,4773892.84358,1230
+1231,Fast Food,Dunkin' Donuts,1401 S Main St,Mount Airy,MD,Carroll,21771,-8589987.75797,4774293.24761,1231
+1232,Fast Food,Five Guys,505 E. Ridgeville Blvd.,Mount Airy,MD,Carroll,21771,-8589375.75596,4773879.32864,1232
+1233,Fast Food,KFC,1613 Ridgeside Dr,Mount Airy,MD,Carroll,21771,-8589704.72112,4773871.08,1233
+1234,Fast Food,Subway,208 Ridgeville Blvd,Mount Airy,MD,Carroll,21771,-8589726.89134,4774046.1982,1234
+1235,Fast Food,McDonald's,1706 Ridgeside Drive,Mount Airy,MD,Carroll,21771,-8589860.91548,4773836.82039,1235
+1236,Fast Food,Burger King,9620 Myersville Road,Myersville,MD,Frederick,21773,-8634822.81657,4793398.26792,1236
+1237,Fast Food,McDonald's,9615 Myersville-Middletown Rd,Myersville,MD,Frederick,21773,-8634807.16055,4793384.95674,1237
+1238,Fast Food,Subway,3000 Ventrie Ct.,Myersville,MD,Frederick,21773,-8634857.00875,4792450.57878,1238
+1239,Fast Food,Bojangles',8320 Annapolis Road,New Carrollton,MD,Prince George's,20784,-8557371.76503,4715412.03209,1239
+1240,Fast Food,Quiznos,8310E Annapolis Road,New Carrollton,MD,Prince George's,20784,-8557379.62502,4715406.42454,1240
+1241,Fast Food,Subway,8445 D Annapolis Rd,New Carrollton,MD,Prince George's,20784,-8557138.09784,4715538.23465,1241
+1242,Fast Food,Wendy's,8308 Annapolis Rd,New Carrollton,MD,Prince George's,20784,-8557381.31351,4715405.22004,1242
+1243,Fast Food,Dunkin' Donuts,11715 Old National Pike,New Market,MD,Frederick,21774,-8600172.70109,4776813.66157,1243
+1244,Fast Food,McDonald's,11700 Morning Gate Ln,New Market,MD,Frederick,21774,-8600164.03318,4776968.24284,1244
+1245,Fast Food,Five Guys,12238 Rockville Pike,North Bethesda,MD,Montgomery,20852,-8584946.17098,4729813.46677,1245
+1246,Fast Food,Burger King,71 North East Road,North East,MD,Cecil,21901,-8454491.23039,4809484.74403,1246
+1247,Fast Food,Dunkin' Donuts,130 N. East Rd,North East,MD,Cecil,21901,-8454418.1632,4809670.3518,1247
+1248,Fast Food,McDonald's,2400 Pulaski Hwy,North East,MD,Cecil,21901,-8454437.26798,4809215.90785,1248
+1249,Fast Food,Nathan's Famous Frankfurters,"Interstate 95, Mile Post 96.5",North East,MD,Cecil,21901,-8461149.79987,4809718.97126,1249
+1250,Fast Food,Subway,75 North East Plaza,North East,MD,Cecil,21901,-8454502.53585,4809551.83487,1250
+1251,Fast Food,Wendy's,2522 West Pulaski Highway,North East,MD,Cecil,21901,-8454885.98331,4809000.03634,1251
+1252,Fast Food,Arby's,4111 Wholesale Club Dr,Nottingham,MD,Baltimore,21236,-8516231.9222,4776187.01797,1252
+1253,Fast Food,Burger King,4101 Wholesale Club Drive,Nottingham,MD,Baltimore,21236,-8516249.62272,4776199.29406,1253
+1254,Fast Food,Charley's,8200 Perry Hall Blvd,Nottingham,MD,Baltimore,21236,-8512866.77443,4775589.04781,1254
+1255,Fast Food,Chik-Fil-A,8867 Belair Rd,Nottingham,MD,Baltimore,21236,-8513921.99531,4778746.94691,1255
+1256,Fast Food,KFC,9114 Belair Road,Nottingham,MD,Baltimore,21236,-8513442.15505,4779299.88735,1256
+1257,Fast Food,McDonald's,7927 Belair Road,Nottingham,MD,Baltimore,21236,-8516906.59167,4775429.28141,1257
+1258,Fast Food,McDonald's,483 Cordon Way,Nottingham,MD,Baltimore,21236,-8511419.99901,4775954.45798,1258
+1259,Fast Food,Subway,9641 Belair Road,Nottingham,MD,Baltimore,21236,-8511683.36083,4781223.33115,1259
+1260,Fast Food,Taco Bell,7933 Belair Rd,Nottingham,MD,Baltimore,21236,-8516900.67885,4775436.14611,1260
+1261,Fast Food,McDonald's,9106-9108 Belair Rd,Nottingham,MD,Baltimore,21236,-8513500.03074,4779232.72048,1261
+1262,Fast Food,Pizza Hut,6 S 3Rd St,Oakland,MD,Garrett,21550,-8839396.09094,4780606.68352,1262
+1263,Fast Food,Burger King,841 East Oak Street,Oakland,MD,Garrett,21550,-8838718.11897,4779733.20186,1263
+1264,Fast Food,Dairy Queen,12740 Garrett Hwy,Oakland,MD,Garrett,21550,-8838504.78135,4782264.0323,1264
+1265,Fast Food,McDonald's,19549 Garrett Hwy,Oakland,MD,Garrett,21550,-8830673.92436,4793781.61988,1265
+1266,Fast Food,McDonald's,19 N 3Rd St,Oakland,MD,Garrett,21550,-8839376.79834,4780651.75931,1266
+1267,Fast Food,Subway,21339 Garrett Hwy,Oakland,MD,Garrett,21550,-8831377.64305,4796836.12338,1267
+1268,Fast Food,Subway,225 E. Oak Street,Oakland,MD,Garrett,21550,-8839703.78369,4780181.02516,1268
+1269,Fast Food,Taco Bell,13010 Garrett Hwy,Oakland,MD,Garrett,21550,-8837985.12271,4782729.62166,1269
+1270,Fast Food,Dunkin' Donuts,409 Boardwalk,Ocean City,MD,Worcester,21842,-8358555.70297,4625986.89203,1270
+1271,Fast Food,Pizza Hut,2709 Philadelphia Avenue,Ocean City,MD,Worcester,21842,-8357348.09609,4629917.49355,1271
+1272,Fast Food,Pizza Hut,13117 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355003.40279,4641290.96312,1272
+1273,Fast Food,Burger King,3205 Philadelphia Avenue,Ocean City,MD,Worcester,21842,-8357140.31189,4630521.78119,1273
+1274,Fast Food,Burger King,119Th Street & Coastal Highway,Ocean City,MD,Worcester,21842,-8355184.27697,4639549.90194,1274
+1275,Fast Food,Chik-Fil-A,12901 Ocean Gateway,Ocean City,MD,Worcester,21842,-8360268.65126,4626907.01848,1275
+1276,Fast Food,Dairy Queen,813 N Atlantic Ave 3,Ocean City,MD,Worcester,21842,-8357983.75009,4627388.51906,1276
+1277,Fast Food,Dairy Queen,3 Dorchester St,Ocean City,MD,Worcester,21842,-8358536.40767,4626069.42728,1277
+1278,Fast Food,Dairy Queen,12501 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355109.10341,4640409.54889,1278
+1279,Fast Food,Dairy Queen,2114 N Philadelphia Ave,Ocean City,MD,Worcester,21842,-8357590.8953,4629102.87097,1279
+1280,Fast Food,Dunkin' Donuts,12641 Ocean Gtwy,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1280
+1281,Fast Food,Dunkin' Donuts,406 S Baltimore Ave,Ocean City,MD,Worcester,21842,-8358691.05089,4626046.55637,1281
+1282,Fast Food,Dunkin' Donuts,1800 N Philadelphia Ave,Ocean City,MD,Worcester,21842,-8357727.32573,4628702.4016,1282
+1283,Fast Food,Dunkin' Donuts,5601 Coastal Hwy,Ocean City,MD,Worcester,21842,-8356542.61438,4633289.46154,1283
+1284,Fast Food,Dunkin' Donuts,8101 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355817.51836,4636121.48572,1284
+1285,Fast Food,Dunkin' Donuts,11901 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355211.43828,4639547.72662,1285
+1286,Fast Food,Five Guys,12641-118 Ocean Gateway,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1286
+1287,Fast Food,Five Guys,6401 Coastal Highway,Ocean City,MD,Worcester,21842,-8356313.07042,4634191.72229,1287
+1288,Fast Food,KFC,12641 Ocean Gateway,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1288
+1289,Fast Food,McDonald's,3201 Coastal Hwy,Ocean City,MD,Worcester,21842,-8357141.80546,4630517.25742,1289
+1290,Fast Food,McDonald's,12301 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355143.80857,4640122.55873,1290
+1291,Fast Food,Subway,12641 Ocean Gateway,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1291
+1292,Fast Food,Subway,218 N Baltimore Ave,Ocean City,MD,Worcester,21842,-8358627.62489,4626197.39924,1292
+1293,Fast Food,Subway,1610 Baltimore Ave,Ocean City,MD,Worcester,21842,-8357684.88322,4628410.38835,1293
+1294,Fast Food,Subway,5201 Coastal Highway,Ocean City,MD,Worcester,21842,-8356648.52545,4632830.65596,1294
+1295,Fast Food,Subway,12701 Coastal Hwy,Ocean City,MD,Worcester,21842,-8355075.74968,4640695.01692,1295
+1296,Fast Food,Taco Bell,12641 Ocean Gtwy,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1296
+1297,Fast Food,Wendy's,12641 Ocean Gateway,Ocean City,MD,Worcester,21842,-8361351.7906,4627266.03638,1297
+1298,Fast Food,McDonald's,11041 Racetrack Rd,Ocean Pines,MD,Worcester,21811,-8367377.5961,4632942.84083,1298
+1299,Fast Food,Pizza Hut,1107 Odenton Rd,Odenton,MD,Anne Arundel,21113,-8536664.79584,4732935.73516,1299
+1300,Fast Food,Dairy Queen,1140 Annapolis Rd,Odenton,MD,Anne Arundel,21113,-8536856.91822,4733234.17164,1300
+1301,Fast Food,Dunkin' Donuts,743 Piney Orchard Pkwy,Odenton,MD,Anne Arundel,21113,-8540405.87346,4731221.98128,1301
+1302,Fast Food,Dunkin' Donuts,1614 Annapolis Rd,Odenton,MD,Anne Arundel,21113,-8540673.22825,4736699.74776,1302
+1303,Fast Food,Five Guys,1157 Annapolis Rd.,Odenton,MD,Anne Arundel,21113,-8536985.985,4733314.62553,1303
+1304,Fast Food,KFC,1682 Annapolis Rd,Odenton,MD,Anne Arundel,21113,-8540849.23769,4737250.13139,1304
+1305,Fast Food,Long John Silvers,1682 Annapolis Rd,Odenton,MD,Anne Arundel,21113,-8540849.23769,4737250.13139,1305
+1306,Fast Food,Quiznos,2288 Blue Water Blvd,Odenton,MD,Anne Arundel,21113,-8540081.13492,4735925.59372,1306
+1307,Fast Food,Subway,8765 Piney Orchard Pkwy,Odenton,MD,Anne Arundel,21113,-8540610.80798,4731031.51181,1307
+1308,Fast Food,Subway,1125 Annapolis Rd,Odenton,MD,Anne Arundel,21113,-8536746.99817,4733129.06496,1308
+1309,Fast Food,Dunkin' Donuts,18100 Village Mart Dr,Olney,MD,Montgomery,20832,-8578728.35213,4743541.39174,1309
+1310,Fast Food,Five Guys,3333 Olney Sandy Springs Road,Olney,MD,Montgomery,20832,-8578932.47875,4743589.00934,1310
+1311,Fast Food,McDonald's,18010 Georgia Ave,Olney,MD,Montgomery,20832,-8579050.20574,4743399.17443,1311
+1312,Fast Food,Popeye's,3410 Olney-Laytonville Rd,Olney,MD,Montgomery,20830,-8579094.71937,4743655.73438,1312
+1313,Fast Food,Subway,18137 Towne Center Road,Olney,MD,Montgomery,20832,-8578394.54665,4743548.22456,1313
+1314,Fast Food,Dunkin' Donuts,7529 Belair Rd,Overlea,MD,Baltimore,21236,-8518198.62867,4773927.08072,1314
+1315,Fast Food,Dunkin' Donuts,7924 Belair Rd,Overlea,MD,Baltimore,21236,-8517027.76412,4775305.53918,1315
+1316,Fast Food,Subway,7698 Belair Rd,Overlea,MD,Baltimore,21236,-8517863.06972,4774349.01941,1316
+1317,Fast Food,Pizza Hut,10244 Reisterstown Rd,Owings Mills,MD,Baltimore,21117,-8546592.40538,4781428.32611,1317
+1318,Fast Food,Chik-Fil-A,10480 Owings Mills Blvd,Owings Mills,MD,Baltimore,21117,-8546907.94652,4782267.07262,1318
+1319,Fast Food,Dunkin' Donuts,9419 Common Brook Dr,Owings Mills,MD,Baltimore,21117,-8549369.56402,4779066.86304,1319
+1320,Fast Food,Dunkin' Donuts,10902 Boulevard Circle,Owings Mills,MD,Baltimore,21117,-8547141.5258,4782888.17223,1320
+1321,Fast Food,Dunkin' Donuts,9404 A Reisterstown Rd,Owings Mills,MD,Baltimore,21117,-8543973.81625,4779073.23831,1321
+1322,Fast Food,Five Guys,10902 Boulevard Circle,Owings Mills,MD,Baltimore,21117,-8547141.5258,4782888.17223,1322
+1323,Fast Food,Jimmy Johns,10450 Owings Mills Blvd,Owings Mills,MD,Baltimore,21117,-8546901.2296,4782145.9534,1323
+1324,Fast Food,McDonald's,9774 Groffs Mill Dr,Owings Mills,MD,Baltimore,21117,-8550488.44647,4779822.36501,1324
+1325,Fast Food,Popeye's,10101 Reisterstown Rd,Owings Mills,MD,Baltimore,21117,-8546228.69842,4781118.8139,1325
+1326,Fast Food,Quiznos,9351 Lakeside Blvd,Owings Mills,MD,Baltimore,21117,-8549055.01429,4778914.38195,1326
+1327,Fast Food,Subway,10995 Owings Mills Blvd,Owings Mills,MD,Baltimore,21117,-8547153.62385,4783037.88837,1327
+1328,Fast Food,Subway,10300 Mill Run Cir,Owings Mills,MD,Baltimore,21117,-8547914.54007,4779796.14012,1328
+1329,Fast Food,Subway,9221 Lakeside Blvd,Owings Mills,MD,Baltimore,21117,-8548340.15663,4778937.57921,1329
+1330,Fast Food,Taco Bell,10245 Reisterstown Rd,Owings Mills,MD,Baltimore,21117,-8546581.76357,4781440.00358,1330
+1331,Fast Food,Wendy's,10109 Reisterstown,Owings Mills,MD,Baltimore,21117,-8546285.08064,4781170.04428,1331
+1332,Fast Food,Wendy's,9243 Lakeside Boulevard,Owings Mills,MD,Baltimore,21117,-8548280.05555,4778905.75955,1332
+1333,Fast Food,Pizza Hut,6293 Oxon Hill Rd,Oxon Hill,MD,Prince George's,20745,-8570410.02083,4693554.88855,1333
+1334,Fast Food,Bojangles',6135 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8569722.75426,4693663.83191,1334
+1335,Fast Food,Burger King,6150 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8569263.30832,4693704.94157,1335
+1336,Fast Food,Burger King,5141 Indian Head Highway,Oxon Hill,MD,Prince George's,20745,-8571625.45697,4695782.0524,1336
+1337,Fast Food,Checkers,6041 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8569148.47097,4693741.69086,1337
+1338,Fast Food,KFC,6140 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8569151.61659,4693725.04021,1338
+1339,Fast Food,McDonald's,6126 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8568997.40625,4693764.49906,1339
+1340,Fast Food,McDonald's,121 North Cove Terrace,Oxon Hill,MD,Prince George's,20745,-8573206.83357,4691108.6383,1340
+1341,Fast Food,McDonald's,5500 Saint Barnabas Rd,Oxon Hill,MD,Prince George's,20745,-8567689.00594,4695034.93866,1341
+1342,Fast Food,Popeye's,6247 Livingston Rd,Oxon Hill,MD,Prince George's,20745,-8570509.83117,4693606.05424,1342
+1343,Fast Food,Popeye's,5151 Indian Head Hwy,Oxon Hill,MD,Prince George's,20745,-8571622.48414,4695774.28004,1343
+1344,Fast Food,Quiznos,6215 Oxon Hill Rd,Oxon Hill,MD,Prince George's,20745,-8570079.90007,4693610.51158,1344
+1345,Fast Food,Subway,110 Waterfront Street,Oxon Hill,MD,Prince George's,20745,-8573327.01621,4691016.2358,1345
+1346,Fast Food,Subway,North Cove Terrace,Oxon Hill,MD,Prince George's,20745,-8573122.42318,4691009.90423,1346
+1347,Fast Food,Subway,6223 Oxon Hill Rd,Oxon Hill,MD,Prince George's,20745,-8570113.79942,4693605.12287,1347
+1348,Fast Food,Subway,5482 Saint Barnabas Rd,Oxon Hill,MD,Prince George's,20745,-8567662.80731,4695060.46268,1348
+1349,Fast Food,Subway,5119 Indian Head Hwy,Oxon Hill,MD,Prince George's,20745,-8571631.99719,4695799.15189,1349
+1350,Fast Food,Taco Bell,6315 Oxon Hill Rd,Oxon Hill,MD,Prince George's,20745,-8570580.60439,4693539.11716,1350
+1351,Fast Food,Wendy's,6122 Oxon Hill Road,Oxon Hill,MD,Prince George's,20745,-8568954.35076,4693778.47792,1351
+1352,Fast Food,Subway,107 Mt Caramel Rd,Parkton,MD,Baltimore,21084,-8534457.75623,4806689.67083,1352
+1353,Fast Food,Burger King,8311 Harford Road,Parkville,MD,Baltimore,21234,-8520135.49282,4776207.59189,1353
+1354,Fast Food,Checkers,1915 East Joppa Drive,Parkville,MD,Baltimore,21234,-8521343.29722,4779163.94172,1354
+1355,Fast Food,Chik-Fil-A,2008 E Joppa Rd,Parkville,MD,Baltimore,21234,-8520814.1009,4778985.3355,1355
+1356,Fast Food,Dunkin' Donuts,1903 Taylor Ave,Parkville,MD,Baltimore,21234,-8522286.18175,4776341.68983,1356
+1357,Fast Food,Dunkin' Donuts,2053 E Joppa Rd,Parkville,MD,Baltimore,21234,-8520636.83286,4778905.91191,1357
+1358,Fast Food,Dunkin' Donuts,9400 Harford Rd,Parkville,MD,Baltimore,21234,-8518943.2967,4778011.22174,1358
+1359,Fast Food,Five Guys,8904 Waltham Woods Road,Parkville,MD,Baltimore,21234,-8520504.98856,4779175.22141,1359
+1360,Fast Food,McDonald's,7309 Mc Clean Blvd,Parkville,MD,Baltimore,21234,-8523439.05986,4775172.67254,1360
+1361,Fast Food,McDonald's,2107 E Joppa Rd,Parkville,MD,Baltimore,21234,-8520547.92433,4778874.71252,1361
+1362,Fast Food,Popeye's,2016 E. Joppa Rd,Parkville,MD,Baltimore,21234,-8520762.89568,4778967.15898,1362
+1363,Fast Food,Subway,8834 Waltham Woods Rd,Parkville,MD,Baltimore,21204,-8520659.79046,4779025.22106,1363
+1364,Fast Food,Subway,1388 Taylor Avenue,Parkville,MD,Baltimore,21234,-8523579.47805,4776679.58946,1364
+1365,Fast Food,Subway,2309 Cleanleigh Dr,Parkville,MD,Baltimore,21234,-8523400.04638,4775170.3759,1365
+1366,Fast Food,Subway,8335 Harford Road,Parkville,MD,Baltimore,21234,-8520119.32662,4776232.29425,1366
+1367,Fast Food,Taco Bell,2317 E Joppa Rd,Parkville,MD,Baltimore,21234,-8520178.82513,4778859.8232,1367
+1368,Fast Food,Wendy's,3001 East Joppa Road,Parkville,MD,Baltimore,21234,-8518539.80831,4778369.82659,1368
+1369,Fast Food,Pizza Hut,8149C Ritchie Highway,Pasadena,MD,Anne Arundel,21122,-8525577.66846,4739287.2565,1369
+1370,Fast Food,Pizza Hut,3110 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8519929.2185,4739781.58759,1370
+1371,Fast Food,Arby's,8103 Ritchie Hwy,Pasadena,MD,Anne Arundel,21122,-8525882.1343,4739730.80065,1371
+1372,Fast Food,Checkers,102 Mountain Road,Pasadena,MD,Anne Arundel,21122,-8525017.4372,4740836.43827,1372
+1373,Fast Food,Chik-Fil-A,8110 Jumpers Hole Rd,Pasadena,MD,Anne Arundel,21122,-8525937.21166,4739674.35334,1373
+1374,Fast Food,Dunkin' Donuts,4109 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8517838.38138,4739277.00546,1374
+1375,Fast Food,Dunkin' Donuts,350 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8522237.23075,4740334.13052,1375
+1376,Fast Food,Dunkin' Donuts,8053 Ritchie Hwy,Pasadena,MD,Anne Arundel,21122,-8526102.63805,4740044.74227,1376
+1377,Fast Food,Dunkin' Donuts,8487 Fort Smallwood Rd,Pasadena,MD,Anne Arundel,21122,-8517894.91277,4744396.81003,1377
+1378,Fast Food,Five Guys,4131 Mountain Road,Pasadena,MD,Anne Arundel,21122,-8517793.93843,4739265.94146,1378
+1379,Fast Food,Hardees,4111 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8517834.34106,4739275.99956,1379
+1380,Fast Food,KFC,4107 Mountain Road,Pasadena,MD,Anne Arundel,21122,-8517842.4216,4739278.01124,1380
+1381,Fast Food,Popeye's,8700 Ft. Smallwood Rd,Pasadena,MD,Anne Arundel,21122,-8518781.74625,4741810.75634,1381
+1382,Fast Food,Quiznos,8154 Ritchie Hwy,Pasadena,MD,Anne Arundel,21122,-8525514.68976,4739127.72281,1382
+1383,Fast Food,Subway,2332 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8521497.02081,4740188.01155,1383
+1384,Fast Food,Subway,4730 Mountain Road,Pasadena,MD,Anne Arundel,21122,-8512254.08484,4736710.31949,1384
+1385,Fast Food,Subway,8221 Ritchie Highway,Pasadena,MD,Anne Arundel,21122,-8525149.40514,4738669.61016,1385
+1386,Fast Food,Subway,4165 Mountain Rd,Pasadena,MD,Anne Arundel,21122,-8517726.45889,4739246.94422,1386
+1387,Fast Food,Taco Bell,8110 Jumpers Hole Rd,Pasadena,MD,Anne Arundel,21122,-8525937.21166,4739674.35334,1387
+1388,Fast Food,Taco Bell,8099 Edwin Raynor Blvd,Pasadena,MD,Anne Arundel,21122,-8519464.8907,4739616.04855,1388
+1389,Fast Food,Wendy's,8098 Edwin Raynor Blvd,Pasadena,MD,Anne Arundel,21122,-8519480.44492,4739618.41956,1389
+1390,Fast Food,Wendy's,8457 Ft. Smallwood Road,Pasadena,MD,Anne Arundel,21122,-8518077.82443,4744574.35195,1390
+1391,Fast Food,McDonald's,2465 Cedar Point Rd,Patuxent River,MD,St. Mary's,20670,-8508995.36711,4618475.11196,1391
+1392,Fast Food,Subway,8651 Belair Rd,Perry Hall,MD,Baltimore,21236,-8514778.69796,4777813.64742,1392
+1393,Fast Food,Subway,5004 Honeygo Center Dr,Perry Hall,MD,Baltimore,21128,-8509775.69526,4779847.64453,1393
+1394,Fast Food,Wendy's,8700 Belair Rd,Perry Hall,MD,Baltimore,21236,-8514645.74062,4777988.83781,1394
+1395,Fast Food,Wendy's,5001 Honeygo Center Drive,Perry Hall,MD,Baltimore,21128,-8509792.47735,4779835.86656,1395
+1396,Fast Food,Dunkin' Donuts,100 Rt. 40,Perryville,MD,Cecil,21903,-8467368.89072,4804056.13412,1396
+1397,Fast Food,KFC,61 Heather Lane,Perryville,MD,Cecil,21903,-8467875.26228,4806361.53017,1397
+1398,Fast Food,Subway,31 Heather Ln,Perryville,MD,Cecil,21903,-8467726.82281,4806372.51831,1398
+1399,Fast Food,McDonald's,3425 Sweet Air Rd,Phoenix,MD,Baltimore,21131,-8522329.0141,4795883.32985,1399
+1400,Fast Food,Subway,14330 Jarrettsville Pike,Phoenix,MD,Baltimore,21131,-8522542.69971,4796532.4609,1400
+1401,Fast Food,Pizza Hut,1210 Reisterstown Road,Pikesville,MD,Baltimore,21208,-8540755.41846,4775443.91285,1401
+1402,Fast Food,Dunkin' Donuts,7000 Reisterstown Rd,Pikesville,MD,Baltimore,21215,-8539349.83806,4773672.82189,1402
+1403,Fast Food,Dunkin' Donuts,1508 Reisterstown Rd,Pikesville,MD,Baltimore,21208,-8541114.69376,4775929.30961,1403
+1404,Fast Food,McDonald's,502 Reisterstown Rd,Pikesville,MD,Baltimore,21208,-8540042.21165,4774467.52005,1404
+1405,Fast Food,Quiznos,1430 Reisterstown Rd,Pikesville,MD,Baltimore,21208,-8540983.85919,4775775.01152,1405
+1406,Fast Food,Subway,2552 Quarry Lake Drive,Pikesville,MD,Baltimore,21209,-8536725.6784,4776986.00862,1406
+1407,Fast Food,Subway,1852 Reistertown Road,Pikesville,MD,Baltimore,21208,-8542638.52124,4777619.3808,1407
+1408,Fast Food,Subway,1718 Reistertown Rd,Pikesville,MD,Baltimore,21208,-8541742.80961,4776630.46522,1408
+1409,Fast Food,Subway,110 Reisterstown Rd,Pikesville,MD,Baltimore,21208,-8539683.50519,4773986.26759,1409
+1410,Fast Food,Arby's,2322 Stockton Rd,Pocomoke City,MD,Worcester,21851,-8409736.33584,4588037.49424,1410
+1411,Fast Food,Dunkin' Donuts,223 Pocomoke Marketplace,Pocomoke City,MD,Worcester,21851,-8410060.85062,4588369.51112,1411
+1412,Fast Food,KFC,101 Newtowne Boulevard,Pocomoke City,MD,Worcester,21851,-8410845.16453,4590048.58461,1412
+1413,Fast Food,McDonald's,Linden Ave & Lynn Haven Dr,Pocomoke City,MD,Worcester,21851,-8411259.0801,4590048.91247,1413
+1414,Fast Food,Subway,2146 Old Snow Hill Rd,Pocomoke City,MD,Worcester,21851,-8410787.1616,4590025.66156,1414
+1415,Fast Food,McDonald's,19630 Fisher Ave.,Poolesville,MD,Montgomery,20837,-8617298.96118,4742369.32718,1415
+1416,Fast Food,Subway,19710 Fisher Ave B,Poolesville,MD,Montgomery,20837,-8617527.1231,4742444.84698,1416
+1417,Fast Food,Five Guys,9812 Falls Rd.,Potomac,MD,Montgomery,20854,-8595092.38084,4724033.74997,1417
+1418,Fast Food,McDonald's,11301 Seven Locks Rd,Potomac,MD,Montgomery,20854,-8589312.9988,4727518.20606,1418
+1419,Fast Food,Popeye's,7747 Tuckerman Ln,Potomac,MD,Montgomery,20854,-8588989.16088,4727308.51435,1419
+1420,Fast Food,Subway,7741 Tuckerman Lane,Potomac,MD,Montgomery,20854,-8588981.61333,4727301.35428,1420
+1421,Fast Food,Subway,233 Main Street,Preston,MD,Caroline,21655,-8449838.55838,4680168.29464,1421
+1422,Fast Food,Pizza Hut,727 N. Prince Frederick Blvd,Prince Frederick,MD,Calvert,20678,-8526672.65036,4657973.17798,1422
+1423,Fast Food,KFC,65 West Dares Beach Road,Prince Frederick,MD,Calvert,20678,-8526038.31965,4656918.46427,1423
+1424,Fast Food,McDonald's,515 N Solomons Island Rd,Prince Frederick,MD,Calvert,20678,-8526246.857,4657532.13021,1424
+1425,Fast Food,Subway,55 Solomons Island Rd N,Prince Frederick,MD,Calvert,20678,-8525787.54832,4655648.84285,1425
+1426,Fast Food,Taco Bell,55 Steeple Chase Dr,Prince Frederick,MD,Calvert,20678,-8526208.3607,4657513.74714,1426
+1427,Fast Food,Wendy's,170 Solomons Island Rd N,Prince Frederick,MD,Calvert,20678,-8525893.40162,4656057.31637,1427
+1428,Fast Food,Pizza Hut,30383 Mt Vernon,Princess Anne,MD,Somerset,21853,-8426690.06058,4609672.24724,1428
+1429,Fast Food,McDonald's,12112 Brittingham Ln,Princess Anne,MD,Somerset,21853,-8426939.81748,4609696.84831,1429
+1430,Fast Food,Popeye's,30293 Mt Vernon Rd,Princess Anne,MD,Somerset,21853,-8427046.72956,4609627.6423,1430
+1431,Fast Food,Subway,30293 Mt Vernon Rd,Princess Anne,MD,Somerset,21853,-8427046.72956,4609627.6423,1431
+1432,Fast Food,Subway,212 Grange Hall Rd,Queenstown,MD,Queen Anne's,21658,-8468882.05796,4715348.94846,1432
+1433,Fast Food,Subway,430 Outlet Center Dr,Queenstown,MD,Queen Anne's,21658,-8478016.22807,4719130.88998,1433
+1434,Fast Food,Checkers,8538 Liberty Road,Randallstown,MD,Baltimore,21133,-8546780.98669,4773487.24665,1434
+1435,Fast Food,Hip Hop Fish & Chicken,8615 Liberty Road,Randallstown,MD,Baltimore,21133,-8547106.28896,4773626.10172,1435
+1436,Fast Food,KFC,8634 Liberty Rd,Randallstown,MD,Baltimore,21133,-8547169.9294,4773674.55531,1436
+1437,Fast Food,McDonald's,9500 Liberty Rd,Randallstown,MD,Baltimore,21133,-8550492.82908,4775419.63824,1437
+1438,Fast Food,Popeye's,8505 Liberty Road,Randallstown,MD,Baltimore,21133,-8546494.45833,4773330.61161,1438
+1439,Fast Food,Quiznos,8628 Liberty Rd,Randallstown,MD,Baltimore,21133,-8547146.78459,4773663.31611,1439
+1440,Fast Food,Subway,3615 Offut Rd,Randallstown,MD,Baltimore,21133,-8549185.21595,4774774.52344,1440
+1441,Fast Food,Subway,8720 Liberty Road,Randallstown,MD,Baltimore,21133,-8547712.98103,4773937.75927,1441
+1442,Fast Food,Wendy's,8610 Liberty Rd.,Randallstown,MD,Baltimore,21133,-8547077.35026,4773629.59871,1442
+1443,Fast Food,Pizza Hut,10 W Chestnut Hill Ln,Reisterstown,MD,Baltimore,21136,-8550865.53511,4785728.66046,1443
+1444,Fast Food,Dunkin' Donuts,48 Main St.,Reisterstown,MD,Baltimore,21136,-8552634.64798,4788992.18407,1444
+1445,Fast Food,Dunkin' Donuts,11814 Reisterstown Rd,Reisterstown,MD,Baltimore,21136,-8550800.52073,4785779.39736,1445
+1446,Fast Food,KFC,11805 Reisterstown Rd,Reisterstown,MD,Baltimore,21136,-8550775.57851,4785775.96109,1446
+1447,Fast Food,Long John Silvers,6602 Reisterstown Rd.,Reisterstown,MD,Baltimore,21215,-8538660.78218,4772985.97817,1447
+1448,Fast Food,McDonald's,12012 Reisterstown Rd,Reisterstown,MD,Baltimore,21136,-8551280.17629,4786279.71153,1448
+1449,Fast Food,Subway,11718 Reisterstown Rd,Reisterstown,MD,Baltimore,21136,-8550611.68503,4785581.57801,1449
+1450,Fast Food,Taco Bell,11720 Reisterstown Rd,Reisterstown,MD,Baltimore,21136,-8550627.90269,4785598.88949,1450
+1451,Fast Food,Burger King,11907 Reisterstown Road,Reistertown,MD,Baltimore,21136,-8550991.923,4786005.95925,1451
+1452,Fast Food,Subway,204 East 6th Street,Ridgely,MD,Caroline,21660,-8446699.0511,4713588.04407,1452
+1453,Fast Food,McDonald's,10 Rising Sun Town Center,Rising Sun,MD,Cecil,21911,-8466774.46067,4822172.60307,1453
+1454,Fast Food,McDonald's,6228 Baltimore Blvd,Riverdale,MD,Prince George's,20737,-8564843.45234,4716454.57068,1454
+1455,Fast Food,McDonald's,5600 Riverdale Rd,Riverdale,MD,Prince George's,20737,-8562634.82625,4715802.96452,1455
+1456,Fast Food,Wendy's,6210 Kenilworth Avenue,Riverdale,MD,Prince George's,20737,-8562664.81452,4716225.16344,1456
+1457,Fast Food,Burger King,1325 Policy Dr,Riverside,MD,Harford,21017,-8488011.40474,4790386.70702,1457
+1458,Fast Food,Pizza Hut,5058 Nicholson Ln,Rockville,MD,Montgomery,20852,-8583174.84083,4728265.79888,1458
+1459,Fast Food,Pizza Hut,5556 Norbeck Rd,Rockville,MD,Montgomery,20853,-8583997.11795,4735360.25238,1459
+1460,Fast Food,Burger King,10042 Darnstown Road,Rockville,MD,Montgomery,20874,-8594526.64411,4735545.1306,1460
+1461,Fast Food,Dairy Queen,2019 Veirs Mill Rd,Rockville,MD,Montgomery,20851,-8584469.58516,4732415.23494,1461
+1462,Fast Food,Dunkin' Donuts,700 Gaither Rd,Rockville,MD,Montgomery,20850,-8590991.95824,4737438.62359,1462
+1463,Fast Food,Dunkin' Donuts,865 Rockville Pike,Rockville,MD,Montgomery,20852,-8586869.31398,4732464.2922,1463
+1464,Fast Food,Dunkin' Donuts,2006 Veirs Mill Rd,Rockville,MD,Montgomery,20851,-8584583.46835,4732475.70069,1464
+1465,Fast Food,Five Guys,130 Gibbs St.,Rockville,MD,Montgomery,20850,-8588522.01662,4733947.21698,1465
+1466,Fast Food,Jimmy Johns,11416 Rockville Pike,Rockville,MD,Montgomery,20852,-8584007.20214,4727932.02488,1466
+1467,Fast Food,KFC,15180 Frederick Rd,Rockville,MD,Montgomery,20850,-8589139.08641,4736755.12457,1467
+1468,Fast Food,KFC,9910 Key West Avenue,Rockville,MD,Montgomery,20850,-8595170.11796,4736158.4755,1468
+1469,Fast Food,McDonald's,1390 Rockville Pike,Rockville,MD,Montgomery,20852,-8585902.15377,4731333.65972,1469
+1470,Fast Food,McDonald's,2101 Viers Mill Rd,Rockville,MD,Montgomery,20851,-8584411.15154,4732388.44405,1470
+1471,Fast Food,McDonald's,16701 Crabbs Branch,Rockville,MD,Montgomery,20855,-8590251.31802,4740159.82768,1471
+1472,Fast Food,McDonald's,11564 Rockville Pike,Rockville,MD,Montgomery,20852,-8584133.22932,4728294.36355,1472
+1473,Fast Food,Popeye's,587 Hungerford Drive,Rockville,MD,Montgomery,20850,-8588642.31149,4734828.36354,1473
+1474,Fast Food,Popeye's,11720 Rockville Pike,Rockville,MD,Montgomery,20852,-8584253.28862,4728580.07235,1474
+1475,Fast Food,Quiznos,1611 E Gude Dr,Rockville,MD,Montgomery,20850,-8586329.06529,4735112.42379,1475
+1476,Fast Food,Subway,9613-F Medical Center Dr.,Rockville,MD,Montgomery,20850,-8593485.39507,4736646.97689,1476
+1477,Fast Food,Subway,404 King Farm Blvd.,Rockville,MD,Montgomery,20850,-8590749.51914,4738030.80885,1477
+1478,Fast Food,Subway,15106 Frederick Rd,Rockville,MD,Montgomery,20850,-8589073.78391,4736651.61432,1478
+1479,Fast Food,Subway,2 N. Washington Street,Rockville,MD,Montgomery,20850,-8588627.09516,4733740.60426,1479
+1480,Fast Food,Subway,1298 East Gude Drive,Rockville,MD,Montgomery,20850,-8586682.75904,4735594.82597,1480
+1481,Fast Food,Subway,1020 Rockville Pike,Rockville,MD,Montgomery,20852,-8586465.69614,4732089.22991,1481
+1482,Fast Food,Subway,1402 Rockville Pike,Rockville,MD,Montgomery,20852,-8585890.24014,4731316.94845,1482
+1483,Fast Food,Subway,5751-C Fishers Lane,Rockville,MD,Montgomery,20852,-8584604.36314,4730676.78287,1483
+1484,Fast Food,Subway,6125 Montrose Road,Rockville,MD,Montgomery,20852,-8585355.92599,4729235.41234,1484
+1485,Fast Food,Subway,5286 Randolph Road,Rockville,MD,Montgomery,20852,-8583241.84574,4729341.52373,1485
+1486,Fast Food,Taco Bell,1100 Rockville Pike,Rockville,MD,Montgomery,20852,-8586363.96095,4731953.72946,1486
+1487,Fast Food,Wendy's,808 Rockville Pike,Rockville,MD,Montgomery,20855,-8587125.54672,4732748.20315,1487
+1488,Fast Food,Wendy's,5001 Nicholson Road,Rockville,MD,Montgomery,20850,-8583047.91995,4728403.98445,1488
+1489,Fast Food,Wingstop,14925 Shady Grove Road,Rockville,MD,Montgomery,20850,-8593000.53418,4735899.28954,1489
+1490,Fast Food,Arby's,8672 Pulaski Highway,Rosedale,MD,Baltimore,21237,-8514093.14871,4769918.13933,1490
+1491,Fast Food,Checkers,6210 Rossville Blvd,Rosedale,MD,Baltimore,21237,-8513714.41764,4770022.34851,1491
+1492,Fast Food,Dairy Queen,8650 Pulaski Hwy,Rosedale,MD,Baltimore,21237,-8514286.87148,4769724.51935,1492
+1493,Fast Food,Dunkin' Donuts,7514 Pulaski Hwy,Rosedale,MD,Baltimore,21237,-8518798.97273,4766542.54598,1493
+1494,Fast Food,Dunkin' Donuts,6305 Kenwood Ave,Rosedale,MD,Baltimore,21237,-8516546.45932,4770498.7705,1494
+1495,Fast Food,Dunkin' Donuts,8801 Pulaski Hwy,Rosedale,MD,Baltimore,21237,-8513805.5928,4770141.61948,1495
+1496,Fast Food,McDonald's,6420 Petrie Way,Rosedale,MD,Baltimore,21237,-8514784.74393,4769986.84684,1496
+1497,Fast Food,McDonald's,6315 Kenwood Avenue,Rosedale,MD,Baltimore,21237,-8516527.67749,4770310.5354,1497
+1498,Fast Food,Panda Express,6419 Petrie Way,Rosedale,MD,Baltimore,21237,-8514791.00504,4769991.90631,1498
+1499,Fast Food,Quiznos,8639 Philadelphia Rd,Rosedale,MD,Baltimore,21237,-8514622.68932,4770268.49307,1499
+1500,Fast Food,Taco Bell,8200 Perry Hall Blvd,Rosedale,MD,Baltimore,21236,-8512866.77443,4775589.04781,1500
+1501,Fast Food,Chik-Fil-A,5198 Campbell Blvd,Rossville,MD,Baltimore,21236,-8510885.78527,4774843.53103,1501
+1502,Fast Food,Pizza Hut,1217 Mount Herman Rd,Salisbury,MD,Wicomico,21804,-8412584.0012,4631516.77066,1502
+1503,Fast Food,Arby's,116 Ward St,Salisbury,MD,Wicomico,21801,-8414764.47237,4631346.24967,1503
+1504,Fast Food,Arby's,1111 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8416003.05352,4628689.35185,1504
+1505,Fast Food,Arby's,2350 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412384.66826,4636415.57081,1505
+1506,Fast Food,Burger King,1025 S. Salisbury Blvd.,Salisbury,MD,Wicomico,21801,-8415937.31213,4629041.90825,1506
+1507,Fast Food,Burger King,1201 Mt. Hermon Road,Salisbury,MD,Wicomico,21804,-8412670.10389,4631544.8556,1507
+1508,Fast Food,Burger King,101 Naylor Mill Road,Salisbury,MD,Wicomico,21801,-8412160.86692,4637520.24942,1508
+1509,Fast Food,Checkers,754 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415824.68715,4629727.87092,1509
+1510,Fast Food,Chik-Fil-A,2300 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412389.66906,4636402.80828,1510
+1511,Fast Food,Chik-Fil-A,2736 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8411954.75028,4638616.62179,1511
+1512,Fast Food,Dairy Queen,2300 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412389.66906,4636402.80828,1512
+1513,Fast Food,Dairy Queen,2611 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412120.27688,4637580.33659,1513
+1514,Fast Food,Dairy Queen,1216 Nanticoke Rd,Salisbury,MD,Wicomico,21801,-8417765.37549,4631655.96291,1514
+1515,Fast Food,Dunkin' Donuts,908 Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415906.95905,4629291.12313,1515
+1516,Fast Food,Dunkin' Donuts,1200 Nanticoke Rd,Salisbury,MD,Wicomico,21801,-8417772.8056,4631655.43377,1516
+1517,Fast Food,Five Guys,1311 South Salisbury Blvd.,Salisbury,MD,Wicomico,21801,-8416180.18932,4628133.65791,1517
+1518,Fast Food,Hardees,1301 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8416164.0924,4628174.70571,1518
+1519,Fast Food,Hardees,2403 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412330.83639,4636433.57806,1519
+1520,Fast Food,KFC,1115 South Salisbury,Salisbury,MD,Wicomico,21801,-8416010.69838,4628652.79725,1520
+1521,Fast Food,KFC,307 Tilghman Road,Salisbury,MD,Wicomico,21804,-8409941.52324,4631046.09287,1521
+1522,Fast Food,Long John Silvers,1115 South Salisbury,Salisbury,MD,Wicomico,21801,-8416010.69838,4628652.79725,1522
+1523,Fast Food,McDonald's,1205 Parsons Rd,Salisbury,MD,Wicomico,21801,-8417725.73531,4631495.23587,1523
+1524,Fast Food,McDonald's,1305 S Salisbury,Salisbury,MD,Wicomico,21801,-8416170.53121,4628158.28655,1524
+1525,Fast Food,McDonald's,407 N Fruitland Blvd,Salisbury,MD,Wicomico,21801,-8415176.44286,4631697.61675,1525
+1526,Fast Food,McDonald's,298 Tilghman Rd,Salisbury,MD,Wicomico,21801,-8409922.08287,4631415.82276,1526
+1527,Fast Food,McDonald's,Salisbury Mall,Salisbury,MD,Wicomico,21801,-8412389.66906,4636402.80828,1527
+1528,Fast Food,McDonald's,2709 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8411970.97314,4638359.92807,1528
+1529,Fast Food,Popeye's,2416 N. Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8412349.7778,4636508.87735,1529
+1530,Fast Food,Popeye's,945 S. Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415904.17443,4629220.65128,1530
+1531,Fast Food,Quiznos,8555B Fenton St,Salisbury,MD,Wicomico,20910,-8574520.27463,4721288.32572,1531
+1532,Fast Food,Quiznos,2717 N Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8411956.32925,4638407.24273,1532
+1533,Fast Food,Quiznos,842 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415870.90148,4629484.90905,1533
+1534,Fast Food,Taco Bell,932 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415915.30539,4629246.03034,1534
+1535,Fast Food,Wendy's,1101 S Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8415984.15276,4628783.29877,1535
+1536,Fast Food,Wendy's,2710 N.Salisbury Blvd,Salisbury,MD,Wicomico,21801,-8411995.19075,4638447.62451,1536
+1537,Fast Food,Wendy's,403 Punkin Court,Salisbury,MD,Wicomico,21804,-8409256.67257,4631292.539,1537
+1538,Fast Food,Subway,9358 Lanham Severn Rd,Seabrook,MD,Prince George's,20706,-8554749.0693,4717576.18654,1538
+1539,Fast Food,McDonald's,6131 Martin Luther King Jr Hwy,Seat Pleasant,MD,Prince George's,20743,-8560593.56182,4707531.24131,1539
+1540,Fast Food,Popeye's,6214 Central Ave,Seat Pleasant,MD,Prince George's,20743,-8560620.47505,4705491.23368,1540
+1541,Fast Food,Pizza Hut,2614 Annapolis Rd,Severn,MD,Anne Arundel,21144,-8542289.53466,4740195.19726,1541
+1542,Fast Food,Chik-Fil-A,7831 Quarterfield Park Road,Severn,MD,Anne Arundel,21144,-8532430.11305,4742400.68443,1542
+1543,Fast Food,Popeye's,2612 Annapolis Rd,Severn,MD,Anne Arundel,21144,-8542286.05516,4740190.37779,1543
+1544,Fast Food,Quiznos,7860 Quarterfield Rd,Severn,MD,Anne Arundel,21144,-8532698.34783,4741985.70557,1544
+1545,Fast Food,Subway,2622-B Annapolis Rd,Severn,MD,Anne Arundel,21144,-8542303.45264,4740214.4753,1545
+1546,Fast Food,Subway,407 George Clauss Blvd,Severn,MD,Anne Arundel,21144,-8532552.86827,4742971.77607,1546
+1547,Fast Food,Subway,11 Lee Airpark Drive,Severn,MD,Anne Arundel,21037,-8523154.32971,4713458.33676,1547
+1548,Fast Food,Taco Bell,2639 Annapolis Rd,Severn,MD,Anne Arundel,21144,-8542338.20644,4740256.27353,1548
+1549,Fast Food,Dunkin' Donuts,604 Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8520735.67621,4732309.34743,1549
+1550,Fast Food,Five Guys,549 Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8520988.21892,4732735.66555,1550
+1551,Fast Food,Jimmy Johns,537 Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8521048.23351,4732820.71891,1551
+1552,Fast Food,KFC,511 Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8521291.07236,4733166.52166,1552
+1553,Fast Food,Popeye's,503 Governor Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8521343.72059,4733243.00269,1553
+1554,Fast Food,Subway,Jumpers Hole Rd Hwy 177,Severna Park,MD,Anne Arundel,21146,-8525266.11031,4740801.74403,1554
+1555,Fast Food,Subway,580 Governor Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8520878.26353,4732508.48346,1555
+1556,Fast Food,Subway,574 Benfield Rd,Severna Park,MD,Anne Arundel,21146,-8525324.23535,4733478.29417,1556
+1557,Fast Food,Taco Bell,578 Ritchie Hwy,Severna Park,MD,Anne Arundel,21146,-8520890.45708,4732525.99418,1557
+1558,Fast Food,Pizza Hut,8607 16Th St,Silver Spring,MD,Montgomery,20910,-8575689.29931,4721258.7946,1558
+1559,Fast Food,Pizza Hut,9200 New Hampshire Ave,Silver Spring,MD,Montgomery,20903,-8569496.65234,4722287.59651,1559
+1560,Fast Food,Pizza Hut,12331 Georgia Ave,Silver Spring,MD,Montgomery,20906,-8577172.95802,4730120.58136,1560
+1561,Fast Food,Pizza Hut,13318 New Hampshire Ave,Silver Spring,MD,Montgomery,20904,-8571885.57266,4732314.90116,1561
+1562,Fast Food,Pizza Hut,13623 Georgia Ave,Silver Spring,MD,Montgomery,20906,-8579633.85241,4732956.34098,1562
+1563,Fast Food,Pizza Hut,13886 Old Columbia Pike,Silver Spring,MD,Montgomery,20904,-8566170.03941,4733744.31226,1563
+1564,Fast Food,Burger King,3870 International Drive,Silver Spring,MD,Montgomery,20906,-8580090.30289,4736536.70932,1564
+1565,Fast Food,Burger King,12265 Viers Mill Road,Silver Spring,MD,Montgomery,20906,-8581044.43151,4729928.11364,1565
+1566,Fast Food,Charley's,11160 Viers Mill Rd,Silver Spring,MD,Montgomery,20902,-8577580.56622,4727256.27616,1566
+1567,Fast Food,Chik-Fil-A,825 Ellsworth Dr,Silver Spring,MD,Montgomery,20910,-8574370.03394,4721331.44042,1567
+1568,Fast Food,Chik-Fil-A,12289 Tech Rd,Silver Spring,MD,Montgomery,20904,-8568009.63317,4729866.72518,1568
+1569,Fast Food,Five Guys,12269 West Tech Rd.,Silver Spring,MD,Montgomery,20904,-8567935.94909,4729773.0031,1569
+1570,Fast Food,Jimmy Johns,8710 Cameron St,Silver Spring,MD,Montgomery,21910,-8574797.18882,4721462.6755,1570
+1571,Fast Food,McDonald's,2207 Bel Pre Rd,Silver Spring,MD,Montgomery,20906,-8576795.50898,4734655.31388,1571
+1572,Fast Food,McDonald's,12313 Georgia Ave,Silver Spring,MD,Montgomery,20906,-8577162.05622,4730051.19401,1572
+1573,Fast Food,McDonald's,12135 Viers Mill Rd,Silver Spring,MD,Montgomery,20906,-8580607.26211,4729606.73551,1573
+1574,Fast Food,McDonald's,11160 Veirs Mill Rd,Silver Spring,MD,Montgomery,20902,-8577580.56622,4727256.27616,1574
+1575,Fast Food,Popeye's,8641 16th St,Silver Spring,MD,Montgomery,20910,-8575943.61922,4721422.32633,1575
+1576,Fast Food,Popeye's,11311 Lockwood Drive,Silver Spring,MD,Montgomery,20904,-8570502.73062,4727388.19923,1576
+1577,Fast Food,Popeye's,12102 Georgia Ave.,Silver Spring,MD,Montgomery,20902,-8577272.76996,4729299.20141,1577
+1578,Fast Food,Quiznos,2800 University Blvd W,Silver Spring,MD,Montgomery,20902,-8577979.41392,4727227.95971,1578
+1579,Fast Food,Quiznos,10171 New Hampshire Ave,Silver Spring,MD,Montgomery,20903,-8569056.75399,4724824.80292,1579
+1580,Fast Food,Quiznos,13868 Georgia Ave,Silver Spring,MD,Montgomery,20906,-8580192.59481,4733460.88549,1580
+1581,Fast Food,Subway,3806 International Drive,Silver Spring,MD,Montgomery,20906,-8580033.63836,4736529.94033,1581
+1582,Fast Food,Subway,13651 Georgia Avenue,Silver Spring,MD,Montgomery,20906,-8579690.26256,4733010.0766,1582
+1583,Fast Food,Subway,14450 Layhill Rd,Silver Spring,MD,Montgomery,20906,-8576640.48774,4734904.90357,1583
+1584,Fast Food,Subway,8484 Georgia Ave,Silver Spring,MD,Montgomery,20910,-8574585.96306,4720856.62629,1584
+1585,Fast Food,Subway,8040 13th St,Silver Spring,MD,Montgomery,20910,-8574734.07437,4719852.29032,1585
+1586,Fast Food,Subway,8395 E Colesville Rd,Silver Spring,MD,Montgomery,20910,-8575198.49688,4720758.71096,1586
+1587,Fast Food,Subway,7056 Carroll Ave,Silver Spring,MD,Montgomery,20912,-8572758.48856,4718118.85652,1587
+1588,Fast Food,Subway,10121 Colesville Road,Silver Spring,MD,Montgomery,20901,-8572975.86031,4724610.85952,1588
+1589,Fast Food,Subway,11211 New Hampshire Ave,Silver Spring,MD,Montgomery,20904,-8570549.91284,4727404.171,1589
+1590,Fast Food,Subway,45 Randolph Rd,Silver Spring,MD,Montgomery,20904,-8572099.65722,4732456.51464,1590
+1591,Fast Food,Subway,13869 Outlet Dr,Silver Spring,MD,Montgomery,20904,-8565655.66458,4733495.31931,1591
+1592,Fast Food,Taco Bell,13830 Georgia Ave,Silver Spring,MD,Montgomery,20906,-8580158.02931,4733408.45729,1592
+1593,Fast Food,Taco Bell,11160 Veirs Mill Rd,Silver Spring,MD,Montgomery,20902,-8577580.56622,4727256.27616,1593
+1594,Fast Food,Taco Bell,2205 Bel Pre Rd,Silver Spring,MD,Montgomery,20906,-8576791.9586,4734655.41513,1594
+1595,Fast Food,Wendy's,13804 Outlet Drive,Silver Spring,MD,Montgomery,20904,-8565722.51582,4733460.13127,1595
+1596,Fast Food,Wendy's,14012 Connecticut Ave,Silver Spring,MD,Montgomery,20906,-8580162.93811,4733724.72166,1596
+1597,Fast Food,Wendy's,11030 Viers Mill Road,Silver Spring,MD,Montgomery,20902,-8577346.01355,4727015.04111,1597
+1598,Fast Food,Subway,22507 Jefferson Blvd,Smithsburg,MD,Washington,21783,-8636797.66876,4814130.18625,1598
+1599,Fast Food,McDonald's,5616 Market St,Snow Hill,MD,Worcester,21863,-8391140.83067,4605891.43114,1599
+1600,Fast Food,Burger King,13410 H.G. Trueman Rd,Solomons,MD,Calvert,20688,-8511565.92016,4628472.47345,1600
+1601,Fast Food,KFC,13400 H.G. Trueman Rd,Solomons,MD,Calvert,20688,-8511553.47093,4628486.99625,1601
+1602,Fast Food,McDonald's,13500 H.G. Trueman Road,Solomons,MD,Calvert,20688,-8511687.263,4628357.62294,1602
+1603,Fast Food,Roy Rogers,14000 H.G. Truman Road,Solomons,MD,Calvert,20688,-8512153.18499,4626909.7906,1603
+1604,Fast Food,Subway,2304 Sparrows Point Rd,Sparrows Point,MD,Baltimore,21219,-8511289.91048,4755044.15235,1604
+1605,Fast Food,Dunkin' Donuts,1243 Shopping Center Road,Stevensville,MD,Queen Anne's,21666,-8493470.9217,4718105.92082,1605
+1606,Fast Food,Hardees,1157 Shopping Center Rd,Stevensville,MD,Queen Anne's,21666,-8493574.27169,4718099.92004,1606
+1607,Fast Food,Dunkin' Donuts,4767 Allentown Rd,Suitland,MD,Prince George's,20746,-8558837.22396,4696212.48852,1607
+1608,Fast Food,McDonald's,4835 Silverhill Rd,Suitland,MD,Prince George's,20746,-8563147.41268,4700092.80852,1608
+1609,Fast Food,McDonald's,4777 Allentown Road SE,Suitland,MD,Prince George's,20746,-8558933.75552,4696136.98079,1609
+1610,Fast Food,Popeye's,4621 Silver Hill Rd,Suitland,MD,Prince George's,20706,-8563562.28741,4699519.37909,1610
+1611,Fast Food,Subway,5120 Auth Rd,Suitland,MD,Prince George's,20746,-8562598.35232,4696251.29358,1611
+1612,Fast Food,Subway,6716 Suitland Rd,Suitland,MD,Prince George's,20746,-8559446.80757,4696580.23125,1612
+1613,Fast Food,Subway,4628 Suitland Rd,Suitland,MD,Prince George's,20746,-8563589.85207,4700272.25052,1613
+1614,Fast Food,Subway,40 Dalrymple Road,Sunderland,MD,Calvert,20689,-8527020.2615,4674234.72056,1614
+1615,Fast Food,Burger King,1333 Liberty Road,Sykesville,MD,Carroll,21784,-8565882.4881,4779632.82873,1615
+1616,Fast Food,Taco Bell,1429 Liberty Rd,Sykesville,MD,Carroll,21784,-8565454.30447,4779460.54732,1616
+1617,Fast Food,KFC,7720 Blair Road,Takoma Park,MD,Montgomery,20912,-8574377.24511,4719373.57304,1617
+1618,Fast Food,McDonald's,6301 New Hampshire Ave,Takoma Park,MD,Montgomery,20912,-8571870.46315,4716753.19297,1618
+1619,Fast Food,Popeye's,6350 New Hampshire Ave,Takoma Park,MD,Montgomery,20912,-8571830.59031,4716876.28066,1619
+1620,Fast Food,Subway,1161 University Blvd,Takoma Park,MD,Montgomery,20912,-8570358.05826,4720210.48343,1620
+1621,Fast Food,Wendy's,6823 New Hampshire Ave,Takoma Park,MD,Montgomery,20912,-8571093.12324,4717944.61639,1621
+1622,Fast Food,Pizza Hut,4341 Old Taneytown Rd,Taneytown,MD,Carroll,21787,-8588638.05913,4814813.92805,1622
+1623,Fast Food,McDonald's,520 E Baltimore St,Taneytown,MD,Carroll,21787,-8589279.16253,4815202.14308,1623
+1624,Fast Food,Subway,251 Baltimore St E,Taneytown,MD,Carroll,21787,-8590612.45731,4816041.15625,1624
+1625,Fast Food,Subway,5151 Allendale La,Taneytown,MD,Carroll,21787,-8591628.31332,4815588.66996,1625
+1626,Fast Food,Pizza Hut,7118 Temple Hill Rd,Temple Hills,MD,Prince George's,20748,-8563634.38012,4692039.9352,1626
+1627,Fast Food,Pizza Hut,2336 Iverson St,Temple Hills,MD,Prince George's,20748,-8566981.15563,4697916.9134,1627
+1628,Fast Food,Burger King,3939 Branch Avenue,Temple Hills,MD,Prince George's,20748,-8565409.48379,4698266.97943,1628
+1629,Fast Food,KFC,4047 Branch Ave,Temple Hills,MD,Prince George's,20748,-8565286.98956,4698059.07582,1629
+1630,Fast Food,New York Fried Chicken,4817 Saint Barnabas Road,Temple Hills,MD,Prince George's,20748,-8566086.05079,4696400.78575,1630
+1631,Fast Food,Subway,7071 Allentown Rd,Temple Hills,MD,Prince George's,20748,-8563412.01919,4692146.29521,1631
+1632,Fast Food,Subway,2326 Iverson Street,Temple Hills,MD,Prince George's,20748,-8567022.84029,4697885.81811,1632
+1633,Fast Food,Taco Bell,4045 Branch Ave,Temple Hills,MD,Prince George's,20748,-8565289.14598,4698062.76682,1633
+1634,Fast Food,Wendy's,3636 Branch Avenue,Temple Hills,MD,Prince George's,20784,-8565838.63301,4699063.04921,1634
+1635,Fast Food,Pizza Hut,205 Frederick Rd,Thurmont,MD,Frederick,21788,-8618247.92872,4810009.88293,1635
+1636,Fast Food,Burger King,427 North Church Street,Thurmont,MD,Frederick,21778,-8617326.36917,4812581.10106,1636
+1637,Fast Food,Burger King,2000 York Road,Thurmont,MD,Baltimore,21093,-8529796.00886,4784379.61549,1637
+1638,Fast Food,KFC,1 Thurmont Blvd,Thurmont,MD,Frederick,21788,-8618220.76812,4810028.66137,1638
+1639,Fast Food,McDonald's,200 Frederick Road,Thurmont,MD,Frederick,21788,-8618227.97488,4810012.45422,1639
+1640,Fast Food,McDonald's,2116 York Rd,Thurmont,MD,Baltimore,21093,-8530075.86615,4785192.09823,1640
+1641,Fast Food,Quiznos,130A Frederick Rd,Thurmont,MD,Frederick,21788,-8617945.37202,4810473.98307,1641
+1642,Fast Food,Roy Rogers,203 Frederick Road,Thurmont,MD,Frederick,21788,-8618244.76338,4810015.21357,1642
+1643,Fast Food,Subway,224  North Church St,Thurmont,MD,Frederick,21788,-8617314.95499,4811838.27804,1643
+1644,Fast Food,Subway,1830 York Road,Thurmont,MD,Baltimore,21093,-8529598.88538,4783831.10316,1644
+1645,Fast Food,Taco Bell,1 Thurmont Blvd,Thurmont,MD,Frederick,21788,-8618220.76812,4810028.66137,1645
+1646,Fast Food,Wendy's,303 Tippin Drive,Thurmont,MD,Frederick,21788,-8618526.13957,4810338.28426,1646
+1647,Fast Food,Burger King,1043 Taylor Avenue,Towson,MD,Baltimore,21286,-8524255.4627,4776843.07034,1647
+1648,Fast Food,Burger King,925 York Road,Towson,MD,Baltimore,21204,-8527970.78758,4780388.00165,1648
+1649,Fast Food,Burger King,825 Dulaney Valley Rd,Towson,MD,Baltimore,21204,-8527228.65729,4779816.54833,1649
+1650,Fast Food,Chik-Fil-A,8000 York Rd,Towson,MD,Baltimore,21252,-8527576.89423,4778118.80327,1650
+1651,Fast Food,Chik-Fil-A,825 Dulaney Valley Rd,Towson,MD,Baltimore,21204,-8527228.65729,4779816.54833,1651
+1652,Fast Food,Dunkin' Donuts,1238 Putty Hill Pkwy,Towson,MD,Baltimore,21286,-8524953.49142,4778151.1522,1652
+1653,Fast Food,Dunkin' Donuts,201 York Rd,Towson,MD,Baltimore,21204,-8527440.56572,4778773.39189,1653
+1654,Fast Food,Dunkin' Donuts,1600 E. Joppa Rd,Towson,MD,Baltimore,21286,-8523437.58471,4778645.25796,1654
+1655,Fast Food,Five Guys,936 York Road,Towson,MD,Baltimore,21204,-8527995.87346,4780399.04235,1655
+1656,Fast Food,Hip Hop Fish & Chicken,912 Taylor Avenue,Towson,MD,Baltimore,21286,-8524636.21213,4777113.35795,1656
+1657,Fast Food,KFC,200-204 York Road,Towson,MD,Baltimore,21204,-8527425.17709,4778769.83208,1657
+1658,Fast Food,McDonald's,934 York Rd,Towson,MD,Baltimore,21204,-8527992.20296,4780392.9399,1658
+1659,Fast Food,McDonald's,6830 Loch Raven Blvd,Towson,MD,Baltimore,21286,-8524658.81834,4776712.44655,1659
+1660,Fast Food,McDonald's,1619 E Joppa Rd,Towson,MD,Baltimore,21286,-8523287.49138,4778650.02771,1660
+1661,Fast Food,Panda Express,825 Dulaney Valley Rd,Towson,MD,Baltimore,21204,-8527228.65729,4779816.54833,1661
+1662,Fast Food,Quiznos,1006 Taylor Avenue,Towson,MD,Baltimore,21286,-8524416.37203,4776969.22179,1662
+1663,Fast Food,Subway,825 Dulaney Valley Rd,Towson,MD,Baltimore,21204,-8527228.65729,4779816.54833,1663
+1664,Fast Food,Subway,400 York Rd,Towson,MD,Baltimore,21204,-8527364.81011,4779046.7047,1664
+1665,Fast Food,Subway,1254 Putty Hill Road,Towson,MD,Baltimore,21204,-8524906.35204,4778154.15048,1665
+1666,Fast Food,Subway,6535 N. Charles Street,Towson,MD,Baltimore,21204,-8529824.77376,4777456.61566,1666
+1667,Fast Food,Subway,1632 E Joppa Rd,Towson,MD,Baltimore,21286,-8523160.26185,4778690.78395,1667
+1668,Fast Food,Taco Bell,6861 Loch Raven Blvd,Towson,MD,Baltimore,21286,-8524600.88989,4776743.25933,1668
+1669,Fast Food,Subway,3721 Ocean Gateway,Trappe,MD,Talbot,21673,-8466587.95088,4671973.35996,1669
+1670,Fast Food,Pizza Hut,7623 S Osborne Rd,Upper Marlboro,MD,Prince George's,20772,-8549226.15878,4690994.34613,1670
+1671,Fast Food,A&W,5785 SW Crain Highway,Upper Marlboro,MD,Prince George's,20772,-8542659.68212,4694579.9554,1671
+1672,Fast Food,Arby's,4800 SE Crain Hwy,Upper Marlboro,MD,Prince George's,20772,-8542165.71765,4696406.80842,1672
+1673,Fast Food,Blimpie,5111 John Rodgers Blvd.,Upper Marlboro,MD,Prince George's,20772,-8545114.4894,4696022.44582,1673
+1674,Fast Food,Bojangles',1050 Largo Center Drive,Upper Marlboro,MD,Prince George's,20774,-8553525.07828,4707663.8066,1674
+1675,Fast Food,Bojangles',7571 SE Crain Highway,Upper Marlboro,MD,Prince George's,20772,-8548565.62934,4690955.18506,1675
+1676,Fast Food,Dunkin' Donuts,4705 Crain Hwy,Upper Marlboro,MD,Prince George's,20722,-8542144.89724,4696656.10915,1676
+1677,Fast Food,KFC,10 Watkins Park Drive,Upper Marlboro,MD,Prince George's,20774,-8548423.9215,4707280.96094,1677
+1678,Fast Food,KFC,5785 SW Crain Highway,Upper Marlboro,MD,Prince George's,20772,-8542659.68212,4694579.9554,1678
+1679,Fast Food,McDonald's,9450 Crain Highway,Upper Marlboro,MD,Prince George's,20772,-8550205.73929,4687394.18367,1679
+1680,Fast Food,Panda Express,13710 Central Ave,Upper Marlboro,MD,Prince George's,20774,-8545955.41059,4707535.08175,1680
+1681,Fast Food,Quiznos,881G Capital Centre Blvd,Upper Marlboro,MD,Prince George's,20774,-8554348.33019,4707720.43708,1681
+1682,Fast Food,Subway,9522 Crain Hwy,Upper Marlboro,MD,Prince George's,20772,-8550273.51366,4687245.37253,1682
+1683,Fast Food,Subway,5308 Water St,Upper Marlboro,MD,Prince George's,20772,-8543967.61872,4695385.0213,1683
+1684,Fast Food,Subway,978 Largo Ctr Dr,Upper Marlboro,MD,Prince George's,20774,-8553531.14397,4707623.09791,1684
+1685,Fast Food,Subway,13710 Central Ave,Upper Marlboro,MD,Prince George's,20774,-8545955.41059,4707535.08175,1685
+1686,Fast Food,Taco Bell,1006 Largo Center Dr,Upper Marlboro,MD,Prince George's,20774,-8553528.74549,4707639.93072,1686
+1687,Fast Food,Wendy's,8 Watkins Park Dr,Upper Marlboro,MD,Prince George's,20774,-8548427.12309,4707286.07326,1687
+1688,Fast Food,Wendy's,15400 Chrysler Drive,Upper Marlboro,MD,Prince George's,20772,-8542595.62321,4695593.03615,1688
+1689,Fast Food,McDonald's,3406 Urbana Pike,Urbana,MD,Frederick,21704,-8610372.58523,4768466.02216,1689
+1690,Fast Food,Pizza Hut,3400 Leonardtown,Waldorf,MD,Charles,20601,-8560353.03646,4667354.66958,1690
+1691,Fast Food,Pizza Hut,3220 Crain Hwy,Waldorf,MD,Charles,20603,-8561979.20711,4667841.93161,1691
+1692,Fast Food,Burger King,1110 Smallwood Drive,Waldorf,MD,Charles,20603,-8563634.16758,4666411.79919,1692
+1693,Fast Food,Burger King,2375 Crain Highway,Waldorf,MD,Charles,20601,-8559426.06305,4671029.50884,1693
+1694,Fast Food,Checkers,3002 Leonard Town Road,Waldorf,MD,Charles,20601,-8561587.89635,4668242.42096,1694
+1695,Fast Food,Chik-Fil-A,3365 Crain Hwy,Waldorf,MD,Charles,20603,-8562415.51894,4667358.29835,1695
+1696,Fast Food,Chik-Fil-A,11110 Mall Cir,Waldorf,MD,Charles,20603,-8563334.94221,4667320.20712,1696
+1697,Fast Food,Dairy Queen,11110 Mall Cir,Waldorf,MD,Charles,20603,-8563334.94221,4667320.20712,1697
+1698,Fast Food,Dairy Queen,10195 Berry Rd,Waldorf,MD,Charles,20603,-8566825.70571,4671490.73012,1698
+1699,Fast Food,Dunkin' Donuts,3510 Crain Hwy,Waldorf,MD,Charles,20603,-8562596.32015,4667062.54032,1699
+1700,Fast Food,Dunkin' Donuts,2040 Crain Hwy,Waldorf,MD,Charles,20601,-8557849.62457,4672474.92716,1700
+1701,Fast Food,Five Guys,3233 Plaza Way,Waldorf,MD,Charles,20603,-8562433.65525,4667691.56607,1701
+1702,Fast Food,Jimmy Johns,2481 Crain Hwy,Waldorf,MD,Charles,20716,-8539994.43136,4710816.4285,1702
+1703,Fast Food,KFC,2180 Crain Highway,Waldorf,MD,Charles,20601,-8558489.20827,4671862.12855,1703
+1704,Fast Food,McDonald's,3000 Crain Highway,Waldorf,MD,Charles,20601,-8561228.43845,4668784.43086,1704
+1705,Fast Food,McDonald's,3300 Leonardtown Rd,Waldorf,MD,Charles,20601,-8560595.62393,4667556.86913,1705
+1706,Fast Food,McDonald's,11025 Mall Circle,Waldorf,MD,Charles,20603,-8562989.25462,4666887.65112,1706
+1707,Fast Food,McDonald's,11930 Acton Ln,Waldorf,MD,Charles,20601,-8560115.03973,4670025.1399,1707
+1708,Fast Food,McDonald's,2065 Crain Highway,Waldorf,MD,Charles,20604,-8557996.37285,4672371.11022,1708
+1709,Fast Food,Popeye's,1110 Mall Circle St.,Waldorf,MD,Charles,20603,-8563334.94221,4667320.20712,1709
+1710,Fast Food,Popeye's,2485 Crain Hwy,Waldorf,MD,Charles,20601,-8559781.51967,4670664.12907,1710
+1711,Fast Food,Quiznos,3062 Waldorf Market Pl,Waldorf,MD,Charles,20603,-8562265.06482,4668535.35273,1711
+1712,Fast Food,Subway,3023 Festival Way,Waldorf,MD,Charles,20601,-8561803.43584,4668750.67866,1712
+1713,Fast Food,Subway,1184 Smallwood Dr W,Waldorf,MD,Charles,20603,-8563694.73218,4666459.82184,1713
+1714,Fast Food,Subway,158 Smallwood Village Center,Waldorf,MD,Charles,20602,-8562873.7305,4665821.51281,1714
+1715,Fast Food,Subway,2112 Crain Hwy,Waldorf,MD,Charles,20601,-8558147.09668,4672141.13684,1715
+1716,Fast Food,Subway,10195 Berry Rd,Waldorf,MD,Charles,20603,-8566825.70571,4671490.73012,1716
+1717,Fast Food,Taco Bell,91 Smallwood Dr,Waldorf,MD,Charles,20602,-8563194.36964,4666031.76268,1717
+1718,Fast Food,Taco Bell,2200 Crain Hwy,Waldorf,MD,Charles,20601,-8558584.32675,4671784.8939,1718
+1719,Fast Food,Wendy's,3005 Crain Hwy,Waldorf,MD,Charles,20603,-8561209.44278,4668871.46283,1719
+1720,Fast Food,Wendy's,3355 Leonardtown Road,Waldorf,MD,Charles,20604,-8560490.9974,4667449.31781,1720
+1721,Fast Food,Pizza Hut,24 E. Frederick,Walkersville,MD,Frederick,21793,-8610121.29542,4791218.87878,1721
+1722,Fast Food,McDonald's,20 E Frederick St,Walkersville,MD,Frederick,21793,-8610174.79691,4791186.33426,1722
+1723,Fast Food,Subway,134 Walkers Village Way,Walkersville,MD,Frederick,21793,-8609554.50642,4791383.13329,1723
+1724,Fast Food,Subway,12800 Frederick Rd,West Friendship,MD,Howard,21794,-8566748.31247,4765257.48313,1724
+1725,Fast Food,McDonald's,182 Church St,Westernport,MD,Allegany,21562,-8798655.24618,4790722.86745,1725
+1726,Fast Food,Subway,15 Main St,Westernport,MD,Allegany,21562,-8799299.78883,4791270.41251,1726
+1727,Fast Food,Pizza Hut,11 S. Cranberry Rd,Westminster,MD,Carroll,21157,-8569368.40748,4804336.45574,1727
+1728,Fast Food,Arby's,120 Mall Ring Rd,Westminster,MD,Carroll,21157,-8569665.96408,4804512.93214,1728
+1729,Fast Food,Burger King,454 Wmc Drive,Westminster,MD,Carroll,21158,-8572879.9182,4806023.21218,1729
+1730,Fast Food,Burger King,Crossroads Shopping Center,Westminster,MD,Carroll,21157,-8568423.34261,4802589.06195,1730
+1731,Fast Food,Chik-Fil-A,144 Englar Rd,Westminster,MD,Carroll,21157,-8570617.63235,4805389.42966,1731
+1732,Fast Food,Chik-Fil-A,400 N Center St,Westminster,MD,Carroll,21157,-8569644.19061,4804455.02235,1732
+1733,Fast Food,Dairy Queen,1 Magna Way,Westminster,MD,Carroll,21157,-8571184.71988,4808943.97408,1733
+1734,Fast Food,Dunkin' Donuts,576 Jermor Ln,Westminster,MD,Carroll,21157,-8568956.12274,4802841.22558,1734
+1735,Fast Food,Five Guys,596 Jermor Lane,Westminster,MD,Carroll,21157,-8568979.20508,4802855.28254,1735
+1736,Fast Food,KFC,400 N Center St,Westminster,MD,Carroll,21157,-8569644.19061,4804455.02235,1736
+1737,Fast Food,McDonald's,280 Woodward Rd,Westminster,MD,Carroll,21157,-8570006.45645,4805821.73618,1737
+1738,Fast Food,McDonald's,520 Baltimore Blvd,Westminster,MD,Carroll,21157,-8569256.4999,4803326.5843,1738
+1739,Fast Food,Popeye's,624 Baltimore Blvd,Westminster,MD,Carroll,21157,-8568676.11778,4802846.87147,1739
+1740,Fast Food,Roy Rogers,6 Baltimore Blvd.,Westminster,MD,Carroll,21157,-8570994.05824,4806349.49524,1740
+1741,Fast Food,Subway,74 W Main St,Westminster,MD,Carroll,21157,-8571367.98154,4804690.56491,1741
+1742,Fast Food,Subway,400 N Center St,Westminster,MD,Carroll,21157,-8569644.19061,4804455.02235,1742
+1743,Fast Food,Subway,291 Stoner Ave,Westminster,MD,Carroll,21157,-8570194.8,4802052.37766,1743
+1744,Fast Food,Subway,444 Wmc Dr,Westminster,MD,Carroll,21158,-8572867.02297,4805991.52199,1744
+1745,Fast Food,Subway,601 Jermor Ln,Westminster,MD,Carroll,21157,-8568987.69558,4802841.29064,1745
+1746,Fast Food,Subway,1 Magna Way,Westminster,MD,Carroll,21157,-8571184.71988,4808943.97408,1746
+1747,Fast Food,Taco Bell,400 N Center St,Westminster,MD,Carroll,21157,-8569644.19061,4804455.02235,1747
+1748,Fast Food,Taco Bell,625 Baltimore Blvd,Westminster,MD,Carroll,21157,-8568423.34261,4802589.06195,1748
+1749,Fast Food,Wendy's,395 North Center Street,Westminster,MD,Carroll,21157,-8569645.96019,4804438.47745,1749
+1750,Fast Food,KFC,2119 University Blvd W,Wheaton,MD,Montgomery,20902,-8576719.67128,4727541.94524,1750
+1751,Fast Food,McDonald's,13701 Connecticut Ave,Wheaton,MD,Montgomery,20906,-8580568.35276,4733016.37884,1751
+1752,Fast Food,Popeye's,11160 Veirs Mill Road,Wheaton,MD,Montgomery,20902,-8577580.56622,4727256.27616,1752
+1753,Fast Food,Subway,12335 Georgia Ave,Wheaton,MD,Montgomery,20906,-8577177.48749,4730135.16438,1753
+1754,Fast Food,Subway,11160 Veirs Mill Rd,Wheaton,MD,Montgomery,20902,-8577580.56622,4727256.27616,1754
+1755,Fast Food,Subway,11331 Georgia Ave,Wheaton,MD,Montgomery,20902,-8577338.58804,4727547.37223,1755
+1756,Fast Food,Burger King,8233 Perry Hall Blvd,White Marsh,MD,Baltimore,21236,-8512831.69025,4775845.03398,1756
+1757,Fast Food,Burger King,9999 Pulaski Highway,White Marsh,MD,Baltimore,21220,-8509889.7134,4773449.15321,1757
+1758,Fast Food,Chik-Fil-A,8200 Perry Hall Blvd,White Marsh,MD,Baltimore,21236,-8512866.77443,4775589.04781,1758
+1759,Fast Food,Five Guys,5272 Campbell Blvd.,White Marsh,MD,Baltimore,21236,-8510659.39844,4774652.32304,1759
+1760,Fast Food,McDonald's,8118 Perry Hills Ct,White Marsh,MD,Baltimore,21236,-8516637.09378,4776084.11,1760
+1761,Fast Food,McDonald's,5302 Campbell Blvd,White Marsh,MD,Baltimore,21236,-8510572.00821,4774589.34835,1761
+1762,Fast Food,Wendy's,8241 Perry Hall Blvd,White Marsh,MD,Baltimore,21236,-8512823.28885,4775907.42829,1762
+1763,Fast Food,McDonald's,313 East Potomac Street,Williamsport,MD,Washington,21795,-8661537.54565,4808591.39407,1763
+1764,Fast Food,Subway,8 Milestone Terrace,Williamsport,MD,Washington,21795,-8661664.80972,4808544.10571,1764
+1765,Fast Food,Five Guys,7091 Security Blvd,Windsor Mill,MD,Baltimore,21244,-8544257.96455,4766593.82017,1765
+1766,Fast Food,Quiznos,6901 Security Blvd,Windsor Mill,MD,Baltimore,21244,-8543801.72901,4766578.79608,1766
+1767,Fast Food,Sonic Drive-In,8212 Liberty Road,Windsor Mill,MD,Baltimore,21244,-8545315.62346,4772763.02198,1767
+1768,Fast Food,Subway,8037 Liberty Rd,Windsor Mill,MD,Baltimore,21244,-8544541.82833,4772393.41281,1768
+1769,Fast Food,Subway,2701 Rolling Rd,Windsor Mill,MD,Baltimore,21244,-8544733.16322,4769087.10789,1769
+1770,Fast Food,Wendy's,2351 Rolling Road,Windsor Mill,MD,Baltimore,21244,-8544784.37305,4768159.05243,1770
+1771,Fast Food,Pizza Hut,706 Lisbon Center Dr,Woodbine,MD,Howard,21797,-8579222.88695,4771989.11557,1771
+1772,Fast Food,Dunkin' Donuts,703 Lisbon Center Dr,Woodbine,MD,Howard,21797,-8579227.63306,4772006.15068,1772
+1773,Fast Food,McDonald's,702 Lisbon Center Dr,Woodbine,MD,Howard,21797,-8579230.7077,4771990.66875,1773
+1774,Fast Food,Subway,703 Lisbon Center Drive,Woodbine,MD,Howard,21797,-8579227.63306,4772006.15068,1774
+1775,Fast Food,Burger King,1650 Belmont Avenue,Woodlawn,MD,Baltimore,21244,-8543709.43199,4766788.80951,1775
+1776,Fast Food,Checkers,6901 Security Blvd.,Woodlawn,MD,Baltimore,21244,-8543801.72901,4766578.79608,1776
+1777,Fast Food,Dunkin' Donuts,6669 Security Blvd,Woodlawn,MD,Baltimore,21207,-8542661.93615,4766444.39824,1777
+1778,Fast Food,Dunkin' Donuts,6900 Dogwood Rd,Woodlawn,MD,Baltimore,21244,-8543968.61984,4767963.46843,1778
+1779,Fast Food,Popeye's,1811 N. Rolling Road,Woodlawn,MD,Baltimore,21244,-8544289.14816,4766454.59152,1779
+1780,Fast Food,Subway,6210 Annapolis Road,Woodlawn,MD,Prince George's,20784,-8561653.71233,4712925.11795,1780
+1781,Fast Food,Subway,6901 Security Blvd,Woodlawn,MD,Baltimore,21244,-8543801.72901,4766578.79608,1781
+1782,Fast Food,Wendy's,1660 Whitehead Ct,Woodlawn,MD,Baltimore,21207,-8542710.1303,4766346.95884,1782
+1783,Fast Food,Subway,10795 Birmingham Way,Woodstock,MD,Howard,21163,-8559268.3601,4765942.27498,1783
