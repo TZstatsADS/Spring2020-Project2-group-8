@@ -67,7 +67,7 @@ loc_info<-inner_join(menu_join,location_join,by=c("menuid"="menuid"))%>%unnest%>
 menu_nutrition_location<-left_join(loc_info,menu_info,by="restaurant")
 
 
-save(menu_nutrition_location, file="../output/menu_nutrition_location.RDatautrition_location.RData")
+save(menu_nutrition_location, file="../output/menu_nutrition_location.RData")
 
 ```
 
