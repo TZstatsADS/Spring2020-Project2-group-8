@@ -13,260 +13,195 @@ library(datasets)
 source("global.R")
 
 
+
 shinyServer(function(input, output,session) {
-
-  output$res1 <- renderTable({
-    restaurant1<-data_comparison%>%
-      filter(restaurant == input$restaurants[[1]])%>%
-      filter(Food_Category%in%input$category_check)
-
-    if(input$arrange1!="NA"){
-      if(input$arrange2!="NA"){
-        if(input$arrange3!="NA"){
-          if(input$desc1){
-            if(input$desc2){
-              if(input$desc3){
-                restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],.data[[input$arrange3]])
+  #resx_name
+  res_name<-function(k){
+    return(input$restaurants[[k]])
+  }
+  
+  #resx_raw
+  res_raw<-function(k){
+    return(
+      data_comparison%>%
+        filter(restaurant == res_name(k) )%>%
+        filter(Food_Category%in%input$category_check)
+    )
+  }
+  
+  #resx_arranged
+  res_arranged<-function(k){
+    return(
+      if(input$arrange1!="NA"){
+        if(input$arrange2!="NA"){
+          if(input$arrange3!="NA"){
+            if(input$desc1){
+              if(input$desc2){
+                if(input$desc3){
+                  res_raw(k)%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],.data[[input$arrange3]])
+                }
+                else{
+                  res_raw(k)%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],desc(.data[[input$arrange3]]))
+                }
               }
               else{
-                restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],desc(.data[[input$arrange3]]))
+                if(input$desc3){
+                  res_raw(k)%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),.data[[input$arrange3]])
+                }
+                else{
+                  res_raw(k)%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
+                }
               }
             }
             else{
-              if(input$desc3){
-                restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),.data[[input$arrange3]])
+              if(input$desc2){
+                if(input$desc3){
+                  res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],.data[[input$arrange3]])
+                }
+                else{
+                  res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],desc(.data[[input$arrange3]]))
+                }
               }
               else{
-                restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
+                if(input$desc3){
+                  res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),.data[[input$arrange3]])
+                }
+                else{
+                  res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
+                }
               }
             }
           }
           else{
-            if(input$desc2){
-              if(input$desc3){
-                restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],.data[[input$arrange3]])
+            if(input$desc1){
+              if(input$desc2){
+                res_raw(k)%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]])
               }
               else{
-                restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],desc(.data[[input$arrange3]]))
+                res_raw(k)%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]))
               }
             }
             else{
-              if(input$desc3){
-                restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),.data[[input$arrange3]])
+              if(input$desc2){
+                res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]])
               }
               else{
-                restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
+                res_raw(k)%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]))
               }
             }
           }
         }
         else{
           if(input$desc1){
-            if(input$desc2){
-              restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]])
-            }
-            else{
-              restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]))
-            }
+            res_raw(k)%>%arrange(.data[[input$arrange1]])
           }
           else{
-            if(input$desc2){
-              restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]])
-            }
-            else{
-              restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]))
-            }
+            res_raw(k)%>%arrange(desc(.data[[input$arrange1]]))
           }
         }
       }
-      else{
-        if(input$desc1){
-          restaurant1<-restaurant1%>%arrange(.data[[input$arrange1]])
-          }
-        else{
-          restaurant1<-restaurant1%>%arrange(desc(.data[[input$arrange1]]))
-        }
-      }
-    }
+    )
+  }
+    
+  #resx_toped
+  res_toped<-function(k){
+    return(res_arranged(k)%>%ungroup()%>%head(10)%>%mutate(menu_id=row_number()))
+  }
+  
+  #pieplot
+  menuid<-reactive({
+    list(input$menuid1,input$menuid2,input$menuid3)
+  })
+  cp <- coord_polar(theta = "y")
+  cp$is_free <- function() TRUE
+  res_pie_plot<-function(k){
+    res_toped(k)%>%
+      filter(menu_id%in%menuid()[[k]])%>%
+      pivot_longer(Calories:Dietary_Fiber,"nutrition","value")%>%
+      mutate(value=replace_na(value, 0))%>%
+      ggplot(aes(x=factor(1),y=value  ,fill=factor(nutrition)))+
+      facet_wrap(~menu_id,scales = "free")+
+      geom_bar(stat = "identity", width=1)+
+      cp+
+      theme_void()
+  }
+  
+  
+##1  
+  res1_name<-reactive({
+    res_name(1)
+  })
+  
+  output$res1_name<- renderText ({res1_name()})
+  
+  res1_arranged<-reactive({
+    res_arranged(1)
+  })
+  
+  res1_toped<- reactive({
+    res_toped(1)
+    })
 
-
-
-
-
-
-    restaurant1%>%head(10)%>%select(-Item_Description)
+  output$res1_table <- renderTable({
+    res1_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  })
+  
+  res1_plot<-reactive({
+    res_pie_plot(1)
   })
 
-  output$res2 <- renderTable({
-    restaurant2<-data_comparison%>%
-      filter(restaurant == input$restaurants[[2]])%>%
-      filter(Food_Category%in%input$category_check)
-
-    if(input$arrange1!="NA"){
-      if(input$arrange2!="NA"){
-        if(input$arrange3!="NA"){
-          if(input$desc1){
-            if(input$desc2){
-              if(input$desc3){
-                restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],.data[[input$arrange3]])
-              }
-              else{
-                restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],desc(.data[[input$arrange3]]))
-              }
-            }
-            else{
-              if(input$desc3){
-                restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),.data[[input$arrange3]])
-              }
-              else{
-                restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
-              }
-            }
-          }
-          else{
-            if(input$desc2){
-              if(input$desc3){
-                restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],.data[[input$arrange3]])
-              }
-              else{
-                restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],desc(.data[[input$arrange3]]))
-              }
-            }
-            else{
-              if(input$desc3){
-                restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),.data[[input$arrange3]])
-              }
-              else{
-                restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
-              }
-            }
-          }
-        }
-        else{
-          if(input$desc1){
-            if(input$desc2){
-              restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]])
-            }
-            else{
-              restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]))
-            }
-          }
-          else{
-            if(input$desc2){
-              restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]])
-            }
-            else{
-              restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]))
-            }
-          }
-        }
-      }
-      else{
-        if(input$desc1){
-          restaurant2<-restaurant2%>%arrange(.data[[input$arrange1]])
-        }
-        else{
-          restaurant2<-restaurant2%>%arrange(desc(.data[[input$arrange1]]))
-        }
-      }
-    }
-
-
-
-
-
-
-    restaurant2%>%head(10)%>%select(-Item_Description)
+  output$res1_plot<-renderPlot({res1_plot()})
+##2
+  res2_name<-reactive({
+    res_name(2)
   })
-
-  output$res3 <- renderTable({
-    restaurant3<-data_comparison%>%
-      filter(restaurant == input$restaurants[[3]])%>%
-      filter(Food_Category%in%input$category_check)
-
-    if(input$arrange1!="NA"){
-      if(input$arrange2!="NA"){
-        if(input$arrange3!="NA"){
-          if(input$desc1){
-            if(input$desc2){
-              if(input$desc3){
-                restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],.data[[input$arrange3]])
-              }
-              else{
-                restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]],desc(.data[[input$arrange3]]))
-              }
-            }
-            else{
-              if(input$desc3){
-                restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),.data[[input$arrange3]])
-              }
-              else{
-                restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
-              }
-            }
-          }
-          else{
-            if(input$desc2){
-              if(input$desc3){
-                restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],.data[[input$arrange3]])
-              }
-              else{
-                restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]],desc(.data[[input$arrange3]]))
-              }
-            }
-            else{
-              if(input$desc3){
-                restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),.data[[input$arrange3]])
-              }
-              else{
-                restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]),desc(.data[[input$arrange3]]))
-              }
-            }
-          }
-        }
-        else{
-          if(input$desc1){
-            if(input$desc2){
-              restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],.data[[input$arrange2]])
-            }
-            else{
-              restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]],desc(.data[[input$arrange2]]))
-            }
-          }
-          else{
-            if(input$desc2){
-              restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),.data[[input$arrange2]])
-            }
-            else{
-              restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]),desc(.data[[input$arrange2]]))
-            }
-          }
-        }
-      }
-      else{
-        if(input$desc1){
-          restaurant3<-restaurant3%>%arrange(.data[[input$arrange1]])
-        }
-        else{
-          restaurant3<-restaurant3%>%arrange(desc(.data[[input$arrange1]]))
-        }
-      }
-    }
-
-
-
-
-
-
-    restaurant3%>%head(10)%>%select(-Item_Description)
+  
+  output$res2_name<- renderText ({res2_name()})
+  
+  res2_arranged<-reactive({
+    res_arranged(2)
   })
+  
+  res2_toped<- reactive({
+    res_toped(2)
+  })
+  
+  output$res2_table <- renderTable({
+    res2_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  })
+  
+  res2_plot<-reactive({
+    res_pie_plot(2)
+  })
+  
+  output$res2_plot<-renderPlot({res2_plot()})
+##3  
+  res3_name<-reactive({
+    res_name(3)
+  })
+  
+  output$res3_name<- renderText ({res3_name()})
+  
+  res3_arranged<-reactive({
+    res_arranged(3)
+  })
+  
+  res3_toped<- reactive({
+    res_toped(3)
+  })
+  
+  output$res3_table <- renderTable({
+    res3_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  })
+  
+  res3_plot<-reactive({
+    res_pie_plot(3)
+  })
+  
+  output$res3_plot<-renderPlot({res3_plot()})
+  
 
-
-  
-  
-  
-
-  
+ 
  
 
 })

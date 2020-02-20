@@ -64,23 +64,48 @@ shinyUI(
                                                                                 label = "lower",
                                                                                 value = F)
                                                                   )
+                                                 ),
+                                conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")',
+                                                 checkboxGroupInput("menuid1", label = h4("Choose menu from restaurant 1"), 
+                                                                    choices = 1:10,
+                                                                    inline = T)
+                                                 ),
+                                conditionalPanel('input.restaurants.length>1 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")',
+                                                 checkboxGroupInput("menuid2", label = h4("Choose menu from restaurant 2"), 
+                                                                    choices = 1:10,
+                                                                    inline = T)
+                                                 ),
+                                conditionalPanel('input.restaurants.length>2 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")',
+                                                 checkboxGroupInput("menuid3", label = h4("Choose menu from restaurant 3"), 
+                                                                    choices = 1:10,
+                                                                    inline = T)
                                                  )
                                 ),
                             mainPanel(
                                 conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")', 
                                                  column(12,
-                                                        tableOutput ('res1')
+                                                        textOutput('res1_name'),
+                                                        tableOutput ('res1_table')
+                                                        ),conditionalPanel('input.menuid1!=""',
+                                                                           column(9, plotOutput ('res1_plot'))
+                                                        
                                                         )
                                                  ),
                                 conditionalPanel('input.restaurants.length>1 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")', 
                                                  column(12,
-                                                        tableOutput ('res2')
-                                                 )
-                                ),
+                                                        textOutput('res2_name'),
+                                                        tableOutput ('res2_table')
+                                                        ),conditionalPanel('input.menuid2!=""',
+                                                                           column(9, plotOutput ('res2_plot'))
+                                                        )
+                                                 ),
                                 conditionalPanel('input.restaurants.length>2 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")', 
                                                  column(12,
-                                                        tableOutput ('res3')
-                                                 )
+                                                        textOutput('res3_name'),
+                                                        tableOutput ('res3_table')
+                                                        ),conditionalPanel('input.menuid3!=""',
+                                                                           column(9, plotOutput ('res3_plot'))
+                                                        )
                                                  ),
                                 )
                             ),
