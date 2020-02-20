@@ -1,24 +1,20 @@
-# 
-# packages.used=c("shiny", "leaflet","plotly","data.table","shinyWidgets","googleVis","geosphere","leaflet.extras","shinythemes","ggmap","dplyr")
-# packages.needed=setdiff(packages.used, 
-#                         intersect(installed.packages()[,1], 
-#                                   packages.used))
-# 
-# if(length(packages.needed)>0){
-#   install.packages(packages.needed, dependencies = TRUE)
-# }
-# library(shiny)
-# library(leaflet)
-# library(plotly)
-# library(data.table)
-# library(shinyWidgets)
-# library(googleVis)
-# library(geosphere)
-# library(leaflet.extras)
-# library(shinythemes)
-# library(ggmap)
-# library(dplyr)
+
+packages.used=c("tidyverse", "shiny","shinythemes","shinythemes")
+packages.needed=setdiff(packages.used,
+                        intersect(installed.packages()[,1],
+                                  packages.used))
+
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
 library(tidyverse)
+library(shiny)
+# library(leaflet)
+# library(data.table)
+# library(plotly)
+library(shinythemes)
+library(shinythemes)
+
 
 #Statistics Analysis Global Enviroment 
 

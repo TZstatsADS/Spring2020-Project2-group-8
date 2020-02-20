@@ -9,9 +9,9 @@
 
 library(tidyverse)
 library(shiny)
-library(leaflet)
-library(data.table)
-library(plotly)
+# library(leaflet)
+# library(data.table)
+# library(plotly)
 library(shinythemes)
 library(shinyWidgets)
 
@@ -26,7 +26,7 @@ shinyUI(
                    tabPanel("Intro",
                             sidebarPanel(
                                 selectInput("restaurants",
-                                            h4("choose some restaurants："),
+                                            h4("choose some restaurants:"),
                                             as.list(data_comparison$restaurant%>%unique()),
                                             multiple = T),
                                 conditionalPanel('input.restaurants != ""', 
@@ -37,7 +37,7 @@ shinyUI(
                                                  ),
                                 conditionalPanel('input.restaurants != ""', 
                                                  selectInput("arrange1",
-                                                             label = h4("choose first nuitrition："),
+                                                             label = h4("choose first nuitrition:"),
                                                              choice=nutrition),
                                                  conditionalPanel('input.arrange1 != "NA"',
                                                                   checkboxInput("desc1",
@@ -47,7 +47,7 @@ shinyUI(
                                                  ),
                                 conditionalPanel('input.arrange1 != "NA"', 
                                                  selectInput("arrange2",
-                                                             h4("choose second nuitrition："),
+                                                             h4("choose second nuitrition:"),
                                                              choice=nutrition),
                                                  conditionalPanel('input.arrange2 != "NA"', 
                                                                   checkboxInput("desc2",
@@ -57,7 +57,7 @@ shinyUI(
                                                  ), 
                                 conditionalPanel('input.arrange2 != "NA"', 
                                                  selectInput("arrange3",
-                                                             h4("choose third nuitrition："),
+                                                             h4("choose third nuitrition:"),
                                                              choice=nutrition),
                                                  conditionalPanel('input.arrange3 != "NA"', 
                                                                   checkboxInput("desc3",
