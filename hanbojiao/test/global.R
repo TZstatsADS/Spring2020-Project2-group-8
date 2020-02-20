@@ -26,28 +26,18 @@ library(tidyverse)
 
 load("data_comparison.RData")
 
+data_comparison<-
+  data_comparison%>%mutate(Calories_percent=percent_rank(Calories)%>%round(2),
+                         Total_Fat_percent=percent_rank(Total_Fat)%>%round(2),
+                         Saturated_Fat_percent=percent_rank(Saturated_Fat)%>%round(2),
+                         Trans_Fat_percent=percent_rank(Trans_Fat)%>%round(2),
+                         Cholesterol_percent=percent_rank(Cholesterol)%>%round(2),
+                         Sodium_percent=percent_rank(Sodium)%>%round(2),
+                         Carbohydrates_percent=percent_rank(Carbohydrates)%>%round(2),
+                         Protein_percent=percent_rank(Protein)%>%round(2),
+                         Sugar_percent=percent_rank(Sugar)%>%round(2),
+                         Dietary_Fiber_percent=percent_rank(Dietary_Fiber)%>%round(2))
+
+nutrition<-c("Calories"="Calories_percent", "Total_Fat" ="Total_Fat_percent", "Saturated_Fat"="Saturated_Fat_percent", "Trans_Fat" ="Trans_Fat_percent", "Cholesterol"="Cholesterol_percent","Sodium"="Sodium_percent","Carbohydrates" ="Carbohydrates_percent","Protein" ="Protein_percent", "Sugar"="Sugar_percent","Dietary_Fiber"="Dietary_Fiber_percent" )
+
 nutrition<-c("NA",nutrition)
-# p <- plot_ly() %>%
-#   add_pie(data = crime_sex, labels = ~sex, values = ~amount,
-#           name = "The Crime Victim Sex Distribution Chart",
-#           marker = list(colors=c("#ff427b","#42e3ff")),
-#           domain = list(row = 0, column = 0)) %>%
-#   add_pie(data = crime_race, labels = ~race, values = ~ amount,
-#           name = "The Crime Victim Race Distribution Chart",
-#           
-#           domain = list(row = 0, column = 1)) %>%
-#   add_pie(data = crime_num, labels = ~type, values = ~ amount,
-#           title = "The Crime Severity Distribution Chart",
-#           marker = list(colors=c("#ff0000","#ff7017","#ffff00")),
-#           domain = list(row = 0, column = 2)) %>%
-#   layout(title = "Pie Chart Summary of Crime Data", showlegend = F,
-#          grid=list(rows=1, columns=3),
-#          xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-#          yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
-# 
-# plot_muliti_crime <-ggplot(crime_hour_boro, aes(hour, crime_weighted, color = boro)) + geom_line() +
-#   ggtitle("Danger Index Per Hour in each Borough") +
-#   labs (x = "Time", y = "Danger Index") +
-#   theme_grey(16) +
-#   theme(legend.title = element_blank())+
-#   scale_x_continuous(breaks = round(seq(0, 23, by = 1),1)) 

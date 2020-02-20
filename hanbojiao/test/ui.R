@@ -19,12 +19,10 @@ library(shinyWidgets)
 
 shinyUI(
     div(id="canvas",
-        
-        navbarPage(strong("what to eat",style="color: white;"), 
+        navbarPage(strong("what to eat",style="color: white;"),
                    theme=shinytheme("cerulean"),
                    #theme = "bootstrap.min.css",
-                   #theme="styles.css",
-                   
+                   #theme="styles.css
                    tabPanel("Intro",
                             sidebarPanel(
                                 selectInput("restaurants",
@@ -34,7 +32,7 @@ shinyUI(
                                 conditionalPanel('input.restaurants != ""', 
                                                  checkboxGroupInput("category_check", label = h4("Food Category"), 
                                                                     choices = as.list(food_category),
-                                                                    selected = 1,
+                                                                    selected = as.list(food_category),
                                                                     inline = F)
                                                  ),
                                 conditionalPanel('input.restaurants != ""', 
@@ -83,16 +81,12 @@ shinyUI(
                                                  column(12,
                                                         tableOutput ('res3')
                                                  )
-                                ),
+                                                 ),
                                 )
                             ),
-                   tabPanel("Intro")
-
-                   #定义选择框
-                   #默认状态
-
+                   tabPanel("Intro"
+                            )
+                   )
         )
-        
-    )
-)   
+    )   
 
