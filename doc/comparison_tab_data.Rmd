@@ -12,12 +12,14 @@ load("../output/menu_nutrition_location_catagory.RData")
 ```
 
 ```{r}
-data_comparison<-menu_nutrition_location%>%select(restaurant,menu)%>%unnest(menu)%>%
+data_comparison<-menu_nutrition_location_catagory%>%select(restaurant,menu)%>%unnest(menu)%>%
   select(restaurant,Item_Name,Item_Description,Food_Category,Serving_Size,Serving_Size_Unit,Calories:Dietary_Fiber,Shareable)%>%
   filter(Shareable==0)%>%select(-Potassium,-Shareable)%>%group_by(restaurant)%>%arrange(restaurant)%>%nest()%>%ungroup%>%mutate(restaurant_id=row_number())%>%group_by(restaurant)%>%unnest()%>%mutate(menu_id=row_number())%>%
   select(restaurant_id,restaurant,menu_id,Item_Name,Item_Description,Food_Category,everything())
-
-save(data_comparison,file = "../output/data_comparison.RData")
+colname<-data_comparison%>%colnames()
+nutrition<-colname[9:18]
+food_category<-data_comparison$Food_Category%>%unique()
+save(food_category,nutrition,data_comparison,file = "../output/data_comparison.RData")
 
 ```
 
