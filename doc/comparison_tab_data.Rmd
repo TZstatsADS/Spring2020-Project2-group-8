@@ -8,7 +8,7 @@ date: "2020/2/19"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-load("../output/menu_nutrition_location.RData")
+load("../output/menu_nutrition_location_catagory.RData")
 ```
 
 ```{r}
