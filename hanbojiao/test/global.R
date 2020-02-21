@@ -1,5 +1,5 @@
 
-packages.used=c("tidyverse", "shiny","shinythemes","shinythemes")
+packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes")
 packages.needed=setdiff(packages.used,
                         intersect(installed.packages()[,1],
                                   packages.used))
@@ -14,7 +14,7 @@ library(shiny)
 # library(plotly)
 library(shinythemes)
 library(shinythemes)
-
+library(DT)
 
 #Statistics Analysis Global Enviroment 
 
@@ -38,4 +38,27 @@ nutrition<-c("Calories"="Calories_percent", "Total_Fat" ="Total_Fat_percent", "S
 
 nutrition<-c("NA",nutrition)
 
-
+# 
+# column(12,
+#        column(4,
+#               conditionalPanel('input.arrange1 != "NA"',
+#                                checkboxInput("desc1",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        ),
+#        column(4,
+#               conditionalPanel('input.arrange2 != "NA"', 
+#                                checkboxInput("desc2",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        ),
+#        column(4,
+#               conditionalPanel('input.arrange3 != "NA"', 
+#                                checkboxInput("desc3",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        )
+# )

@@ -105,7 +105,7 @@ shinyServer(function(input, output,session) {
     
   #resx_toped
   res_toped<-function(k){
-    return(res_arranged(k)%>%ungroup()%>%head(10)%>%mutate(menu_id=row_number()))
+    return(res_arranged(k)%>%ungroup()%>%head(input$topn)%>%mutate(menu_id=row_number()))
   }
   
   #pieplot
@@ -114,16 +114,29 @@ shinyServer(function(input, output,session) {
   })
   cp <- coord_polar(theta = "y")
   cp$is_free <- function() TRUE
-  res_pie_plot<-function(k){
-    res_toped(k)%>%
-      filter(menu_id%in%menuid()[[k]])%>%
-      pivot_longer(Calories:Dietary_Fiber,"nutrition","value")%>%
+  # res_pie_plot<-function(k){
+  #   res_toped(k)%>%
+  #     filter(menu_id%in%menuid()[[k]])%>%
+  #     pivot_longer(Calories:Dietary_Fiber,"nutrition","value")%>%
+  #     mutate(value=replace_na(value, 0))%>%
+  #     ggplot(aes(x=factor(1),y=value  ,fill=factor(nutrition)))+
+  #     facet_wrap(~menu_id,scales = "free")+
+  #     geom_bar(stat = "identity", width=1)+
+  #     cp+
+  #     theme_void()
+  # }
+
+  res_pie_plot<-function(k,row_select){
+    plot_raw<-res_toped(k)%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description)
+    plot<-plot_raw[row_select,]%>%select(Item_Name,input$nutrition_show)%>%
+      pivot_longer(input$nutrition_show,"nutrition","value")%>%
       mutate(value=replace_na(value, 0))%>%
-      ggplot(aes(x=factor(1),y=value  ,fill=factor(nutrition)))+
-      facet_wrap(~menu_id,scales = "free")+
+      ggplot(aes(x=factor(1),y=value  ,fill=nutrition))+
+      facet_wrap(~Item_Name,scales = "free")+
       geom_bar(stat = "identity", width=1)+
       cp+
       theme_void()
+    return(plot)
   }
   
   
@@ -142,12 +155,17 @@ shinyServer(function(input, output,session) {
     res_toped(1)
     })
 
-  output$res1_table <- renderTable({
-    res1_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  output$res1_table<- renderDataTable({
+    datatable(
+      data = res1_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
+      selection = 'multiple'
+    )
   })
-  
+ 
   res1_plot<-reactive({
-    res_pie_plot(1)
+    req(input$res1_table_rows_selected, cancelOutput = F)
+    row_id1 <- input$res1_table_rows_selected
+    res_pie_plot(1,row_id1)
   })
 
   output$res1_plot<-renderPlot({res1_plot()})
@@ -166,12 +184,17 @@ shinyServer(function(input, output,session) {
     res_toped(2)
   })
   
-  output$res2_table <- renderTable({
-    res2_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  output$res2_table<- renderDataTable({
+    datatable(
+      data = res2_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
+      selection = 'multiple'
+    )
   })
   
   res2_plot<-reactive({
-    res_pie_plot(2)
+    req(input$res2_table_rows_selected, cancelOutput = F)
+    row_id2 <- input$res2_table_rows_selected
+    res_pie_plot(2,row_id2)
   })
   
   output$res2_plot<-renderPlot({res2_plot()})
@@ -190,12 +213,17 @@ shinyServer(function(input, output,session) {
     res_toped(3)
   })
   
-  output$res3_table <- renderTable({
-    res3_toped()%>%select(menu_id,Item_Name:Dietary_Fiber)%>%select(-Item_Description)
+  output$res3_table<- renderDataTable({
+    datatable(
+      data = res3_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
+      selection = 'multiple'
+    )
   })
   
   res3_plot<-reactive({
-    res_pie_plot(3)
+    req(input$res3_table_rows_selected, cancelOutput = F)
+    row_id3 <- input$res3_table_rows_selected
+    res_pie_plot(3,row_id3)
   })
   
   output$res3_plot<-renderPlot({res3_plot()})
