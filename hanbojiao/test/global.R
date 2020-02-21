@@ -1,5 +1,5 @@
 
-packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes")
+packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets")
 packages.needed=setdiff(packages.used,
                         intersect(installed.packages()[,1],
                                   packages.used))
@@ -12,7 +12,6 @@ library(shiny)
 # library(leaflet)
 # library(data.table)
 # library(plotly)
-library(shinythemes)
 library(shinythemes)
 library(DT)
 
