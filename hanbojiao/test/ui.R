@@ -26,10 +26,10 @@ fluidPage(
                    tabPanel("Intro",
                             column(2,
                                 column(12,
-                                       selectInput("restaurants",
+                                       selectizeInput("restaurants",
                                                    h4("choose some restaurants:"),
                                                    as.list(data_comparison$restaurant%>%unique()),
-                                                   multiple = T)
+                                                   multiple = T,options=list(minItems=1,maxItems=3))
                                        ),
                                 column(12,
                                        conditionalPanel('input.restaurants != ""', 
@@ -43,28 +43,28 @@ fluidPage(
                                 conditionalPanel('input.restaurants != ""',
                                                  selectInput("arrange1",
                                                              label = h4("choose first nuitrition:"),
-                                                             choice=nutrition),
-                                                 conditionalPanel('input.arrange1 != "NA"',
+                                                             choice=c("Select",nutrition)),
+                                                 conditionalPanel('input.arrange1 != "Select"',
                                                                   checkboxInput("desc1",
                                                                                 label = "lower",
                                                                                 value = F)
                                                                   )
                                                  ),
-                                conditionalPanel('input.arrange1 != "NA"',
+                                conditionalPanel('input.arrange1 != "Select"&&input.restaurants != ""',
                                                  selectInput("arrange2",
                                                              h4("choose second nuitrition:"),
-                                                             choice=nutrition),
-                                                 conditionalPanel('input.arrange2 != "NA"',
+                                                             choice=c("Select",nutrition)),
+                                                 conditionalPanel('input.arrange2 != "Select"',
                                                                   checkboxInput("desc2",
                                                                                 label = "lower",
                                                                                 value = F)
                                                                   )
                                                  ),
-                                conditionalPanel('input.arrange2 != "NA"',
+                                conditionalPanel('input.arrange2 != "Select"&&input.arrange1 != "Select"&&input.restaurants != ""',
                                                  selectInput("arrange3",
                                                              h4("choose third nuitrition:"),
-                                                             choice=nutrition),
-                                                 conditionalPanel('input.arrange3 != "NA"',
+                                                             choice=c("Select",nutrition)),
+                                                 conditionalPanel('input.arrange3 != "Select"',
                                                                   checkboxInput("desc3",
                                                                                 label = "lower",
                                                                                 value = F)
@@ -72,7 +72,7 @@ fluidPage(
                                                  ),
                                 ),
                             column(10,
-                                   conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")',
+                                   conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "Select")',
                                                     column(10,checkboxGroupInput("nutrition_show", 
                                                                                 label = "Columns in table to show", 
                                                                                 choices = as.list(nutrition[-1]%>%names()),
@@ -80,7 +80,7 @@ fluidPage(
                                                                                 inline = T)),
                                                     column(2,numericInput("topn", label = "Number of menu", value = 5),)
                                                     ),
-                                   conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")',
+                                   conditionalPanel('input.restaurants.length>0 &&input.arrange1 != "Select"',
                                                     column(12,
                                                            textOutput('res1_name'),
                                                            dataTableOutput ('res1_table')
@@ -90,7 +90,7 @@ fluidPage(
                                                                                      )
                                                                               )
                                                     ),
-                                   conditionalPanel('input.restaurants.length>1 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")', 
+                                   conditionalPanel('input.restaurants.length>1 &&input.arrange1 != "Select"', 
                                                     column(12,
                                                            textOutput('res2_name'),
                                                            dataTableOutput ('res2_table')
@@ -100,7 +100,7 @@ fluidPage(
                                                                                      )
                                                                               )
                                                     ),
-                                   conditionalPanel('input.restaurants.length>2 &&(input.arrange1 != "NA"||input.arrange2 != "NA"||input.arrange3 != "NA")', 
+                                   conditionalPanel('input.restaurants.length>2 &&input.arrange1 != "Select"', 
                                                     column(12,
                                                            textOutput('res3_name'),
                                                            dataTableOutput ('res3_table')
@@ -112,7 +112,11 @@ fluidPage(
                                                     ),
                                    )
                             ),
-                   tabPanel("Intro"
+                   tabPanel("Data Search",
+                            tabsetPanel(type="tabs",
+                                        tabPanel("menu"),
+                                        tabPanel("location")
+                                        )
                             )
                    )
         )

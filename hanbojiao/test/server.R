@@ -15,6 +15,8 @@ source("global.R")
 
 
 shinyServer(function(input, output,session) {
+  
+### comparison tab  
   #resx_name
   res_name<-function(k){
     return(input$restaurants[[k]])
@@ -32,9 +34,9 @@ shinyServer(function(input, output,session) {
   #resx_arranged
   res_arranged<-function(k){
     return(
-      if(input$arrange1!="NA"){
-        if(input$arrange2!="NA"){
-          if(input$arrange3!="NA"){
+      if(input$arrange1!= "Select"){
+        if(input$arrange2!= "Select"){
+          if(input$arrange3!= "Select"){
             if(input$desc1){
               if(input$desc2){
                 if(input$desc3){
@@ -114,18 +116,6 @@ shinyServer(function(input, output,session) {
   })
   cp <- coord_polar(theta = "y")
   cp$is_free <- function() TRUE
-  # res_pie_plot<-function(k){
-  #   res_toped(k)%>%
-  #     filter(menu_id%in%menuid()[[k]])%>%
-  #     pivot_longer(Calories:Dietary_Fiber,"nutrition","value")%>%
-  #     mutate(value=replace_na(value, 0))%>%
-  #     ggplot(aes(x=factor(1),y=value  ,fill=factor(nutrition)))+
-  #     facet_wrap(~menu_id,scales = "free")+
-  #     geom_bar(stat = "identity", width=1)+
-  #     cp+
-  #     theme_void()
-  # }
-
   res_pie_plot<-function(k,row_select){
     plot_raw<-res_toped(k)%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description)
     plot<-plot_raw[row_select,]%>%select(Item_Name,input$nutrition_show)%>%
@@ -138,6 +128,9 @@ shinyServer(function(input, output,session) {
       theme_void()
     return(plot)
   }
+  
+  #test pieplot
+  plottestdata<-data_comparison[c(306,602),]
   
   
 ##1  
@@ -157,8 +150,11 @@ shinyServer(function(input, output,session) {
 
   output$res1_table<- renderDataTable({
     datatable(
-      data = res1_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
-      selection = 'multiple'
+      data = res1_toped()%>%
+        mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%
+                 str_remove_all("NA NA"))%>%
+        select(Item_Name, Food_Category, size,input$nutrition_show),
+      selection = 'multiple', rownames = FALSE,options = list(autoWidth = T )
     )
   })
  
@@ -186,7 +182,7 @@ shinyServer(function(input, output,session) {
   
   output$res2_table<- renderDataTable({
     datatable(
-      data = res2_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
+      data = res2_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%select(Item_Name, Food_Category, size,input$nutrition_show),
       selection = 'multiple'
     )
   })
@@ -215,7 +211,8 @@ shinyServer(function(input, output,session) {
   
   output$res3_table<- renderDataTable({
     datatable(
-      data = res3_toped()%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description),
+      data = res3_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%
+        select(Item_Name, Food_Category, size,input$nutrition_show),
       selection = 'multiple'
     )
   })
@@ -230,6 +227,6 @@ shinyServer(function(input, output,session) {
   
 
  
- 
+### data search tab 
 
 })
