@@ -111,27 +111,39 @@ shinyServer(function(input, output,session) {
   }
   
   #pieplot
-  menuid<-reactive({
-    list(input$menuid1,input$menuid2,input$menuid3)
-  })
+
   cp <- coord_polar(theta = "y")
   cp$is_free <- function() TRUE
   res_pie_plot<-function(k,row_select){
-    plot_raw<-res_toped(k)%>%select(menu_id,Item_Name:Serving_Size_Unit,input$nutrition_show)%>%select(-Item_Description)
-    plot<-plot_raw[row_select,]%>%select(Item_Name,input$nutrition_show)%>%
-      pivot_longer(input$nutrition_show,"nutrition","value")%>%
-      mutate(value=replace_na(value, 0))%>%
-      ggplot(aes(x=factor(1),y=value  ,fill=nutrition))+
-      facet_wrap(~Item_Name,scales = "free")+
-      geom_bar(stat = "identity", width=1)+
-      cp+
-      theme_void()
+    table_nu<-res_toped(k)[row_select,]
+
+    plot<-plot_ly()
+    
+    for(i in 1:nrow(table_nu)){
+      plot<-plot %>% 
+        add_pie(data = table_nu[i,]%>%
+                  select(Item_Name,input$nutrition_show)%>%
+                  pivot_longer(input$nutrition_show,"nutrition","value")%>%
+                  mutate(value=replace_na(value, 0)), 
+                labels = ~nutrition, values = ~value,
+                textposition = 'inside',
+                textinfo = 'label+percent',
+                name = table_nu[i,]$Item_Name,
+                marker = list(colors = 'RdYlGn',
+                              line = list(color = '#FFFFFF', width = 0.4)),
+                title = table_nu[i,]$Item_Name, 
+                domain = list(row = 0, column = i-1))
+    }
+    
+    plot <- plot %>%
+      layout(title = "Pie Charts with Subplots", showlegend = T,
+             grid=list(rows=1, columns=nrow(table_nu)),
+             xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+             yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE)) 
     return(plot)
   }
   
-  #test pieplot
-  plottestdata<-data_comparison[c(306,602),]
-  
+
   
 ##1  
   res1_name<-reactive({
@@ -164,7 +176,7 @@ shinyServer(function(input, output,session) {
     res_pie_plot(1,row_id1)
   })
 
-  output$res1_plot<-renderPlot({res1_plot()})
+  output$res1_plot<-renderPlotly({res1_plot()})
 ##2
   res2_name<-reactive({
     res_name(2)
@@ -193,7 +205,7 @@ shinyServer(function(input, output,session) {
     res_pie_plot(2,row_id2)
   })
   
-  output$res2_plot<-renderPlot({res2_plot()})
+  output$res2_plot<-renderPlotly({res2_plot()})
 ##3  
   res3_name<-reactive({
     res_name(3)
@@ -223,10 +235,50 @@ shinyServer(function(input, output,session) {
     res_pie_plot(3,row_id3)
   })
   
-  output$res3_plot<-renderPlot({res3_plot()})
+  output$res3_plot<-renderPlotly({res3_plot()})
   
 
  
 ### data search tab 
-
+## menu
+  search_menu<-
+    data_search_menu%>%
+    mutate(Serving_Size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%
+             str_remove_all("NA NA"))%>%select(-Serving_Size_Unit)
+  output$search_menu<- renderDataTable({
+    datatable(
+      data = search_menu,
+      selection = 'multiple',
+      filter = "top"
+    )
+  })
+  
+  
+## location
+  
+  search_location<-reactive({
+    if (!is_null(input$restaurants_search_menu)) data_search_location<-data_search_location%>%filter(restaurant%in%input$restaurants_search_menu)
+    if (!is_null(input$BORO_search_menu)) data_search_location<-data_search_location%>%filter(BORO%in%input$BORO_search_menu)
+    if (!is_null(input$cuisine_search_menu)) data_search_location<-data_search_location%>%filter(`CUISINE DESCRIPTION`%in%input$cuisine_search_menu)
+    if (!is_null(input$grade_search_menu)) data_search_location<-data_search_location%>%filter(GRADE%in%input$grade_search_menu)
+    return(data_search_location)
+  })
+  
+  
+  output$search_location<- renderDataTable({
+    datatable(
+      data = search_location(),
+      selection = 'multiple'
+    )
+  })
+  
+  
+  
+  
+  
+  
+  
+  
 })
+
+
