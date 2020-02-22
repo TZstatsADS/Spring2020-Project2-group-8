@@ -35,7 +35,7 @@ data_comparison<-
 
 nutrition<-c("Calories"="Calories_percent", "Total_Fat" ="Total_Fat_percent", "Saturated_Fat"="Saturated_Fat_percent", "Trans_Fat" ="Trans_Fat_percent", "Cholesterol"="Cholesterol_percent","Sodium"="Sodium_percent","Carbohydrates" ="Carbohydrates_percent","Protein" ="Protein_percent", "Sugar"="Sugar_percent","Dietary_Fiber"="Dietary_Fiber_percent" )
 
-# nutrition<-c("Select",nutrition)
+nutrition<-c("Select",nutrition)
 
 # 
 # column(12,
