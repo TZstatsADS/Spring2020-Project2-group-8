@@ -1,18 +1,4 @@
-#
-# This is the server logic of a Shiny web application. You can run the
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
-library(shiny)
-library(datasets)
-
 source("global.R")
-
-
 
 shinyServer(function(input, output,session) {
   
@@ -166,7 +152,9 @@ shinyServer(function(input, output,session) {
         mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%
                  str_remove_all("NA NA"))%>%
         select(Item_Name, Food_Category, size,input$nutrition_show),
-      selection = 'multiple', rownames = FALSE,options = list(autoWidth = T )
+      selection = 'multiple', 
+      rownames = FALSE,
+      options = list(scrollX = TRUE,scrollY = TRUE)
     )
   })
  
@@ -195,7 +183,9 @@ shinyServer(function(input, output,session) {
   output$res2_table<- renderDataTable({
     datatable(
       data = res2_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%select(Item_Name, Food_Category, size,input$nutrition_show),
-      selection = 'multiple'
+      selection = 'multiple', 
+      rownames = FALSE,
+      options = list(scrollX = TRUE,scrollY = TRUE)
     )
   })
   
@@ -225,7 +215,9 @@ shinyServer(function(input, output,session) {
     datatable(
       data = res3_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%
         select(Item_Name, Food_Category, size,input$nutrition_show),
-      selection = 'multiple'
+      selection = 'multiple', 
+      rownames = FALSE,
+      options = list(scrollX = TRUE,scrollY = TRUE)
     )
   })
   
@@ -249,7 +241,9 @@ shinyServer(function(input, output,session) {
     datatable(
       data = search_menu,
       selection = 'multiple',
-      filter = "top"
+      filter = "top", 
+      rownames = FALSE,
+      options = list(scrollX = TRUE,scrollY = TRUE,pageLength = 5)
     )
   })
   
@@ -268,7 +262,9 @@ shinyServer(function(input, output,session) {
   output$search_location<- renderDataTable({
     datatable(
       data = search_location(),
-      selection = 'multiple'
+      selection = 'multiple', 
+      rownames = FALSE,
+      options = list(scrollX = TRUE,scrollY = TRUE,pageLength = 10)
     )
   })
   

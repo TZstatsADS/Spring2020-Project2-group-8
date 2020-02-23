@@ -1,5 +1,5 @@
 
-packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets")
+packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets","plotly")
 packages.needed=setdiff(packages.used,
                         intersect(installed.packages()[,1],
                                   packages.used))
@@ -9,11 +9,11 @@ if(length(packages.needed)>0){
 }
 library(tidyverse)
 library(shiny)
-# library(leaflet)
-# library(data.table)
-# library(plotly)
 library(shinythemes)
 library(DT)
+library(datasets)
+library(plotly)
+library(shinyWidgets)
 
 #Statistics Analysis Global Enviroment 
 
