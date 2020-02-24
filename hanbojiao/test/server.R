@@ -42,7 +42,6 @@ shinyServer(function(input, output,session) {
       addCircles(~Longitude,~Latitude, group = 'locations', stroke = F,
                  radius = 12, fillOpacity = 0.8,fillColor='red', label = as.character(locations_within_range$V1))
 
-    #crimes_within_range <- merge(crimes_within_range,crime_type,by = c("LAW_CAT_CD","LAW_CAT_CD"), all.y = F)
 
 
     locations_within_range$Address <- paste(locations_within_range$BUILDING, " ", locations_within_range$STREET,
@@ -173,7 +172,7 @@ shinyServer(function(input, output,session) {
     }
 
     plot <- plot %>%
-      layout(title = "Pie Charts with Subplots", showlegend = T,
+      layout(title = "Nutrition Breakdown", showlegend = T,
              grid=list(rows=1, columns=nrow(table_nu)),
              xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
              yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))

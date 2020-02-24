@@ -33,7 +33,11 @@ shinyUI(
                                    offset=4,
                                    sliderInput("click_radius",
                                                "Radius of area around  the selected address",
+<<<<<<< HEAD
                                                min=500, max=2000, value=750, step=10)
+=======
+                                               min=500, max=2000, value=500, step=20)
+>>>>>>> c949984fff4d33f9dc5f955c7a85648487b8e268
                                    )
                             ),
                           fluidRow(
@@ -53,7 +57,7 @@ shinyUI(
                           column(2,
                                  column(12,
                                         selectizeInput("restaurants",
-                                                       h4("choose some restaurants:"),
+                                                       h4("Choose Restaurant(s):"),
                                                        as.list(data_comparison$restaurant%>%unique()),
                                                        multiple = T,options=list(minItems=1,maxItems=3))
                                  ),
@@ -68,7 +72,7 @@ shinyUI(
                                  ),
                                  conditionalPanel('input.restaurants != ""',
                                                   selectInput("arrange1",
-                                                              label = h4("choose first nuitrition:"),
+                                                              label = h4("Choose First Nutrition Fact:"),
                                                               choice=c("Select",nutrition)),
                                                   conditionalPanel('input.arrange1 != "Select"',
                                                                    checkboxInput("desc1",
@@ -78,7 +82,7 @@ shinyUI(
                                  ),
                                  conditionalPanel('input.arrange1 != "Select"&&input.restaurants != ""',
                                                   selectInput("arrange2",
-                                                              h4("choose second nuitrition:"),
+                                                              h4("Choose Second Nutrition Fact:"),
                                                               choice=c("Select",nutrition)),
                                                   conditionalPanel('input.arrange2 != "Select"',
                                                                    checkboxInput("desc2",
@@ -88,7 +92,7 @@ shinyUI(
                                  ),
                                  conditionalPanel('input.arrange2 != "Select"&&input.arrange1 != "Select"&&input.restaurants != ""',
                                                   selectInput("arrange3",
-                                                              h4("choose third nuitrition:"),
+                                                              h4("Choose Third Nutrition Fact:"),
                                                               choice=c("Select",nutrition)),
                                                   conditionalPanel('input.arrange3 != "Select"',
                                                                    checkboxInput("desc3",
@@ -100,11 +104,11 @@ shinyUI(
                           column(10,
                                  conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "Select")',
                                                   column(10,checkboxGroupInput("nutrition_show",
-                                                                               label = "Columns in table to show",
+                                                                               label = "Choose Table Columns To Show",
                                                                                choices = as.list(nutrition[-1]%>%names()),
                                                                                selected = as.list(nutrition[-1]%>%names()),
                                                                                inline = T)),
-                                                  column(2,numericInput("topn", label = "Number of menu", value = 5),)
+                                                  column(2,numericInput("topn", label = "Number of menu items", value = 5),)
                                  ),
                                  conditionalPanel('input.restaurants.length>0 &&input.arrange1 != "Select"',
                                                   column(12,
@@ -138,7 +142,11 @@ shinyUI(
                                  ),
                           )
                  ),
+<<<<<<< HEAD
                  tabPanel("Statistics Analysis",
+=======
+                 tabPanel("Statistic Analysis",
+>>>>>>> c949984fff4d33f9dc5f955c7a85648487b8e268
                           h2("Summary Statistics"),
                           wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;",
                                     tabsetPanel(type="tabs",
@@ -161,10 +169,10 @@ shinyUI(
                                                          ),
                                                 tabPanel(title = "Carbohydrates",
                                                          div(width = 15,
-                                                             h1("Restaurant with Low Carbohydrates content"),
+                                                             h1("Restaurants with Low Carbohydrates content"),
                                                              br(),
                                                              plotlyOutput('p7'),
-                                                             h1("Restaurant with High Carbohydrates content"),
+                                                             h1("Restaurants with High Carbohydrates content"),
                                                              br(),
                                                              plotlyOutput('p8')
                                                              )
@@ -173,7 +181,7 @@ shinyUI(
                                                          div(width = 15,
                                                              h1("Sodium"),
                                                              plotlyOutput("p9"),
-                                                             h1("Restaurant with High Sodium content"),
+                                                             h1("Restaurants with High Sodium content"),
                                                              br(),
                                                              plotlyOutput("p10")
                                                              )
@@ -183,10 +191,10 @@ shinyUI(
                                                              h1("Sugar"),
                                                              br(),
                                                              plotlyOutput("p11"),
-                                                             h1("Restaurant with High Sugar content"),
+                                                             h1("Restaurants with High Sugar content"),
                                                              br(),
                                                              plotlyOutput("p12"),
-                                                             h1("Restaurant with Low Sugar content"),
+                                                             h1("Restaurants with Low Sugar content"),
                                                              br(),
                                                              plotlyOutput("plow")
                                                              )
@@ -196,7 +204,7 @@ shinyUI(
                                                              h1("Dietary_fiber"),
                                                              br(),
                                                              plotlyOutput("p13"),
-                                                             h1("Restaurant with High Dietary Fiber content"),
+                                                             h1("Restaurants with High Dietary Fiber content"),
                                                              br(),
                                                              plotlyOutput("p14")  
                                                              )
