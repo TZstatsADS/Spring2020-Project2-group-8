@@ -33,7 +33,7 @@ shinyUI(
                                    offset=4,
                                    sliderInput("click_radius",
                                                "Radius of area around  the selected address",
-                                               min=200, max=2000, value=250, step=10)
+                                               min=500, max=2000, value=500, step=20)
                                    )
                             ),
                           fluidRow(
