@@ -1,0 +1,317 @@
+
+---
+title: "Test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r echo=FALSE,warning=FALSE}
+
+packages.used=c("shiny", "leaflet","plotly","sodium_contenta.table","shinyWidgets","googleVis","geosphere","leaflet.extras","shinythemes","ggmap","dplyr","‘RColorBrewer","viridis","gridextra")
+packages.needed=setdiff(packages.used, 
+                        intersect(installed.packages()[,1], 
+                                  packages.used))
+
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
+library(shiny)
+library(leaflet)
+library(plotly)
+library(shinyWidgets)
+library(googleVis)
+library(geosphere)
+library(leaflet.extras)
+library(shinythemes)
+library(ggmap)
+library(dplyr)
+library(RColorBrewer)
+library(viridis)
+library(gridExtra)
+```
+
+
+The statistics analysis is prepared using the menu_nutrition_location_catagory that is saved in the output file
+
+```{r pressure, echo=FALSE}
+load('C:/Users/tramh/Documents/GitHub/Spring2020-Project2-group-8/output/menu_nutrition_location_catagory.Rsodium_contenta')
+menu_clean <- menu_nutrition_location_catagory
+```
+
+
+
+##Catogories and its Nutritional Value {.tabset .tabset-fade}  
+```{r pressure, echo=FALSE}
+subset_nutrition <-menu_clean %>%select(restaurant,menu)%>%unnest(menu)%>%
+  select(restaurant,Item_Name,Item_Description,Food_Category,Calories:Dietary_Fiber,Shareable)%>%
+  filter(Shareable==0)%>%select(-Potassium,-Shareable)%>%group_by(restaurant)%>%arrange(restaurant)%>%nest()%>%ungroup%>%mutate(restaurant_id=row_number())%>%group_by(restaurant)%>%unnest()%>%mutate(menu_id=row_number())%>%
+  select(restaurant_id,restaurant,menu_id,Item_Name,Item_Description,Food_Category,everything())
+
+colname<-subset_nutrition%>%colnames()
+nutrition<-colname[9:18]
+food_category<-subset_nutrition$Food_Category%>%unique()
+```
+
+### Replacing some NA values:
+```{r pressure, echo=FALSE}
+subset_nutrition$Calories[which(is.na(subset_nutrition$Calories))] = 0
+subset_nutrition$Total_Fat[which(is.na(subset_nutrition$Total_Fat))] = 0
+subset_nutrition$Saturated_Fat[which(is.na(subset_nutrition$Saturated_Fat))] = 0 
+subset_nutrition$Trans_Fat[which(is.na(subset_nutrition$Trans_Fat))] = 0
+subset_nutrition$Cholesterol[which(is.na(subset_nutrition$Cholesterol))] = 0
+subset_nutrition$Sodium[which(is.na(subset_nutrition$Sodium))] = 0
+subset_nutrition$Carbohydrates[which(is.na(subset_nutrition$Carbohydrates))] = 0
+subset_nutrition$Protein[which(is.na(subset_nutrition$Protein))] = 0
+subset_nutrition$Sugar[which(is.na(subset_nutrition$Sugar))] = 0
+subset_nutrition$Dietary_Fiber[which(is.na(subset_nutrition$Dietary_Fiber))] = 0
+```
+
+### Calories  
+
+```{r echo=FALSE,warning=FALSE}
+new_col<-c("grey50", "blue","hotpink","Magenta","orange", "red","seagreen","violet","brown","maroon","navyblue", "yellow")
+
+p1 <- plot_ly(x = subset_nutrition$Food_Category,  y = subset_nutrition$Calories,color = subset_nutrition$Food_Category,colors = new_col, type = "box")%>%
+         layout(title = "Calories",
+         xaxis = list(title = ""),
+         yaxis = list(title = "Calories"),
+         showlegend=FALSE,
+         autosize = T)
+p1
+```  
+
+### Protein
+
+```{r echo=FALSE,warning=FALSE}
+
+p2 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Protein,color = subset_nutrition$Food_Category,colors =new_col , type = "box")%>%
+        layout(title = "Protein",
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+p2
+```
+
+### Total_fat
+
+```{r echo=FALSE,warning=FALSE}
+p3 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Total_Fat,color = subset_nutrition$Food_Category,colors =new_col , type = "box") %>% 
+         layout(title = "Total Fat",
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+p3
+```
+
+### Cholesterol
+```{r echo=FALSE,warning=FALSE}
+P4 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Cholesterol,color = subset_nutrition$Food_Category,colors =new_col , type = "box") %>%
+        layout(title = "Cholesterol",
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+P4
+```
+
+
+```{r echo=FALSE,warning=FALSE}
+
+cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tcholesterol = sum(Cholesterol))
+cholesterol_content
+
+high_ch <- cholesterol_content%>%arrange(desc(tcholesterol))%>% head(6)
+
+p5<-plot_ly(x= high_ch$Food_Category,y=high_ch$tcholesterol,
+            color = high_ch$food_category,type="bar")%>%layout(title="High Cholesterol Category",height=400)
+p5
+
+low_ch <-cholesterol_content%>%arrange(desc(tcholesterol))%>% tail(6)
+p6 <-plot_ly(x= low_ch$Food_Category,y=low_ch$tcholesterol,
+            color = low_ch$food_category,type="bar")%>%layout(title="Low Cholesterol Category",height=400)
+p6
+
+```
+
+
+
+### Carbohydrates
+```{r echo=FALSE,warning=FALSE}
+
+carb_content1<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(Food_Category)%>%summarise(tcarb = sum(Carbohydrates))
+carb_content1
+carb_content1$fraction = carb_content1$tcarb / sum(carb_content1$tcarb)
+carb_content1 = carb_content1[order(carb_content1$fraction), ]
+carb_content1$ymax = cumsum(carb_content1$fraction)
+carb_content1$ymin = c(0, head(carb_content1$ymax, n=-1))
+
+p7 = ggplot(carb_content1, aes(fill=Food_Category, ymax=ymax, ymin=ymin, xmax=9, xmin=3)) +
+     geom_rect() +
+     coord_polar(theta="y") +
+     xlim(c(0, 9)) +
+     theme(panel.grid=element_blank()) +
+     theme(axis.text=element_blank()) +
+     theme(axis.ticks=element_blank()) +
+     annotate("text", x = 0, y = 0, label = "Carbohydrates") +
+     labs(title="Carbohydrates content in Food Category")
+p7
+```
+
+
+```{r echo=FALSE,warning=FALSE}
+
+carb_content2<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tcarb = sum(Carbohydrates))
+carb_content2
+high_carb <- carb_content2%>%arrange(desc(tcarb))%>%head(26)
+
+p8<-plot_ly(x= high_carb$restaurant,y=high_carb$tcarb,
+            color = high_carb$restaurant,type="bar")%>%layout(title="Carbohydrates content by Restaurant",height=400)
+p8
+```
+
+
+### Sodium
+```{r echo=FALSE}
+##data$cleaning_fee[which(is.na(data$cleaning_fee))] = 0
+
+sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(Food_Category)%>%summarise(tsodium = sum(Sodium))
+sodium_content
+sodium_content$fraction = sodium_content$tsodium / sum(sodium_content$tsodium)
+sodium_content = sodium_content[order(sodium_content$fraction), ]
+sodium_content$ymax = cumsum(sodium_content$fraction)
+sodium_content$ymin = c(0, head(sodium_content$ymax, n=-1))
+
+p9 = ggplot(sodium_content, aes(fill=Food_Category, ymax=ymax, ymin=ymin, xmax=9, xmin=3)) +
+     geom_rect() +
+     coord_polar(theta="y") +
+     xlim(c(0, 9)) +
+     theme(panel.grid=element_blank()) +
+     theme(axis.text=element_blank()) +
+     theme(axis.ticks=element_blank()) +
+     annotate("text", x = 0, y = 0, label = "Sodium") +
+     labs(title="Sodium content in Food Category")
+p9
+```
+
+
+### Sugar
+
+
+```{r echo=FALSE,warning=FALSE}
+
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(Food_Category)%>%summarise(tsugar = sum(Sugar))
+sugar_content
+
+p10 <- plot_ly(
+  x = sugar_content$tsugar,
+  y = sugar_content$Food_Category,
+  marker = list(color = new_col),
+    type = "bar"
+)%>%
+  layout(xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         autosize = T)
+p10
+
+sugar_content$fraction = sugar_content$tsugar / sum(sugar_content$tsugar)
+sugar_content = sugar_content[order(sugar_content$fraction), ]
+sugar_content$ymax = cumsum(sugar_content$fraction)
+sugar_content$ymin = c(0, head(sugar_content$ymax, n=-1))
+
+p11 = ggplot(sugar_content, aes(fill=Food_Category, ymax=ymax, ymin=ymin, xmax=9, xmin=3)) +
+     geom_rect() +
+     coord_polar(theta="y") +
+     xlim(c(0, 9)) +
+     theme(panel.grid=element_blank()) +
+     theme(axis.text=element_blank()) +
+     theme(axis.ticks=element_blank()) +
+     annotate("text", x = 0, y = 0, label = "Sugar") +
+     labs(title="Sugar content in Food Category")
+p11
+```
+
+
+```{r echo=FALSE,warning=FALSE}
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(restaurant)%>%summarise(tsugar = sum(Sugar))
+sugar_content
+
+high_sugar <- sugar_content%>%arrange(desc(tsugar))%>%head(26)
+
+p12<-plot_ly(x= high_sugar$restaurant,y=high_sugar$tsugar,
+            color = high_sugar$restaurant,type="bar")%>%layout(title="Top High Sugar Restaurants",height=400)
+p12
+
+
+```
+
+### Dietary_fiber
+
+
+```{r echo=FALSE,warning=FALSE}
+p13 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Dietary_Fiber,color = subset_nutrition$Food_Category,colors =new_col , type = "bar") %>% layout(
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+p13
+```
+
+
+
+```{r echo=FALSE,warning=FALSE}
+df_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tdf = sum(Dietary_Fiber))
+df_content
+
+high_df <- df_content%>%arrange(desc(tdf))%>%head(26)
+
+p14<-plot_ly(x= high_df$restaurant,y=high_df$tdf,
+            color = high_df$restaurant,type="bar")%>%layout(title="Top High Dietary Fiber Restaurants",height=400)
+p14
+
+
+```
+
+
+
+##Density plots for Calories Vs other Nutrients  
+  
+  
+```{r echo=FALSE}  
+d1<-subset_nutrition%>%ggplot(aes(x=Sugar,y=Calories))+stat_density_2d(geom = "polygon", aes(fill = ..level..), h=c(100,1500) ,contour = T)+scale_fill_viridis(option="magma")
+d2<-subset_nutrition%>%ggplot(aes(x=Carbohydrates,y=Calories))+stat_density_2d(geom = "tile", aes(fill = ..density..), h=c(100,1500) ,contour = F)+scale_fill_viridis(option="magma")
+d3<-subset_nutrition%>%ggplot(aes(x=Sodium,y=Calories))+stat_density_2d(geom = "tile", aes(fill = ..density..), h=c(3000,1500) ,contour = F)+scale_fill_viridis(option="magma")
+d4<-subset_nutrition%>%ggplot(aes(x=Cholesterol,y=Calories))+stat_density_2d(geom = "tile", aes(fill = ..density..), h=c(600,1500) ,contour = F)+scale_fill_viridis(option="magma")
+d5<-subset_nutrition%>%ggplot(aes(x=Dietary_Fiber,y=Calories))+scale_x_continuous(limits=c(0,8),expand=c(0,0))+stat_density_2d(geom = "tile", aes(fill = ..density..), h=c(5,70) ,contour = FALSE)+scale_fill_viridis(option="magma")
+
+grid.arrange(d1,d2,d3,d4,d5,nrow=3,ncol=2)
+```  
+
+
+##Nutrients contributing to Calories  
+```{r echo=FALSE}
+g1<-ggplot(subset_nutrition, aes(x=Cholesterol,y=Calories))+geom_point(col="hotpink")+geom_smooth(method="lm",col="hotpink")
+g2<-ggplot(subset_nutrition, aes(x=Carbohydrates,y=Calories))+geom_point(col="navyblue")+geom_smooth(method="lm",col="navyblue")
+g3<-ggplot(subset_nutrition, aes(x=Sugar,y=Calories))+geom_point(col="darkorchid4")+geom_smooth(method="lm",col="darkorchid4")
+g4<-ggplot(subset_nutrition, aes(x=Total_Fat,y=Calories))+geom_point(col="magenta")+geom_smooth(method="lm",col="magenta")
+g5<-ggplot(subset_nutrition, aes(x=Sodium,y=Calories))+geom_point(col="olivedrab4")+geom_smooth(method="lm",col="olivedrab4")
+g6<-ggplot(subset_nutrition, aes(x=Protein,y=Calories))+geom_point(col="firebrick4")+geom_smooth(method="lm",col="firebrick4")
+g7<-ggplot(subset_nutrition, aes(x=Saturated_Fat,y=Calories))+geom_point(col="orange4")+geom_smooth(method="lm",col="orange4")
+g8<-ggplot(subset_nutrition, aes(x=Dietary_Fiber,y=Calories))+geom_point(col="tomato4")+geom_smooth(method="lm",col="tomato4")
+g9<-ggplot(subset_nutrition, aes(x=Trans_Fat,y=Calories))+geom_point(col="slateblue4")+geom_smooth(method="lm",col="slateblue4")
+g<- grid.arrange(g1,g2,g3,g4,g5,g6,g7,g8,nrow=3,ncol=3)
+g
+``` 
+
+
+
