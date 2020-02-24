@@ -1,0 +1,13 @@
+name: test
+title: test
+username:
+account: hj2524
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1842058
+bundleId: 2823425
+url: https://hj2524.shinyapps.io/test/
+when: 1582516768.48149
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: global.test.1.R|server.test.1.R|ui.test.1.R
