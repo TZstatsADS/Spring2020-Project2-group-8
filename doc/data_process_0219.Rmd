@@ -14,7 +14,7 @@ menu_raw <-read_csv("../data/MenuStat.csv")
 location_raw <- read_csv("C:/Users/jiaoh/OneDrive/桌面/NY Restaurant Location.csv")
 
 # Delete nutrition_text and nutrition_100g col, potassium col (since only 5k entry have value)
-menu<-menu_raw
+menu<-menu_raw%>%mutate(Sodium=Sodium/1000)
 
 # Nested menu information
 menu_info<-menu%>%group_by(restaurant)%>%nest()%>%rename(menu=data)

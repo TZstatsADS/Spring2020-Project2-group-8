@@ -151,9 +151,7 @@ shinyServer(function(input, output,session) {
 
   #pieplot
 
-  cp <- coord_polar(theta = "y")
-  cp$is_free <- function() TRUE
-  res_pie_plot<-function(k,row_select){
+   res_pie_plot<-function(k,row_select){
     table_nu<-res_toped(k)[row_select,]
 
     plot<-plot_ly()
@@ -299,6 +297,19 @@ shinyServer(function(input, output,session) {
   output$p13 <- renderPlotly(p13)
   output$p14 <- renderPlotly(p14)
   output$plow <- renderPlotly(plow)
+  
+  output$plotgraph = renderPlot({
+    g1<-ggplot(subset_nutrition, aes(x=Cholesterol,y=Calories))+geom_point(col="hotpink")+geom_smooth(method="lm",col="hotpink")
+    g2<-ggplot(subset_nutrition, aes(x=Carbohydrates,y=Calories))+geom_point(col="navyblue")+geom_smooth(method="lm",col="navyblue")
+    g3<-ggplot(subset_nutrition, aes(x=Sugar,y=Calories))+geom_point(col="darkorchid4")+geom_smooth(method="lm",col="darkorchid4")
+    g4<-ggplot(subset_nutrition, aes(x=Total_Fat,y=Calories))+geom_point(col="magenta")+geom_smooth(method="lm",col="magenta")
+    g5<-ggplot(subset_nutrition, aes(x=Sodium,y=Calories))+geom_point(col="olivedrab4")+geom_smooth(method="lm",col="olivedrab4")
+    g6<-ggplot(subset_nutrition, aes(x=Protein,y=Calories))+geom_point(col="firebrick4")+geom_smooth(method="lm",col="firebrick4")
+    g7<-ggplot(subset_nutrition, aes(x=Saturated_Fat,y=Calories))+geom_point(col="orange4")+geom_smooth(method="lm",col="orange4")
+    g8<-ggplot(subset_nutrition, aes(x=Dietary_Fiber,y=Calories))+geom_point(col="tomato4")+geom_smooth(method="lm",col="tomato4")
+    g9<-ggplot(subset_nutrition, aes(x=Trans_Fat,y=Calories))+geom_point(col="slateblue4")+geom_smooth(method="lm",col="slateblue4")
+    grid.arrange(g1,g2,g3,g4,g5,g6,g7,g8,nrow=3,ncol=3)
+  })  
  
 ### data search tab
 ## menu
@@ -338,7 +349,7 @@ shinyServer(function(input, output,session) {
   })
 
 
-
+#   
   
   
   

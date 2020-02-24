@@ -33,7 +33,7 @@ shinyUI(
                                    offset=4,
                                    sliderInput("click_radius",
                                                "Radius of area around  the selected address",
-                                               min=200, max=2000, value=250, step=10)
+                                               min=500, max=2000, value=750, step=10)
                                    )
                             ),
                           fluidRow(
@@ -138,10 +138,12 @@ shinyUI(
                                  ),
                           )
                  ),
-                 tabPanel("statistic Analysis",
+                 tabPanel("Statistics Analysis",
                           h2("Summary Statistics"),
                           wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;",
                                     tabsetPanel(type="tabs",
+                                                tabPanel("Nutrients Contributing to Calories",
+                                                         plotOutput(outputId="plotgraph", width="800px",height="600px")),
                                                 tabPanel(title = "Calories",
                                                          br(),
                                                          div(plotlyOutput("p1"),
