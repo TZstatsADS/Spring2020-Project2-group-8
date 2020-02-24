@@ -1,5 +1,5 @@
 
-packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets","plotly")
+packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets")
 packages.needed=setdiff(packages.used,
                         intersect(installed.packages()[,1],
                                   packages.used))
@@ -9,18 +9,17 @@ if(length(packages.needed)>0){
 }
 library(tidyverse)
 library(shiny)
+# library(leaflet)
+# library(data.table)
+# library(plotly)
 library(shinythemes)
 library(DT)
-library(datasets)
-library(plotly)
-library(shinyWidgets)
 
 #Statistics Analysis Global Enviroment 
 
 #Loading the required data:
 
 load("data_comparison.RData")
-load("data_search.RData")
 
 data_comparison<-
   data_comparison%>%mutate(Calories_percent=percent_rank(Calories)%>%round(2),
@@ -36,8 +35,29 @@ data_comparison<-
 
 nutrition<-c("Calories"="Calories_percent", "Total_Fat" ="Total_Fat_percent", "Saturated_Fat"="Saturated_Fat_percent", "Trans_Fat" ="Trans_Fat_percent", "Cholesterol"="Cholesterol_percent","Sodium"="Sodium_percent","Carbohydrates" ="Carbohydrates_percent","Protein" ="Protein_percent", "Sugar"="Sugar_percent","Dietary_Fiber"="Dietary_Fiber_percent" )
 
+nutrition<-c("Select",nutrition)
 
-
-###########
-
-
+# 
+# column(12,
+#        column(4,
+#               conditionalPanel('input.arrange1 != "NA"',
+#                                checkboxInput("desc1",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        ),
+#        column(4,
+#               conditionalPanel('input.arrange2 != "NA"', 
+#                                checkboxInput("desc2",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        ),
+#        column(4,
+#               conditionalPanel('input.arrange3 != "NA"', 
+#                                checkboxInput("desc3",
+#                                              label = "lower",
+#                                              value = F)
+#               )
+#        )
+# )

@@ -1,0 +1,32 @@
+---
+title: "data_search_tab_data"
+author: "Hanbo JIAO"
+date: "2020/2/22"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+load("../output/menu_nutrition_location_catagory.RData")
+```
+
+```{r}
+data_search_menu<-menu_nutrition_location_catagory%>%select(restaurant,menu)%>%unnest(menu)%>%
+  select(restaurant,Item_Name,Item_Description,Food_Category,Serving_Size,Serving_Size_Unit,Calories:Dietary_Fiber,Shareable)%>%
+  filter(Shareable==0)%>%select(-Potassium,-Shareable)%>%group_by(restaurant)%>%arrange(restaurant)%>%nest()%>%ungroup%>%mutate(restaurant_id=row_number())%>%group_by(restaurant)%>%unnest()%>%mutate(menu_id=row_number())%>%ungroup()%>%
+  select(restaurant,Item_Name,Item_Description,Food_Category,Serving_Size:Dietary_Fiber)%>%mutate_at(c("restaurant","Food_Category"),as.factor)%>%select(restaurant,Food_Category,everything())
+colname<-data_search_menu%>%colnames()
+nutrition_search<-colname[7:16]
+
+
+data_search_location<-menu_nutrition_location_catagory%>%select(restaurant,location)%>%unnest(location)%>%
+  select(restaurant,BORO,`CUISINE DESCRIPTION`,GRADE,everything())%>%select(-`INSPECTION DATE`,-SCORE)%>%mutate_at(c("restaurant","BORO","CUISINE DESCRIPTION","GRADE"),as.factor)
+
+save(data_search_menu,nutrition_search,data_search_location,file = "../output/data_search.RData")
+
+```
+
+
+
+

@@ -5,8 +5,9 @@ account: hj2524
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1842058
-bundleId: 2816335
+bundleId: 2820660
 url: https://hj2524.shinyapps.io/test/
-when: 1582235486.33977
+when: 1582409309.80202
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: global.test.1.R|server.test.1.R|ui.test.1.R
