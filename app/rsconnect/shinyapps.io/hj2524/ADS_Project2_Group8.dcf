@@ -5,8 +5,8 @@ account: hj2524
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1855744
-bundleId: 2825534
+bundleId: 2825620
 url: https://hj2524.shinyapps.io/ADS_Project2_Group8/
-when: 1582573639.9051
+when: 1582574630.91589
 asMultiple: FALSE
 asStatic: FALSE

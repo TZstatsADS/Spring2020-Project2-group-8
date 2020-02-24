@@ -1,7 +1,7 @@
 shinyUI(
   div(id="canvas",
       navbarPage(strong("what to eat",style="color: white;"),
-                 theme=shinytheme("cerulean"),
+                 theme=shinytheme("united"),
                  ## theme = "bootstrap.min.css",
                  ## theme="styles.css
                  tabPanel("Intro",
