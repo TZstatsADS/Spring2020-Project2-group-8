@@ -175,7 +175,7 @@ shinyServer(function(input, output,session) {
     }
 
     plot <- plot %>%
-      layout(title = "Pie Charts with Subplots", showlegend = T,
+      layout(title = "Nutrition Breakdown", showlegend = T,
              grid=list(rows=1, columns=nrow(table_nu)),
              xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
              yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
