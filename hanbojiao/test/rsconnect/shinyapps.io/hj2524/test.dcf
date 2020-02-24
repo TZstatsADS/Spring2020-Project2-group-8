@@ -5,9 +5,8 @@ account: hj2524
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1842058
-bundleId: 2823633
+bundleId: 2824812
 url: https://hj2524.shinyapps.io/test/
-when: 1582524741.64304
+when: 1582559472.20521
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: Map_tab.R|Map_tab_ui.R

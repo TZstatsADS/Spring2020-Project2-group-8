@@ -2,8 +2,8 @@ shinyUI(
   div(id="canvas",
       navbarPage(strong("what to eat",style="color: white;"),
                  theme=shinytheme("cerulean"),
-                 #theme = "bootstrap.min.css",
-                 #theme="styles.css
+                 ## theme = "bootstrap.min.css",
+                 ## theme="styles.css
                  tabPanel("Intro",
                           mainPanel(width=12,
                                     h1(strong("Project: Open Data NYC - an RShiny app development project"),
@@ -31,8 +31,8 @@ shinyUI(
                           fluidRow(
                             column(4,
                                    offset=4,
-                                   sliderInput("click_radius", 
-                                               "Radius of area around  the selected address", 
+                                   sliderInput("click_radius",
+                                               "Radius of area around  the selected address",
                                                min=200, max=2000, value=250, step=10)
                                    )
                             ),
@@ -58,9 +58,9 @@ shinyUI(
                                                        multiple = T,options=list(minItems=1,maxItems=3))
                                  ),
                                  column(12,
-                                        conditionalPanel('input.restaurants != ""', 
-                                                         checkboxGroupInput("category_check", 
-                                                                            label = h4("Food Category"), 
+                                        conditionalPanel('input.restaurants != ""',
+                                                         checkboxGroupInput("category_check",
+                                                                            label = h4("Food Category"),
                                                                             choices = as.list(food_category),
                                                                             selected = as.list(food_category),
                                                                             inline = F)
@@ -99,8 +99,8 @@ shinyUI(
                           ),
                           column(10,
                                  conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "Select")',
-                                                  column(10,checkboxGroupInput("nutrition_show", 
-                                                                               label = "Columns in table to show", 
+                                                  column(10,checkboxGroupInput("nutrition_show",
+                                                                               label = "Columns in table to show",
                                                                                choices = as.list(nutrition[-1]%>%names()),
                                                                                selected = as.list(nutrition[-1]%>%names()),
                                                                                inline = T)),
@@ -111,37 +111,111 @@ shinyUI(
                                                          textOutput('res1_name'),
                                                          dataTableOutput ('res1_table')
                                                   ),conditionalPanel('input.res1_table_rows_selected!=""',
-                                                                     column(12, 
+                                                                     column(12,
                                                                             plotlyOutput ('res1_plot')
                                                                      )
                                                   )
                                  ),
-                                 conditionalPanel('input.restaurants.length>1 &&input.arrange1 != "Select"', 
+                                 conditionalPanel('input.restaurants.length>1 &&input.arrange1 != "Select"',
                                                   column(12,
                                                          textOutput('res2_name'),
                                                          dataTableOutput ('res2_table')
                                                   ),conditionalPanel('input.res2_table_rows_selected!=""',
-                                                                     column(12, 
+                                                                     column(12,
                                                                             plotlyOutput ('res2_plot')
                                                                      )
                                                   )
                                  ),
-                                 conditionalPanel('input.restaurants.length>2 &&input.arrange1 != "Select"', 
+                                 conditionalPanel('input.restaurants.length>2 &&input.arrange1 != "Select"',
                                                   column(12,
                                                          textOutput('res3_name'),
                                                          dataTableOutput ('res3_table')
                                                   ),conditionalPanel('input.res3_table_rows_selected!=""',
-                                                                     column(12, 
+                                                                     column(12,
                                                                             plotlyOutput ('res3_plot')
                                                                      )
                                                   )
                                  ),
                           )
                  ),
+                 tabPanel("statistic Analysis",
+                          h2("Summary Statistics"),
+                          wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;",
+                                    tabsetPanel(type="tabs",
+                                                tabPanel(title = "Calories",
+                                                         br(),
+                                                         div(plotlyOutput("p1"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Protein",
+                                                           br(),
+                                                         div(plotlyOutput("p2"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Total Fat",
+                                                         br(),
+                                                         div(plotlyOutput("p3"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Carbohydrates",
+                                                         div(width = 15,
+                                                             h1("Restaurant with Low Carbohydrates content"),
+                                                             br(),
+                                                             plotlyOutput('p7'),
+                                                             h1("Restaurant with High Carbohydrates content"),
+                                                             br(),
+                                                             plotlyOutput('p8')
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Sodium",
+                                                         div(width = 15,
+                                                             h1("Sodium"),
+                                                             plotlyOutput("p9"),
+                                                             h1("Restaurant with High Sodium content"),
+                                                             br(),
+                                                             plotlyOutput("p10")
+                                                             )
+                                                         ), 
+                                                tabPanel(title = "Sugar",
+                                                         div(width = 15,
+                                                             h1("Sugar"),
+                                                             br(),
+                                                             plotlyOutput("p11"),
+                                                             h1("Restaurant with High Sugar content"),
+                                                             br(),
+                                                             plotlyOutput("p12"),
+                                                             h1("Restaurant with Low Sugar content"),
+                                                             br(),
+                                                             plotlyOutput("plow")
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Dietary_fiber",
+                                                         div(width = 15,
+                                                             h1("Dietary_fiber"),
+                                                             br(),
+                                                             plotlyOutput("p13"),
+                                                             h1("Restaurant with High Dietary Fiber content"),
+                                                             br(),
+                                                             plotlyOutput("p14")  
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Cholesterol",
+                                                         div(width = 15,
+                                                             h1("High Cholesterol"),
+                                                             br(),
+                                                             plotlyOutput('p5'),
+                                                             h1("Low Cholesterol"),
+                                                             br(),
+                                                             plotlyOutput('p6')
+                                                             )
+                                                         )
+                                                )
+                                    )
+                          ),
                  tabPanel("Data Search",
                           tabsetPanel(type="tabs",
                                       tabPanel("menu", dataTableOutput ('search_menu')),
-                                      tabPanel("location", 
+                                      tabPanel("location",
                                                column(12,
                                                       column(3,
                                                              selectInput("restaurants_search_menu",

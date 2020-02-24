@@ -1,0 +1,373 @@
+---
+title: "Practice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r echo=FALSE,warning=FALSE}
+
+packages.used=c("shiny", "leaflet","plotly","sodium_contenta.table","shinyWidgets","googleVis","geosphere","leaflet.extras","shinythemes","ggmap","dplyr","‘RColorBrewer","viridis","gridextra")
+packages.needed=setdiff(packages.used, 
+                        intersect(installed.packages()[,1], 
+                                  packages.used))
+
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
+library(shiny)
+library(leaflet)
+library(plotly)
+library(shinyWidgets)
+library(googleVis)
+library(geosphere)
+library(leaflet.extras)
+library(tidyverse)
+library(shinythemes)
+library(ggmap)
+library(dplyr)
+library(RColorBrewer)
+library(viridis)
+library(gridExtra)
+```
+
+
+The statistics analysis is prepared using the menu_nutrition_location_catagory that is saved in the output file
+
+```{r pressure, echo=FALSE}
+# load('C:/Users/tramh/Documents/GitHub/Spring2020-Project2-group-8/output/menu_nutrition_location_catagory.Rdata')
+menu_clean <- menu_nutrition_location_catagory
+```
+
+
+
+##Catogories and its Nutritional Value {.tabset .tabset-fade}  
+```{r pressure, echo=FALSE}
+subset_nutrition <-menu_clean %>%select(restaurant,menu)%>%unnest(menu)%>%
+  select(restaurant,Item_Name,Item_Description,Food_Category,Calories:Dietary_Fiber,Shareable)%>%
+  filter(Shareable==0)%>%select(-Potassium,-Shareable)%>%group_by(restaurant)%>%arrange(restaurant)%>%nest()%>%ungroup%>%mutate(restaurant_id=row_number())%>%group_by(restaurant)%>%unnest()%>%mutate(menu_id=row_number())%>%
+  select(restaurant_id,restaurant,menu_id,Item_Name,Item_Description,Food_Category,everything())
+
+#colname<-subset_nutrition%>%colnames()
+#nutrition<-colname[9:18]
+#food_category<-subset_nutrition$Food_Category%>%unique()
+```
+
+### Replacing some NA values:
+```{r pressure, echo=FALSE}
+subset_nutrition$Calories[which(is.na(subset_nutrition$Calories))] = 0
+subset_nutrition$Total_Fat[which(is.na(subset_nutrition$Total_Fat))] = 0
+subset_nutrition$Saturated_Fat[which(is.na(subset_nutrition$Saturated_Fat))] = 0 
+subset_nutrition$Trans_Fat[which(is.na(subset_nutrition$Trans_Fat))] = 0
+subset_nutrition$Cholesterol[which(is.na(subset_nutrition$Cholesterol))] = 0
+subset_nutrition$Sodium[which(is.na(subset_nutrition$Sodium))] = 0
+subset_nutrition$Carbohydrates[which(is.na(subset_nutrition$Carbohydrates))] = 0
+subset_nutrition$Protein[which(is.na(subset_nutrition$Protein))] = 0
+subset_nutrition$Sugar[which(is.na(subset_nutrition$Sugar))] = 0
+subset_nutrition$Dietary_Fiber[which(is.na(subset_nutrition$Dietary_Fiber))] = 0
+
+```
+
+
+### Calories  
+
+```{r echo=FALSE,warning=FALSE}
+new_col<-c("grey50", "blue","hotpink","Magenta","orange", "red","seagreen","violet","brown","maroon","navyblue", "yellow")
+
+p1 <- plot_ly(x = subset_nutrition$Food_Category,  y = subset_nutrition$Calories,color = subset_nutrition$Food_Category,colors = new_col, type = "box")%>%
+         layout(title = "Calories",
+         xaxis = list(title = ""),
+         yaxis = list(title = "Calories"),
+         showlegend=FALSE,
+         autosize = T)
+p1
+```  
+
+### Protein
+
+```{r echo=FALSE,warning=FALSE}
+protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(Food_Category)%>%summarise(tprotein = sum(Protein))
+
+p2 <-  plot_ly(
+  x = protein_content$tprotein,
+  y = protein_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+p2
+```
+
+### Total_fat
+
+```{r echo=FALSE,warning=FALSE}
+p3 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Total_Fat,color = subset_nutrition$Food_Category,colors =new_col , type = "box") %>% 
+         layout(title = "Total Fat",
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+p3
+```
+
+### Cholesterol
+
+```{r echo=FALSE,warning=FALSE}
+
+cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tcholesterol = sum(Cholesterol))
+
+high_ch <- cholesterol_content%>%arrange(desc(tcholesterol))%>% head(6)
+
+p5<-plot_ly(x= high_ch$Food_Category,y=high_ch$tcholesterol,
+            color = high_ch$food_category,type="bar")%>%layout(title="High Cholesterol Category",height=400)
+p5
+
+low_ch <-cholesterol_content%>%arrange(desc(tcholesterol))%>% tail(6)
+p6 <-plot_ly(x= low_ch$Food_Category,y=low_ch$tcholesterol,
+            color = low_ch$food_category,type="bar")%>%layout(title="Low Cholesterol Category",height=400)
+p6
+
+```
+
+
+
+### Carbohydrates
+```{r echo=FALSE,warning=FALSE}
+carb_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tcarb = sum(Carbohydrates))
+
+low_carb <- carb_content%>%arrange(desc(tcarb))%>%tail(26)
+
+p7<-plot_ly(x= low_carb$restaurant,y=low_carb$tcarb,
+            color = low_carb$restaurant,type="bar")%>%layout(title="Carbohydrates content by Restaurant",height=400)
+p7
+```
+
+
+```{r echo=FALSE,warning=FALSE}
+
+
+high_carb <- carb_content%>%arrange(desc(tcarb))%>%head(26)
+
+p8<-plot_ly(x= high_carb$restaurant,y=high_carb$tcarb,
+            color = high_carb$restaurant,type="bar")%>%layout(title="Carbohydrates content by Restaurant",height=400)
+p8
+```
+
+
+### Sodium
+```{r echo=FALSE}
+
+sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium = sum(Sodium))
+
+low_sodium <- sodium_content%>%arrange(desc(tsodium))%>%head(26)
+
+p9<-plot_ly(x= low_sodium$restaurant,y=low_sodium$tsodium,
+            color = low_sodium$restaurant,type="bar")%>%layout(title="Top low sodium Restaurants",height=400)
+p9
+
+```
+
+
+```{r echo=FALSE}
+
+sodium_content1<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium1 = sum(Sodium))
+
+high_sodium1 <- sodium_content1%>%arrange(desc(tsodium1))%>%head(26)
+
+p10<-plot_ly(x= high_sodium1$restaurant,y=high_sodium1$tsodium1,
+            color = high_sodium1$restaurant,type="bar")%>%layout(title="Top High Sodium Restaurants",height=400)
+p10
+
+
+
+```
+
+
+### Sugar
+
+
+```{r echo=FALSE,warning=FALSE}
+
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(Food_Category)%>%summarise(tsugar = sum(Sugar))
+
+
+p11 <- plot_ly(
+  x = sugar_content$tsugar,
+  y = sugar_content$Food_Category,
+  marker = list(color = new_col),
+    type = "bar"
+)
+p11
+
+```
+
+
+```{r echo=FALSE,warning=FALSE}
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(restaurant)%>%summarise(tsugar = sum(Sugar))
+sugar_content
+
+high_sugar <- sugar_content%>%arrange(desc(tsugar))%>%head(26)
+
+p12<-plot_ly(x= high_sugar$restaurant,y=high_sugar$tsugar,
+            color = high_sugar$restaurant,type="bar")%>%layout(title="Top High Sugar Restaurants",height=400)
+p12
+
+low_sugar <- sugar_content%>%arrange(desc(tsugar))%>%tail(26)
+
+plow<-plot_ly(x= low_sugar$restaurant,y=low_sugar$tsugar,
+            color = low_sugar$restaurant,type="bar")%>%layout(title="Top low Sugar Restaurants",height=400)
+plow
+
+```
+
+### Dietary_fiber
+
+
+```{r echo=FALSE,warning=FALSE}
+p13 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Dietary_Fiber,color = subset_nutrition$Food_Category,colors =new_col , type = "bar") %>% layout(
+         xaxis = list(title = ""),
+         yaxis = list(title = ""),
+         showlegend=FALSE,
+         autosize = T)
+
+p13
+```
+
+
+
+```{r echo=FALSE,warning=FALSE}
+df_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tdf = sum(Dietary_Fiber))
+
+
+high_df <- df_content%>%arrange(desc(tdf))%>%head(26)
+
+p14<-plot_ly(x= high_df$restaurant,y=high_df$tdf,
+            color = high_df$restaurant,type="bar")%>%layout(title="Top High Dietary Fiber Restaurants",height=400)
+p14
+
+
+```
+
+
+```{R}
+ui <- navbarPage(strong("NYC"),
+                 tabPanel("statistic Analysis",
+                 h2("Summary Statistics"),
+                 wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;", 
+                           tabsetPanel(type="tabs",
+                                       tabPanel(title = "Calories",
+                                                br(),
+                                                div(plotlyOutput("p1"), align = "center")
+                                       ),
+                                                
+                                       tabPanel(title = "Protein",
+                                                br(),
+                                                div(plotOutput("p2"), align = "center")
+                                       ),
+                                       tabPanel(title = "Total Fat",
+                                                br(),
+                                                div(plotlyOutput("p3"), align = "center")
+                                       ),
+                                       
+                                       tabPanel(title = "Carbohydrates",
+                                                div(width = 15,
+                                                    h1("Restaurant with Low Carbohydrates content"),
+                                                    br(),
+                                                    plotlyOutput('p7'),
+                                                    
+                                                    h1("Restaurant with High Carbohydrates content"),
+                                                    br(),
+                                                    plotlyOutput('p8')
+                                       )), 
+                                                
+                                      tabPanel(title = "Sodium",
+                                                div(width = 15,
+                                                    h1("Sodium"),
+                                                    plotlyOutput("p9"),
+                                                
+
+                                                    h1("Restaurant with High Sodium content"),
+                                                    br(),
+                                                    plotlyOutput("p10")
+                                       )), 
+                                                
+                                       tabPanel(title = "Sugar",
+                                                div(width = 15,
+                                                    h1("Sugar"),
+                                                    br(),
+                                                    plotlyOutput("p11"),
+                                                    
+                                                    h1("Restaurant with High Sugar content"),
+                                                    br(),
+                                                    plotlyOutput("p12"),
+                                                    
+                                                    h1("Restaurant with Low Sugar content"),
+                                                    br(),
+                                                    plotlyOutput("plow")
+                                       )),
+                                       tabPanel(title = "Dietary_fiber",
+                                                div(width = 15,
+                                                    h1("Dietary_fiber"),
+                                                    br(),
+                                                    plotlyOutput("p13"),
+                                                    
+                                                    h1("Restaurant with High Dietary Fiber content"),
+                                                    br(),
+                                                    plotlyOutput("p14")                                                 
+                                       )), 
+                                      
+                                       tabPanel(title = "Cholesterol",
+                                                div(width = 15,
+                                                    
+                                                    h1("High Cholesterol"),
+                                                    br(),
+                                                    plotlyOutput('p5'),
+                                                    
+                                                    h1("Low Cholesterol"),
+                                                    br(),
+                                                    plotlyOutput('p6')
+                                       ))
+                                       
+                                       
+                                                                                                                  
+                                      
+                                )
+                          )
+                )
+)
+```
+
+### Define server r
+```{r}
+server <- function(input, output) {
+  output$p1 <- renderPlotly(p1)
+  output$p2 <- renderPlotly(p2)
+  output$p3 <- renderPlotly(p3)
+  output$P4 <- renderPlotly(P4)
+  output$p5 <- renderPlotly(p5)
+  output$p6 <- renderPlotly(p6)
+  output$p7 <- renderPlotly(p7)
+  output$p8 <- renderPlotly(p8)
+  output$p9 <- renderPlotly(p9)
+  output$p10 <- renderPlotly(p10)
+  output$p11 <- renderPlotly(p11)
+  output$p12 <- renderPlotly(p12)
+  output$p13 <- renderPlotly(p13)
+  output$p14 <- renderPlotly(p14)
+  output$plow <- renderPlotly(plow)}
+
+
+  
+```
+
+
+```{r shiny app, warning=FALSE, message=FALSE}
+shinyApp(ui, server)
+```
