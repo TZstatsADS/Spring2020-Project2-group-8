@@ -1,5 +1,5 @@
 
-packages.used=c("DT","tidyverse", "shiny","shinythemes","shinythemes","datasets","shinyWidgets","plotly")
+packages.used=c("tidyverse","shiny", "shinythemes","DT","datasets","plotly","shinyWidgets","data.table","shinydashboard","googleVis","geosphere","leaflet.extras","ggmap")
 packages.needed=setdiff(packages.used,
                         intersect(installed.packages()[,1],
                                   packages.used))
@@ -14,6 +14,12 @@ library(DT)
 library(datasets)
 library(plotly)
 library(shinyWidgets)
+library(data.table)
+library(shinydashboard)
+library(googleVis)
+library(geosphere)
+library(leaflet.extras)
+library(ggmap)
 
 #Statistics Analysis Global Enviroment 
 
@@ -21,6 +27,7 @@ library(shinyWidgets)
 
 load("data_comparison.RData")
 load("data_search.RData")
+load("all_locations.RData")
 
 data_comparison<-
   data_comparison%>%mutate(Calories_percent=percent_rank(Calories)%>%round(2),
