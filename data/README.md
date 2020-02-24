@@ -11,11 +11,8 @@ This file is more than 100MB, so we upload the processed data only.
 Here is the link for raw data. https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j?fbclid=IwAR3uN_WpWfG_hVAG9YCQYspbwW-6GDAjoZG-wz4xc3NCWUVPjXEKSpAfsdY
 
 #### Restaurant MenuStat (by Haoyu)
-MenuStat
+This file is the menu information of different restuarant.
 
+Here is the link for raw data.
 https://data.cityofnewyork.us/Health/DOHMH-MenuStat/qgc5-ecnb
 
-#### fast food location
-Fast_Food_location
-
-http://data-clf.opendata.arcgis.com/datasets/cb4770954b254c90a29679370ccd9ecf_123?fbclid=IwAR2JjjMQqftdSlwpev6NhHcL9p7G0d5NevqIivsgLqp6_mLAJDUCCmQPdkQ
