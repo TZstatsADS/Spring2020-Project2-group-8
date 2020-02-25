@@ -1,6 +1,6 @@
 Project 2 Group 8
 
-Team members: Duong Tram, Flack, Jasmin, Jiao Hanbo, Liu Ziyun, Shang Haoyu
+Team members: Duong Tram, Flack Jasmin, Jiao Hanbo, Liu Ziyun, Shang Haoyu
 
 Summary: In this project, we developed a shinyapp that xxxxxxxxxxxxxxxxxx
 
@@ -8,7 +8,11 @@ Summary: In this project, we developed a shinyapp that xxxxxxxxxxxxxxxxxx
 
 Shang Haoyu and Jiao Hanbo cleaned and processed the raw dataset.
 
+Flack Jasmin designed and finished the `Map` tab.
+
 Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Comparison` tab.
+
+Duong Tram designed and finished the `Statistics Analysis` tab.
 
 Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Data Search` tab.
 

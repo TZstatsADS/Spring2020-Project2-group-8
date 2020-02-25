@@ -33,7 +33,7 @@ library(gridExtra)
 load("data_comparison.RData")
 load("data_search.RData")
 load("all_locations.RData")
-#load("data_statistics.RData")
+
 
 data_comparison<-
   data_comparison%>%mutate(Calories_percent=percent_rank(Calories)%>%round(2),
@@ -105,7 +105,7 @@ p1 <- plot_ly(x = subset_nutrition$Food_Category,  y = subset_nutrition$Calories
 ### Protein
 
 
-protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(Food_Category)%>%summarise(tprotein = sum(Protein))
+protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(Food_Category)%>%summarise(tprotein = mean(Protein))
 
 p2 <-  plot_ly(
   x = protein_content$tprotein,
@@ -132,7 +132,7 @@ p3 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Total_Fat,c
 
 
 
-cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tcholesterol = sum(Cholesterol))
+cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tcholesterol = mean(Cholesterol))
 
 high_ch <- cholesterol_content%>%arrange(desc(tcholesterol))%>% head(6)
 
@@ -151,7 +151,7 @@ p6 <-plot_ly(x= low_ch$Food_Category,y=low_ch$tcholesterol,
 
 ### Carbohydrates
 
-carb_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tcarb = sum(Carbohydrates))
+carb_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tcarb = mean(Carbohydrates))
 
 low_carb <- carb_content%>%arrange(desc(tcarb))%>%tail(26)
 
@@ -175,7 +175,7 @@ p8<-plot_ly(x= high_carb$restaurant,y=high_carb$tcarb,
 ### Sodium
 
 
-sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium = sum(Sodium))
+sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium = mean(Sodium))
 
 low_sodium <- sodium_content%>%arrange(desc(tsodium))%>%head(26)
 
@@ -188,7 +188,7 @@ p9<-plot_ly(x= low_sodium$restaurant,y=low_sodium$tsodium,
 
 
 
-sodium_content1<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium1 = sum(Sodium))
+sodium_content1<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium1 = mean(Sodium))
 
 high_sodium1 <- sodium_content1%>%arrange(desc(tsodium1))%>%head(26)
 
@@ -206,7 +206,7 @@ p10<-plot_ly(x= high_sodium1$restaurant,y=high_sodium1$tsodium1,
 
 
 
-sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(Food_Category)%>%summarise(tsugar = sum(Sugar))
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(Food_Category)%>%summarise(tsugar = mean(Sugar))
 
 
 p11 <- plot_ly(
@@ -221,7 +221,7 @@ p11 <- plot_ly(
 
 
 
-sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(restaurant)%>%summarise(tsugar = sum(Sugar))
+sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(restaurant)%>%summarise(tsugar = mean(Sugar))
 
 high_sugar <- sugar_content%>%arrange(desc(tsugar))%>%head(26)
 
@@ -253,7 +253,7 @@ p13 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Dietary_Fi
 
 
 
-df_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tdf = sum(Dietary_Fiber))
+df_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tdf = mean(Dietary_Fiber))
 
 
 high_df <- df_content%>%arrange(desc(tdf))%>%head(26)

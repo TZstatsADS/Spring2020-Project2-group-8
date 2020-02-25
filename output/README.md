@@ -13,8 +13,5 @@ It contains the data used in `map` tab.
 #### data_comparison.RData
 It contains the data used in `comparison` tab.
 
-#### data_statistics.RData
-It contains the data used in `statistics` tab.
-
 #### data_search.RData
 It contains the data used in `data search` tab.

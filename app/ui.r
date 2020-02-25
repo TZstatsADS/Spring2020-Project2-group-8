@@ -1,128 +1,248 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
+shinyUI(
+  div(id="canvas",
+      navbarPage(strong("what to eat",style="color: white;"),
+                 theme=shinytheme("united"),
+                 ## theme = "bootstrap.min.css",
+                 ## theme="styles.css
+                 tabPanel("Intro",
+                          mainPanel(width=12,
+                                    h1(strong("Project: Open Data NYC - an RShiny app development project"),
+                                       style = "color:black; "),
+                                    br(),
+                                    br(),
+                                    p(strong("Do you know on average each year there are 134 millions fire incidents happening in the New York, sixty three hundred firefighter's injuries and death recorded, with direct property damages over 14 billions?",
+                                             style = "color:black; font-size:16pt"),
+                                      br(),
+                                      br(),
+                                      p(strong("Indeed, fire loss is devastating!"),
+                                        style = "color:black; font-size:16pt"),
+                                      br(),
+                                      br(),
+                                      p(strong("In this project, we have developed an App using R Shiny to visualize NYC fire incident data. This App can not only help the government and FDNY to have better policy-makings, provide useful information for insurance companies to design more profitable quotes regarding the property insurance and guide the residents to get access to those fire incidents in NYC.",
+                                               style = "color:black; font-size:16pt")),
+                                      br(),br(),br(), br(),br(),br(),
+                                      br(),br(),br(), br(),
+                                      br(),br(),br(),
+                                      p(em(a("Github link",href="https://github.com/TZstatsADS/Spring2020-Project2-Group8",style = "color:black")))
+                                    )
+                          )
+                 ),
+                 tabPanel("Map",
+                          fluidRow(
+                            column(4,
+                                   offset=4,
+                                   sliderInput("click_radius",
+                                               "Radius of area around  the selected address",
+                                               min=500, max=2000, value=750, step=10)
+                                   )
+                            ),
+                          fluidRow(
+                            column(12,
+                                   leafletOutput("mapMarker",
+                                                 height = "600px")
+                                   )
+                            ),
+                          fluidRow(
+                            column(6,
+                                   offset=4,
+                                   tableOutput("table")
+                                   )
+                            )
+                          ),
+                 tabPanel("Comparison",
+                          column(2,
+                                 column(12,
+                                        selectizeInput("restaurants",
+                                                       h4("Choose Restaurant(s):"),
+                                                       as.list(data_comparison$restaurant%>%unique()),
+                                                       multiple = T,options=list(minItems=1,maxItems=3))
+                                 ),
+                                 column(12,
+                                        conditionalPanel('input.restaurants != ""',
+                                                         checkboxGroupInput("category_check",
+                                                                            label = h4("Food Category"),
+                                                                            choices = as.list(food_category),
+                                                                            selected = as.list(food_category),
+                                                                            inline = F)
+                                        )
+                                 ),
+                                 conditionalPanel('input.restaurants != ""',
+                                                  selectInput("arrange1",
+                                                              label = h4("Choose First Nutrition Fact:"),
+                                                              choice=c("Select",nutrition)),
+                                                  conditionalPanel('input.arrange1 != "Select"',
+                                                                   checkboxInput("desc1",
+                                                                                 label = "lower",
+                                                                                 value = F)
+                                                  )
+                                 ),
+                                 conditionalPanel('input.arrange1 != "Select"&&input.restaurants != ""',
+                                                  selectInput("arrange2",
+                                                              h4("Choose Second Nutrition Fact:"),
+                                                              choice=c("Select",nutrition)),
+                                                  conditionalPanel('input.arrange2 != "Select"',
+                                                                   checkboxInput("desc2",
+                                                                                 label = "lower",
+                                                                                 value = F)
+                                                  )
+                                 ),
+                                 conditionalPanel('input.arrange2 != "Select"&&input.arrange1 != "Select"&&input.restaurants != ""',
+                                                  selectInput("arrange3",
+                                                              h4("Choose Third Nutrition Fact:"),
+                                                              choice=c("Select",nutrition)),
+                                                  conditionalPanel('input.arrange3 != "Select"',
+                                                                   checkboxInput("desc3",
+                                                                                 label = "lower",
+                                                                                 value = F)
+                                                  )
+                                 ),
+                          ),
+                          column(10,
+                                 conditionalPanel('input.restaurants.length>0 &&(input.arrange1 != "Select")',
+                                                  column(10,checkboxGroupInput("nutrition_show",
+                                                                               label = "Choose Table Columns To Show",
+                                                                               choices = as.list(nutrition[-1]%>%names()),
+                                                                               selected = as.list(nutrition[-1]%>%names()),
+                                                                               inline = T)),
+                                                  column(2,numericInput("topn", label = "Number of menu", value = 5),)
+                                 ),
+                                 conditionalPanel('input.restaurants.length>0 &&input.arrange1 != "Select"',
+                                                  column(12,
+                                                         textOutput('res1_name'),
+                                                         dataTableOutput ('res1_table')
+                                                  ),conditionalPanel('input.res1_table_rows_selected!=""',
+                                                                     column(12,
+                                                                            plotlyOutput ('res1_plot')
+                                                                     )
+                                                  )
+                                 ),
+                                 conditionalPanel('input.restaurants.length>1 &&input.arrange1 != "Select"',
+                                                  column(12,
+                                                         textOutput('res2_name'),
+                                                         dataTableOutput ('res2_table')
+                                                  ),conditionalPanel('input.res2_table_rows_selected!=""',
+                                                                     column(12,
+                                                                            plotlyOutput ('res2_plot')
+                                                                     )
+                                                  )
+                                 ),
+                                 conditionalPanel('input.restaurants.length>2 &&input.arrange1 != "Select"',
+                                                  column(12,
+                                                         textOutput('res3_name'),
+                                                         dataTableOutput ('res3_table')
+                                                  ),conditionalPanel('input.res3_table_rows_selected!=""',
+                                                                     column(12,
+                                                                            plotlyOutput ('res3_plot')
+                                                                     )
+                                                  )
+                                 ),
+                          )
+                 ),
+                 tabPanel("Statistics Analysis",
+                          h2("Summary Statistics"),
+                          wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;",
+                                    tabsetPanel(type="tabs",
+                                                tabPanel("Nutrients Contributing to Calories",
+                                                         plotOutput(outputId="plotgraph", width="800px",height="600px")),
+                                                tabPanel(title = "Calories",
+                                                         br(),
+                                                         div(plotlyOutput("p1"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Protein",
+                                                           br(),
+                                                         div(plotlyOutput("p2"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Total Fat",
+                                                         br(),
+                                                         div(plotlyOutput("p3"),
+                                                             align = "center")
+                                                         ),
+                                                tabPanel(title = "Carbohydrates",
+                                                         div(width = 15,
+                                                             h1("Restaurant with Low Carbohydrates content"),
+                                                             br(),
+                                                             plotlyOutput('p7'),
+                                                             h1("Restaurant with High Carbohydrates content"),
+                                                             br(),
+                                                             plotlyOutput('p8')
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Sodium",
+                                                         div(width = 15,
+                                                             h1("Sodium"),
+                                                             plotlyOutput("p9"),
+                                                             h1("Restaurant with High Sodium content"),
+                                                             br(),
+                                                             plotlyOutput("p10")
+                                                             )
+                                                         ), 
+                                                tabPanel(title = "Sugar",
+                                                         div(width = 15,
+                                                             h1("Sugar"),
+                                                             br(),
+                                                             plotlyOutput("p11"),
+                                                             h1("Restaurant with High Sugar content"),
+                                                             br(),
+                                                             plotlyOutput("p12"),
+                                                             h1("Restaurant with Low Sugar content"),
+                                                             br(),
+                                                             plotlyOutput("plow")
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Dietary_fiber",
+                                                         div(width = 15,
+                                                             h1("Dietary_fiber"),
+                                                             br(),
+                                                             plotlyOutput("p13"),
+                                                             h1("Restaurant with High Dietary Fiber content"),
+                                                             br(),
+                                                             plotlyOutput("p14")  
+                                                             )
+                                                         ),
+                                                tabPanel(title = "Cholesterol",
+                                                         div(width = 15,
+                                                             h1("High Cholesterol"),
+                                                             br(),
+                                                             plotlyOutput('p5'),
+                                                             h1("Low Cholesterol"),
+                                                             br(),
+                                                             plotlyOutput('p6')
+                                                             )
+                                                         )
+                                                )
+                                    )
+                          ),
+                 tabPanel("Data Search",
+                          tabsetPanel(type="tabs",
+                                      tabPanel("menu", dataTableOutput ('search_menu')),
+                                      tabPanel("location",
+                                               column(12,
+                                                      column(3,
+                                                             selectInput("restaurants_search_menu",
+                                                                         h4("Restaurants:"),
+                                                                         as.list(data_search_location$restaurant%>%as.character()%>%unique()%>%sort()),
+                                                                         multiple = T)),
+                                                      column(3,selectInput("BORO_search_menu",
+                                                                           h4("BORO:"),
+                                                                           as.list(data_search_location$BORO%>%as.character()%>%unique()%>%sort()),
+                                                                           multiple = T)),
+                                                      column(3,selectInput("cuisine_search_menu",
+                                                                           h4("Cuisine:"),
+                                                                           as.list(data_search_location$`CUISINE DESCRIPTION`%>%as.character()%>%unique()%>%sort()),
+                                                                           multiple = T)),
+                                                      column(3,selectInput("grade_search_menu",
+                                                                           h4("Grade:"),
+                                                                           as.list(data_search_location$GRADE%>%as.character()%>%unique()%>%sort()),
+                                                                           multiple = T)),),
+                                               column(12,
+                                                      dataTableOutput ('search_location')))
+                          )
+                 )
+      )
+  )
+)   
 
-library(shiny)
-library(leaflet)
-library(data.table)
-library(plotly)
-library(shinythemes)
-library(shinyWidgets)
-library(shinydashboard)
 
-# Define UI for application that draws a histogram
-shinyUI(dashboardPage(skin = "yellow",
-                      dashboardHeader(title = "Eating in NYC"),
-                      dashboardSidebar(sidebarMenu(
-                        menuItem("Background", tabName = "Background", icon = icon("home")),
-                        menuItem("Map", tabName = "Map", icon = icon("map")),
-                        menuItem("Restaurant Comparison", tabName = "Restaurant Comparison", icon = icon("carrot")),
-                        menuItem("Report", tabName = "Report", icon = icon("industry")),
-                        menuItem("Menus", tabName = "Menus", icon = icon("receipt"))
-                      )),
-                      
-                      dashboardBody(
-                        tabItems(
-                          
-                          
-                          #home
-                          tabItem(tabName = "Background",
-                                  fluidPage(
-                                    fluidRow(
-                                      box(width = 15, title = "Introduction", status = "warning",
-                                          solidHeader = TRUE,
-                                          h4("By ...."),
-                                          h5("..."),
-                                          h5("..."), 
-                                          h5("https://github.com/TZstatsADS/Spring2020-Project2-group-8"))),
-                                    
-                                    fluidRow(box(width = 15, title = "User Guide", status = "warning",
-                                                 solidHeader = TRUE,
-                                                 tags$div(tags$ul(
-                                                   tags$li("Ranking: ..."),
-                                                   tags$li("Map: ...."),
-                                                   tags$li("Report: ..."),
-                                                   tags$li("Source: ...")
-                                                 ))))
-                                  )),
-                          
-                          
-                          #mapMarkers
-                          tabItem(tabName = "Map",
-                                  fluidPage(
-                                    fluidRow(column(4, offset=4,
-                                                    sliderInput("click_radius", "Radius of area around  the selected address", min=200, max=2000, value=250, step=10))),
-                                    
-                                           
-                                     fluidRow(column(12, 
-                                                leafletOutput("mapMarker", height = "600px"))),
-                          
-                                    fluidRow(column(6, offset=4,
-                                          tableOutput("table"))))),
-                          
-                          
-                          #comp
-                          tabItem(tabName = "Restaurant Comparison",
-                                  fluidPage(
-                                    fluidRow(column(3,
-                                                    selectInput("rest1", 'Choose a Restaurant',
-                                                               choices = levels(all_locations$V1))),
-                                             column(3,
-                                                    selectInput("rest2", 'Choose a Restaurant',
-                                                                choices = levels(all_locations$V1))),
-                                              column(3,
-                                                    selectInput("rest3", 'Choose a Restaurant',
-                                                                choices = levels(all_locations$V1))),
-                                              column(3,
-                                                      selectInput("rest4", 'Choose a Restaurant',
-                                                                choices = levels(all_locations$V1)))))),   
-                                  
-                                  
-                                  #overview
-                             tabItem(tabName = "Report",
-                                          fluidPage(
-                                            fluidRow(column(12,
-                                                            h3("Interactive Dashboard"),
-                                                            "By default, the bar chart shows the sum of segments by year as the height of each bar, and pie chart shows the percentage of total crime shootings in each borough.",
-                                                            tags$div(tags$ul(
-                                                              tags$li("Hover the mouse over a year bar in histogram will modify the pie chart and legend."),
-                                                              tags$li("Hover the mouse over pie slice should change the histogram.")
-                                                            )),
-                                                            #htmlOutput("d3"))),
-                                                            includeHTML("http://bl.ocks.org/wb2326/raw/d2e92fc05d7b437a7a3a56664e3e49ec/"))),
-                                            fluidRow(column(width =  12, title = "Shooting Counts from 2006-2018 by year", 
-                                                            plotlyOutput("years"))),
-                                            fluidRow(column(width =  12, title = "Shooting Counts by season/year", 
-                                                            plotlyOutput("seasons"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by weekday/year", 
-                                                            plotlyOutput("weeks"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by Victims' sex/year", 
-                                                            plotlyOutput("sexs"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by Victims' age/year", 
-                                                            plotlyOutput("ages"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by Victims' race/year", 
-                                                            plotlyOutput("races"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by boro/year", 
-                                                            plotlyOutput("boros"))),
-                                            fluidRow(column(width =  12, title = "Shootings Counts by murder/year", 
-                                                            plotlyOutput("murders"))))),
-                                  
-                                  
-                                  #source
-                                  tabItem(tabName = "Menus",
-                                          fluidPage(
-                                            fluidRow(box(width = 15, title = "Data Source", status = "warning",
-                                                         solidHeader = TRUE, "The source data for this project is from", 
-                                                         tags$a(href = "https://data.cityofnewyork.us/Health/DOHMH-MenuStat/qgc5-ecnb", 
-                                                                "NYC open data"), ".")),
-                                            fluidRow(box(width = 15, title = "Project Code", status = "warning",
-                                                         solidHeader = TRUE, "The codes for this project are shared at",
-                                                         tags$a(href = "https://github.com/TZstatsADS/Spring2020-Project2-group-8",
-                                                                "Github"), "."))))
-                          ))))
-        
+
