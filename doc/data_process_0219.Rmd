@@ -10,8 +10,9 @@ library(tidyverse)
 
 menu_raw <-read_csv("../data/MenuStat.csv")
 
-# This file is more than 100 MB, please download (url given in readme) and load it by yourself.
-location_raw <- read_csv("C:/Users/jiaoh/OneDrive/桌面/NY Restaurant Location.csv")
+######### This file is more than 100 MB, please download (url given in readme) and load it by yourself.
+##https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j?fbclid=IwAR3uN_WpWfG_hVAG9YCQYspbwW-6GDAjoZG-wz4xc3NCWUVPjXEKSpAfsdY
+# location_raw <- read_csv("..please load it by yourself..")
 
 # Delete nutrition_text and nutrition_100g col, potassium col (since only 5k entry have value)
 menu<-menu_raw%>%mutate(Sodium=Sodium/1000)
