@@ -1,11 +1,11 @@
 shinyUI(
-  div(id="canvas",
-      navbarPage(strong("Eating Healthy in NYC",style="color: grey;"),
+  div(id="canvas", 
+      navbarPage(strong("Eating Healthy in NYC",style="color: white;"),
                  theme=shinytheme("cerulean"),
                  ## theme = "bootstrap.min.css",
                  ## theme="styles.css
-                 tabPanel("Intro",
-                          mainPanel(width=12,
+                 tabPanel("Intro", 
+                          mainPanel(width=12, 
                                     h1(strong("Project: Open Data NYC - an RShiny app development project"),
                                        style = "color:black; "),
                                     br(),
@@ -33,11 +33,7 @@ shinyUI(
                                    offset=4,
                                    sliderInput("click_radius",
                                                "Radius of area around  the selected address",
-<<<<<<< HEAD
-                                               min=500, max=2000, value=750, step=10)
-=======
                                                min=500, max=2000, value=500, step=20)
->>>>>>> c949984fff4d33f9dc5f955c7a85648487b8e268
                                    )
                             ),
                           fluidRow(
@@ -142,16 +138,10 @@ shinyUI(
                                  ),
                           )
                  ),
-<<<<<<< HEAD
-                 tabPanel("Statistics Analysis",
-=======
                  tabPanel("Statistic Analysis",
->>>>>>> c949984fff4d33f9dc5f955c7a85648487b8e268
                           h2("Summary Statistics"),
                           wellPanel(style = "overflow-y:scroll; height: 850px; max-height: 750px;  background-color: #ffffff;",
                                     tabsetPanel(type="tabs",
-                                                tabPanel("Nutrients Contributing to Calories",
-                                                         plotOutput(outputId="plotgraph", width="800px",height="600px")),
                                                 tabPanel(title = "Calories",
                                                          br(),
                                                          div(plotlyOutput("p1"),

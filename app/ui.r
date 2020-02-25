@@ -1,29 +1,47 @@
 shinyUI(
   div(id="canvas",
-      navbarPage(strong("what to eat",style="color: white;"),
+      navbarPage(strong("Eating Healthy in NYC",style="color: white;"),
                  theme=shinytheme("united"),
                  ## theme = "bootstrap.min.css",
                  ## theme="styles.css
                  tabPanel("Intro",
                           mainPanel(width=12,
-                                    h1(strong("Project: Open Data NYC - an RShiny app development project"),
+                                    h1(strong("Eating Healthy in NYC - an RShiny app project"),
                                        style = "color:black; "),
                                     br(),
                                     br(),
-                                    p(strong("Do you know on average each year there are 134 millions fire incidents happening in the New York, sixty three hundred firefighter's injuries and death recorded, with direct property damages over 14 billions?",
+                                    p(em("Do you know what are the nutrients of menu items from national restaurant chains? 
+                                             Nowadays, customers care more and more about the nutritional value of the foods they’re eating. 
+                                             Although some restaurants already include calorie information and other nutrition information in their menus, 
+                                             many customers want to see more details and compare similar items in different restaurants. ",
                                              style = "color:black; font-size:16pt"),
                                       br(),
                                       br(),
-                                      p(strong("Indeed, fire loss is devastating!"),
+                                      p(strong("Our Goal:"),
                                         style = "color:black; font-size:16pt"),
+                                      p("Inspired by how nutritional values affect human health, we aim to develop an App using R shiny to visualize the most common nutrients and the menu information of the top national restaurant chains, 
+                                               following with these restaurants’ location in New York City. This app does not only give users insight into the nutritional values of top restaurants,
+                                               but also provides a useful tool for finding and comparing nearby restaurants.",
+                                               style = "color:black; font-size:16pt"),
+                                      br(),br(),br(), 
+                                      
+                                      p(strong("User Guide:"),
+                                        style = "color:black; font-size:16pt"),
+                                      p("Map: This part contains a map of NYC. The user can click a location on the map and view the restaurants in that area.",  style = "color:black; font-size:16pt"),
+                                      p("Comparison: Choose the restaurants, food types, and nurtitional facts you want to explore/compare. Click a food item to see a breakdown of its contents.",  style = "color:black; font-size:16pt"),
+                                      p("Statistics Analysis: This part contains some interactive graphs and bar charts that help users to better understand of all main nutritional factors and provide the list of low or high content of each specific nutrient per each restaurant. ",  style = "color:black; font-size:16pt"),
+                                      p("Data Search: Search the menu data or restaurant location data used to develop our app.",  style = "color:black; font-size:16pt"),
+                                      br(), br(), br(),
+                                      
+                                      p(strong("Limitations:"),
+                                        style = "color:black; font-size:16pt"),
+                                      p("The dataset does not include all restaurants. We eliminated the restaurants that do not have enough information to analyze.",  style = "color:black; font-size:16pt"),
+                                      p("This dataset contains mostly fast food restaurant chains; thus, the menu items may tend to be unhealthier.",  style = "color:black; font-size:16pt"),
                                       br(),
-                                      br(),
-                                      p(strong("In this project, we have developed an App using R Shiny to visualize NYC fire incident data. This App can not only help the government and FDNY to have better policy-makings, provide useful information for insurance companies to design more profitable quotes regarding the property insurance and guide the residents to get access to those fire incidents in NYC.",
-                                               style = "color:black; font-size:16pt")),
-                                      br(),br(),br(), br(),br(),br(),
-                                      br(),br(),br(), br(),
+                                      
+                                      br(),br(),
                                       br(),br(),br(),
-                                      p(em(a("Github link",href="https://github.com/TZstatsADS/Spring2020-Project2-Group8",style = "color:black")))
+                                      p(em(a("Github link",href="https://github.com/TZstatsADS/Spring2020-Project2-group-8",style = "color:black")))
                                     )
                           )
                  ),
