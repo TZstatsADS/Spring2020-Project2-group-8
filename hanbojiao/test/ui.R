@@ -1,6 +1,6 @@
 shinyUI(
   div(id="canvas",
-      navbarPage(strong("what to eat",style="color: white;"),
+      navbarPage(strong("Eating Healthy in NYC",style="color: grey;"),
                  theme=shinytheme("cerulean"),
                  ## theme = "bootstrap.min.css",
                  ## theme="styles.css
