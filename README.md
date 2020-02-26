@@ -1,37 +1,35 @@
-# Project 2: Shiny App Development Version 2.0
+## Project 2 Shiny App Development
+Group Project by Tram Duong, Jasmin Flack, Hanbo Jiao, Ziyun Liu, Haoyu Shang.
 
-### [Project Description](doc/project2_desc.md)
-
-![screenshot](doc/screenshot2.png)
-
-In this second project of GR5243 Applied Data Science, we develop a version 2.0 of an *Exploratory Data Analysis and Visualization* shiny app on a topic of your choice using [NYC Open Data](https://opendata.cityofnewyork.us/) or U.S. government open data released on the [data.gov](https://data.gov/) website. See [Project 2 Description](doc/project2_desc.md) for more details.  
-
-The **learning goals** for this project is:
-
-- business intelligence for data science
-- study legacy codes and further development
-- data cleaning
-- data visualization
-- systems development/design life cycle
-- shiny app/shiny server
-
-*The above general statement about project 2 can be removed once you are finished with your project. It is optional.
-????????????????????????????????????????????????????????????????????????????????
-
-## Project ???????????????????????????????
 Term: Spring 2020
 
-+ Team #
-+ **Projec title**: + Team members
++ Team 8
+
 	+ Duong, Tram ttd2111@columbia.edu
 	+ Flack, Jasmin jf3037@columbia.edu
 	+ Jiao, Hanbo hj2524@columbia.edu
 	+ Liu, Ziyun zl2829@columbia.edu
 	+ Shang, Haoyu hs3144@columbia.edu
+	
++ **Click Me**:[Eating Healthy in NYC](https://hj2524.shinyapps.io/ADS_Project2_Group8/)
 
 + **Project summary**: ???????????????????????????????
 
-+ **Contribution statement**: ???????????????????????????????([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
++ **Contribution statement**: 
+
+Shang Haoyu and Jiao Hanbo cleaned and processed the raw dataset.
+
+Flack Jasmin designed and finished the `Map` tab.
+
+Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Comparison` tab.
+
+Duong Tram designed and finished the `Statistics Analysis` tab.
+
+Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Data Search` tab.
+
+All team members contributed to the GitHub repository and prepared the presentation. 
+
+All team members approve our work presented in our GitHub repository including this contribution statement.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
