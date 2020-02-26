@@ -123,7 +123,7 @@ shinyUI(
                                                                                choices = as.list(nutrition[-1]%>%names()),
                                                                                selected = as.list(nutrition[-1]%>%names()),
                                                                                inline = T)),
-                                                  column(2,numericInput("topn", label = "Number of menu", value = 5),)
+                                                  column(2,numericInput("topn", label = "Number of menu items", value = 5),)
                                  ),
                                  conditionalPanel('input.restaurants.length>0 &&input.arrange1 != "Select"',
                                                   column(12,
