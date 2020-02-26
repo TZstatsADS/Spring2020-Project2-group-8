@@ -1,4 +1,4 @@
-source("global.r")
+source("global.R")
 
 shinyServer(function(input, output,session) {
 ### map tab

@@ -13,7 +13,7 @@ shinyUI(
                                     br(),
                                     br(),
                                     p(em("Do you know what are the nutrients of menu items from national restaurant chains? 
-                                             Nowadays, customers care more and more about the nutritional value of the foods they’re eating. 
+                                             Nowadays, customers care more and more about the nutritional value of the foods they are eating. 
                                              Although some restaurants already include calorie information and other nutrition information in their menus, 
                                              many customers want to see more details and compare similar items in different restaurants. ",
                                              style = "color:black; font-size:13pt"),
@@ -22,7 +22,7 @@ shinyUI(
                                       h3(strong("Our Goal:"),
                                         style = "color:black; font-size:16pt", align="center"),
                                       p("Inspired by how nutritional values affect human health, we aim to develop an App using R shiny to visualize the most common nutrients and the menu information of the top national restaurant chains, 
-                                               following with these restaurants’ location in New York City. This app does not only give users insight into the nutritional values of top restaurants,
+                                               following with these restaurants location in New York City. This app does not only give users insight into the nutritional values of top restaurants,
                                                but also provides a useful tool for finding and comparing nearby restaurants.",
                                                style = "color:black; font-size:13pt"),
                                       br(),br(),br(), 
