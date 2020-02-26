@@ -16,7 +16,7 @@ shinyUI(
                                              Nowadays, customers care more and more about the nutritional value of the foods they’re eating. 
                                              Although some restaurants already include calorie information and other nutrition information in their menus, 
                                              many customers want to see more details and compare similar items in different restaurants. ",
-                                             style = "color:black; font-size:16pt"),
+                                             style = "color:black; font-size:13pt"),
                                       br(),
                                       br(),
                                       h3(strong("Our Goal:"),
@@ -24,25 +24,24 @@ shinyUI(
                                       p("Inspired by how nutritional values affect human health, we aim to develop an App using R shiny to visualize the most common nutrients and the menu information of the top national restaurant chains, 
                                                following with these restaurants’ location in New York City. This app does not only give users insight into the nutritional values of top restaurants,
                                                but also provides a useful tool for finding and comparing nearby restaurants.",
-                                               style = "color:black; font-size:16pt"),
+                                               style = "color:black; font-size:13pt"),
                                       br(),br(),br(), 
                                       
                                       h3(strong("User Guide:"),
                                         style = "color:black; font-size:16pt", align="center"),
-                                      p("Map: This part contains a map of NYC. The user can click a location on the map and view the restaurants in that area.",  style = "color:black; font-size:16pt"),
-                                      p("Comparison: Choose the restaurants, food types, and nurtitional facts you want to explore/compare. Click a food item to see a breakdown of its contents.",  style = "color:black; font-size:16pt"),
-                                      p("Statistics Analysis: This part contains some interactive graphs and bar charts that help users to better understand of all main nutritional factors and provide the list of low or high content of each specific nutrient per each restaurant. ",  style = "color:black; font-size:16pt"),
-                                      p("Data Search: Search the menu data or restaurant location data used to develop our app.",  style = "color:black; font-size:16pt"),
+                                      p("Map: This part contains a map of NYC. The user can click a location on the map and view the restaurants in that area.",  style = "color:black; font-size:13pt"),
+                                      p("Comparison: Choose the restaurants, food types, and nurtitional facts you want to explore/compare. Click a food item to see a breakdown of its contents.",  style = "color:black; font-size:13pt"),
+                                      p("Statistics Analysis: This part contains some interactive graphs and bar charts that help users to better understand of all main nutritional factors and provide the list of low or high content of each specific nutrient per each restaurant. ",  style = "color:black; font-size:13pt"),
+                                      p("Data Search: Search the menu data or restaurant location data used to develop our app.",  style = "color:black; font-size:13pt"),
                                       br(), br(), br(),
                                       
                                       h3(strong("Limitations:"),
                                         style = "color:black; font-size:16pt", align="center"),
-                                      p("The dataset does not include all restaurants. We eliminated the restaurants that do not have enough information to analyze.",  style = "color:black; font-size:16pt"),
-                                      p("This dataset contains mostly fast food restaurant chains; thus, the menu items may tend to be unhealthier.",  style = "color:black; font-size:16pt"),
+                                      p("The dataset does not include all restaurants. We eliminated the restaurants that do not have enough information to analyze.",  style = "color:black; font-size:13pt"),
+                                      p("This dataset contains mostly fast food restaurant chains; thus, the menu items may tend to be unhealthier.",  style = "color:black; font-size:13pt"),
                                       br(),
                                       
                                       br(),br(),
-                                      br(),br(),br(),
                                       p(em(a("Github link",href="https://github.com/TZstatsADS/Spring2020-Project2-group-8",style = "color:black")))
                                     )
                           )
@@ -52,7 +51,7 @@ shinyUI(
                             column(4,
                                    offset=4,
                                    sliderInput("click_radius",
-                                               "Radius of area around  the selected address",
+                                               "Radius (in meters) of area around the selected location",
                                                min=500, max=2000, value=750, step=10)
                                    )
                             ),
@@ -69,7 +68,7 @@ shinyUI(
                                    )
                             )
                           ),
-                 tabPanel("Comparison",
+                 tabPanel("Nutrition Comparison",
                           column(2,
                                  column(12,
                                         selectizeInput("restaurants",
