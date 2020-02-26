@@ -11,7 +11,7 @@ Term: Spring 2020
 	+ Liu, Ziyun zl2829@columbia.edu
 	+ Shang, Haoyu hs3144@columbia.edu
 	
-+ **Click Me**:[Eating Healthy in NYC](https://hj2524.shinyapps.io/ADS_Project2_Group8/)
++ **Click Me**: [Eating Healthy in NYC](https://hj2524.shinyapps.io/ADS_Project2_Group8/)
 
 + **Project summary**: Our app provides users with nutrition information for fast food chain restaurants in NYC. Users can choose restaurants based on location and compare menu items.
 
@@ -23,9 +23,11 @@ Flack Jasmin designed and finished the `Map` tab.
 
 Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Comparison` tab.
 
-Duong Tram designed and finished the `Statistics Analysis` tab.
+Duong, Tram designed and finished the `Statistics Analysis` tab.
 
 Shang Haoyu, Liu Ziyun and Jiao Hanbo designed and finished the `Data Search` tab.
+
+Flack, Jasmin and Duong, Tram did the `Intro` tab.
 
 All team members contributed to the GitHub repository and prepared the presentation. 
 
