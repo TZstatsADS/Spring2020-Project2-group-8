@@ -202,7 +202,7 @@ shinyServer(function(input, output,session) {
       data = res1_toped()%>%
         mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%
                  str_remove_all("NA NA"))%>%
-        select(Item_Name, Food_Category, size,input$nutrition_show),
+        select(Item_Name, Food_Category, size,Calories,input$nutrition_show),
       selection = 'multiple',
       rownames = FALSE,
       options = list(scrollX = TRUE,scrollY = TRUE)
@@ -233,7 +233,7 @@ shinyServer(function(input, output,session) {
 
   output$res2_table<- renderDataTable({
     datatable(
-      data = res2_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%select(Item_Name, Food_Category, size,input$nutrition_show),
+      data = res2_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%select(Item_Name, Food_Category, size,Calories,input$nutrition_show),
       selection = 'multiple',
       rownames = FALSE,
       options = list(scrollX = TRUE,scrollY = TRUE)
@@ -265,7 +265,7 @@ shinyServer(function(input, output,session) {
   output$res3_table<- renderDataTable({
     datatable(
       data = res3_toped()%>%mutate(size=paste(Serving_Size,Serving_Size_Unit,sep=" ")%>%str_remove_all("NA NA"))%>%
-        select(Item_Name, Food_Category, size,input$nutrition_show),
+        select(Item_Name, Food_Category, size,Calories,input$nutrition_show),
       selection = 'multiple',
       rownames = FALSE,
       options = list(scrollX = TRUE,scrollY = TRUE)
