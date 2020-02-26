@@ -13,7 +13,7 @@ Term: Spring 2020
 	
 + **Click Me**:[Eating Healthy in NYC](https://hj2524.shinyapps.io/ADS_Project2_Group8/)
 
-+ **Project summary**: ???????????????????????????????
++ **Project summary**: Our app provides users with nutrition information for fast food chain restaurants in NYC. Users can choose restaurants based on location and compare menu items.
 
 + **Contribution statement**: 
 
