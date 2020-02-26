@@ -1,9 +1,11 @@
 shinyUI(
   div(id="canvas",
-      navbarPage(strong("Eating Healthy in NYC",style="color: white;"),
+      navbarPage("Eating Healthy in NYC",
+        # strong("Eating Healthy in NYC",style="color: white;"),
                  theme=shinytheme("united"),
                  ## theme = "bootstrap.min.css",
                  ## theme="styles.css
+                 
                  tabPanel("Intro",
                           mainPanel(width=12,
                                     h1(strong("Eating Healthy in NYC - an RShiny app project"),
