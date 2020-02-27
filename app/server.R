@@ -34,173 +34,209 @@ subset_nutrition$Dietary_Fiber[which(is.na(subset_nutrition$Dietary_Fiber))] = 0
 
 
 new_col<-c("grey50", "blue","hotpink","Magenta","orange", "red","seagreen","violet","brown","maroon","navyblue", "yellow")
-p1 <- plot_ly(x = subset_nutrition$Food_Category,  y = subset_nutrition$Calories,color = subset_nutrition$Food_Category,colors = new_col, type = "box")%>%
-  layout(title = "Calories",
-         xaxis = list(title = ""),
-         yaxis = list(title = "Calories"),
-         showlegend=FALSE,
-         autosize = T)
 
 
+### Calories
+Calories_content<-subset_nutrition%>% select(restaurant,Food_Category,Calories)%>% group_by(Food_Category)%>%summarise(tCalories = mean(Calories))
 
-### Protein
-
-
-protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(Food_Category)%>%summarise(tprotein = mean(Protein))
-
-p2 <-  plot_ly(
-  x = protein_content$tprotein,
-  y = protein_content$Food_Category,
+pcal1<- plot_ly(
+  x = Calories_content$tCalories,
+  y = Calories_content$Food_Category,
   marker = list(color = new_col),
   type = "bar"
 )
 
+Calories_content<-subset_nutrition%>% select(restaurant,Food_Category,Calories)%>% group_by(restaurant)%>%summarise(tCalories = mean(Calories))
+
+high_Calories <- Calories_content%>%arrange(desc(tCalories))%>%head(26)
+
+pcal2<-plot_ly(x= high_Calories$restaurant,y=high_Calories$tCalories,
+               color = high_Calories$restaurant,type="bar")%>%layout(title="Top High Calories Restaurants",height=400)
 
 
-### Total_fat
+low_Calories <- Calories_content%>%arrange(desc(tCalories))%>%tail(26)
+
+pcal3<-plot_ly(x= low_Calories$restaurant,y=low_Calories$tCalories,
+               color = low_Calories$restaurant,type="bar")%>%layout(title="Top low Calories Restaurants",height=400)
 
 
-p3 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Total_Fat,color = subset_nutrition$Food_Category,colors =new_col , type = "box") %>% 
-  layout(title = "Total Fat",
-         xaxis = list(title = ""),
-         yaxis = list(title = ""),
-         showlegend=FALSE,
-         autosize = T)
 
+
+### Protein
+Protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(Food_Category)%>%summarise(tProtein = mean(Protein))
+
+ppro1<- plot_ly(
+  x = Protein_content$tProtein,
+  y = Protein_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+
+Protein_content<-subset_nutrition%>% select(restaurant,Food_Category,Protein)%>% group_by(restaurant)%>%summarise(tProtein = mean(Protein))
+
+high_Protein <- Protein_content%>%arrange(desc(tProtein))%>%head(26)
+
+ppro2<-plot_ly(x= high_Protein$restaurant,y=high_Protein$tProtein,
+               color = high_Protein$restaurant,type="bar")%>%layout(title="Top High Protein Restaurants",height=400)
+
+
+low_Protein <- Protein_content%>%arrange(desc(tProtein))%>%tail(26)
+
+ppro3<-plot_ly(x= low_Protein$restaurant,y=low_Protein$tProtein,
+               color = low_Protein$restaurant,type="bar")%>%layout(title="Top low Protein Restaurants",height=400)
+
+
+
+
+### Total_Fat
+Total_Fat_content<-subset_nutrition%>% select(restaurant,Food_Category,Total_Fat)%>% group_by(Food_Category)%>%summarise(tTotal_Fat = mean(Total_Fat))
+
+pfat1<- plot_ly(
+  x = Total_Fat_content$tTotal_Fat,
+  y = Total_Fat_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+
+Total_Fat_content<-subset_nutrition%>% select(restaurant,Food_Category,Total_Fat)%>% group_by(restaurant)%>%summarise(tTotal_Fat = mean(Total_Fat))
+
+high_Total_Fat <- Total_Fat_content%>%arrange(desc(tTotal_Fat))%>%head(26)
+
+pfat2<-plot_ly(x= high_Total_Fat$restaurant,y=high_Total_Fat$tTotal_Fat,
+               color = high_Total_Fat$restaurant,type="bar")%>%layout(title="Top High Total_Fat Restaurants",height=400)
+
+
+low_Total_Fat <- Total_Fat_content%>%arrange(desc(tTotal_Fat))%>%tail(26)
+
+pfat3<-plot_ly(x= low_Total_Fat$restaurant,y=low_Total_Fat$tTotal_Fat,
+               color = low_Total_Fat$restaurant,type="bar")%>%layout(title="Top low Total_Fat Restaurants",height=400)
 
 
 ### Cholesterol
+Cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tCholesterol = mean(Cholesterol))
+
+pcho1<- plot_ly(
+  x = Cholesterol_content$tCholesterol,
+  y = Cholesterol_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+
+Cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(restaurant)%>%summarise(tCholesterol = mean(Cholesterol))
+
+high_Cholesterol <- Cholesterol_content%>%arrange(desc(tCholesterol))%>%head(26)
+
+pcho2<-plot_ly(x= high_Cholesterol$restaurant,y=high_Cholesterol$tCholesterol,
+               color = high_Cholesterol$restaurant,type="bar")%>%layout(title="Top High Cholesterol Restaurants",height=400)
 
 
+low_Cholesterol <- Cholesterol_content%>%arrange(desc(tCholesterol))%>%tail(26)
 
-cholesterol_content<-subset_nutrition%>% select(restaurant,Food_Category,Cholesterol)%>% group_by(Food_Category)%>%summarise(tcholesterol = mean(Cholesterol))
-
-high_ch <- cholesterol_content%>%arrange(desc(tcholesterol))%>% head(6)
-
-p5<-plot_ly(x= high_ch$Food_Category,y=high_ch$tcholesterol,
-            color = high_ch$food_category,type="bar")%>%layout(title="High Cholesterol Category",height=400)
-
-
-low_ch <-cholesterol_content%>%arrange(desc(tcholesterol))%>% tail(6)
-p6 <-plot_ly(x= low_ch$Food_Category,y=low_ch$tcholesterol,
-             color = low_ch$food_category,type="bar")%>%layout(title="Low Cholesterol Category",height=400)
-
+pcho3<-plot_ly(x= low_Cholesterol$restaurant,y=low_Cholesterol$tCholesterol,
+               color = low_Cholesterol$restaurant,type="bar")%>%layout(title="Top low Cholesterol Restaurants",height=400)
 
 
 
 
 
 ### Carbohydrates
+Carbohydrates_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(Food_Category)%>%summarise(tCarbohydrates = mean(Carbohydrates))
 
-carb_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tcarb = mean(Carbohydrates))
+pcar1<- plot_ly(
+  x = Carbohydrates_content$tCarbohydrates,
+  y = Carbohydrates_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
 
-low_carb <- carb_content%>%arrange(desc(tcarb))%>%tail(26)
+Carbohydrates_content<-subset_nutrition%>% select(restaurant,Food_Category,Carbohydrates)%>% group_by(restaurant)%>%summarise(tCarbohydrates = mean(Carbohydrates))
 
-p7<-plot_ly(x= low_carb$restaurant,y=low_carb$tcarb,
-            color = low_carb$restaurant,type="bar")%>%layout(title="Carbohydrates content by Restaurant",height=400)
+high_Carbohydrates <- Carbohydrates_content%>%arrange(desc(tCarbohydrates))%>%head(26)
 
-
-
-
+pcar2<-plot_ly(x= high_Carbohydrates$restaurant,y=high_Carbohydrates$tCarbohydrates,
+               color = high_Carbohydrates$restaurant,type="bar")%>%layout(title="Top High Carbohydrates Restaurants",height=400)
 
 
+low_Carbohydrates <- Carbohydrates_content%>%arrange(desc(tCarbohydrates))%>%tail(26)
 
-high_carb <- carb_content%>%arrange(desc(tcarb))%>%head(26)
-
-p8<-plot_ly(x= high_carb$restaurant,y=high_carb$tcarb,
-            color = high_carb$restaurant,type="bar")%>%layout(title="Carbohydrates content by Restaurant",height=400)
+pcar3<-plot_ly(x= low_Carbohydrates$restaurant,y=low_Carbohydrates$tCarbohydrates,
+               color = low_Carbohydrates$restaurant,type="bar")%>%layout(title="Top low Carbohydrates Restaurants",height=400)
 
 
 
 
 ### Sodium
+Sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(Food_Category)%>%summarise(tSodium = mean(Sodium))
+
+pso1 <- plot_ly(
+  x = Sodium_content$tSodium,
+  y = Sodium_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+
+Sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tSodium = mean(Sodium))
+
+high_Sodium <- Sodium_content%>%arrange(desc(tSodium))%>%head(26)
+
+pso2<-plot_ly(x= high_Sodium$restaurant,y=high_Sodium$tSodium,
+             color = high_Sodium$restaurant,type="bar")%>%layout(title="Top High Sodium Restaurants",height=400)
 
 
-sodium_content<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium = mean(Sodium))
+low_Sodium <- Sodium_content%>%arrange(desc(tSodium))%>%tail(26)
 
-low_sodium <- sodium_content%>%arrange(desc(tsodium))%>%head(26)
-
-p9<-plot_ly(x= low_sodium$restaurant,y=low_sodium$tsodium,
-            color = low_sodium$restaurant,type="bar")%>%layout(title="Top low sodium Restaurants",height=400)
-
-
-
-
-
-
-
-sodium_content1<-subset_nutrition%>% select(restaurant,Food_Category,Sodium)%>% group_by(restaurant)%>%summarise(tsodium1 = mean(Sodium))
-
-high_sodium1 <- sodium_content1%>%arrange(desc(tsodium1))%>%head(26)
-
-p10<-plot_ly(x= high_sodium1$restaurant,y=high_sodium1$tsodium1,
-             color = high_sodium1$restaurant,type="bar")%>%layout(title="Top High Sodium Restaurants",height=400)
-
-
+pso3<-plot_ly(x= low_Sodium$restaurant,y=low_Sodium$tSodium,
+              color = low_Sodium$restaurant,type="bar")%>%layout(title="Top low Sodium Restaurants",height=400)
 
 
 
 
 
 ### Sugar
-
-
-
-
 sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(Food_Category)%>%summarise(tsugar = mean(Sugar))
 
-
-p11 <- plot_ly(
+psu1 <- plot_ly(
   x = sugar_content$tsugar,
   y = sugar_content$Food_Category,
   marker = list(color = new_col),
   type = "bar"
 )
 
-
-
-
-
-
 sugar_content<-subset_nutrition%>% select(restaurant,Food_Category,Sugar)%>% group_by(restaurant)%>%summarise(tsugar = mean(Sugar))
 
 high_sugar <- sugar_content%>%arrange(desc(tsugar))%>%head(26)
 
-p12<-plot_ly(x= high_sugar$restaurant,y=high_sugar$tsugar,
+psu2<-plot_ly(x= high_sugar$restaurant,y=high_sugar$tsugar,
              color = high_sugar$restaurant,type="bar")%>%layout(title="Top High Sugar Restaurants",height=400)
 
 
 low_sugar <- sugar_content%>%arrange(desc(tsugar))%>%tail(26)
 
-plow<-plot_ly(x= low_sugar$restaurant,y=low_sugar$tsugar,
+psu3<-plot_ly(x= low_sugar$restaurant,y=low_sugar$tsugar,
               color = low_sugar$restaurant,type="bar")%>%layout(title="Top low Sugar Restaurants",height=400)
 
+### Dietary_Fiber
+Dietary_Fiber_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(Food_Category)%>%summarise(tDietary_Fiber = mean(Dietary_Fiber))
+
+pdi1 <- plot_ly(
+  x = Dietary_Fiber_content$tDietary_Fiber,
+  y = Dietary_Fiber_content$Food_Category,
+  marker = list(color = new_col),
+  type = "bar"
+)
+
+Dietary_Fiber_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tDietary_Fiber = mean(Dietary_Fiber))
+
+high_Dietary_Fiber <- Dietary_Fiber_content%>%arrange(desc(tDietary_Fiber))%>%head(26)
+
+pdi2<-plot_ly(x= high_Dietary_Fiber$restaurant,y=high_Dietary_Fiber$tDietary_Fiber,
+             color = high_Dietary_Fiber$restaurant,type="bar")%>%layout(title="Top High Dietary_Fiber Restaurants",height=400)
 
 
+low_Dietary_Fiber <- Dietary_Fiber_content%>%arrange(desc(tDietary_Fiber))%>%tail(26)
 
-### Dietary_fiber
-
-
-
-p13 <- plot_ly(x = subset_nutrition$Food_Category, y=subset_nutrition$Dietary_Fiber,color = subset_nutrition$Food_Category,colors =new_col , type = "bar") %>% layout(
-  xaxis = list(title = ""),
-  yaxis = list(title = ""),
-  showlegend=FALSE,
-  autosize = T)
-
-
-
-
-
-
-
-df_content<-subset_nutrition%>% select(restaurant,Food_Category,Dietary_Fiber)%>% group_by(restaurant)%>%summarise(tdf = mean(Dietary_Fiber))
-
-
-high_df <- df_content%>%arrange(desc(tdf))%>%head(26)
-
-p14<-plot_ly(x= high_df$restaurant,y=high_df$tdf,
-             color = high_df$restaurant,type="bar")%>%layout(title="Top High Dietary Fiber Restaurants",height=400)
+pdi3<-plot_ly(x= low_Dietary_Fiber$restaurant,y=low_Dietary_Fiber$tDietary_Fiber,
+              color = low_Dietary_Fiber$restaurant,type="bar")%>%layout(title="Top low Dietary_Fiber Restaurants",height=400)
 
 shinyServer(function(input, output,session) {
 ### map tab
@@ -484,22 +520,35 @@ shinyServer(function(input, output,session) {
 
 
 ### statistics tab  
-  output$p1 <- renderPlotly(p1)
-  output$p2 <- renderPlotly(p2)
-  output$p3 <- renderPlotly(p3)
- # output$P4 <- renderPlotly(P4)
-  output$p5 <- renderPlotly(p5)
-  output$p6 <- renderPlotly(p6)
-  output$p7 <- renderPlotly(p7)
-  output$p8 <- renderPlotly(p8)
-  output$p9 <- renderPlotly(p9)
-  output$p10 <- renderPlotly(p10)
-  output$p11 <- renderPlotly(p11)
-  output$p12 <- renderPlotly(p12)
-  output$p13 <- renderPlotly(p13)
-  output$p14 <- renderPlotly(p14)
-  output$plow <- renderPlotly(plow)
   
+  output$pfat1 <- renderPlotly(pfat1)
+  output$pfat2 <- renderPlotly(pfat2)
+  output$pfat3 <- renderPlotly(pfat3)
+  
+  output$pcal1 <- renderPlotly(pcal1)
+  output$pcal2 <- renderPlotly(pcal2)
+  output$pcal3 <- renderPlotly(pcal3)
+  output$ppro1 <- renderPlotly(ppro1)
+  output$ppro2 <- renderPlotly(ppro2)
+  output$ppro3 <- renderPlotly(ppro3)
+  output$pcar1 <- renderPlotly(pcar1)
+  output$pcar2 <- renderPlotly(pcar2)
+  output$pcar3 <- renderPlotly(pcar3)
+  output$psu1 <- renderPlotly(psu1)
+  output$psu2 <- renderPlotly(psu2)
+  output$psu3 <- renderPlotly(psu3)
+  output$pdi1 <- renderPlotly(pdi1)
+  output$pdi2 <- renderPlotly(pdi2)
+  output$pdi3 <- renderPlotly(pdi3)
+  output$pso1 <- renderPlotly(pso1)
+  output$pso2 <- renderPlotly(pso2)
+  output$pso3 <- renderPlotly(pso3)
+  output$pcho1 <- renderPlotly(pcho1)
+  output$pcho2 <- renderPlotly(pcho2)
+  output$pcho3 <- renderPlotly(pcho3)
+  
+  
+
   output$plotgraph = renderPlot({
     g1<-ggplot(subset_nutrition, aes(x=Cholesterol,y=Calories))+geom_point(col="hotpink")+geom_smooth(method="lm",col="hotpink")
     g2<-ggplot(subset_nutrition, aes(x=Carbohydrates,y=Calories))+geom_point(col="navyblue")+geom_smooth(method="lm",col="navyblue")

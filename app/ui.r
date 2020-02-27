@@ -164,72 +164,116 @@ shinyUI(
                                                 tabPanel("Nutrients Contributing to Calories",
                                                          plotOutput(outputId="plotgraph", width="800px",height="600px")),
                                                 tabPanel(title = "Calories",
-                                                         br(),
-                                                         div(plotlyOutput("p1"),
-                                                             align = "center")
-                                                         ),
+                                                         div(width = 15,
+                                                             h1("Calories"),
+                                                             br(),
+                                                             plotlyOutput("pcal1"),
+                                                             h1("Restaurant with High Calories content"),
+                                                             br(),
+                                                             plotlyOutput("pcal2"),
+                                                             h1("Restaurant with Low Calories content"),
+                                                             br(),
+                                                             plotlyOutput("pcal3")
+                                                         )
+                                                )
+                                                ,
                                                 tabPanel(title = "Protein",
-                                                           br(),
-                                                         div(plotlyOutput("p2"),
-                                                             align = "center")
-                                                         ),
-                                                tabPanel(title = "Total Fat",
-                                                         br(),
-                                                         div(plotlyOutput("p3"),
-                                                             align = "center")
-                                                         ),
+                                                         div(width = 15,
+                                                             h1("Protein"),
+                                                             br(),
+                                                             plotlyOutput("ppro1"),
+                                                             h1("Restaurant with High Protein content"),
+                                                             br(),
+                                                             plotlyOutput("ppro2"),
+                                                             h1("Restaurant with Low Protein content"),
+                                                             br(),
+                                                             plotlyOutput("ppro3")
+                                                         )
+                                                )
+                                                ,
+                                                tabPanel(title = "Total_Fat",
+                                                         div(width = 15,
+                                                             h1("Total_Fat"),
+                                                             br(),
+                                                             plotlyOutput("pfat1"),
+                                                             h1("Restaurant with High Total_Fat content"),
+                                                             br(),
+                                                             plotlyOutput("pfat2"),
+                                                             h1("Restaurant with Low Total_Fat content"),
+                                                             br(),
+                                                             plotlyOutput("pfat3")
+                                                         )
+                                                )
+                                                ,
                                                 tabPanel(title = "Carbohydrates",
                                                          div(width = 15,
-                                                             h1("Restaurant with Low Carbohydrates content"),
+                                                             h1("Carbohydrates"),
                                                              br(),
-                                                             plotlyOutput('p7'),
+                                                             plotlyOutput("pcar1"),
                                                              h1("Restaurant with High Carbohydrates content"),
                                                              br(),
-                                                             plotlyOutput('p8')
-                                                             )
-                                                         ),
+                                                             plotlyOutput("pcar2"),
+                                                             h1("Restaurant with Low Carbohydrates content"),
+                                                             br(),
+                                                             plotlyOutput("pcar3")
+                                                         )
+                                                )
+                                                ,
                                                 tabPanel(title = "Sodium",
                                                          div(width = 15,
                                                              h1("Sodium"),
-                                                             plotlyOutput("p9"),
+                                                             br(),
+                                                             plotlyOutput("pso1"),
                                                              h1("Restaurant with High Sodium content"),
                                                              br(),
-                                                             plotlyOutput("p10")
-                                                             )
-                                                         ), 
+                                                             plotlyOutput("pso2"),
+                                                             h1("Restaurant with Low Sodium content"),
+                                                             br(),
+                                                             plotlyOutput("pso3")
+                                                         )
+                                                )
+                                                , 
                                                 tabPanel(title = "Sugar",
                                                          div(width = 15,
                                                              h1("Sugar"),
                                                              br(),
-                                                             plotlyOutput("p11"),
+                                                             plotlyOutput("psu1"),
                                                              h1("Restaurant with High Sugar content"),
                                                              br(),
-                                                             plotlyOutput("p12"),
+                                                             plotlyOutput("psu2"),
                                                              h1("Restaurant with Low Sugar content"),
                                                              br(),
-                                                             plotlyOutput("plow")
+                                                             plotlyOutput("psu3")
                                                              )
                                                          ),
-                                                tabPanel(title = "Dietary_fiber",
+                                                tabPanel(title = "Dietary_Fiber",
                                                          div(width = 15,
-                                                             h1("Dietary_fiber"),
+                                                             h1("Dietary_Fiber"),
                                                              br(),
-                                                             plotlyOutput("p13"),
-                                                             h1("Restaurant with High Dietary Fiber content"),
+                                                             plotlyOutput("pdi1"),
+                                                             h1("Restaurant with High Dietary_Fiber content"),
                                                              br(),
-                                                             plotlyOutput("p14")  
-                                                             )
-                                                         ),
+                                                             plotlyOutput("pdi2"),
+                                                             h1("Restaurant with Low Dietary_Fiber content"),
+                                                             br(),
+                                                             plotlyOutput("pdi3")
+                                                         )
+                                                )
+                                                ,
                                                 tabPanel(title = "Cholesterol",
                                                          div(width = 15,
-                                                             h1("High Cholesterol"),
+                                                             h1("Cholesterol"),
                                                              br(),
-                                                             plotlyOutput('p5'),
-                                                             h1("Low Cholesterol"),
+                                                             plotlyOutput("pcho1"),
+                                                             h1("Restaurant with High Cholesterol content"),
                                                              br(),
-                                                             plotlyOutput('p6')
-                                                             )
+                                                             plotlyOutput("pcho2"),
+                                                             h1("Restaurant with Low Cholesterol content"),
+                                                             br(),
+                                                             plotlyOutput("pcho3")
                                                          )
+                                                )
+                                                
                                                 )
                                     )
                           ),
